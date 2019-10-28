@@ -1,8 +1,9 @@
-digraph createParticipant {
-  subgraph MainThread {
-    node [style=filled];
+digraph G {
+  subgraph cluster0 {
+    node [style=filled,color=white];
+    style=filled;
     color = lightgrey;
-    label = "thread #1";
+    label = "MainThread";
 
     a1[label="Domain::createParticipant"];
     a2[label="RTPSDomain::createParticipant"];
@@ -32,16 +33,20 @@ digraph createParticipant {
     a4 -> a8 -> a9 -> a10 -> a11 -> a12 -> a13 -> a14 -> a15 -> a16 -> a17 -> a18 -> a19 -> a20;
   }
 
-  subgraph ResourceEventThread {
-    label = "thread #2";
+  subgraph cluster1 {
+    node [style=filled];
+    color=blue;
+    label = "ResourceEvent";
 
     b1[label="ResourceEvent::init_thread"]
     b2[label="std::thread(ResourceEvent::run_io_service)"]
     b1 -> b2;
   }
 
-  subgraph MulticastResourceReceiverThread {
-    label = "thread #3";
+  subgraph cluster2 {
+    node [style=filled];
+    color=blue;
+    label = "ReceiverResources #1";
 
     c1[label="RTPSParticipantImpl::createReceiverResources"]
     c2[label="NetworkFactory::BuildReceiverResources"]
@@ -70,8 +75,10 @@ digraph createParticipant {
     c9->c10->c11->c12->c13->c14->c15->c16->c17->c18->wait->c19;
   }
 
-  subgraph UnicastResourceReceiverThread {
-    label = "thread #4";
+  subgraph cluster3 {
+    node [style=filled];
+    color=blue;
+    label = "ReceiverResources #2";
 
     d1[label="RTPSParticipantImpl::createReceiverResources"]
     d2[label="NetworkFactory::BuildReceiverResources"]
@@ -87,8 +94,10 @@ digraph createParticipant {
     d1->d2->d3->d4->d5->d6->d7->d8->d9->d10;
   }
 
-  subgraph DefaultUnicastResourceReceiverThread {
-    label = "thread #5";
+  subgraph cluster4 {
+    node [style=filled];
+    color=blue;
+    label = "ReceiverResources #3";
 
     e1[label="RTPSParticipantImpl::createReceiverResources"]
     e2[label="NetworkFactory::BuildReceiverResources"]
