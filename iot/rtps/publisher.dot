@@ -1,0 +1,60 @@
+digraph G {
+
+  subgraph cluster0 {
+    node [style=filled,clolor=white];
+    color = lightgrey;
+    style=filled;
+    label = "MainThread"
+
+    a1[label="Domain::createPublisher"]
+    a2[label="ParticipantImpl::createPublisher"]
+    a3[label="RTPSDomain::createRTPSWriter"]
+    a4[label="RTPSParticipantImpl::createWriter"]
+    a5[label="RTPSParticipantImpl::createSendResources"]
+    a6[label="NetworkFactory::build_send_resources"]
+    a7[label="UDPTransportInterface::OpenOutputChannel"]
+    a8[label="UDPTransportInterface::OpenAndBindUnicastOutputSocket"]
+    a9[label="createUDPSocket"]
+
+    a1->a2->a3->a4->a5->a6->a7->a8->a9;
+  }
+
+  subgraph cluster1 {
+    node [style=filled];
+    color=blue;
+    label = "async_writer_thread #user";
+
+    b1[label="Publisher::write"]
+    b2[label="PublisherImpl::create_new_change"]
+    b3[label="PublisherImpl::create_new_change_with_params"]
+    b4[label="PublisherHistory::add_pub_change"]
+    b5[label="WriterHistory::add_change_"]
+    b6[label="StatefulWriter::unsent_change_added_to_history"]
+
+    b1->b2->b3->b4->b5->b6;
+
+    b7[label="ReaderProxy::add_change"];
+
+    b6->b7;
+
+    b9[label="new RTPSMessageGroup"]
+    b10[label="~RTPSMessageGroup"]
+    b11[label="RTPSMessageGroup::send"]
+    b12[label="RTPSWriter::send"]
+    b13[label="RTPSParticipantImpl::sendSync"]
+    b14[label="SenderResource::send"]
+    b15[label="UDPSenderResource::UDPSenderResource"]
+    b16[label="UDPTransportInterface::send"]
+
+    b6->b9[label="sync"];
+    b9->b10->b11->b12->b13->b14->b15->b16;
+  }
+
+  start -> a1;
+  start -> b1;
+  a9 -> end;
+  b16 -> end;
+
+  start [shape=Mdiamond];
+  end [shape=Msquare];
+}

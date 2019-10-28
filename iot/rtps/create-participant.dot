@@ -7,12 +7,35 @@ digraph G {
 
     a1[label="Domain::createParticipant"];
     a2[label="RTPSDomain::createParticipant"];
-
     a3[label="new RTPSParticipantImpl"];
+    a1->a2->a3;
+
     a4[label="BuiltinProtocols::initBuiltinProtocols"]
     a5[label="PDPSimple::init"]
     a6[label="PDP::initPDP"]
     a7[label="PDPSimple::createPDPEndpoints"]
+
+    a71[label="RTPSParticipantImpl::createReader"]
+    a72[label="StatelessReader::matched_writer_add"]
+
+    a90[label="RTPSParticipantImpl::createWriter"]
+
+    a91[label="RTPSParticipantImpl::createSendResources"]
+    a92[label="NetworkFactory::build_send_resources"]
+    a93[label="UDPTransportInterface::OpenOutputChannel"]
+    a94[label="UDPTransportInterface::OpenAndBindUnicastOutputSocket"]
+    a95[label="createUDPSocket"]
+
+    a96[label="StatelessWriter::matched_reader_add"]
+    a97[label="AsyncWriterThread::wake_up"]
+    a98[label="new std::thread(&AsyncWriterThread::run, this);"]
+
+    a3->a4->a5->a6->a7;
+    a7->a71->a72;
+    a7->a90;
+
+    a90->a91->a92->a93->a94->a95;
+    a90->a96->a97->a98;
 
     a8[label="PDPSimple::announceParticipantState"]
     a9[label="PDP::announceParticipantState"]
@@ -27,10 +50,8 @@ digraph G {
     a18[label="SenderResource::send"]
     a19[label="UDPSenderResource::UDPSenderResource"]
     a20[label="UDPTransportInterface::send"]
-    a1 -> a2;
-    a2 -> a3;
-    a3 -> a4 -> a5 -> a6 -> a7;
-    a4 -> a8 -> a9 -> a10 -> a11 -> a12 -> a13 -> a14 -> a15 -> a16 -> a17 -> a18 -> a19 -> a20;
+
+    a4->a8->a9->a10->a11->a12->a13->a14->a15->a16->a17->a18->a19->a20;
   }
 
   subgraph cluster1 {
@@ -40,7 +61,25 @@ digraph G {
 
     b1[label="ResourceEvent::init_thread"]
     b2[label="std::thread(ResourceEvent::run_io_service)"]
-    b1 -> b2;
+
+    b3[label="asio::io_service::poll"]
+    b4[label="asio::detail::task_io_service::poll"]
+    b5[label="asio::detail::task_io_service::do_poll_one"]
+    b6[label="asio::detail::task_io_service_operation::complete"]
+    b7[label="asio::detail::wait_handler"]
+    b8[label="TimedEventImpl::event"]
+    b9[label="WriterProxy::perform_heartbeat_response"]
+    b10[label="StatefulReader::send_acknack"]
+    b11[label="RTPSMessageGroup::~RTPSMessageGroup"]
+    b12[label="RTPSMessageGroup::send"]
+    b13[label="WriterProxy::send"]
+    b14[label="StatefulReader::send_sync_nts"]
+    b15[label="RTPSParticipantImpl::sendSync"]
+    b16[label="SenderResource::send"]
+    b17[label="UDPSenderResource::UDPSenderResource"]
+    b18[label="UDPTransportInterface::send"]
+
+    b1->b2->b3->b4->b5->b6->b7->b8->b9->b10->b11->b12->b13->b14->b15->b16->b17->b18;
   }
 
   subgraph cluster2 {
@@ -64,15 +103,32 @@ digraph G {
     c14[label="StatelessReader::processDataMsg"]
     c15[label="StatelessReader::change_received"]
     c16[label="PDPListener::onNewCacheChangeAdded"]
+
+    c1->c2->c3->c4->c5->c6->c7->c8->c9->c10->c11->c12->c13->c14->c15->c16;
+
     c17[label="PDPSimple::announceParticipantState"]
     c18[label="StatelessWriter::unsent_changes_reset"]
-
     wait
-
     c19[label="AsyncWriterThread::wake_up"]
+    c20[label="new std::thread(&AsyncWriterThread::run, this);"]
 
-    c1->c2->c3->c4->c5->c6->c7->c8->c9;
-    c9->c10->c11->c12->c13->c14->c15->c16->c17->c18->wait->c19;
+    c21[label="PDPSimple::assignRemoteEndpoints"]
+    c22[label="StatelessReader::matched_writer_add"]
+
+    c23[label="StateLessWriter::matched_reader_add"]
+
+    c24[label="PDPSimple::notifyAboveRemoteEndpoints"]
+    c25[label="EDPSimple::assignRemoteEndpoints"]
+    c26[label="StatefulWriter::matched_reader_add"]
+    c27[label="RTPSMessageGroup::~RTPSMessageGroup"]
+    c28[label="RTPSMessageGroup::send"]
+
+    c16->c17->c18->wait->c19->c20;
+    c16->c21;
+
+    c21->c22;
+    c21->c23;
+    c21->c24->c25->c26->c27->c28;
   }
 
   subgraph cluster3 {
@@ -113,7 +169,23 @@ digraph G {
     e1->e2->e3->e4->e5->e6->e7->e8->e9->e10;
   }
 
-  subgraph DefaultMulticastResourceReceiverThread {
+  subgraph cluster5 {
+    node [style=filled];
+    color=blue;
+    label = "AsyncWriterThread";
+
+    f1[label="AsyncWriterThread::run"]
+    f2[label="StatelessWriter::send_any_unsent_changes"]
+    f3[label="RTPSMessageGroup::~RTPSMessageGroup"]
+    f4[label="RTPSMessageGroup::send"]
+    f5[label="StatelessWriter::send"]
+    f6[label="RTPSWriter::send"]
+    f7[label="RTPSParticipantImpl::sendSync"]
+    f8[label="SenderResource::send"]
+    f9[label="UDPSenderResource::UDPSenderResource"]
+    f10[label="UDPTransportInterface::send"]
+
+    f1->f2->f3->f4->f5->f6->f7->f8->f9->f10;
   }
 
   start -> a1;
@@ -121,6 +193,8 @@ digraph G {
   a3 -> c1;
   a3 -> d1;
   a3 -> e1;
+  a98 -> f1;
+  c20 -> f1;
   a20 -> end;
 
   start [shape=Mdiamond];
