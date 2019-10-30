@@ -51,7 +51,7 @@ digraph G {
   }
 
   start -> a1;
-  start -> b1;
+  start -> publish -> b1;
   a9 -> end;
   b16 -> end;
 

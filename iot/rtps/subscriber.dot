@@ -1,0 +1,77 @@
+digraph G {
+
+  subgraph cluster0 {
+    node [style=filled,clolor=white];
+    color = lightgrey;
+    style=filled;
+    label = "MainThread"
+
+    a1[label="Domain::createSubscriber"]
+    a2[label="ParticipantImpl::createSubscriber"]
+    a3[label="RTPSDomain::createRTPSReader"]
+    a4[label="RTPSParticipantImpl::createReader"]
+
+    a5[label="new StatefulReader"]
+
+    a6[label="RTPSParticipantImpl::createSendResources"]
+    a7[label="NetworkFactory::build_send_resources"]
+    a8[label="UDPTransportInterface::OpenOutputChannel"]
+    a9[label="UDPTransportInterface::OpenAndBindUnicastOutputSocket"]
+    a10[label="createUDPSocket"]
+
+    a11[label="RTPSParticipantImpl::createAndAssociateReceiverswithEndpoint"]
+    a12[label="RTPSParticipantImpl::createReceiverResources"]
+    a13[label="RTPSParticipantImpl::assignEndpointListenResources"]
+    a14[label="RTPSParticipantImpl::assignEndpoint2LocatorList"]
+    a15[label="MessageReceiver::associateEndpoint"]
+
+    a1->a2->a3->a4;
+    a4->a5;
+    a4->a6->a7->a8->a9->a10;
+    a4->a11->a12->a13->a14->a15;
+  }
+
+  subgraph cluster1 {
+    node [style=filled];
+    color=blue;
+    label = "ReceiverResource Thread#X";
+
+    b1[label="RTPSParticipantImpl::createReceiverResources"]
+    b2[label="NetworkFactory::BuildReceiverResources"]
+    b3[label="ReceiverResource::ReceiverResource"]
+    b4[label="UDPv4Transport::OpenInputChannel"]
+    b5[label="UDPTransportInterface::OpenAndBindInputSockets"]
+    b6[label="UDPTransportInterface::CreateInputChannelResource"]
+    b7[label="UDPChannelResource::UDPChannelResource"]
+    b8[label="std::thread(&UDPChannelResource::perform_listen_operation)"]
+    b9[label="UDPChannelResource::perform_listen_operation"]
+    b10[label="ReceiverResource::OnDataReceived"]
+    b11[label="MessageReceiver::processCDRMsg"]
+    b12[label="MessageReceiver::proc_Submsg_Data"]
+    b13[label="MessageReceiver::findAllReaders"]
+    b14[label="StatefulReader::processDataMsg"]
+    b15[label="StatefulReader::change_received"]
+
+    b1->b2->b3->b4->b5->b6->b7->b8->b9->b10->b11->b12->b13->b14->b15;
+
+    b16[label="ReaderHistory::received_change"]
+    b17[label="ReaderHistory::add_change"]
+
+    b15->b16->b17;
+
+    b18[label="StatefulReader::NotifyChanges"]
+    b19[label="RTPSReader::getListener"]
+    b20[label="SubscriberReaderListener::onNewCacheChangeAdded"]
+    b21[label="HelloWorldSubscriber::SubListener::onNewDataMessage"]
+
+    b15->b18->b19->b20->b21;
+  }
+
+  start -> a1;
+  start -> b1;
+  a15 -> wait -> b13;
+  b21 -> end;
+
+  start [shape=Mdiamond];
+  end [shape=Msquare];
+}
