@@ -1,0 +1,52 @@
+digraph G {
+
+  subgraph cluster0 {
+    node [style=filled,clolor=white];
+    color = lightgrey;
+    style=filled;
+    label = "Phone";
+
+    a1[label="Agent"]
+    a2[label="Dps"]
+
+    a1->a2[label="sub"];
+    a2->a1[label="pub"];
+  }
+
+  subgraph cluster1 {
+    node [style=filled];
+    color=blue;
+    label = "TV";
+
+    b1[label="Agent"]
+    b2[label="Dps"]
+
+    b1->b2[label="sub"];
+    b2->b1[label="pub"];
+  }
+
+  x1->a1[label="session1"];
+  x2->b1[label="session2"];
+  x3->b1[label="session3"];
+
+  x4->a1[label="session4"];
+  x5->b1[label="session5"];
+  x6->a1[label="session6"];
+
+  x1->b1[style=dotted];
+  x2->a1[style=dotted];
+  x3->a1[style=dotted];
+
+  x4->b1[style=dotted];
+  x5->a1[style=dotted];
+  x6->b1[style=dotted];
+
+  a1->b2[label="sub"];
+  b2->a1[label="pub"];
+
+  b1->a2[label="sub"];
+  a2->b1[label="pub"];
+
+  a2->b2[label="pub+sub"];
+  b2->a2;
+}
