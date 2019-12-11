@@ -1,0 +1,768 @@
+--------- beginning of crash
+12-05 14:46:26.193 23062 23062 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+--------- beginning of main
+12-05 14:46:26.023  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:26.504  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:46:27.194   729  2813 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10049, silenced:1)
+12-05 14:46:27.194   729  2813 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10049, silenced:1)
+12-05 14:46:30.031  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:30.577  2382  2382 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:46:30.583  3515  3515 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:46:30.586  4445  4598 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 73, status = 2, level = 73, plug = 2, scale = 100
+12-05 14:46:30.590  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:46:30.594  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:46:30.597  4445  4618 D ThermalTempInfoHelper: thermal sensor1 temp is 30
+12-05 14:46:31.211 23066 23066 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:46:32.129  3515  3515 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:46:32.133  4445  4598 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 73, status = 2, level = 73, plug = 2, scale = 100
+12-05 14:46:32.133  2382  2382 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:46:32.138  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:46:32.142  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:46:32.145  4445  4618 D ThermalTempInfoHelper: thermal sensor1 temp is 30
+12-05 14:46:33.689  2055 22292 D NetworkMonitor/NetworkAgentInfo [WIFI () - 103]: PROBE_HTTP http://connect.rom.miui.com/generate_204 Probe failed with exception java.net.UnknownHostException: connect.rom.miui.com: TLS-bypass resolution failed
+12-05 14:46:34.036  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:34.434 23081 23081 I studio.deploy: DeltaInstall found API level:28
+12-05 14:46:34.434 23081 23081 I studio.deploy: -t
+12-05 14:46:34.434 23081 23081 I studio.deploy: --full
+12-05 14:46:34.434 23081 23081 I studio.deploy: -r
+--------- beginning of system
+12-05 14:46:30.577  2055  2086 I chatty  : uid=1000(system) android.fg expire 1 line
+12-05 14:46:32.128  2055  2086 E UsbDeviceManager: handle message = 9
+12-05 14:46:34.487  2055  3298 D PackageInstaller: perflock acquired for PackageInstallService
+12-05 14:46:34.549  2055  3298 I InstallationStatistic: beginInstallSession: 2102372566
+12-05 14:46:34.556 23081 23081 I studio.deploy: DeltaInstall created session: '2102372566'
+12-05 14:46:34.556 23081 23081 I studio.deploy: package
+12-05 14:46:34.556 23081 23081 I studio.deploy: install-write
+12-05 14:46:34.556 23081 23081 I studio.deploy: -S
+12-05 14:46:34.556 23081 23081 I studio.deploy: 5975733
+12-05 14:46:34.556 23081 23081 I studio.deploy: 2102372566
+12-05 14:46:34.556 23081 23081 I studio.deploy: base.apk
+12-05 14:46:34.652 23081 23081 I studio.deploy: package
+12-05 14:46:34.652 23081 23081 I studio.deploy: install-commit
+12-05 14:46:34.652 23081 23081 I studio.deploy: 2102372566
+12-05 14:46:34.738  2055  2097 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:46:34.738  2055  2097 D CompatibilityInfo: applicationDensity - 440
+12-05 14:46:34.738  2055  2097 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:46:34.739   729  2813 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10049, silenced:0)
+12-05 14:46:34.739   729  2813 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10049, silenced:0)
+12-05 14:46:34.821  2055  2097 E SELinux : SELinux:  setxattr failed: /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==:  Operation not permitted
+12-05 14:46:34.821  2055  2097 E SELinux : SELinux:  setxattr failed: /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib:  Operation not permitted
+12-05 14:46:34.821  2055  2097 E SELinux : SELinux:  setxattr failed: /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64:  Operation not permitted
+12-05 14:46:34.822  2055  2080 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=-1: installPackageLI
+12-05 14:46:34.936  2055  2097 I PackageManager: Update package com.xiaomi.mi_connect_service code path from /data/app/com.xiaomi.mi_connect_service-O17XYbJJB-lMXcduq-MN-w== to /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==; Retain data and using new
+12-05 14:46:34.936  2055  2097 I PackageManager: Update package com.xiaomi.mi_connect_service resource path from /data/app/com.xiaomi.mi_connect_service-O17XYbJJB-lMXcduq-MN-w== to /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==; Retain data and using new
+12-05 14:46:35.071  2055  2097 D PackageManager: Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+12-05 14:46:35.071  2055  2097 D PackageManager: Clear ephemeral installer activity
+12-05 14:46:35.072  2055  2097 I InstallationStatistic: com.xiaomi.mi_connect_service|null|523|122|12|1|0|0
+12-05 14:46:35.286  2055  2097 I system_server: Explicit concurrent copying GC freed 252473(10MB) AllocSpace objects, 58(4MB) LOS objects, 42% free, 25MB/44MB, paused 158us total 214.045ms
+12-05 14:46:35.292  1027  2141 E         : Couldn't opendir /data/app/vmdl2102372566.tmp: No such file or directory
+12-05 14:46:35.292  1027  2141 E installd: Failed to delete /data/app/vmdl2102372566.tmp: No such file or directory
+12-05 14:46:35.293  2055  2097 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: pkg removed
+12-05 14:46:35.294  2055  2097 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:46:35.299  2055  2097 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:46:35.300  2055  2097 D CompatibilityInfo: applicationDensity - 440
+12-05 14:46:35.300  2055  2097 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:46:35.307 20042 20042 D MiFGAppInfo: received broadcast android.intent.action.PACKAGE_REMOVED
+12-05 14:46:35.307 20042 20042 D MiFGAppInfo: received broadcast android.intent.action.PACKAGE_ADDED
+12-05 14:46:35.307 20042 20042 D MiFGAppInfo: received broadcast android.intent.action.PACKAGE_REPLACED
+12-05 14:46:35.309  2382  2382 D LockScreenMagazineController: received broadcast android.intent.action.PACKAGE_REMOVED
+12-05 14:46:35.310  3515  3515 D AppInstalledReceiver: receive broadcast
+12-05 14:46:35.310  3515  3515 I FireWallService: mina mPackageReceiver onReceive
+12-05 14:46:35.311  3515  3515 I TrafficManageService: mina mPackageReceiver 0
+12-05 14:46:35.312  4445  4445 D PowerKeeper.GMS: receive: android.intent.action.PACKAGE_REMOVED
+12-05 14:46:35.313 21216 21216 I PackageInstallReceiver: action = android.intent.action.PACKAGE_REMOVED packageName = com.xiaomi.mi_connect_service
+12-05 14:46:35.313 21216 21216 I ShortCutsCardView: onAppChanged com.xiaomi.mi_connect_service
+12-05 14:46:35.313 21216 21216 I ShortCutsAdapter: bindDataToView position = 0 item = {"name":"wx_scan", "drawableId":453444575, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.scanner.ui.BaseScanUI", "id":"60", "drawableName":"wx_scan", "isXspace":"false", "appName":"wx_parent", "groupId":"0"}
+12-05 14:46:35.314  2055  2186 V LocationPolicy: ACTION_PACKAGE_ADDED for uid=10145
+12-05 14:46:35.315  2055  2152 I InputReader: Reconfiguring input devices.  changes=0x00000010
+12-05 14:46:35.315  2055  2195 I MiuiCompatModePackages: package com.xiaomi.mi_connect_service updated, removing config
+12-05 14:46:35.316  2382  2382 D LockScreenMagazineController: received broadcast android.intent.action.PACKAGE_ADDED
+12-05 14:46:35.317  3515  3515 D AppInstalledReceiver: receive broadcast
+12-05 14:46:35.317  3515  3515 D AppInstalledReceiver: packageName: com.xiaomi.mi_connect_service
+12-05 14:46:35.318  3515  3515 I FireWallService: mina mPackageReceiver onReceive
+12-05 14:46:35.318 21216 21216 I ShortCutsAdapter: bindDataToView position = 1 item = {"name":"wx_name", "drawableId":453444576, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI", "id":"65", "drawableName":"wx_self_qr_code", "isXspace":"false", "appName":"wx_parent", "groupId":"3"}
+12-05 14:46:35.318  3403  3403 I ##XLogger##: #&^REbcgyBQ9BZ6Kl3+eTbk5AyXPppU8bIqNn9mK48z6pQNopcQemA9lsZuAYWZHz4sie5RJnYH+GA3kczu+05OP/C5tlf6V1DfMlgMLOtaADQquppP4o0XthcaAmXrvpnAP7TvkfpA9uivoHOMVuqHnsrWFkqxQrXHBkPZaqV7d+U=!!mY1ypQ0+4Crym1Ga2nN2KzpIoISjEea9j95SlKNyEBZNag8M59WJVSUARD8n2zXLOG1tadrh6ZTAaqas0hxdYaZbBnyDNeuqL8lIXwAp+uy3UE7aBBSUKSSyntnR9Qxj0icOFFmRkx2GzDwijzM+GZTCJ8m6FKOFI88JyK9n+7WJ7psS7dDbhEjSZ1eV20+RxobMCxPMGMUHzv81e1XzAh4Mz6JwKmv+pHMETIDxotUL85yMrX00sZFEFSFCqGqsjOF+OjK1b25dn03qAfEBwRDX4H8UAPZknqjUI5qUQq4jOLgmyHduLJLrkIyMxIb3S6NS19HgcE6nmu3lYnUZPDFESJ2aRNRR3iH3y8ct3wcFa/WNaH5tBXo5KRA3ECq+p9GKDZi+pqRSbXcBLEmPf0zKY1cmafq4QIYbGgmgLBdu0Lko9XyPKO+aCcan5DoOKqyDt1NtLfKaN9/qnPCEHpXGU12XOickIUtA5HeLsQf5uPvWl3/Wi2ZFZKsfGqXw^&#
+12-05 14:46:35.318  4445  4445 D PowerKeeper.GMS: receive: android.intent.action.PACKAGE_ADDED
+12-05 14:46:35.319  2382  2382 D LockScreenMagazineController: received broadcast android.intent.action.PACKAGE_REPLACED
+12-05 14:46:35.320 21216 21216 I ShortCutsAdapter: bindDataToView position = 2 item = {"name":"calc_name", "drawableId":453443861, "uri":"", "packageName":"com.miui.calculator", "className":"com.miui.calculator.cal.AllInOneCalculatorActivity", "id":"50", "drawableName":"calculator_scientific", "isXspace":"false", "appName":"calc_parent", "groupId":"2"}
+12-05 14:46:35.320  4445  4530 D PowerKeeperPackageManager: addPackage: com.xiaomi.mi_connect_service 10145
+12-05 14:46:35.321  4445  4530 D PowerKeeperPackageManager: onPackageModified, userId: 0, packageName: com.xiaomi.mi_connect_service
+12-05 14:46:35.321  3515  3515 W FireWallService: is Pre-installed application
+12-05 14:46:35.321  3515  3515 I TrafficManageService: mina mPackageReceiver 0
+12-05 14:46:35.321 21216 21216 I ShortCutsAdapter: bindDataToView position = 3 item = {"name":"alipay_scan", "drawableId":453443772, "uri":"alipays://platformapi/startapp?appId=10000007&sourceId=xiaomiLeft&source=shortcut&showOthers=true&chInfo=ch_xiaomiLeft", "packageName":"com.eg.android.AlipayGphone", "className":"", "id":"70", "drawableName":"alipay_scan", "isXspace":"false", "appName":"paycode_parent", "groupId":"0"}
+12-05 14:46:35.339  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+12-05 14:46:35.339 21216 21216 I ShortCutsAdapter: bindDataToView position = 4 item = {"name":"wx_paycode", "drawableId":453443643, "uri":"", "packageName":"com.alipay.sdk.formi", "className":"", "id":"101", "drawableName":"alipay_fukuan", "isXspace":"false", "appName":"paycode_sdk_parent_title", "groupId":"0"}
+12-05 14:46:35.340  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.340 19141 23100 I Market-LocalAppManager: add package to list: com.xiaomi.mi_connect_service
+12-05 14:46:35.342  3515  3515 D AppCompatStateReceiver: AppCompatStateReceiver package_name=com.xiaomi.mi_connect_service,app_status=0
+12-05 14:46:35.342  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.android.providers.downloads/.receiver.ApplicationInstallReceiver
+12-05 14:46:35.342 21216 21216 I ListLayout: bindView: item count 5, view count 5
+12-05 14:46:35.342  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:46:35.342  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+12-05 14:46:35.342 21216 21216 I ShortCutsAdapter: bindDataToView position = 0 item = {"name":"wx_scan", "drawableId":453444575, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.scanner.ui.BaseScanUI", "id":"60", "drawableName":"wx_scan", "isXspace":"false", "appName":"wx_parent", "groupId":"0"}
+12-05 14:46:35.343  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.miui.audioeffect/com.android.musicfx.Compatibility$Receiver
+12-05 14:46:35.343  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.market/.data.MyPackageMonitor
+12-05 14:46:35.343  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:46:35.343  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:46:35.345  2055  2055 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:46:35.345  2055  2055 D CompatibilityInfo: applicationDensity - 440
+12-05 14:46:35.345  2055  2055 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:46:35.346  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.347 21216 21216 I ShortCutsAdapter: bindDataToView position = 1 item = {"name":"wx_name", "drawableId":453444576, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI", "id":"65", "drawableName":"wx_self_qr_code", "isXspace":"false", "appName":"wx_parent", "groupId":"3"}
+12-05 14:46:35.347  3515  3515 D AppInstalledReceiver: receive broadcast
+12-05 14:46:35.347  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.348  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.349 21216 21216 I ShortCutsAdapter: bindDataToView position = 2 item = {"name":"calc_name", "drawableId":453443861, "uri":"", "packageName":"com.miui.calculator", "className":"com.miui.calculator.cal.AllInOneCalculatorActivity", "id":"50", "drawableName":"calculator_scientific", "isXspace":"false", "appName":"calc_parent", "groupId":"2"}
+12-05 14:46:35.349  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+12-05 14:46:35.350  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.providers.appindex/.PackageChangeReceiver
+12-05 14:46:35.350  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.xmsf/.pushcontrol.PkgUninstallReceiver
+12-05 14:46:35.350  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.xmsf/com.xiaomi.push.service.receivers.PkgUninstallReceiver
+12-05 14:46:35.350  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.lbe.security.miui/com.lbe.security.service.BootReceiver
+12-05 14:46:35.351 21216 21216 I ShortCutsAdapter: bindDataToView position = 3 item = {"name":"alipay_scan", "drawableId":453443772, "uri":"alipays://platformapi/startapp?appId=10000007&sourceId=xiaomiLeft&source=shortcut&showOthers=true&chInfo=ch_xiaomiLeft", "packageName":"com.eg.android.AlipayGphone", "className":"", "id":"70", "drawableName":"alipay_scan", "isXspace":"false", "appName":"paycode_parent", "groupId":"0"}
+12-05 14:46:35.351  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.android.providers.downloads/.receiver.ApplicationInstallReceiver
+12-05 14:46:35.351  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.android.settings/.search.provider.UpdateReceiver
+12-05 14:46:35.351  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.miui.audioeffect/com.android.musicfx.Compatibility$Receiver
+12-05 14:46:35.351  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.market/.data.MyPackageMonitor
+12-05 14:46:35.352  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.misettings/.usagestats.AppTimerReceiver
+12-05 14:46:35.352  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.352  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:46:35.352  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.xiaomi.providers.appindex/.PackageChangeReceiver
+12-05 14:46:35.352  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.xiaomi.mi_connect_service flg=0x4000011 (has extras) } to com.miui.audioeffect/com.android.musicfx.Compatibility$Receiver
+12-05 14:46:35.352  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:46:35.352  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:46:35.353  2055  2080 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:46:35.353  2055  2080 D CompatibilityInfo: applicationDensity - 440
+12-05 14:46:35.353  2055  2080 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:46:35.353 21216 21216 I ShortCutsAdapter: bindDataToView position = 4 item = {"name":"wx_paycode", "drawableId":453443643, "uri":"", "packageName":"com.alipay.sdk.formi", "className":"", "id":"101", "drawableName":"alipay_fukuan", "isXspace":"false", "appName":"paycode_sdk_parent_title", "groupId":"0"}
+12-05 14:46:35.354  2055  2152 I InputReader: Reconfiguring input devices.  changes=0x00000010
+12-05 14:46:35.356 18309 18309 I FindDeviceGNReceiver: Received miui.android.intent.action.PACKAGE_ADDED.
+12-05 14:46:35.357  2629  2629 D ImsResolver: maybeAddedImsService, packageName: com.xiaomi.mi_connect_service
+12-05 14:46:35.357  2055  2152 I InputReader: Reconfiguring input devices.  changes=0x00000010
+12-05 14:46:35.358 21216 21216 I ListLayout: bindView: item count 5, view count 5
+12-05 14:46:35.358 21216 21216 I PackageInstallReceiver: action = android.intent.action.PACKAGE_ADDED packageName = com.xiaomi.mi_connect_service
+12-05 14:46:35.358 21216 21216 I ShortCutsCardView: onAppChanged com.xiaomi.mi_connect_service
+12-05 14:46:35.359 21216 21216 I ShortCutsAdapter: bindDataToView position = 0 item = {"name":"wx_scan", "drawableId":453444575, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.scanner.ui.BaseScanUI", "id":"60", "drawableName":"wx_scan", "isXspace":"false", "appName":"wx_parent", "groupId":"0"}
+12-05 14:46:35.359  2629  2629 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+12-05 14:46:35.361 21216 21216 I ShortCutsAdapter: bindDataToView position = 1 item = {"name":"wx_name", "drawableId":453444576, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI", "id":"65", "drawableName":"wx_self_qr_code", "isXspace":"false", "appName":"wx_parent", "groupId":"3"}
+12-05 14:46:35.362  2055  2055 W system_server: resources.arsc in APK '/data/app/cn.wps.moffice_eng-i02fOO1BkgWi-g8soO3VWg==/base.apk' is compressed.
+12-05 14:46:35.363 21216 21216 I ShortCutsAdapter: bindDataToView position = 2 item = {"name":"calc_name", "drawableId":453443861, "uri":"", "packageName":"com.miui.calculator", "className":"com.miui.calculator.cal.AllInOneCalculatorActivity", "id":"50", "drawableName":"calculator_scientific", "isXspace":"false", "appName":"calc_parent", "groupId":"2"}
+12-05 14:46:35.367  3515 23105 D AppCompatStateReceiver: json params=[{"pkg":"com.xiaomi.mi_connect_service","ver":"4"}]
+12-05 14:46:35.368 21216 21216 I ShortCutsAdapter: bindDataToView position = 3 item = {"name":"alipay_scan", "drawableId":453443772, "uri":"alipays://platformapi/startapp?appId=10000007&sourceId=xiaomiLeft&source=shortcut&showOthers=true&chInfo=ch_xiaomiLeft", "packageName":"com.eg.android.AlipayGphone", "className":"", "id":"70", "drawableName":"alipay_scan", "isXspace":"false", "appName":"paycode_parent", "groupId":"0"}
+12-05 14:46:35.373  3515 23105 D IdProviderImpl: getOAID
+12-05 14:46:35.375 18309 18309 I FindDeviceGNReceiver: isReplace: true, open: false.
+12-05 14:46:35.382 21216 21216 I ShortCutsAdapter: bindDataToView position = 4 item = {"name":"wx_paycode", "drawableId":453443643, "uri":"", "packageName":"com.alipay.sdk.formi", "className":"", "id":"101", "drawableName":"alipay_fukuan", "isXspace":"false", "appName":"paycode_sdk_parent_title", "groupId":"0"}
+12-05 14:46:35.385 21216 21216 I ListLayout: bindView: item count 5, view count 5
+12-05 14:46:35.385 21216 21216 I ShortCutsAdapter: bindDataToView position = 0 item = {"name":"wx_scan", "drawableId":453444575, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.scanner.ui.BaseScanUI", "id":"60", "drawableName":"wx_scan", "isXspace":"false", "appName":"wx_parent", "groupId":"0"}
+12-05 14:46:35.390 21216 21216 I ShortCutsAdapter: bindDataToView position = 1 item = {"name":"wx_name", "drawableId":453444576, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI", "id":"65", "drawableName":"wx_self_qr_code", "isXspace":"false", "appName":"wx_parent", "groupId":"3"}
+12-05 14:46:35.390 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:46:35.391 21216 21216 I ShortCutsAdapter: bindDataToView position = 2 item = {"name":"calc_name", "drawableId":453443861, "uri":"", "packageName":"com.miui.calculator", "className":"com.miui.calculator.cal.AllInOneCalculatorActivity", "id":"50", "drawableName":"calculator_scientific", "isXspace":"false", "appName":"calc_parent", "groupId":"2"}
+12-05 14:46:35.393 21216 21216 I ShortCutsAdapter: bindDataToView position = 3 item = {"name":"alipay_scan", "drawableId":453443772, "uri":"alipays://platformapi/startapp?appId=10000007&sourceId=xiaomiLeft&source=shortcut&showOthers=true&chInfo=ch_xiaomiLeft", "packageName":"com.eg.android.AlipayGphone", "className":"", "id":"70", "drawableName":"alipay_scan", "isXspace":"false", "appName":"paycode_parent", "groupId":"0"}
+12-05 14:46:35.395 21216 21216 I ShortCutsAdapter: bindDataToView position = 4 item = {"name":"wx_paycode", "drawableId":453443643, "uri":"", "packageName":"com.alipay.sdk.formi", "className":"", "id":"101", "drawableName":"alipay_fukuan", "isXspace":"false", "appName":"paycode_sdk_parent_title", "groupId":"0"}
+12-05 14:46:35.398 21216 21216 I ListLayout: bindView: item count 5, view count 5
+12-05 14:46:35.398 21216 21216 I PackageInstallReceiver: action = android.intent.action.PACKAGE_REPLACED packageName = com.xiaomi.mi_connect_service
+12-05 14:46:35.399 21216 21216 I ShortCutsCardView: onAppChanged com.xiaomi.mi_connect_service
+12-05 14:46:35.399 21216 21216 I ShortCutsAdapter: bindDataToView position = 0 item = {"name":"wx_scan", "drawableId":453444575, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.scanner.ui.BaseScanUI", "id":"60", "drawableName":"wx_scan", "isXspace":"false", "appName":"wx_parent", "groupId":"0"}
+12-05 14:46:35.402 21216 21216 I ShortCutsAdapter: bindDataToView position = 1 item = {"name":"wx_name", "drawableId":453444576, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI", "id":"65", "drawableName":"wx_self_qr_code", "isXspace":"false", "appName":"wx_parent", "groupId":"3"}
+12-05 14:46:35.403 21216 21216 I ShortCutsAdapter: bindDataToView position = 2 item = {"name":"calc_name", "drawableId":453443861, "uri":"", "packageName":"com.miui.calculator", "className":"com.miui.calculator.cal.AllInOneCalculatorActivity", "id":"50", "drawableName":"calculator_scientific", "isXspace":"false", "appName":"calc_parent", "groupId":"2"}
+12-05 14:46:35.406 21216 21216 I ShortCutsAdapter: bindDataToView position = 3 item = {"name":"alipay_scan", "drawableId":453443772, "uri":"alipays://platformapi/startapp?appId=10000007&sourceId=xiaomiLeft&source=shortcut&showOthers=true&chInfo=ch_xiaomiLeft", "packageName":"com.eg.android.AlipayGphone", "className":"", "id":"70", "drawableName":"alipay_scan", "isXspace":"false", "appName":"paycode_parent", "groupId":"0"}
+12-05 14:46:35.408 21216 21216 I ShortCutsAdapter: bindDataToView position = 4 item = {"name":"wx_paycode", "drawableId":453443643, "uri":"", "packageName":"com.alipay.sdk.formi", "className":"", "id":"101", "drawableName":"alipay_fukuan", "isXspace":"false", "appName":"paycode_sdk_parent_title", "groupId":"0"}
+12-05 14:46:35.410 21216 21216 I ListLayout: bindView: item count 5, view count 5
+12-05 14:46:35.410 21216 21216 I ShortCutsAdapter: bindDataToView position = 0 item = {"name":"wx_scan", "drawableId":453444575, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.scanner.ui.BaseScanUI", "id":"60", "drawableName":"wx_scan", "isXspace":"false", "appName":"wx_parent", "groupId":"0"}
+12-05 14:46:35.412 21216 21216 I ShortCutsAdapter: bindDataToView position = 1 item = {"name":"wx_name", "drawableId":453444576, "uri":"", "packageName":"com.tencent.mm", "className":"com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI", "id":"65", "drawableName":"wx_self_qr_code", "isXspace":"false", "appName":"wx_parent", "groupId":"3"}
+12-05 14:46:35.414 21216 21216 I ShortCutsAdapter: bindDataToView position = 2 item = {"name":"calc_name", "drawableId":453443861, "uri":"", "packageName":"com.miui.calculator", "className":"com.miui.calculator.cal.AllInOneCalculatorActivity", "id":"50", "drawableName":"calculator_scientific", "isXspace":"false", "appName":"calc_parent", "groupId":"2"}
+12-05 14:46:35.415  2055  2055 W system_server: resources.arsc in APK '/data/app/com.gotokeep.keep-J88E5vkvj9iAavfZy4g1hg==/base.apk' is compressed.
+12-05 14:46:35.416 21216 21216 I ShortCutsAdapter: bindDataToView position = 3 item = {"name":"alipay_scan", "drawableId":453443772, "uri":"alipays://platformapi/startapp?appId=10000007&sourceId=xiaomiLeft&source=shortcut&showOthers=true&chInfo=ch_xiaomiLeft", "packageName":"com.eg.android.AlipayGphone", "className":"", "id":"70", "drawableName":"alipay_scan", "isXspace":"false", "appName":"paycode_parent", "groupId":"0"}
+12-05 14:46:35.417 21216 21216 I ShortCutsAdapter: bindDataToView position = 4 item = {"name":"wx_paycode", "drawableId":453443643, "uri":"", "packageName":"com.alipay.sdk.formi", "className":"", "id":"101", "drawableName":"alipay_fukuan", "isXspace":"false", "appName":"paycode_sdk_parent_title", "groupId":"0"}
+12-05 14:46:35.419 21216 21216 I ListLayout: bindView: item count 5, view count 5
+12-05 14:46:35.430  2055  2079 W system_server: resources.arsc in APK '/data/app/com.iflytek.inputmethod.miui-RyUaZwHKSOqvhhmtBq-JZQ==/base.apk' is compressed.
+12-05 14:46:35.436  2055  2055 W system_server: resources.arsc in APK '/data/app/com.sina.weibolite-vgfC391UTED5hG3tKRxiEQ==/base.apk' is compressed.
+12-05 14:46:35.461  2055  2055 W system_server: resources.arsc in APK '/data/app/com.ss.android.ugc.aweme-ZmOCKX8MRb9xcFJYl-abMg==/base.apk' is compressed.
+12-05 14:46:35.473  2055  2079 W TextServicesManagerService: no available spell checker services found
+12-05 14:46:35.473  2055  2055 W system_server: resources.arsc in APK '/data/app/com.xunmeng.pinduoduo-96ol42u8zJnRR7WEJFUGJQ==/base.apk' is compressed.
+12-05 14:46:35.485  2055  2055 W Looper  : Slow dispatch took 134ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@699ddf m=0
+12-05 14:46:35.525  2055  2055 W Looper  : Slow delivery took 210ms main h=android.app.ActivityThread$H c=android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA@edc7e51 m=0
+12-05 14:46:35.528  2055  2055 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.contacts: DDC.oR@ANc
+12-05 14:46:35.544  2055  2055 V BackupManagerConstants: getFullBackupIntervalMilliseconds(...) returns 86400000
+12-05 14:46:35.549  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.search.action.SEARCHABLES_CHANGED flg=0x24000011 } to com.android.quicksearchbox/.CorporaUpdateReceiver
+12-05 14:46:35.556  2055  2079 W AutofillServiceInfo: AutofillService from 'com.miui.contentcatcher' uses unsupported permission android.permission.BIND_AUTOFILL. It works for now, but might not be supported on future releases
+12-05 14:46:35.556  2055  2080 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.search.action.SEARCHABLES_CHANGED flg=0x24000011 } to com.android.quicksearchbox/.CorporaUpdateReceiver
+12-05 14:46:35.557  2055  2081 D AutofillUI: destroySaveUiUiThread(): already destroyed
+12-05 14:46:35.558  2055  2079 D AutofillManagerServiceImpl: Set component for user 0 as AutofillServiceInfo[ServiceInfo{7b51d90 com.miui.contentcatcher.autofill.services.MiuiAutofillService}, settings:com.miui.contentcatcher.autofill.activitys.AutofillSettingActivity, hasCompatPckgs:false]
+12-05 14:46:35.559 21216 21216 D Launcher.Model: LauncherAppsCallback onPackageChanged|com.xiaomi.mi_connect_service|UserHandle{0}
+12-05 14:46:35.560 21216 21251 D Launcher.Model: Got broadcast:Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.xiaomi.mi_connect_service (has extras) }
+12-05 14:46:35.563 21216 21251 D MarketManager: isFirstBoot: false
+12-05 14:46:35.563 21216 21251 D Launcher.Model: onReceiveBackground, mAllAppsList=
+12-05 14:46:35.632  2055  3823 I ActivityManager: Force stopping com.xiaomi.mi_connect_service.test appid=10167 user=0: from process:23118
+12-05 14:46:35.633  2055  3823 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service.test uid : 10167
+12-05 14:46:35.636  2055  2055 W Looper  : Drained
+12-05 14:46:35.638  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:46:35.639  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:46:35.639  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:46:35.639  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.643  3445  3739 I chatty  : uid=10030(com.android.providers.media) FileObserver identical 3 lines
+12-05 14:46:35.643  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:35.922 23122 23122 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+12-05 14:46:36.011 23122 23122 I app_process: The ClassLoaderContext is a special shared library.
+12-05 14:46:36.051 23122 23122 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-05 14:46:36.093  2055  2067 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: start instr
+12-05 14:46:36.093  2055  2067 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:46:36.130  2055  2082 D Boost   : hostingType=added application, hostingName=com.xiaomi.mi_connect_service, callerPackage=android, isSystem=true, isBoostNeeded=false.
+12-05 14:46:36.133  2055  2082 I ActivityManager: Start proc 23131:com.xiaomi.mi_connect_service/u0a145 for added application com.xiaomi.mi_connect_service caller=android
+12-05 14:46:36.134 23131 23131 I connect_servic: Late-enabling -Xcheck:jni
+12-05 14:46:36.191  2055  2067 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:46:36.192  2055  2067 D CompatibilityInfo: applicationDensity - 440
+12-05 14:46:36.192  2055  2067 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:46:36.196   729  2813 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10145, silenced:0)
+12-05 14:46:36.196   729  2813 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10145, silenced:0)
+12-05 14:46:36.215 23148 23148 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:46:36.278 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected
+12-05 14:46:36.279 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:46:36.301 23131 23131 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.xiaomi.mi_connect_service]: arm64-v8a, null instrumentation[com.xiaomi.mi_connect_service.test]: null, null
+12-05 14:46:36.305 23131 23131 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:46:36.307 23131 23131 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:46:36.828 23131 23131 I Perf    : Connecting to perf service.
+12-05 14:46:36.842 23131 23131 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:46:36.844 23131 23131 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:46:37.355 23131 23131 W connect_servic: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+12-05 14:46:37.355 23131 23131 W connect_servic: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+12-05 14:46:37.380 23131 23131 W System.err: java.io.FileNotFoundException: /jacoco.exec (Read-only file system)
+12-05 14:46:37.380 23131 23131 W System.err: 	at java.io.FileOutputStream.open0(Native Method)
+12-05 14:46:37.380 23131 23131 W System.err: 	at java.io.FileOutputStream.open(FileOutputStream.java:308)
+12-05 14:46:37.380 23131 23131 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+12-05 14:46:37.381 23131 23131 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.openFile(FileOutput.java:67)
+12-05 14:46:37.381 23131 23131 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.startup(FileOutput.java:49)
+12-05 14:46:37.381 23131 23131 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.startup(Agent.java:122)
+12-05 14:46:37.381 23131 23131 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.getInstance(Agent.java:50)
+12-05 14:46:37.381 23131 23131 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.<clinit>(Offline.java:31)
+12-05 14:46:37.381 23131 23131 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.getProbes(Offline.java:51)
+12-05 14:46:37.381 23131 23131 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.$jacocoInit(Unknown Source:13)
+12-05 14:46:37.381 23131 23131 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.<init>(Unknown Source:0)
+12-05 14:46:37.381 23131 23131 W System.err: 	at java.lang.Class.newInstance(Native Method)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:50)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.support.v4.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:49)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1121)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1065)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5931)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.app.ActivityThread.access$1200(ActivityThread.java:201)
+12-05 14:46:37.382 23131 23131 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1674)
+12-05 14:46:37.383 23131 23131 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-05 14:46:37.383 23131 23131 W System.err: 	at android.os.Looper.loop(Looper.java:201)
+12-05 14:46:37.383 23131 23131 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6821)
+12-05 14:46:37.383 23131 23131 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-05 14:46:37.383 23131 23131 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:547)
+12-05 14:46:37.383 23131 23131 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:873)
+12-05 14:46:37.395 23131 23131 I MonitoringInstr: Instrumentation started!
+12-05 14:46:37.400 23131 23131 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]'
+12-05 14:46:37.406 23131 23131 D RegionUtil: CN
+12-05 14:46:37.410 23131 23131 W Looper  : Slow Looper main: Long Msg: seq=2 plan=14:46:36.228  late=0ms wall=1179ms running=0ms h=android.app.ActivityThread$H w=110
+12-05 14:46:37.411 23131 23131 I MonitoringInstr: No JSBridge.
+12-05 14:46:37.413 23131 23164 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]'
+12-05 14:46:37.432 23131 23164 I UsageTrackerFacilitator: Usage tracking enabled
+12-05 14:46:37.458 23131 23164 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+12-05 14:46:37.459 23131 23164 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+12-05 14:46:37.459 23131 23164 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+12-05 14:46:37.466 23131 23164 I TestRunner: run started: 1 tests
+12-05 14:46:37.471 23131 23164 I TestRunner: started: testLocalPubSub(com.xiaomi.mi_connect_service.test.DpsNativeTest)
+12-05 14:46:37.475 23131 23131 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-05 14:46:37.507 23131 23164 I dps_jni : JNI OnLoad.
+12-05 14:46:37.507 23131 23164 I RTPS_PARTICIPANT:
+12-05 14:46:37.510 23131 23166 I RTPS_PARTICIPANT: Thread: 484785325296 created and waiting for tasks.
+12-05 14:46:37.511 23131 23164 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:46:37.513 23131 23164 I chatty  : uid=10145(com.xiaomi.mi_connect_service) roidJUnitRunner identical 4 lines
+12-05 14:46:37.514 23131 23164 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:46:37.514 23131 23164 I RTPS_PARTICIPANT: RTPSParticipant Created with NO default Unicast Locator List, adding Locators:192.168.43.158:7413,
+12-05 14:46:37.514 23131 23164 I RTPS_PDP: Beginning
+12-05 14:46:37.514 23131 23164 I RTPS_PDP: Beginning
+12-05 14:46:37.514 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
+12-05 14:46:37.514 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.514 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 26
+12-05 14:46:37.514 23131 23164 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:46:37.514 23131 23164 I RTPS_READER: RTPSReader created correctly
+12-05 14:46:37.515 23131 23164 I RTPS_READER: Writer |GUID UNKNOWN| added to 0.1.0.c7
+12-05 14:46:37.515 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:46:37.515 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.515 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:46:37.515 23131 23164 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:46:37.515 23131 23164 I RTPS_WRITER: RTPSWriter created
+12-05 14:46:37.516 23131 23164 I RTPS_READER: Reader |GUID UNKNOWN| added to 0.1.0.c2
+12-05 14:46:37.516 23131 23164 I RTPS_PDP: SPDP Endpoints creation finished
+12-05 14:46:37.516 23131 23170 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:46:37.516 23131 23164 I RTPS_EDP: Beginning Simple Endpoint Discovery Protocol
+12-05 14:46:37.516 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:46:37.516 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.516 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:46:37.516 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.516 23131 23164 I RTPS_WRITER: RTPSWriter created
+12-05 14:46:37.516 23131 23164 I RTPS_EDP: SEDP Publication Writer created
+12-05 14:46:37.516 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:46:37.516 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.516 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:46:37.517 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.517 23131 23164 I RTPS_READER: RTPSReader created correctly
+12-05 14:46:37.517 23131 23164 I RTPS_EDP: SEDP Subscription Reader created
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:46:37.517 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.517 23131 23164 I RTPS_READER: RTPSReader created correctly
+12-05 14:46:37.517 23131 23164 I RTPS_EDP: SEDP Publication Reader created
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:46:37.517 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.517 23131 23164 I RTPS_WRITER: RTPSWriter created
+12-05 14:46:37.517 23131 23164 I RTPS_EDP: SEDP Subscription Writer created
+12-05 14:46:37.517 23131 23164 I RTPS_EDP: Creation finished
+12-05 14:46:37.517 23131 23164 I RTPS_LIVELINESS: Initializing Liveliness Protocol
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 100
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.517 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:46:37.518 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.518 23131 23164 I RTPS_WRITER: RTPSWriter created
+12-05 14:46:37.518 23131 23164 I RTPS_LIVELINESS: Builtin Liveliness Writer created
+12-05 14:46:37.518 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 101 with payload of size: 100
+12-05 14:46:37.518 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.518 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 101
+12-05 14:46:37.518 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.518 23131 23164 I RTPS_READER: RTPSReader created correctly
+12-05 14:46:37.518 23131 23164 I RTPS_LIVELINESS: Builtin Liveliness Reader created
+12-05 14:46:37.518 23131 23164 I RTPS_PDP: Announcing RTPSParticipant State (new change: 1)
+12-05 14:46:37.518 23131 23164 I RTPS_WRITER: Creating new change
+12-05 14:46:37.518 23131 23164 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:46:37.518 23131 23164 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:46:37.518 23131 23164 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:46:37.518 23131 23167 I RTPS_MSG_IN: (ID:484777772272) InfoTS Submsg received, processing...
+12-05 14:46:37.519 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Data Submsg received, processing.
+12-05 14:46:37.519 23131 23167 I RTPS_MSG_IN: (ID:484777772272) from Writer 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:46:37.519 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:46:37.519 23131 23167 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:46:37.519 23131 23167 I RTPS_PDP: SPDP Message received
+12-05 14:46:37.519 23131 23167 I RTPS_PDP: Message from own RTPSParticipant, removing
+12-05 14:46:37.519 23131 23167 I RTPS_HISTORY: Removing change 1
+12-05 14:46:37.519 23131 23167 I RTPS_PARTICIPANT: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.519 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Sub Message DATA processed
+12-05 14:46:37.519 23131 23164 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:39450
+12-05 14:46:37.519 23131 23164 I RTPS_PARTICIPANT: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.519 23131 23164 I RTPS_PARTICIPANT: RTPSParticipant "RTPSParticipant" with guidPrefix: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.521 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-05 14:46:37.521 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.521 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-05 14:46:37.522 23131 23164 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:46:37.522 23131 23164 I RTPS_READER: RTPSReader created correctly
+12-05 14:46:37.522 23131 23164 I RTPS_EDP: Adding 0.0.1.4 in topic Test
+12-05 14:46:37.522 23131 23164 I RTPS_PDP: Adding reader proxy data 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4
+12-05 14:46:37.522 23131 23164 I RTPS_EDP: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-05 14:46:37.522 23131 23164 I RTPS_EDP: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-05 14:46:37.522 23131 23164 I RTPS_EDP: 0.0.1.4
+12-05 14:46:37.522 23131 23164 I RTPS_WRITER: Creating new change
+12-05 14:46:37.522 23131 23164 I RTPS_HISTORY: Change 1 added with 268 bytes
+12-05 14:46:37.522 23131 23164 I RTPS_WRITER: No reader proxy to add change.
+12-05 14:46:37.523 23131 23164 I RTPS_PARTICIPANT: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.523 23131 23164 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4
+12-05 14:46:37.523 23131 23164 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-05 14:46:37.523 23131 23164 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:46:37.523 23131 23164 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-05 14:46:37.524 23131 23164 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:46:37.524 23131 23164 I RTPS_WRITER: RTPSWriter created
+12-05 14:46:37.524 23131 23164 I RTPS_EDP: Adding 0.0.2.3 in topic Test
+12-05 14:46:37.524 23131 23164 I RTPS_PDP: Adding writer proxy data 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3
+12-05 14:46:37.524 23131 23164 I RTPS_EDP: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3 in topic: "Test"
+12-05 14:46:37.524 23131 23164 I RTPS_READER: Writer 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3 added to 0.0.1.4
+12-05 14:46:37.524 23131 23164 I RTPS_EDP: Valid Matching to local reader: 0.0.1.4
+12-05 14:46:37.524 23131 23164 I dps_manager_impl: Reader(0x70deb64200): Matched with a Writer
+12-05 14:46:37.524 23131 23164 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4
+12-05 14:46:37.524 23131 23164 I RTPS_PARTICIPANT: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.524 23131 23164 I RTPS_EDP: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3 in topic: "Test"
+12-05 14:46:37.525 23131 23164 I RTPS_WRITER: Reader Proxy started
+12-05 14:46:37.525 23131 23164 I RTPS_WRITER: 0.0.2.3 Sending Heartbeat (1 - 0)
+12-05 14:46:37.525 23131 23169 I RTPS_MSG_IN: (ID:484775691504) InfoDST message received, processing...
+12-05 14:46:37.525 23131 23169 I RTPS_MSG_IN: (ID:484775691504) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.525 23131 23169 I RTPS_MSG_IN: (ID:484775691504) Heartbeat Submsg received, processing...
+12-05 14:46:37.525 23131 23164 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 127.0.0.1:7413 FROM 0.0.0.0:39450
+12-05 14:46:37.525 23131 23164 I RTPS_WRITER: Reader Proxy 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4 added to 0.0.2.3 with 1(u)-0(m) locators
+12-05 14:46:37.525 23131 23164 I RTPS_EDP: Valid Matching to readerProxy: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.4
+12-05 14:46:37.525 23131 23164 I dps_manager_impl: Writer(0x70f3ebec00): matching with a reader
+12-05 14:46:37.525 23131 23164 I RTPS_EDP: 0.0.2.3
+12-05 14:46:37.525 23131 23164 I RTPS_WRITER: Creating new change
+12-05 14:46:37.526 23131 23164 I RTPS_HISTORY: Change 1 added with 276 bytes
+12-05 14:46:37.526 23131 23164 I RTPS_WRITER: No reader proxy to add change.
+12-05 14:46:37.526 23131 23164 I RTPS_PARTICIPANT: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.526 23131 23164 I RTPS_PROXY_DATA: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3
+12-05 14:46:37.526 23131 23164 I RTPS_LIVELINESS: 0.0.2.3 to Liveliness Protocol
+12-05 14:46:37.526 23131 23164 I RTPS_WRITER: Creating new change
+12-05 14:46:37.526 23131 23164 I RTPS_HISTORY: Change 1 added with 11 bytes
+12-05 14:46:37.526 23131 23164 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:46:37.526 23131 23164 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:46:37.526 23131 23169 I RTPS_MSG_IN: (ID:484775691504) InfoDST message received, processing...
+12-05 14:46:37.526 23131 23169 I RTPS_MSG_IN: (ID:484775691504) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.526 23131 23169 I RTPS_MSG_IN: (ID:484775691504) InfoTS Submsg received, processing...
+12-05 14:46:37.526 23131 23169 I RTPS_MSG_IN: (ID:484775691504) Data Submsg received, processing.
+12-05 14:46:37.526 23131 23169 I RTPS_MSG_IN: (ID:484775691504) from Writer 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3; possible RTPSReaders: 1
+12-05 14:46:37.527 23131 23169 I RTPS_MSG_IN: (ID:484775691504) Trying to add change 1 TO reader: 0.0.1.4
+12-05 14:46:37.527 23131 23169 I RTPS_HISTORY: Change 1 added with 12 bytes
+12-05 14:46:37.527 23131 23169 I dps_manager_impl: Reader: new chache message: hello world
+12-05 14:46:37.527 23131 23169 D DpsNativeTest: message: hello world
+12-05 14:46:37.528 23131 23169 I RTPS_HISTORY: Removing change 1
+
+
+
+12-05 14:46:37.528 23131 23169 I RTPS_MSG_IN: (ID:484775691504) Sub Message DATA processed
+12-05 14:46:37.528 23131 23164 I RTPS_MSG_OUT: UDPTransport: 84 bytes TO endpoint: 127.0.0.1:7413 FROM 0.0.0.0:39450
+12-05 14:46:37.528 23131 23164 I TestRunner: finished: testLocalPubSub(com.xiaomi.mi_connect_service.test.DpsNativeTest)
+12-05 14:46:37.532 23131 23131 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-05 14:46:37.534 23131 23164 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Heartbeat Submsg received, processing...
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Heartbeat Submsg received, processing...
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.535 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Heartbeat Submsg received, processing...
+12-05 14:46:37.539 23131 23167 I RTPS_MSG_IN: (ID:484777772272) InfoTS Submsg received, processing...
+12-05 14:46:37.539 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Data Submsg received, processing.
+12-05 14:46:37.539 23131 23167 I RTPS_MSG_IN: (ID:484777772272) from Writer 1.f.40.bb.96.38.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:46:37.539 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:46:37.539 23131 23167 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:46:37.539 23131 23167 I RTPS_PDP: SPDP Message received
+12-05 14:46:37.540 23131 23167 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-05 14:46:37.540 23131 23167 I RTPS_PDP: For RTPSParticipant: 1.f.40.bb.96.38.0.0.1.0.0.0
+12-05 14:46:37.540 23131 23170 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:46:37.540 23131 23170 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:46:37.540 23131 23167 I RTPS_READER: Writer 1.f.40.bb.96.38.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-05 14:46:37.540 23131 23170 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:39450
+12-05 14:46:37.540 23131 23170 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:46:37.540 23131 23167 I RTPS_READER: Reader 1.f.40.bb.96.38.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-05 14:46:37.540 23131 23167 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-05 14:46:37.540 23131 23167 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-05 14:46:37.541 23131 23170 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:46:37.541 23131 23170 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:46:37.542 23131 23170 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:39450
+12-05 14:46:37.542 23131 23170 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:46:37.542 23131 23167 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-05 14:46:37.542 23131 23167 I RTPS_READER: Writer Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-05 14:46:37.542 23131 23167 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-05 14:46:37.542 23131 23164 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-05 14:46:37.543 23131 23167 I RTPS_WRITER: Reader Proxy started
+12-05 14:46:37.543 23131 23167 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-05 14:46:37.543 23131 23167 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.544 23131 23167 I RTPS_WRITER: Reader Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-05 14:46:37.544 23131 23164 I DpmTcmClient: RegisterTcmMonitor from: com.android.okhttp.TcmIdleTimerMonitor
+12-05 14:46:37.544 23131 23167 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-05 14:46:37.544 23131 23167 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-05 14:46:37.544 23131 23167 I RTPS_READER: Writer Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-05 14:46:37.545 23131 23167 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-05 14:46:37.545 23131 23167 I RTPS_WRITER: Reader Proxy started
+12-05 14:46:37.545 23131 23167 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-05 14:46:37.545 23131 23167 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.546 23131 23167 I RTPS_WRITER: Reader Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-05 14:46:37.546 23131 23167 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-05 14:46:37.547 23131 23167 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-05 14:46:37.547 23131 23167 I RTPS_READER: Writer Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-05 14:46:37.547 23131 23167 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-05 14:46:37.548 23131 23167 I RTPS_WRITER: Reader Proxy started
+12-05 14:46:37.548 23131 23167 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-05 14:46:37.549 23131 23167 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.549 23131 23167 I RTPS_WRITER: Reader Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-05 14:46:37.549 23131 23167 I RTPS_PARTICIPANT: 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.549 23131 23167 I RTPS_HISTORY: Removing change 1
+12-05 14:46:37.549 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Sub Message DATA processed
+12-05 14:46:37.549 23131 23167 I RTPS_MSG_IN: (ID:484777772272) InfoTS Submsg received, processing...
+12-05 14:46:37.550 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Data Submsg received, processing.
+12-05 14:46:37.550 23131 23167 I RTPS_MSG_IN: (ID:484777772272) from Writer 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:46:37.550 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:46:37.550 23131 23167 I RTPS_MSG_IN: (ID:484777772272) MessageReceiver not add change 1
+12-05 14:46:37.550 23131 23167 I RTPS_LIVELINESS: RTPSParticipant 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:46:37.550 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Sub Message DATA processed
+12-05 14:46:37.551 23131 23167 I RTPS_MSG_IN: (ID:484777772272) InfoTS Submsg received, processing...
+12-05 14:46:37.551 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Data Submsg received, processing.
+12-05 14:46:37.551 23131 23167 I RTPS_MSG_IN: (ID:484777772272) from Writer 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:46:37.551 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:46:37.551 23131 23167 I RTPS_MSG_IN: (ID:484777772272) MessageReceiver not add change 1
+12-05 14:46:37.551 23131 23167 I RTPS_LIVELINESS: RTPSParticipant 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:46:37.551 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Sub Message DATA processed
+12-05 14:46:37.562 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.562 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.562 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.571 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.571 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.571 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.571 23131 23168 I RTPS_WRITER: Requested Changes: 1:1-
+12-05 14:46:37.571 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.571 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.571 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.571 23131 23168 I RTPS_WRITER: Requested Changes: 1:1-
+12-05 14:46:37.605 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.605 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.605 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.605 23131 23168 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.606 23131 23168 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.606 23131 23168 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-05 14:46:37.606 23131 23168 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.613 23131 23166 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:46:37.613 23131 23166 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.615 23131 23166 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:46:37.615 23131 23166 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.618 23131 23166 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:46:37.618 23131 23166 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.618 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.619 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.619 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Heartbeat Submsg received, processing...
+12-05 14:46:37.619 23131 23168 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-05 14:46:37.619 23131 23168 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Heartbeat Submsg received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-05 14:46:37.623 23131 23168 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 1 missing.
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.623 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Heartbeat Submsg received, processing...
+12-05 14:46:37.623 23131 23168 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-05 14:46:37.623 23131 23168 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-05 14:46:37.629 23131 23166 I RTPS_READER:
+12-05 14:46:37.629 23131 23166 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:46:37.629 23131 23166 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.630 23131 23166 I RTPS_READER:
+12-05 14:46:37.630 23131 23166 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:46:37.631 23131 23166 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.635 23131 23166 I RTPS_READER:
+12-05 14:46:37.635 23131 23166 I RTPS_READER: Sending ACKNACK: 1:1-
+12-05 14:46:37.635 23131 23166 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.665 23131 23166 I RTPS_WRITER: Responding to Acknack messages
+12-05 14:46:37.665 23131 23166 I RTPS_WRITER: Responding to Acknack messages
+12-05 14:46:37.666 23131 23170 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:46:37.666 23131 23170 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:46:37.666 23131 23170 I RTPS_MSG_OUT: UDPTransport: 348 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.666 23131 23170 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:46:37.666 23131 23170 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:46:37.666 23131 23170 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:46:37.666 23131 23170 I RTPS_MSG_OUT: UDPTransport: 340 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:37.666 23131 23170 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:46:37.677 23131 23166 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.3.c7
+12-05 14:46:37.678 23131 23166 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.4.c7
+12-05 14:46:37.735 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:37.735 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:37.735 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoTS Submsg received, processing...
+12-05 14:46:37.735 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Data Submsg received, processing.
+12-05 14:46:37.735 23131 23168 I RTPS_MSG_IN: (ID:484776731888) from Writer 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.4.c2; possible RTPSReaders: 4
+12-05 14:46:37.735 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Trying to add change 1 TO reader: 0.0.4.c7
+12-05 14:46:37.735 23131 23168 I RTPS_HISTORY: Change 1 added with 268 bytes
+12-05 14:46:37.735 23131 23168 I RTPS_READER: 0.0.4.c2: seqNum: 1
+12-05 14:46:37.735 23131 23168 I RTPS_EDP:
+12-05 14:46:37.735 23131 23168 I RTPS_PDP: Adding reader proxy data 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.1.4
+12-05 14:46:37.735 23131 23168 I RTPS_EDP: 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-05 14:46:37.735 23131 23168 I RTPS_WRITER: Reader Proxy started
+12-05 14:46:37.736 23131 23168 I RTPS_WRITER: 0.0.2.3 Sending Heartbeat (1 - 1)
+12-05 14:46:37.736 23131 23168 I RTPS_MSG_OUT: UDPTransport: 100 bytes TO endpoint: 192.168.43.1:7413 FROM 0.0.0.0:39450
+12-05 14:46:37.736 23131 23168 I RTPS_WRITER: Reader Proxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.1.4 added to 0.0.2.3 with 1(u)-0(m) locators
+12-05 14:46:37.736 23131 23168 I RTPS_EDP: Valid Matching to local writer: 0.0.2.3
+12-05 14:46:37.736 23131 23168 I dps_manager_impl: Writer(0x70f3ebec00): matching with a reader
+12-05 14:46:37.736 23131 23168 I RTPS_PROXY_DATA: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.2.3
+12-05 14:46:37.736 23131 23168 I RTPS_PARTICIPANT: 1.f.13.9f.5b.5a.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.736 23131 23168 I RTPS_PARTICIPANT: 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.1.c1
+12-05 14:46:37.736 23131 23168 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.1.4
+12-05 14:46:37.736 23131 23168 I RTPS_HISTORY: Removing change 1
+12-05 14:46:37.736 23131 23168 I RTPS_READER: 0.0.4.c7 FINDS writerProxy 1.f.40.bb.96.38.0.0.1.0.0.0|0.0.4.c2 from 1
+12-05 14:46:37.736 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Sub Message DATA processed
+12-05 14:46:38.042  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:38.078  2055  3238 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+12-05 14:46:38.078  2055  3238 V BackupManagerConstants: getFullBackupRequireCharging(...) returns true
+12-05 14:46:38.540 23131 23167 I RTPS_MSG_IN: (ID:484777772272) Heartbeat Submsg received, processing...
+12-05 14:46:38.540 23131 23167 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-05 14:46:38.540 23131 23167 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 1 missing.
+12-05 14:46:38.544 23131 23166 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-05 14:46:38.545 23131 23166 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:38.546 23131 23166 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-05 14:46:38.546 23131 23166 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:38.552 23131 23166 I RTPS_READER:
+12-05 14:46:38.552 23131 23166 I RTPS_READER: Sending ACKNACK: 2:
+12-05 14:46:38.552 23131 23166 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:39450
+12-05 14:46:38.563 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:38.563 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:38.563 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:38.565 23131 23168 I RTPS_MSG_IN: (ID:484776731888) InfoDST message received, processing...
+12-05 14:46:38.565 23131 23168 I RTPS_MSG_IN: (ID:484776731888) DST RTPSParticipant is now: 1.f.13.9f.5b.5a.0.0.1.0.0.0
+12-05 14:46:38.565 23131 23168 I RTPS_MSG_IN: (ID:484776731888) Acknack Submsg received, processing...
+12-05 14:46:41.241 23173 23173 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:46:42.047  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:44.472  1095  1260 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+12-05 14:46:44.833 23131 23163 I connect_servic: ProcessProfilingInfo new_methods=71 is saved saved_to_disk=1 resolve_classes_delay=8000
+12-05 14:46:46.053  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:46.254 23175 23175 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:46:49.024  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:46:50.056  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:51.271 23177 23177 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:46:51.302 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected
+12-05 14:46:51.304 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:46:53.817  2055 22292 D NetworkMonitorInjector/NetworkAgentInfo [WIFI () - 103]: Probably not a portal: exception java.net.UnknownHostException: Unable to resolve host "m.sohu.com": No address associated with hostname
+12-05 14:46:53.821  2055  2175 D WifiAssistant: handleNetworkValidationResult: 103 | false | false | false
+12-05 14:46:53.821  2055  2175 D WifiAssistant: handleNetworkValidationResult: abort for lastValidated: false
+12-05 14:46:54.060  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:55.513  3515 23105 W System.err: java.net.UnknownHostException: Unable to resolve host "api.sec.miui.com": No address associated with hostname
+12-05 14:46:55.515  3515 23105 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:157)
+12-05 14:46:55.515  3515 23105 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:105)
+12-05 14:46:55.516  3515 23105 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+12-05 14:46:55.516  3515 23105 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:39)
+12-05 14:46:55.516  3515 23105 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:175)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:141)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:83)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:174)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:26)
+12-05 14:46:55.517  3515 23105 W System.err: 	at com.miui.securityscan.utils.NetUtil.a(Unknown Source:59)
+12-05 14:46:55.518  3515 23105 W System.err: 	at com.miui.securityscan.utils.NetUtil.a(Unknown Source:27)
+12-05 14:46:55.518  3515 23105 W System.err: 	at com.miui.securityscan.utils.NetUtil.a(Unknown Source:81)
+12-05 14:46:55.518  3515 23105 W System.err: 	at com.miui.securityscan.utils.NetUtil.a(Unknown Source:3)
+12-05 14:46:55.518  3515 23105 W System.err: 	at com.miui.appcompatibility.s.d(Unknown Source:34)
+12-05 14:46:55.518  3515 23105 W System.err: 	at com.miui.appcompatibility.a.c.doInBackground(Unknown Source:73)
+12-05 14:46:55.518  3515 23105 W System.err: 	at com.miui.appcompatibility.a.c.doInBackground(Unknown Source:2)
+12-05 14:46:55.518  3515 23105 W System.err: 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+12-05 14:46:55.518  3515 23105 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12-05 14:46:55.518  3515 23105 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+12-05 14:46:55.518  3515 23105 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+12-05 14:46:55.518  3515 23105 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+12-05 14:46:55.519  3515 23105 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-05 14:46:55.519  3515 23105 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+12-05 14:46:55.519  3515 23105 W System.err: 	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:172)
+12-05 14:46:55.519  3515 23105 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:137)
+12-05 14:46:55.520  3515 23105 W System.err: 	... 28 more
+12-05 14:46:55.533 19141 19195 E Market-Connection: Connection Exception for app.market.xiaomi.com : Unable to resolve host "app.market.xiaomi.com": No address associated with hostname
+12-05 14:46:55.534 19141 19195 W Market-Connection: hosted connection url: https://123.125.102.202/apm/updateinfo/v2?lo=CN
+12-05 14:46:55.542 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:46:56.289 23180 23180 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:46:56.501 21339 21412 W System.err: java.net.UnknownHostException: Unable to resolve host "qsb.browser.miui.com": No address associated with hostname
+12-05 14:46:56.504 21339 21412 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:157)
+12-05 14:46:56.504 21339 21412 W System.err: 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:105)
+12-05 14:46:56.504 21339 21412 W System.err: 	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+12-05 14:46:56.504 21339 21412 W System.err: 	at com.android.okhttp.Dns$1.lookup(Dns.java:39)
+12-05 14:46:56.504 21339 21412 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:175)
+12-05 14:46:56.504 21339 21412 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.nextProxy(RouteSelector.java:141)
+12-05 14:46:56.504 21339 21412 W System.err: 	at com.android.okhttp.internal.http.RouteSelector.next(RouteSelector.java:83)
+12-05 14:46:56.504 21339 21412 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:174)
+12-05 14:46:56.504 21339 21412 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:281)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:224)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:461)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:127)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:258)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:218)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:26)
+12-05 14:46:56.505 21339 21412 W System.err: 	at com.android.quicksearchbox.m.as.a(Unknown Source:195)
+12-05 14:46:56.506 21339 21412 W System.err: 	at com.android.quicksearchbox.m.as.a(Unknown Source:101)
+12-05 14:46:56.506 21339 21412 W System.err: 	at com.android.quicksearchbox.applications.c.b(Unknown Source:70)
+12-05 14:46:56.506 21339 21412 W System.err: 	at com.android.quicksearchbox.applications.ApplicationsProvider.a(Unknown Source:19)
+12-05 14:46:56.506 21339 21412 W System.err: 	at com.android.quicksearchbox.applications.ApplicationsProvider.a(Unknown Source:17)
+12-05 14:46:56.506 21339 21412 W System.err: 	at com.android.quicksearchbox.applications.ApplicationsProvider.a(Unknown Source:0)
+12-05 14:46:56.506 21339 21412 W System.err: 	at com.android.quicksearchbox.applications.ApplicationsProvider$c.handleMessage(Unknown Source:52)
+12-05 14:46:56.506 21339 21412 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-05 14:46:56.506 21339 21412 W System.err: 	at android.os.Looper.loop(Looper.java:201)
+12-05 14:46:56.506 21339 21412 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:65)
+12-05 14:46:56.507 21339 21412 W System.err: Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+12-05 14:46:56.507 21339 21412 W System.err: 	at libcore.io.Linux.android_getaddrinfo(Native Method)
+12-05 14:46:56.507 21339 21412 W System.err: 	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:172)
+12-05 14:46:56.508 21339 21412 W System.err: 	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:137)
+12-05 14:46:56.512 21339 21412 W System.err: 	... 26 more
+12-05 14:46:57.658 23131 23164 W InfraTrack: Analytics post: AndroidJUnitRunner=1.1.0 failed.
+12-05 14:46:57.660 23131 23164 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms
+12-05 14:46:57.661 23131 23131 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-05 14:46:57.664  2055  3823 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: finished inst
+12-05 14:46:57.665  2055  3823 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:46:57.666  2055  3823 D AutoStartManagerService: prepare force stop p:23131 s: 19
+12-05 14:46:57.666  2055  3823 I Process : Sending signal. PID: 23131 SIG: 19
+12-05 14:46:57.668  2055  3823 I ActivityManager: Killing 23131:com.xiaomi.mi_connect_service/u0a145 (adj 0): stop com.xiaomi.mi_connect_service: finished inst
+12-05 14:46:57.671  2055  2083 W libprocessgroup: kill(-23131, 9) failed: No such process
+12-05 14:46:57.671  2055 23181 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+12-05 14:46:57.671  2055 23181 W Binder  : java.lang.Throwable
+12-05 14:46:57.671  2055 23181 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:460)
+12-05 14:46:57.671  2055 23181 W Binder  : 	at android.app.IInstrumentationWatcher$Stub$Proxy.instrumentationFinished(IInstrumentationWatcher.java:164)
+12-05 14:46:57.671  2055 23181 W Binder  : 	at com.android.server.am.InstrumentationReporter$MyThread.run(InstrumentationReporter.java:86)
+12-05 14:46:57.674 23122 23122 D AndroidRuntime: Shutting down VM
+12-05 14:46:57.676  2055  2083 W libprocessgroup: kill(-23131, 9) failed: No such process
+12-05 14:46:57.682   729  2813 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10145, silenced:1)
+12-05 14:46:57.682   729  2813 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10145, silenced:1)
+12-05 14:46:57.682  2055  2081 V UidProcStateHelper: process died:[23131,10145]
+12-05 14:46:57.683  2055  2083 W libprocessgroup: kill(-23131, 9) failed: No such process
+12-05 14:46:57.687  4445  4522 D ActiveStateController: updateStateForUidActiveChangedLocked, uid: 10145 active: false
+12-05 14:46:57.689  2055  2083 W libprocessgroup: kill(-23131, 9) failed: No such process
+12-05 14:46:57.755  2055  2083 I chatty  : uid=1000(system) ActivityManager identical 11 lines
+12-05 14:46:57.760  2055  2083 W libprocessgroup: kill(-23131, 9) failed: No such process
+12-05 14:46:57.762   999   999 I Zygote  : Process 23131 exited due to signal (9)
+12-05 14:46:57.766  2055  2083 W libprocessgroup: kill(-23131, 9) failed: No such process
+12-05 14:46:57.766  2055  2083 I libprocessgroup: Successfully killed process cgroup uid 10145 pid 23131 in 95ms
+12-05 14:46:57.879  2055  2131 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: from process:23184
+12-05 14:46:57.880  2055  2131 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:46:57.890  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:57.896  3445  3739 I chatty  : uid=10030(com.android.providers.media) FileObserver identical 2 lines
+12-05 14:46:57.898  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size
+12-05 14:46:57.898  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:46:57.899  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:46:57.899  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:46:58.064  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:46:58.578 19141 19195 E Market-Connection: Connection Exception for 123.125.102.202 : Failed to connect to /ipv4:443
+12-05 14:47:00.609 19141 19195 W Market-Connection: hosted connection url: https://118.26.252.203/apm/updateinfo/v2?lo=CN
+12-05 14:47:00.614 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:47:01.308 23186 23186 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:47:02.071  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:47:02.549  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:47:03.649 19141 19195 E Market-Connection: Connection Exception for 118.26.252.203 : Failed to connect to /ipv4:443
+12-05 14:47:05.677 19141 19195 W Market-Connection: hosted connection url: https://117.48.116.204/apm/updateinfo/v2?lo=CN
+12-05 14:47:05.688 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:47:05.737 19141 19195 E Market-Connection: Connection Exception for 117.48.116.204 : Failed to connect to /ipv4:443
+12-05 14:47:06.079  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:47:06.327 23188 23188 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:47:06.338 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected
+12-05 14:47:06.341 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:47:07.795 19141 19195 W Market-Connection: hosted connection url: https://111.13.141.202/apm/updateinfo/v2?lo=CN
+12-05 14:47:07.801 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:47:07.844 19141 19195 E Market-Connection: Connection Exception for 111.13.141.202 : Failed to connect to /ipv4:443
+12-05 14:47:09.308  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:47:09.908 19141 19195 W Market-Connection: hosted connection url: https://58.83.177.217/apm/updateinfo/v2?lo=CN
+12-05 14:47:09.914 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:47:09.958 19141 19195 E Market-Connection: Connection Exception for 58.83.177.217 : Failed to connect to /ipv4:443
+12-05 14:47:10.085  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:47:11.343 23189 23189 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:47:12.002 19141 19195 W Market-Connection: hosted connection url: https://39.156.82.240/apm/updateinfo/v2?lo=CN
+12-05 14:47:12.013 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:47:12.062 19141 19195 E Market-Connection: Connection Exception for 39.156.82.240 : Failed to connect to /ipv4:443
+12-05 14:47:13.812  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:47:14.088 19141 19195 W Market-Connection: hosted connection url: https://183.84.5.210/apm/updateinfo/v2?lo=CN
+12-05 14:47:14.088  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:47:14.104 19141 19195 W System  : Ignoring header Content-Type because its value was null.
+12-05 14:47:14.134 19141 19195 E Market-Connection: Connection Exception for 183.84.5.210 : Failed to connect to /ipv4:443
+12-05 14:47:14.155 19141 19195 E Market-Connection: java.net.ConnectException: Failed to connect to /ipv4:443
+12-05 14:47:14.158 19141 19195 E Market-Connection: Connection failed : NETWORK_ERROR | https://app.market.xiaomi.com/apm/updateinfo/v2
+12-05 14:47:14.159 19141 19195 E Market-LocalAppManager: network exception when check single update
+12-05 14:47:16.361 23191 23191 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:47:18.094  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:47:19.267 21339 22993 W DpmTcmClient: Couldn't find 'tcm' socket after 120times. quit trying
+12-05 14:47:21.353 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected
+12-05 14:47:21.370 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:47:21.379 23192 23192 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:47:22.100  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket

@@ -1,0 +1,594 @@
+12-07 11:11:47.307  6927  6954 I RTPS_PARTICIPANT:
+12-07 11:11:47.310  6927  6956 I RTPS_PARTICIPANT: Thread: 546936980560 created and waiting for tasks.
+12-07 11:11:47.311  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.311  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.313  6927  6954 I RTPS_PARTICIPANT: RTPSParticipant Created with NO default Unicast Locator List, adding Locators:192.168.1.69:7413,
+12-07 11:11:47.313  6927  6954 I RTPS_PDP: Beginning
+12-07 11:11:47.313  6927  6954 I RTPS_PDP: Beginning
+12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
+12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 26
+12-07 11:11:47.314  6927  6954 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-07 11:11:47.314  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.315  6927  6954 I RTPS_READER: Writer |GUID UNKNOWN| added to 0.1.0.c7
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.315  6927  6954 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-07 11:11:47.315  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.315  6927  6954 I RTPS_WRITER: Reader |GUID UNKNOWN| added to 0.1.0.c2
+12-07 11:11:47.315  6927  6954 I RTPS_PDP: SPDP Endpoints creation finished
+12-07 11:11:47.315  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.315  6927  6954 I RTPS_EDP: Beginning Simple Endpoint Discovery Protocol
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.316  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.316  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.316  6927  6954 I RTPS_EDP: SEDP Publication Writer created
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.316  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.316  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.316  6927  6954 I RTPS_EDP: SEDP Subscription Reader created
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.316  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.317  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.317  6927  6954 I RTPS_EDP: SEDP Publication Reader created
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.317  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.317  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.317  6927  6954 I RTPS_EDP: SEDP Subscription Writer created
+12-07 11:11:47.317  6927  6954 I RTPS_EDP: Creation finished
+12-07 11:11:47.317  6927  6954 I RTPS_LIVELINESS: Initializing Liveliness Protocol
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 100
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.317  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.317  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.317  6927  6954 I RTPS_LIVELINESS: Builtin Liveliness Writer created
+12-07 11:11:47.318  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 101 with payload of size: 100
+12-07 11:11:47.318  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.318  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 101
+12-07 11:11:47.318  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.318  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.318  6927  6954 I RTPS_LIVELINESS: Builtin Liveliness Reader created
+12-07 11:11:47.318  6927  6954 I RTPS_PDP: Announcing RTPSParticipant State (new change: 1)
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: Creating new change
+12-07 11:11:47.318  6927  6954 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.319  6927  6954 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.319  6927  6954 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+
+
+12-07 11:11:47.319  6927  6954 I RTPS_PARTICIPANT: RTPSParticipant "RTPSParticipant" with guidPrefix: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+
+12-07 11:11:47.319  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.319  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.319  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.320  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.320  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-07 11:11:47.320  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.320  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.320  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-07 11:11:47.320  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.320  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.320  6927  6957 I RTPS_PDP: Message from own RTPSParticipant, removing
+12-07 11:11:47.320  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.320  6927  6957 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.320  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.320  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.320  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.320  6927  6954 I RTPS_EDP: Adding 0.0.1.3 in topic Test
+12-07 11:11:47.320  6927  6954 I RTPS_PDP: Adding writer proxy data 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3
+12-07 11:11:47.321  6927  6954 I RTPS_EDP: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-07 11:11:47.321  6927  6954 I RTPS_EDP: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-07 11:11:47.323  6927  6954 I RTPS_EDP: 0.0.1.3
+12-07 11:11:47.323  6927  6954 I RTPS_WRITER: Creating new change
+12-07 11:11:47.323  6927  6954 I RTPS_HISTORY: Change 1 added with 276 bytes
+12-07 11:11:47.323  6927  6954 I RTPS_WRITER: No reader proxy to add change.
+12-07 11:11:47.323  6927  6954 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.323  6927  6954 I RTPS_PROXY_DATA: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3
+12-07 11:11:47.324  6927  6954 I RTPS_LIVELINESS: 0.0.1.3 to Liveliness Protocol
+12-07 11:11:47.325  6927  6954 I RTPS_WRITER: Creating new change
+12-07 11:11:47.401  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.401  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.401  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.401  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.402  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.402  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.402  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.402  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.402  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.403  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.403  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.403  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.409  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.410  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.410  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.410  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.410  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.411  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.411  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.411  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.411  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.412  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.413  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.413  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.414  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.414  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.414  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.416  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.416  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.416  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.416  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.419  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.420  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.420  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.420  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.421  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.422  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.422  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.422  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.470  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.486  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.486  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.486  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.486  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.487  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.488  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.488  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.489  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.490  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.490  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.491  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.491  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.491  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.492  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.492  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.492  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.493  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.513  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.513  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.514  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.515  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.515  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.515  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.515  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.516  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.599  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.49:48358
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.49:48358
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.600  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.601  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.601  6927  6957 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-07 11:11:47.601  6927  6957 I RTPS_PDP: For RTPSParticipant: 1.f.87.f4.dc.2f.0.0.1.0.0.0
+12-07 11:11:47.601  6927  6957 I RTPS_READER: Writer 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-07 11:11:47.602  6927  6957 I RTPS_WRITER: Reader 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-07 11:11:47.602  6927  6957 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-07 11:11:47.602  6927  6957 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-07 11:11:47.603  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-07 11:11:47.603  6927  6957 I RTPS_READER: Writer Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-07 11:11:47.603  6927  6957 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-07 11:11:47.603  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.604  6927  6957 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-07 11:11:47.604  6927  6957 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.49:7412,
+12-07 11:11:47.604  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.605  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-07 11:11:47.605  6927  6957 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-07 11:11:47.605  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-07 11:11:47.605  6927  6957 I RTPS_READER: Writer Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-07 11:11:47.607  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.607  6927  6957 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-07 11:11:47.608  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.608  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.608  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.608  6927  6957 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.608  6927  6957 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.49:7412,
+12-07 11:11:47.608  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.608  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.610  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.611  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-07 11:11:47.611  6927  6957 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-07 11:11:47.611  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-07 11:11:47.611  6927  6957 I RTPS_READER: Writer Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-07 11:11:47.612  6927  6957 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-07 11:11:47.612  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.612  6927  6957 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.613  6927  6957 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.49:7412,
+12-07 11:11:47.613  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.613  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-07 11:11:47.614  6927  6957 I RTPS_PARTICIPANT: 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.614  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.614  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.614  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.54:39553
+12-07 11:11:47.614  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.614  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.54:39553
+12-07 11:11:47.615  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.67.be.93.7e.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.615  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.615  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.615  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.615  6927  6957 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-07 11:11:47.616  6927  6957 I RTPS_PDP: For RTPSParticipant: 1.f.67.be.93.7e.0.0.1.0.0.0
+12-07 11:11:47.616  6927  6957 I RTPS_READER: Writer 1.f.67.be.93.7e.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-07 11:11:47.616  6927  6957 I RTPS_WRITER: Reader 1.f.67.be.93.7e.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-07 11:11:47.617  6927  6957 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-07 11:11:47.617  6927  6957 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-07 11:11:47.617  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.618  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.618  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+
+12-07 11:11:47.618  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+
+12-07 11:11:47.618  6927  6957 I RTPS_READER: Writer Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-07 11:11:47.618  6927  6957 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-07 11:11:47.619  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.619  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.620  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.620  6927  6957 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-07 11:11:47.620  6927  6957 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.54:7412,
+12-07 11:11:47.621  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.622  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-07 11:11:47.622  6927  6957 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-07 11:11:47.622  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-07 11:11:47.622  6927  6957 I RTPS_READER: Writer Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-07 11:11:47.623  6927  6957 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-07 11:11:47.623  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.623  6927  6957 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.623  6927  6957 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.54:7412,
+12-07 11:11:47.624  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.624  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-07 11:11:47.624  6927  6957 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-07 11:11:47.624  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-07 11:11:47.624  6927  6957 I RTPS_READER: Writer Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-07 11:11:47.624  6927  6957 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-07 11:11:47.625  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.625  6927  6957 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.625  6927  6957 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.54:7412,
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.626  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-07 11:11:47.626  6927  6957 I RTPS_PARTICIPANT: 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.626  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.626  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.2:60805
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.2:60805
+
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.627  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.627  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.627  6927  6957 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-07 11:11:47.627  6927  6957 I RTPS_PDP: For RTPSParticipant: 1.f.6a.d1.3e.49.0.0.1.0.0.0
+12-07 11:11:47.627  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.627  6927  6957 I RTPS_READER: Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-07 11:11:47.627  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+
+
+12-07 11:11:47.627  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+
+12-07 11:11:47.627  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.628  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.628  6927  6957 I RTPS_WRITER: Reader 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-07 11:11:47.628  6927  6957 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-07 11:11:47.628  6927  6957 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-07 11:11:47.628  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-07 11:11:47.628  6927  6957 I RTPS_READER: Writer Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-07 11:11:47.628  6927  6957 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-07 11:11:47.628  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.629  6927  6957 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-07 11:11:47.629  6927  6957 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.2:7412,
+12-07 11:11:47.629  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.629  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-07 11:11:47.629  6927  6957 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-07 11:11:47.629  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-07 11:11:47.629  6927  6957 I RTPS_READER: Writer Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-07 11:11:47.629  6927  6957 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.2:7412,
+12-07 11:11:47.630  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-07 11:11:47.630  6927  6957 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-07 11:11:47.630  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-07 11:11:47.631  6927  6957 I RTPS_READER: Writer Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-07 11:11:47.631  6927  6957 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.631  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.631  6927  6957 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.631  6927  6957 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.2:7412,
+12-07 11:11:47.631  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.632  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.632  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-07 11:11:47.632  6927  6957 I RTPS_PARTICIPANT: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.633  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.633  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.633  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.2:60805
+12-07 11:11:47.633  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.633  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.2:60805
+12-07 11:11:47.635  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.635  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.635  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.635  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.636  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.636  6927  6957 I RTPS_LIVELINESS:  Stopped for RTPSParticipant with ID: 1.f.6a.d1.3e.49.0.0.1.0.0.0
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.636  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.637  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.637  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.637  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.638  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.638  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.638  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.638  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.638  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.638  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.638  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.638  6927  6958 I RTPS_WRITER: Requested Changes: 1:1-
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.638  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.639  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.639  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.639  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.639  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.645  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.645  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.645  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.645  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.646  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.646  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.646  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.646  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.647  6927  6958 I RTPS_WRITER: Requested Changes: 1:1-
+12-07 11:11:47.647  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.647  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.647  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.647  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.662  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.662  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.662  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.662  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.662  6927  6958 I RTPS_WRITER: Requested Changes: 1:1-
+12-07 11:11:47.663  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.663  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.674  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.674  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.674  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.676  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.676  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.676  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.679  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.679  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.679  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.679  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.679  6927  6958 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-07 11:11:47.680  6927  6958 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.680  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.680  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.680  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.681  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.681  6927  6958 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-07 11:11:47.681  6927  6958 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.681  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.681  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.682  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.685  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.686  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.686  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.686  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.686  6927  6958 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-07 11:11:47.686  6927  6958 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.689  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.689  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.689  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.692  6927  6956 I RTPS_READER:
+12-07 11:11:47.692  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.692  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.692  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.693  6927  6956 I RTPS_READER:
+12-07 11:11:47.693  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.693  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.693  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.693  6927  6956 I RTPS_READER:
+12-07 11:11:47.693  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.694  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.694  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.694  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.694  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.694  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.695  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.695  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.695  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.695  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.695  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.695  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.695  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.695  6927  6958 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-07 11:11:47.695  6927  6958 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.698  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.698  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.698  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.698  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.698  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.698  6927  6958 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-07 11:11:47.698  6927  6958 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.698  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.699  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.699  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.699  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.699  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.700  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.700  6927  6958 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-07 11:11:47.700  6927  6958 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.700  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.700  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.701  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.701  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.701  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.701  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.703  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.703  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.704  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.704  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.704  6927  6958 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-07 11:11:47.704  6927  6958 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.705  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.705  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.705  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.705  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.706  6927  6958 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-07 11:11:47.706  6927  6958 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 1 missing.
+12-07 11:11:47.706  6927  6956 I RTPS_READER:
+12-07 11:11:47.706  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.706  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.706  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.706  6927  6956 I RTPS_READER:
+12-07 11:11:47.707  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.707  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.707  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.710  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.710  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.710  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.710  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.711  6927  6958 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-07 11:11:47.711  6927  6956 I RTPS_READER:
+12-07 11:11:47.711  6927  6958 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.711  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.711  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.711  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.716  6927  6956 I RTPS_READER:
+12-07 11:11:47.716  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.716  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.716  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.717  6927  6956 I RTPS_READER:
+12-07 11:11:47.717  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.717  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.717  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.717  6927  6956 I RTPS_READER:
+12-07 11:11:47.717  6927  6956 I RTPS_READER: Sending ACKNACK: 1:1-
+12-07 11:11:47.717  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.718  6927  6956 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.732  6927  6956 I RTPS_WRITER: Responding to Acknack messages
+12-07 11:11:47.733  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.733  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.733  6927  6960 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.734  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.734  6927  6960 I RTPS_MSG_OUT: UDPTransport: 332 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.734  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.3.c2; possible RTPSReaders: 4
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.745  6927  6956 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.3.c7
+12-07 11:11:47.745  6927  6956 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.3.c7
+12-07 11:11:47.745  6927  6956 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.3.c7
+12-07 11:11:47.818  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoTS Submsg received, processing...
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Data Submsg received, processing. locator: 192.168.1.2:60805
+12-07 11:11:47.819  6927  6958 I RTPS_MSG_IN: (ID:546934907984) from Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c2; possible RTPSReaders: 4
+12-07 11:11:47.819  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Trying to add change 1 TO reader: 0.0.4.c7
+12-07 11:11:47.819  6927  6958 I RTPS_HISTORY: Change 1 added with 268 bytes
+12-07 11:11:47.819  6927  6958 I RTPS_READER: 0.0.4.c2: seqNum: 1
+12-07 11:11:47.820  6927  6958 I RTPS_EDP:
+12-07 11:11:47.820  6927  6958 I RTPS_PDP: Adding reader proxy data 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4
+12-07 11:11:47.821  6927  6958 I RTPS_EDP: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-07 11:11:47.821  6927  6958 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.822  6927  6958 I RTPS_WRITER: 0.0.1.3 Sending Heartbeat (1 - 0)
+12-07 11:11:47.822  6927  6958 I RTPS_WRITER: endpoint: 0.0.1.3, destinations: 192.168.1.2:7413,
+12-07 11:11:47.823  6927  6958 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7413 FROM 0.0.0.0:37897
+12-07 11:11:47.823  6927  6958 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4 added to 0.0.1.3 with 1(u)-0(m) locators
+12-07 11:11:47.824  6927  6958 I RTPS_EDP: Valid Matching to local writer: 0.0.1.3
+12-07 11:11:47.825  6927  6954 I RTPS_HISTORY: Change 1 added with 11 bytes
+12-07 11:11:47.825  6927  6958 I RTPS_PROXY_DATA: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3
+12-07 11:11:47.825  6927  6954 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.825  6927  6954 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.826  6927  6958 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.826  6927  6954 I RTPS_WRITER: endpoint: 0.0.1.3, destinations: 192.168.1.2:7413,
+12-07 11:11:47.826  6927  6958 I RTPS_PARTICIPANT: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.826  6927  6958 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4
+12-07 11:11:47.826  6927  6954 I RTPS_MSG_OUT: UDPTransport: 84 bytes TO endpoint: 192.168.1.2:7413 FROM 0.0.0.0:37897
+12-07 11:11:47.827  6927  6958 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.827  6927  6958 I RTPS_READER: 0.0.4.c7 FINDS writerProxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c2 from 3
+12-07 11:11:47.827  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Sub Message DATA processed

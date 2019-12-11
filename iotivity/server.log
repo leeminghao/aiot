@@ -1,0 +1,1829 @@
+--------- beginning of main
+12-10 16:27:11.231 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:12.661   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:12.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:12.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:12.663   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:12.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:12.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:12.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:12.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:14.242 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:16.210  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:27:17.267 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:17.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:17.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:17.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:17.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:17.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:17.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:17.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:17.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:18.774  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:27:20.294 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+--------- beginning of system
+12-10 16:27:20.654  1667  1684 D Boost   : hostingType=service, hostingName=com.qti.diagservices/.QTIDiagServices, callerPackage=com.qti.diagservices, isSystem=true, isBoostNeeded=false.
+12-10 16:27:20.654  1667  1684 I ActivityManager: Start proc 30072:com.qti.diagservices/1000 for service com.qti.diagservices/.QTIDiagServices caller=com.qti.diagservices
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:20.689 30072 30072 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:20.690 30072 30072 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@960a7e0
+12-10 16:27:20.707  1667  1685 V UidProcStateHelper: process state changed:[30072,1000,10]
+12-10 16:27:20.752 30072 30072 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-10 16:27:20.753 30072 30072 W System  : ClassLoader referenced unknown path: /system/app/QTIDiagServices/lib/arm64
+12-10 16:27:20.755 30072 30072 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:20.767 30072 30072 E DiagJNIInterface: Trying to load libDiagService
+12-10 16:27:20.771 30072 30072 I Diag_Lib: Diag_LSM_Init call succeeded
+12-10 16:27:22.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:22.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:22.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:22.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:22.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:22.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:22.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:22.667   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:23.322 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:24.354  1929  1929 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-10 16:27:24.356  2119  2250 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-10 16:27:24.358  2870  2870 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-10 16:27:24.359  3741  3992 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+12-10 16:27:24.361 26043 26082 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+12-10 16:27:24.362  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 32
+12-10 16:27:24.365  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 32
+12-10 16:27:24.365  3741  3998 D PowerKeeper.Thermal: current battery temperature:32 xo_thermal 32 valid true
+12-10 16:27:24.387  1667  5696 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:5 
+12-10 16:27:24.387  1667  5696 E LocSvc_libulp: I/===> int ulp_brain_turn_onoff_dr_provider() line 848 
+12-10 16:27:24.387  1667  5696 E LocSvc_libulp: I/===> int ulp_dr_stop_engine() line 235 
+12-10 16:27:24.387  1667  5696 E LocSvc_libulp: I/int ulp_msg_process_start_req(), at ulp state = 1
+12-10 16:27:24.387  1667  2091 E LocSvc_api_v02: I/---> locClientSendReq line 2069 QMI_LOC_GET_BEST_AVAILABLE_POSITION_REQ_V02
+12-10 16:27:24.391  1667  2105 E LocSvc_ApiV02: I/<--- void globalRespCb(locClientHandleType, uint32_t, const locClientRespIndUnionType, uint32_t, void *) line 140 QMI_LOC_GET_BEST_AVAILABLE_POSITION_REQ_V02
+12-10 16:27:24.391  1667  5696 E LocSvc_libulp: I/int ulp_brain_process_zpp_position_report(const enum loc_sess_status, LocPosTechMask, UlpLocation *), report ZPP position to providers,report_position = 1
+12-10 16:27:24.391  1667  5696 E LocSvc_libulp: I/===> int ulp_brain_turn_onoff_dr_provider() line 848 
+12-10 16:27:24.391  1667  5696 E LocSvc_libulp: I/===> int ulp_dr_stop_engine() line 235 
+12-10 16:27:26.349 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:26.953   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:27:26.953   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-10 16:27:27.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:27.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:27.662   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:27.663   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:27.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:27.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:27.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:27.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:29.375 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:30.656  1667  1684 D Boost   : hostingType=service, hostingName=com.xiaomi.android.dm.service/.autoregistration.ct.CTSMSAutoRegistrationService, callerPackage=com.xiaomi.android.dm.service, isSystem=true, isBoostNeeded=false.
+12-10 16:27:30.656  1667  1684 I ActivityManager: Start proc 30092:com.xiaomi.android.dm.service/1000 for service com.xiaomi.android.dm.service/.autoregistration.ct.CTSMSAutoRegistrationService caller=com.xiaomi.android.dm.service
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:30.682 30092 30092 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:30.684 30092 30092 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@960a7e0
+12-10 16:27:30.696  1667  1685 V UidProcStateHelper: process state changed:[30092,1000,10]
+12-10 16:27:30.696  1667  1685 V UidProcStateHelper: process state changed:[29996,10073,16]
+12-10 16:27:30.734 30092 30092 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-10 16:27:30.735 30092 30092 W System  : ClassLoader referenced unknown path: /system/app/DMService/lib/arm64
+12-10 16:27:30.737 30092 30092 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:30.748 30092 30092 V CTAutoRegistration: Service onCreate
+12-10 16:27:30.752 30092 30092 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:30.755 30092 30092 D miuisdk : current sdk level is 17
+12-10 16:27:30.767 30092 30092 V CTAutoRegistration: Service onStartCommand, intent:null
+12-10 16:27:30.770 30092 30092 D CTDataAutoRegistration: onStartCommand geted start the logic
+12-10 16:27:30.783 30092 30092 V CTDataAutoRegistration: STATE_IN_SERVICE with type:  1
+12-10 16:27:30.785 30092 30092 D CTDataAutoRegistration: onRegistrationRquest = true
+12-10 16:27:32.402 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:32.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:32.661   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:32.662   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:32.663   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:32.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:32.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:32.665   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:32.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:35.429 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:37.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:37.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:37.662   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:37.663   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:37.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:37.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:37.665   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:37.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:38.455 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:39.507  3741  3875 D PowerKeeper.FrozenApp: FrozenAPP, has no pids
+12-10 16:27:39.507  3741  3875 D PowerKeeper.FrozenApp: >>> event = 22 >>> state = 3 uid 10146
+12-10 16:27:41.473 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:41.812  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:27:42.659   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:42.661   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:42.662   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:42.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:42.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:42.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:42.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:42.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:44.370  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:27:44.498 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:46.622   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:27:46.623   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-10 16:27:46.637   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:27:46.637   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-10 16:27:46.637   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:27:46.637   776   776 I cnss-daemon: NDA_DST received: 192.168.1.1 ul: 562992919980224
+12-10 16:27:46.638   776   776 I cnss-daemon: NDA_LLADDR received
+12-10 16:27:47.523 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:47.661   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:47.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:47.662   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:47.663   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:47.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:47.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:47.665   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:47.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:50.551 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:50.664  1667  1684 D Boost   : hostingType=service, hostingName=com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService, callerPackage=com.eg.android.AlipayGphone, isSystem=false, isBoostNeeded=false.
+12-10 16:27:50.664  1667  1684 I ActivityManager: Start proc 30114:com.eg.android.AlipayGphone:push/u0a134 for service com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService caller=com.eg.android.AlipayGphone
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:50.715 30114 30114 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:50.716 30114 30114 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@d3db15e
+12-10 16:27:50.737  1667  1685 V UidProcStateHelper: process state changed:[30114,10134,10]
+12-10 16:27:50.803 30114 30114 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-10 16:27:50.819 30114 30114 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:50.964 30114 30114 E LauncherApplication: PathClassLoader: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.eg.android.AlipayGphone-1/base.apk"],nativeLibraryDirectories=[/data/app/com.eg.android.AlipayGphone-1/lib/arm, /data/app/com.eg.android.AlipayGphone-1/base.apk!/lib/armeabi, /system/lib, /vendor/lib]]]
+12-10 16:27:50.981  1667  7204 D Boost   : hostingType=content provider, hostingName=com.eg.android.AlipayGphone/com.alipay.mobile.rome.voicebroadcast.dynamics.RemoteFuncsProvider, callerPackage=com.eg.android.AlipayGphone, isSystem=false, isBoostNeeded=false.
+12-10 16:27:50.981  1667  7204 I ActivityManager: Start proc 30152:com.eg.android.AlipayGphone/u0a134 for content provider com.eg.android.AlipayGphone/com.alipay.mobile.rome.voicebroadcast.dynamics.RemoteFuncsProvider caller=com.eg.android.AlipayGphone
+12-10 16:27:50.983 30114 30114 E LauncherApplication: PathClassLoader, after addExtraNativeLib: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.eg.android.AlipayGphone-1/base.apk"],nativeLibraryDirectories=[/data/user/0/com.eg.android.AlipayGphone/app_plugins_lib, /data/app/com.eg.android.AlipayGphone-1/lib/arm, /data/app/com.eg.android.AlipayGphone-1/base.apk!/lib/armeabi, /system/lib, /vendor/lib]]]
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:51.003 30152 30152 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:51.005 30152 30152 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@d3db15e
+12-10 16:27:51.017  1667  1685 V UidProcStateHelper: process state changed:[30152,10134,10]
+12-10 16:27:51.044 30114 30114 I LauncherApplication: LauncherApplication.NEED_SYNC=false
+12-10 16:27:51.148 30152 30152 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-10 16:27:51.185 30152 30152 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:51.240 30152 30152 I Logging : LoggerFactoryBinder.nativeInit invoked
+12-10 16:27:51.262  1667  7204 D Boost   : hostingType=service, hostingName=com.eg.android.AlipayGphone/com.alipay.mobile.common.logging.process.LogServiceInToolsProcess, callerPackage=com.eg.android.AlipayGphone, isSystem=false, isBoostNeeded=false.
+12-10 16:27:51.262  1667  7204 I ActivityManager: Start proc 30188:com.eg.android.AlipayGphone:tools/u0a134 for service com.eg.android.AlipayGphone/com.alipay.mobile.common.logging.process.LogServiceInToolsProcess caller=com.eg.android.AlipayGphone
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:51.278 30188 30188 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:51.280 30188 30188 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@88dea99
+12-10 16:27:51.295  1667  1685 V UidProcStateHelper: process state changed:[30188,10134,10]
+12-10 16:27:51.316 30152 30152 E LauncherApplication: PathClassLoader: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.eg.android.AlipayGphone-1/base.apk"],nativeLibraryDirectories=[/data/app/com.eg.android.AlipayGphone-1/lib/arm, /data/app/com.eg.android.AlipayGphone-1/base.apk!/lib/armeabi, /system/lib, /vendor/lib]]]
+12-10 16:27:51.327 30152 30152 W art     : Before Android 4.1, method double java.util.concurrent.ThreadLocalRandom.internalNextDouble(double, double) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:51.327 30152 30152 W art     : Before Android 4.1, method int java.util.concurrent.ThreadLocalRandom.internalNextInt(int, int) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:51.327 30152 30152 W art     : Before Android 4.1, method long java.util.concurrent.ThreadLocalRandom.internalNextLong(long, long) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:51.353 30152 30152 E LauncherApplication: PathClassLoader, after addExtraNativeLib: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.eg.android.AlipayGphone-1/base.apk"],nativeLibraryDirectories=[/data/user/0/com.eg.android.AlipayGphone/app_plugins_lib, /data/app/com.eg.android.AlipayGphone-1/lib/arm, /data/app/com.eg.android.AlipayGphone-1/base.apk!/lib/armeabi, /system/lib, /vendor/lib]]]
+12-10 16:27:51.365 30152 30152 I LauncherApplication: LauncherApplication.NEED_SYNC=true
+12-10 16:27:51.383 30152 30226 W System  : ClassLoader referenced unknown path: /system/app/WebViewGoogle/lib/arm
+12-10 16:27:51.384 30152 30226 D ApplicationLoaders: ignored Vulkan layer search path /system/app/WebViewGoogle/lib/arm:/system/app/WebViewGoogle/WebViewGoogle.apk!/lib/armeabi-v7a:/system/lib:/vendor/lib for namespace 0xf573c0d0
+12-10 16:27:51.385 30152 30226 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:51.393 30152 30232 D AsyTskExecutor: [null] -- 1_CommonJobScheduler-Init start at 1575966471393
+12-10 16:27:51.501 30114 30114 I AsyTskExecutor: Pipeline: [GlobalStandardPipeline].start()
+12-10 16:27:51.516 30114 30114 V Instrumentation: callApplicationOnCreate(app=com.alipay.mobile.quinox.LauncherApplication@9f6d627)
+12-10 16:27:51.551 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- 2_FgBgServiceMessage start at 1575966471551
+12-10 16:27:51.606 30188 30188 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-10 16:27:51.633 30114 30114 W art     : Before Android 4.1, method double java.util.concurrent.ThreadLocalRandom.internalNextDouble(double, double) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:51.634 30114 30114 W art     : Before Android 4.1, method int java.util.concurrent.ThreadLocalRandom.internalNextInt(int, int) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:51.634 30114 30114 W art     : Before Android 4.1, method long java.util.concurrent.ThreadLocalRandom.internalNextLong(long, long) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:51.656 30188 30188 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:51.683 30152 30152 V Instrumentation: callApplicationOnCreate(app=com.alipay.mobile.quinox.LauncherApplication@52fed58)
+12-10 16:27:51.764 30152 30257 D HOOK    : AssetManager isUpToDate:true
+12-10 16:27:51.781 30152 30257 D QuinoxAgent: QuinoxAgentImpl.getReusedBundleLocations() : 
+12-10 16:27:51.791 30152 30157 I art     : Do partial code cache collection, code=388B, data=360B
+12-10 16:27:51.810 30152 30264 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:51.814 30152 30170 E System  : Ignoring attempt to set property "java.net.preferIPv6Addresses" to value "false".
+12-10 16:27:51.987 30152 30257 W ChannelConfigImpl: getConfig key = release_type val = release
+12-10 16:27:51.987 30152 30257 W ChannelConfigImpl: getConfig key = product_id val = null
+12-10 16:27:51.987 30152 30257 W ChannelConfigImpl: getConfig key = throw_all_exceptions val = null
+12-10 16:27:52.012 30152 30264 W BundleResources: check mStringBlocks[] ok!
+12-10 16:27:52.013 30152 30264 I LauncherApplication: start preload CookieManager when onHostResourcesCreated, preInstall:false preloadCookie:true
+12-10 16:27:52.016 30152 30257 W ChannelConfigImpl: getConfig key = channel_id val = xiaomi_store
+12-10 16:27:52.016 30152 30257 W ChannelConfigImpl: getConfig key = isSandbox val = null
+12-10 16:27:52.021 30152 30264 D HOOK    : AssetManager isUpToDate:true
+12-10 16:27:52.021 30152 30264 I WebViewFactory: Loading com.google.android.webview version 66.0.3359.158 (code 335915850)
+12-10 16:27:52.051 30152 30264 I cr_LibraryLoader: Time to load native libraries: 2 ms (timestamps 598-600)
+12-10 16:27:52.054 30152 30263 D AsyTskExecutor: [null] -- 2_createBundleClassLoaders start at 1575966472054
+12-10 16:27:52.054 30152 30263 D AsyTskExecutor: [null] -- 2_createBundleClassLoaders end cost 0
+12-10 16:27:52.055 30152 30263 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@162c38e, task = com.alipay.mobile.quinox.classloader.HostClassLoader$2, threadName = 2_createBundleClassLoaders
+12-10 16:27:52.068 30152 30289 D masdk_native: get sdk version 7.1.1
+12-10 16:27:52.068 30152 30289 D masdk_native: success !! ocean
+12-10 16:27:52.068 30152 30289 D masdk_native: JNI_OnLoad 0x2009c6 3
+12-10 16:27:52.068 30152 30289 D masdk_native: auto timer JNI_OnLoad  543
+12-10 16:27:52.082 30152 30264 I chromium: [INFO:library_loader_hooks.cc(36)] Chromium logging enabled: level = 0, default verbosity = 0
+12-10 16:27:52.082 30152 30264 I cr_LibraryLoader: Expected native library version number "66.0.3359.158", actual native library version number "66.0.3359.158"
+12-10 16:27:52.083 30152 30264 I LauncherApplication: find newAssets is empty when CookieManager.getInstance() firstTime, retry WebViewCompat.invokeAddWebViewResBySystem()
+12-10 16:27:52.086 30152 30264 D HOOK    : AssetManager isUpToDate:true
+12-10 16:27:52.086 30152 30264 I WebViewFactory: Loading com.google.android.webview version 66.0.3359.158 (code 335915850)
+12-10 16:27:52.089 30152 30264 I LauncherApplication: preload CookieManager success, firstTime:true, newAssets:
+12-10 16:27:52.121 30152 30157 I art     : After code cache collection, code=388B, data=360B
+12-10 16:27:52.121 30152 30157 I art     : Increasing code cache capacity to 128KB
+12-10 16:27:52.178 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- 2_FgBgServiceMessage end cost 627
+12-10 16:27:52.178 30114 30242 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@3112115, task = com.alipay.mobile.common.fgbg.FgBgMonitorService$3, threadName = 2_FgBgServiceMessage
+12-10 16:27:52.271 30152 30266 D AsyTskExecutor: [null] -- 3_preload-startup-base start at 1575966472060
+12-10 16:27:52.271 30152 30266 D AsyTskExecutor: [null] -- 3_preload-startup-base end cost 211
+12-10 16:27:52.272 30152 30266 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@cdae4e, task = com.alipay.mobile.performance.PerformancePreloader$1, threadName = 3_preload-startup-base
+12-10 16:27:52.364 30188 30188 E LauncherApplication: PathClassLoader: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.eg.android.AlipayGphone-1/base.apk"],nativeLibraryDirectories=[/data/app/com.eg.android.AlipayGphone-1/lib/arm, /data/app/com.eg.android.AlipayGphone-1/base.apk!/lib/armeabi, /system/lib, /vendor/lib]]]
+12-10 16:27:52.383 30114 30138 E System  :  ********** PLEASE READ ************ 
+12-10 16:27:52.383 30114 30138 E System  :  * 
+12-10 16:27:52.383 30114 30138 E System  :  * New versions of the Android SDK no longer support the Crypto provider.
+12-10 16:27:52.383 30114 30138 E System  :  * If your app was relying on setSeed() to derive keys from strings, you
+12-10 16:27:52.383 30114 30138 E System  :  * should switch to using SecretKeySpec to load raw key bytes directly OR
+12-10 16:27:52.383 30114 30138 E System  :  * use a real key derivation function (KDF). See advice here : 
+12-10 16:27:52.383 30114 30138 E System  :  * http://android-developers.blogspot.com/2016/06/security-crypto-provider-deprecated-in.html 
+12-10 16:27:52.384 30114 30138 E System  :  *********************************** 
+12-10 16:27:52.418 30188 30188 E LauncherApplication: PathClassLoader, after addExtraNativeLib: dalvik.system.PathClassLoader[DexPathList[[zip file "/data/app/com.eg.android.AlipayGphone-1/base.apk"],nativeLibraryDirectories=[/data/user/0/com.eg.android.AlipayGphone/app_plugins_lib, /data/app/com.eg.android.AlipayGphone-1/lib/arm, /data/app/com.eg.android.AlipayGphone-1/base.apk!/lib/armeabi, /system/lib, /vendor/lib]]]
+12-10 16:27:52.445 30188 30188 I LauncherApplication: LauncherApplication.NEED_SYNC=false
+12-10 16:27:52.450 30114 30337 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-10 16:27:52.539 30152 30164 W art     : Suspending all threads took: 254.211ms
+12-10 16:27:52.632 30188 30188 W art     : Before Android 4.1, method double java.util.concurrent.ThreadLocalRandom.internalNextDouble(double, double) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:52.632 30188 30188 W art     : Before Android 4.1, method int java.util.concurrent.ThreadLocalRandom.internalNextInt(int, int) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:52.632 30188 30188 W art     : Before Android 4.1, method long java.util.concurrent.ThreadLocalRandom.internalNextLong(long, long) would have incorrectly overridden the package-private method in java.util.Random
+12-10 16:27:52.654   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:52.747 30188 30188 I AsyTskExecutor: Pipeline: [GlobalStandardPipeline].start()
+12-10 16:27:52.753 30188 30188 V Instrumentation: callApplicationOnCreate(app=com.alipay.mobile.quinox.LauncherApplication@6672e0e)
+12-10 16:27:52.792   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:52.793   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:52.793   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:52.793   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:52.794   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:52.794   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:52.794   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:52.863  1667  1685 V UidProcStateHelper: process state changed:[30188,10134,16]
+12-10 16:27:52.886 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- 2_FgBgServiceMessage start at 1575966472800
+12-10 16:27:52.902 30152 30202 D AccessibilityManager: current package=com.eg.android.AlipayGphone, accessibility manager mIsFinalEnabled=false, mOptimizeEnabled=false, mIsUiAutomationEnabled=false, mIsInterestedPackage=false
+12-10 16:27:52.965  1667  1685 V UidProcStateHelper: process state changed:[30188,10134,10]
+12-10 16:27:52.980 30152 30202 E System  :  ********** PLEASE READ ************ 
+12-10 16:27:52.980 30152 30202 E System  :  * 
+12-10 16:27:52.980 30152 30202 E System  :  * New versions of the Android SDK no longer support the Crypto provider.
+12-10 16:27:52.980 30152 30202 E System  :  * If your app was relying on setSeed() to derive keys from strings, you
+12-10 16:27:52.980 30152 30202 E System  :  * should switch to using SecretKeySpec to load raw key bytes directly OR
+12-10 16:27:52.980 30152 30202 E System  :  * use a real key derivation function (KDF). See advice here : 
+12-10 16:27:52.980 30152 30202 E System  :  * http://android-developers.blogspot.com/2016/06/security-crypto-provider-deprecated-in.html 
+12-10 16:27:52.980 30152 30202 E System  :  *********************************** 
+12-10 16:27:53.003 30152 30392 D AsyTskExecutor: [null] -- OOMErrorConfig.clear start at 1575966472952
+12-10 16:27:53.129  1667  1685 V UidProcStateHelper: process state changed:[30188,10134,16]
+12-10 16:27:53.410 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- 2_FgBgServiceMessage end cost 589
+12-10 16:27:53.457 30188 30322 D AccessibilityManager: current package=com.eg.android.AlipayGphone, accessibility manager mIsFinalEnabled=false, mOptimizeEnabled=false, mIsUiAutomationEnabled=false, mIsInterestedPackage=false
+12-10 16:27:53.485 30188 30322 E System  :  ********** PLEASE READ ************ 
+12-10 16:27:53.485 30188 30322 E System  :  * 
+12-10 16:27:53.485 30188 30322 E System  :  * New versions of the Android SDK no longer support the Crypto provider.
+12-10 16:27:53.485 30188 30322 E System  :  * If your app was relying on setSeed() to derive keys from strings, you
+12-10 16:27:53.485 30188 30322 E System  :  * should switch to using SecretKeySpec to load raw key bytes directly OR
+12-10 16:27:53.485 30188 30322 E System  :  * use a real key derivation function (KDF). See advice here : 
+12-10 16:27:53.485 30188 30322 E System  :  * http://android-developers.blogspot.com/2016/06/security-crypto-provider-deprecated-in.html 
+12-10 16:27:53.485 30188 30322 E System  :  *********************************** 
+12-10 16:27:53.509 30114 30239 D AsyTskExecutor: [null] -- 1_FgBgMonitor_initBackground start at 1575966473509
+12-10 16:27:53.511 30188 30366 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@705df22, task = com.alipay.mobile.common.fgbg.FgBgMonitorService$3, threadName = 2_FgBgServiceMessage
+12-10 16:27:53.577 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:53.703 30152 30421 D AsyTskExecutor: [null] -- 4_startHookBundlePreLoad.IR start at 1575966473594
+12-10 16:27:53.761 30152 30420 D AsyTskExecutor: [null] -- startHookBundlePreLoad start at 1575966473578
+12-10 16:27:53.812 30152 30421 D AsyTskExecutor: [null] -- 4_startHookBundlePreLoad.IR end cost 112
+12-10 16:27:53.812 30152 30421 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@5f0228a, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = 4_startHookBundlePreLoad.IR
+12-10 16:27:53.832 30152 30392 D AsyTskExecutor: [null] -- OOMErrorConfig.clear end cost 880
+12-10 16:27:53.832 30152 30392 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@162c38e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = OOMErrorConfig.clear
+12-10 16:27:53.836 30152 30354 I AsyTskExecutor: Pipeline: [Cls_Ldr_Fty].start()
+12-10 16:27:53.910 30114 30239 D AsyTskExecutor: [null] -- 1_FgBgMonitor_initBackground end cost 400
+12-10 16:27:53.910 30114 30239 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@2600138, task = com.alipay.mobile.common.fgbg.FgBgMonitorImpl$3, threadName = 1_FgBgMonitor_initBackground
+12-10 16:27:53.913 30152 30420 D AsyTskExecutor: [null] -- startHookBundlePreLoad end cost 335
+12-10 16:27:53.913 30152 30420 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@cdae4e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = startHookBundlePreLoad
+12-10 16:27:53.983 30152 30164 W art     : Suspending all threads took: 152.461ms
+12-10 16:27:53.992 30152 30422 D AsyTskExecutor: [null] -- 5_start_pipeline#com.alipay.mobile.framework.INITED start at 1575966473577
+12-10 16:27:54.146  1667  4139 E WifiService: Permission denial: Need ACCESS_COARSE_LOCATION or ACCESS_FINE_LOCATION permission to get scan results
+12-10 16:27:54.479 30152 30429 D PipelineRunnable: [Cls_Ldr_Fty] -- android-phone-perf-dynamictrigger start at 1575966474479
+12-10 16:27:54.512 30152 30429 D PipelineRunnable: [Cls_Ldr_Fty] -- android-phone-perf-dynamictrigger end cost 33
+12-10 16:27:54.512 30152 30429 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@5f0228a, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = android-phone-perf-dynamictrigger
+12-10 16:27:54.589 30152 30448 D AsyTskExecutor: [null] -- onBundleLoad_android-phone-perf-dynamictrigger start at 1575966474589
+12-10 16:27:54.604 30152 30448 D AsyTskExecutor: [null] -- onBundleLoad_android-phone-perf-dynamictrigger end cost 15
+12-10 16:27:54.604 30152 30448 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@162c38e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = onBundleLoad_android-phone-perf-dynamictrigger
+12-10 16:27:54.737 30188 30364 D AsyTskExecutor: [null] -- 1_FgBgMonitor_initBackground start at 1575966474737
+12-10 16:27:54.739 30152 30232 D AsyTskExecutor: [null] -- 1_CommonJobScheduler-Init end cost 3346
+12-10 16:27:54.739 30152 30232 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@3c467d3, task = com.alipay.mobile.common.job.JobSchedulerImpl$1, threadName = 1_CommonJobScheduler-Init
+12-10 16:27:54.812 30152 30232 D AsyTskExecutor: [null] -- dynamic-trigger start at 1575966474812
+12-10 16:27:54.869 30188 30364 D AsyTskExecutor: [null] -- 1_FgBgMonitor_initBackground end cost 106
+12-10 16:27:54.869 30188 30364 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@5030f70, task = com.alipay.mobile.common.fgbg.FgBgMonitorImpl$3, threadName = 1_FgBgMonitor_initBackground
+12-10 16:27:55.095 30152 30232 D AsyTskExecutor: [null] -- dynamic-trigger end cost 283
+12-10 16:27:55.095 30152 30232 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@cdae4e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = dynamic-trigger
+12-10 16:27:55.256 30152 30422 D AsyTskExecutor: [null] -- 5_start_pipeline#com.alipay.mobile.framework.INITED end cost 1679
+12-10 16:27:55.256 30152 30422 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@cbf07d, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = 5_start_pipeline#com.alipay.mobile.framework.INITED
+12-10 16:27:55.886 30152 30297 W art     : Verification of android.graphics.Bitmap com.alipay.multimedia.img.utils.DecodeWrapper.decodeByImageDecoder(byte[], int) took 155.593ms
+12-10 16:27:56.035 30152 30164 W art     : Suspending all threads took: 14.704ms
+12-10 16:27:56.164 30152 30241 I art     : Waiting for a blocking GC DisableMovingGc
+12-10 16:27:56.165 30152 30241 I art     : Starting a blocking GC DisableMovingGc
+12-10 16:27:56.199  2177  2177 D Launcher: Launcher_dispatchTouchEvent:0| (434.5976,1383.2795)
+12-10 16:27:56.200  2177  2177 D FeedSwipeController: touchState : 0 scrolling : false normalEditing : false WidgetThumbnailViewShowing : false UninstallDialogShowing : false
+12-10 16:27:56.200  2177  2177 D FeedSwipeController: can not use
+12-10 16:27:56.201  2177  2177 D Launcher.Workspace: Workspace touch down
+12-10 16:27:56.201  2177  2732 D ScreenElementRoot: pause
+12-10 16:27:56.202  2177  2177 D Launcher.CellLayout: touch item:ShortcutInfo, id=77, itemType=0, user=UserHandle{0}, mIconType=0, mTitle=Device Discovery Server, mLabel=Device Discovery Server, pkgName=org.iotivity.base.examples.devicediscoveryserver, className=org.iotivity.base.examples.DeviceDiscoveryServer, screenId=2, container=-100, cellX=1, cellY=5, spanX=1, spanY=1, isLandscapePos=false
+12-10 16:27:56.203  2177  2732 I NotifierManager: onUnregister: miui.maml.NotifierManager$MultiBroadcastNotifier@6c78579
+12-10 16:27:56.203  2177  2732 I RenderThread: RenderThread paused, waiting for signal
+12-10 16:27:56.290  2177  2177 D Launcher: Launcher_dispatchTouchEvent:1| (434.5976,1383.2795)
+12-10 16:27:56.291  2177  2177 D Launcher.Workspace: Workspace touch up or cancel
+12-10 16:27:56.291  2177  2732 I RenderThread: RenderThread resumed
+12-10 16:27:56.291  2177  2732 D ScreenElementRoot: resume
+12-10 16:27:56.293  2177  2177 D Launcher.AnalyticalDataCollector: inDesktop, screeniIndex=1, row5, column=1
+12-10 16:27:56.294  2177  2177 I Timeline: Timeline: Activity_launch_request time:253014843 intent:Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer bnds=[330,1244][498,1412] (has extras) }
+12-10 16:27:56.294  2177  2732 I NotifierManager: onRegister: miui.maml.NotifierManager$MultiBroadcastNotifier@6c78579
+12-10 16:27:56.296  1667  7204 I SplashScreenServiceDelegate: None for org.iotivity.base.examples.devicediscoveryserver
+12-10 16:27:56.296  1667  7204 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer bnds=[330,1244][498,1412] (has extras)} from uid 10020 on display 0
+12-10 16:27:56.297  1667  7204 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:56.301   470  2847 E ANDR-PERF-MPCTL: Invalid profile no. 0, total profiles 0 only
+12-10 16:27:56.305  1667  7204 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@dc9c76f
+12-10 16:27:56.306  1667  7204 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+12-10 16:27:56.307  1667  1690 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@9556b8b
+12-10 16:27:56.307  1667  1690 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@8a55468
+12-10 16:27:56.311  2177  2732 D ScreenElementRoot: pause
+12-10 16:27:56.312  1667  1851 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@4bc4880
+12-10 16:27:56.312  1667  1851 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@5420eb9
+12-10 16:27:56.319  1667  1690 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@a3c43d6
+12-10 16:27:56.326  1667  1851 D Boost   : hostingType=activity, hostingName=org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer, callerPackage=com.miui.home, isSystem=true, isBoostNeeded=false.
+12-10 16:27:56.326  1667  1851 I ActivityManager: Start proc 30560:org.iotivity.base.examples.devicediscoveryserver/u0a146 for activity org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer caller=com.miui.home
+12-10 16:27:56.326  1667  1851 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@4ef462d
+12-10 16:27:56.327 30560 30560 I art     : Late-enabling -Xcheck:jni
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:56.340 30560 30560 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:56.340 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@a9481e3
+12-10 16:27:56.341  2177  2732 I NotifierManager: onUnregister: miui.maml.NotifierManager$MultiBroadcastNotifier@6c78579
+12-10 16:27:56.341  2177  2732 I RenderThread: RenderThread paused, waiting for signal
+12-10 16:27:56.344 30560 30567 E art     : Failed sending reply to debugger: Broken pipe
+12-10 16:27:56.344 30560 30567 I art     : Debugger is no longer active
+12-10 16:27:56.344 30560 30567 I art     : Starting a blocking GC Instrumentation
+12-10 16:27:56.344  2177  2582 D Launcher: disableStatusBarClock:false
+12-10 16:27:56.356  3741  3980 D PowerKeeper.Event: notifyForegroundCompomentChanged ComponentInfo{org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer}
+12-10 16:27:56.356  5299  5311 D SmartPhoneTag_a: notifyPkgStatus mForegroundPackageName : org.iotivity.base.examples.devicediscoveryserver
+12-10 16:27:56.357  5299  5311 D SmartPhoneTag_GameMonitorController: stopCollectGameInfo
+12-10 16:27:56.357  5299  5311 D SmartPhoneTag_d: unregisterIntentActions
+12-10 16:27:56.357  3741  3995 D PowerKeeper: PowerStateMachine:Enter power state id=0 name=normal
+12-10 16:27:56.357  3741  3756 D PowerKeeper: PerfEngineController:ForegroundInfo{mForegroundPackageName='org.iotivity.base.examples.devicediscoveryserver', mForegroundUid=10146, mForegroundPid=30560, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10020, mLastForegroundPid=2177, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+12-10 16:27:56.357  1667  7204 I Timeline: Timeline: App_transition_ready time:253014906
+12-10 16:27:56.357  3741  3923 D ProcessObserver: onScreenAppChanged, FgUid: 10146, FgPackageName: org.iotivity.base.examples.devicediscoveryserver
+12-10 16:27:56.357  3741  3923 D ProcessObserver: onScreenAppChanged, PreTaskUid: 10020, PreTaskPackageName: com.miui.home
+12-10 16:27:56.357  2801  2801 I octvm_power: power mode [normal] start 1575966476
+12-10 16:27:56.357  3741  3923 D ProcessObserver: Uid: 10146 Foreground
+12-10 16:27:56.358  2801  2801 I octvm_drv: common drv: get_current_battery_uAh will return 0
+12-10 16:27:56.358  2801  2801 I octvm_power: Action: set_bcbc_cust_state(disable) for [foreground_change]
+12-10 16:27:56.358  3741  3875 D PowerKeeper.FrozenApp: >>> event = 17 >>> state = 3 uid 10146
+12-10 16:27:56.358  2801  2801 I octvm_drv: common drv: platform_set_bcbc_cust_state -> platform not support
+12-10 16:27:56.358  2801  2801 I octvm_power: Action: set_dfps_cust_state(disable) for [foreground_change]
+12-10 16:27:56.358  3741  3875 D PowerKeeper.FrozenApp: updateWakelockBlockedUid, uid = 10146, isBlocked = false
+12-10 16:27:56.358  2801  2801 I octvm_drv: common drv: platform_set_dfps_cust_state -> platform not support
+12-10 16:27:56.358  2801  2801 I octvm_power: Action: set_lcd_mode(default) for [foreground_change]
+12-10 16:27:56.358  3741  3965 D WakelockManagerService: updateWakelockInfoLocked, Component ComponentInfo{com.miui.powerkeeper/com.miui.powerkeeper.controller.FrozenAppController}, uid = 10146, enable = false, tagList = null
+12-10 16:27:56.358  3741  3965 W WakelockManagerService: uid: 10146 is unblock state
+12-10 16:27:56.359  3741  3923 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-10 16:27:56.359  3741  3923 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:646)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:612)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:582)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Handler.post(Handler.java:338)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundActivitiesChangedListeners(ProcessObserver.java:315)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.computeUidForegroundLocked(ProcessObserver.java:271)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.-wrap0(ProcessObserver.java)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$2$1.run(ProcessObserver.java:206)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Handler.handleCallback(Handler.java:754)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.Looper.loop(Looper.java:163)
+12-10 16:27:56.359  3741  3923 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-10 16:27:56.359  3741  3923 D ProcessObserver: Uid: 1000 BackPreTask
+12-10 16:27:56.359  2801  2801 I octvm_drv_xm: platform_set_lcd_mode: mode default(1)
+12-10 16:27:56.359  2801  2801 I DisplayFeatureControl: BpDisplayFeatureControl::setFeatureEnable, displayid: 0, caseId:7, modeId: 1, cookie:0)
+12-10 16:27:56.359  2870  2889 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='org.iotivity.base.examples.devicediscoveryserver', mForegroundUid=10146, mForegroundPid=30560, mLastForegroundPackageName='com.miui.home', mLastForegroundUid=10020, mLastForegroundPid=2177, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+12-10 16:27:56.359   571   630 I DisplayFeatureControl: BnDisplayFeatureControl::onTransact SET_COMMON_MODE (displayid:0, caseId:7, modeId:1, cookie:0)
+12-10 16:27:56.359  3741  3992 D PowerCheckerService: updateForFgUidChangedLocked, mScreenOn = true uid = 10146 foreground = true
+12-10 16:27:56.360   571   630 I DisplayFeatureService: virtual int android::DisplayFeatureService::setFeatureEnable(int, int, int, int) displayId=0 caseId=7 modeId=1 cookie=0
+12-10 16:27:56.360   571   630 D DisplayFeatureService: virtual int android::DisplayFeatureService::setFeatureEnable(int, int, int, int) param caseId: 7 modeId:1 cookie: 0
+12-10 16:27:56.360   571   630 D DisplayFeatureService: int android::DisplayFeatureService::HandleCabcModeCustom(int, int) enter
+12-10 16:27:56.360   571   630 I DisplayFeatureService: int android::DisplayFeaturePolicy::featureEnablePolicy(int, int, int) input[2, 256, 0]
+12-10 16:27:56.360   571   630 I DisplayFeatureService: successfully write 0x100 into /sys/devices/virtual/graphics/fb0/msm_fb_dispparam
+12-10 16:27:56.363  3741  3875 D AppActiveChecker: updateDownloadStateForFgUidChangedLocked, mScreenOn = true uid = 10146 foreground = true
+12-10 16:27:56.363  3741  3992 D PowerChecker.BaStats: uid = 10146, uidForeground = true, lastBytes = 4334, curBytes = 4334, deltaBytes = 0
+12-10 16:27:56.363  3741  3875 D AppActiveChecker: updateAppActiveStateForUidLocked, uid = 10146 appActiveState = 0
+12-10 16:27:56.363  3741  3875 D DeviceIdleAppRuleChecker: updateStateForInteractiveUidChangedLocked: uid = 10146 foreground = true
+12-10 16:27:56.363  3741  3875 D KillProcessAppRuleChecker: updateStateForInteractiveUidChangedLocked: uid = 10146 foreground = true
+12-10 16:27:56.363  3741  3875 D HideModeStateMachine: updateForForegroundUidChangedLocked: uid = 10146 foreground = true
+12-10 16:27:56.363  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_final |-> setForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_4th |-> setForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_3rd |-> setForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_3rd Feature: frozen |-> setSubStateForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_3rd Feature: frozen |-> updateRule, Rule = allow
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_2nd |-> setForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st |-> setForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st Feature: appIdle |-> setSubStateForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st Feature: appIdle |-> updateRule, Rule = allow
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st Feature: sensor |-> setSubStateForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st Feature: sensor |-> updateRule, Rule = allow
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st Feature: location |-> setSubStateForegroundActive
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: inactive_level_1st Feature: location |-> updateRule, Rule = allow
+12-10 16:27:56.364  3741  3875 I HideModeStateMachine: Uid: 10146 State: active |-> setForegroundActive
+12-10 16:27:56.364  3741  3875 D ActiveStateController: updateStateForFgUidChangedLocked: uid = 10146 foreground = true
+12-10 16:27:56.364  3741  3875 D HideModeStateMachine: updateForForegroundPreTaskUidChangedLocked: uid = 1000 foreground = false
+12-10 16:27:56.365  3741  3875 I HideModeStateMachine: Uid: 10146 Feature: frozen Rule: allow |-> notifyAppRuleChangedListeners
+12-10 16:27:56.365  3741  3875 I HideModeStateMachine: Uid: 10146 Feature: appIdle Rule: allow |-> notifyAppRuleChangedListeners
+12-10 16:27:56.365  3741  3875 I HideModeStateMachine: Uid: 10146 Feature: sensor Rule: allow |-> notifyAppRuleChangedListeners
+12-10 16:27:56.365  3741  3875 I HideModeStateMachine: Uid: 10146 Feature: location Rule: allow |-> notifyAppRuleChangedListeners
+12-10 16:27:56.365  3741  3875 D PowerKeeper.FrozenApp: setUidState, uid = 10146 allow = true
+12-10 16:27:56.365  3741  3875 D PowerKeeper.AppStandby: setUidState, uid = 10146 allow = true
+12-10 16:27:56.366  3741  3875 D PowerKeeper.Sensor: setUidState, uid = 10146 allow = true
+12-10 16:27:56.367  3741  3875 D PowerKeeper.Location: setUidState, uid = 10146 allow = true
+12-10 16:27:56.368  1667  1851 V LocationPolicy: writePolicyLocked()
+12-10 16:27:56.369  1667  1690 I Timeline: Timeline: App_transition_ready time:253014918
+12-10 16:27:56.387   571   630 D DisplayFeatureService: int android::DisplayFeatureService::HandleCabcModeCustom(int, int) exit 256
+12-10 16:27:56.388   571   630 I DisplayFeatureService: virtual int android::DisplayFeatureService::setFeatureEnable(int, int, int, int) exit
+12-10 16:27:56.388   571   630 I DisplayFeatureControl: BnDisplayFeatureControl::onTransact SET_COMMON_MODE result: 0
+12-10 16:27:56.389  2801  2801 I octvm_power: Action: set_thermal_config(restore) for [foreground_change]
+12-10 16:27:56.389  2801  2801 I octvm_drv: common drv: platform_set_thermal_mode -> platform not support
+12-10 16:27:56.389  2801  2801 I octvm_drv: common drv: get_current_battery_uAh will return 0
+12-10 16:27:56.389  2801  2801 I octvm_power: onPowerModeChanged[normal] called
+12-10 16:27:56.404   772  1659 D DnsProxyBlocker: remove uid(10146) for Firewall
+12-10 16:27:56.406  1667  1685 V UidProcStateHelper: process state changed:[30560,10146,2]
+12-10 16:27:56.407  3741  3923 D ProcessObserver: onForegroundActivitiesChanged, pid: 30560 uid: 10146 foregroundActivities: true
+12-10 16:27:56.407  3741  3923 D ProcessObserver: Uid: 10146 ForePreTask
+12-10 16:27:56.408  1929  1929 D StatusBar: disable<e i a s b h r c s > disable2<q i n g r >
+12-10 16:27:56.408  1929  1929 D StatusBarClock:  isNormalMode= true clock visible=true
+12-10 16:27:56.410  3741  3875 D HideModeStateMachine: updateForForegroundPreTaskUidChangedLocked: uid = 10146 foreground = true
+12-10 16:27:56.411 30152 30152 I AsyTskExecutor: Pipeline: [GlobalStandardPipeline].start()
+12-10 16:27:56.414 30560 30560 I art     : Starting a blocking GC AddRemoveAppImageSpace
+12-10 16:27:56.417 30560 30560 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:56.435 30560 30560 D AccessibilityManager: current package=org.iotivity.base.examples.devicediscoveryserver, accessibility manager mIsFinalEnabled=false, mOptimizeEnabled=false, mIsUiAutomationEnabled=false, mIsInterestedPackage=false
+12-10 16:27:56.443 30560 30582 W System  : ClassLoader referenced unknown path: /system/app/MiuiContentCatcher/lib/arm64
+12-10 16:27:56.444  1929  4727 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:56.432 30582 30582 I Binder:intercep: type=1400 audit(0.0:28489): avc: denied { getattr } for path="/data/data/com.miui.contentcatcher" dev="dm-0" ino=114839 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=1
+12-10 16:27:56.444 30560 30582 D ApplicationLoaders: ignored Vulkan layer search path /system/app/MiuiContentCatcher/lib/arm64:/system/lib64:/vendor/lib64 for namespace 0x7f8a000160
+12-10 16:27:56.445 30560 30582 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:56.448 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@3d953d1
+12-10 16:27:56.449 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@ad3137
+12-10 16:27:56.450 30560 30582 D ViewContentFactory: initViewContentFetcherClass
+12-10 16:27:56.450 30560 30582 D ViewContentFactory: getInterceptorPackageInfo
+12-10 16:27:56.451 30560 30582 D ViewContentFactory: getInitialApplication took 1ms
+12-10 16:27:56.451 30560 30582 D ViewContentFactory: packageInfo.packageName: com.miui.catcherpatch
+12-10 16:27:56.454 30560 30582 W System  : ClassLoader referenced unknown path: /system/app/CatcherPatch/lib/arm64
+12-10 16:27:56.456 30560 30582 D ApplicationLoaders: ignored Vulkan layer search path /system/app/CatcherPatch/lib/arm64:/system/lib64:/vendor/lib64 for namespace 0x7f8a0001d0
+12-10 16:27:56.457 30560 30582 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:56.461 30560 30582 D ViewContentFactory: initViewContentFetcherClass took 11ms
+12-10 16:27:56.461 30560 30582 I ContentCatcher: ViewContentFetcher : ViewContentFetcher
+12-10 16:27:56.461 30560 30582 D ViewContentFactory: createInterceptor took 12ms
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: getFamilyNameField failed
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: java.lang.NoSuchFieldException: familyName
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at java.lang.Class.getField(Class.java:1549)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at miui.util.TypefaceUtils.getFamilyNameField(TypefaceUtils.java:268)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at miui.util.TypefaceUtils.<clinit>(TypefaceUtils.java:264)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.widget.TextView.setTypeface(TextView.java:3061)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.widget.TextView.setTypefaceFromAttrs(TextView.java:1533)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.widget.TextView.<init>(TextView.java:1430)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.widget.Button.<init>(Button.java:109)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.widget.Button.<init>(Button.java:105)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.widget.Button.<init>(Button.java:101)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:430)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.createView(LayoutInflater.java:652)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:742)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:810)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:752)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:883)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:846)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:522)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:430)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:377)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at com.android.internal.policy.PhoneWindow.setContentView(PhoneWindow.java:412)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.Activity.setContentView(Activity.java:2492)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at org.iotivity.base.examples.DeviceDiscoveryServer.onCreate(DeviceDiscoveryServer.java:113)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.Activity.performCreate(Activity.java:6854)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1119)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2709)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2817)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1556)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.os.Looper.loop(Looper.java:163)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6388)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-10 16:27:56.473 30560 30560 W TypefaceUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-10 16:27:56.476 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@1ca0621
+12-10 16:27:56.476 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@f68da46
+12-10 16:27:56.481 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- GuardPolicy start at 1575966476481
+12-10 16:27:56.491 30152 30583 D PipelineRunnable: [GlobalStandardPipeline] -- GuardPolicy start at 1575966476491
+12-10 16:27:56.498 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@77134a0
+12-10 16:27:56.521 30560 30585 I Adreno  : QUALCOMM build                   : a9083cf, Iaf618d42e3
+12-10 16:27:56.521 30560 30585 I Adreno  : Build Date                       : 03/14/17
+12-10 16:27:56.521 30560 30585 I Adreno  : OpenGL ES Shader Compiler Version: XE031.09.00.04
+12-10 16:27:56.521 30560 30585 I Adreno  : Local Branch                     : 
+12-10 16:27:56.521 30560 30585 I Adreno  : Remote Branch                    : 
+12-10 16:27:56.521 30560 30585 I Adreno  : Remote Branch                    : 
+12-10 16:27:56.521 30560 30585 I Adreno  : Reconstruct Branch               : 
+12-10 16:27:56.529 30560 30585 I OpenGLRenderer: Initialized EGL, version 1.4
+12-10 16:27:56.530 30560 30585 D OpenGLRenderer: Swap behavior 1
+12-10 16:27:56.576  1667  1690 I ActivityManager: Displayed org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer: +260ms
+12-10 16:27:56.581  1667  7204 I SplashScreenServiceDelegate: None for org.iotivity.base.examples.devicediscoveryserver
+12-10 16:27:56.585 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:27:56.631 30152 30583 D PipelineRunnable: [GlobalStandardPipeline] -- GuardPolicy end cost 140
+12-10 16:27:56.631 30152 30583 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@5f0228a, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = GuardPolicy
+12-10 16:27:56.631 30152 30583 D PipelineRunnable: [GlobalStandardPipeline] -- BgTimeTick start at 1575966476631
+12-10 16:27:56.645 30152 30583 D PipelineRunnable: [GlobalStandardPipeline] -- BgTimeTick end cost 14
+12-10 16:27:56.646 30152 30583 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@162c38e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = BgTimeTick
+12-10 16:27:56.674  1667  1690 I Timeline: Timeline: App_transition_stopped time:253015223
+12-10 16:27:56.676  1667  1690 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{9df6d13 u0 org.iotivity.base.examples.devicediscoveryserver/org.iotivity.base.examples.DeviceDiscoveryServer t311} time:253015225
+12-10 16:27:56.676  1667  1684 D ActivityTrigger: ActivityTrigger activityStopTrigger 
+12-10 16:27:56.677  1929  1929 D EventBus: [1929, u0] send(AppTransitionFinishedEvent)
+12-10 16:27:56.677  1929  1929 D EventBus: [1929, u0]  -> ForcedResizableInfoActivityController [0x7a60078, P1] onBusEvent(AppTransitionFinishedEvent)
+12-10 16:27:56.677  1929  1929 D EventBus: [1929, u0] onBusEvent(AppTransitionFinishedEvent) duration: 27 microseconds, avg: 734
+12-10 16:27:56.683  1667  1685 V UidProcStateHelper: process state changed:[2177,10020,12]
+12-10 16:27:56.684  1667  1685 V UidProcStateHelper: process state changed:[29973,10073,12]
+12-10 16:27:56.684  1929  1929 D EventBus: [1929, u0] send(AppTransitionFinishedEvent)
+12-10 16:27:56.684  1929  1929 D EventBus: [1929, u0]  -> ForcedResizableInfoActivityController [0x7a60078, P1] onBusEvent(AppTransitionFinishedEvent)
+12-10 16:27:56.684  1929  1929 D EventBus: [1929, u0] onBusEvent(AppTransitionFinishedEvent) duration: 68 microseconds, avg: 733
+12-10 16:27:56.695  3741  3923 D ProcessObserver: onForegroundActivitiesChanged, pid: 2177 uid: 10020 foregroundActivities: false
+12-10 16:27:56.695  3741  3923 D ProcessObserver: Uid: 10020 Background
+12-10 16:27:56.696  3741  3923 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-10 16:27:56.696  3741  3923 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:646)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:612)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:582)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Handler.post(Handler.java:338)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundActivitiesChangedListeners(ProcessObserver.java:315)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.computeUidForegroundLocked(ProcessObserver.java:271)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.computeUidStateLocked(ProcessObserver.java:256)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.-wrap2(ProcessObserver.java)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$1$1.run(ProcessObserver.java:119)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Handler.handleCallback(Handler.java:754)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.Looper.loop(Looper.java:163)
+12-10 16:27:56.696  3741  3923 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-10 16:27:56.697  3741  3992 D PowerCheckerService: updateForFgUidChangedLocked, mScreenOn = true uid = 10020 foreground = false
+12-10 16:27:56.697  3741  3875 D AppActiveChecker: updateDownloadStateForFgUidChangedLocked, mScreenOn = true uid = 10020 foreground = false
+12-10 16:27:56.697  3741  3875 D AppActiveChecker: updateAppActiveStateForUidLocked, uid = 10020 appActiveState = 1
+12-10 16:27:56.697  3741  3875 D DeviceIdleAppRuleChecker: updateStateForInteractiveUidChangedLocked: uid = 10020 foreground = false
+12-10 16:27:56.697  3741  3875 D KillProcessAppRuleChecker: updateStateForInteractiveUidChangedLocked: uid = 10020 foreground = false
+12-10 16:27:56.697  3741  3875 D HideModeStateMachine: updateForForegroundUidChangedLocked: uid = 10020 foreground = false
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st |-> startRun
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st Feature: appIdle |-> startRun
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st Feature: appIdle |-> setActive
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st Feature: sensor |-> startRun
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st Feature: sensor |-> setActive
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st Feature: location |-> startRun
+12-10 16:27:56.697  3741  3875 I HideModeStateMachine: Uid: 10020 State: inactive_level_1st Feature: location |-> setActive
+12-10 16:27:56.698  3741  3875 D ActiveStateController: updateStateForFgUidChangedLocked: uid = 10020 foreground = false
+12-10 16:27:56.699  3741  3992 D PowerChecker.BaStats: uid = 10020, uidForeground = false, lastBytes = 6560, curBytes = 6560, deltaBytes = 0
+12-10 16:27:56.729  2936  3315 D com.xiaomi.common.Network: Http POST Response Code: 200
+12-10 16:27:56.732  2936  3315 W PushService: 2019-12-10 16:27:56,731 - [WARN::PushService] - [Thread:113] HTTP len=2081 url=http://data.mistat.xiaomi.com/mistats/v3
+12-10 16:27:56.799 30152 30612 D AsyTskExecutor: [null] -- ProcessLiveMonitor#init start at 1575966476799
+12-10 16:27:56.810 30152 30612 D AsyTskExecutor: [null] -- ProcessLiveMonitor#init end cost 11
+12-10 16:27:56.810 30152 30612 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@3c467d3, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = ProcessLiveMonitor#init
+12-10 16:27:57.653   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:57.654   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:57.654   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:57.654   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:27:57.654   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:27:57.655   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-10 16:27:57.655   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:27:57.738 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- GuardPolicy start at 1575966477738
+12-10 16:27:57.861 30560 30560 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@b0281e7
+12-10 16:27:58.035 30560 30643 I DeviceDiscoveryServer: Configuring platform.
+12-10 16:27:58.038 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/libconnectivity_abstraction.so: unused DT entry: type 0xf arg 0x55e2
+12-10 16:27:58.039 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/liboc_logger.so: unused DT entry: type 0xf arg 0x828
+12-10 16:27:58.040 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/liboctbstack.so: unused DT entry: type 0xf arg 0x4098
+12-10 16:27:58.041 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/liboc.so: unused DT entry: type 0xf arg 0x239c55
+12-10 16:27:58.053 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/libocstack-jni.so: unused DT entry: type 0xf arg 0x15e159
+12-10 16:27:58.053 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/libresource_directory.so: unused DT entry: type 0xf arg 0x70c1
+12-10 16:27:58.068 30560 30643 I OIC-JNI : JNI_OnLoad
+12-10 16:27:58.069 30560 30643 I art     : Thread[18,tid=30643,Native,Thread*=0x7f849e6200,peer=0x12dee5e0,"Thread-3"] recursive attempt to load library "/data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/libocstack-jni.so"
+12-10 16:27:58.070 30560 30643 I art     : Thread[18,tid=30643,Native,Thread*=0x7f849e6200,peer=0x12dee5e0,"Thread-3"] recursive attempt to load library "/data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/libocstack-jni.so"
+12-10 16:27:58.074 30560 30643 W linker  : /data/app/org.iotivity.base.examples.devicediscoveryserver-1/lib/arm64/libca-interface.so: unused DT entry: type 0xf arg 0x6e1
+12-10 16:27:58.077 30560 30643 F JNI_CA_INTERFACE: CaInterface_initialize
+12-10 16:27:58.077 30560 30643 D OIC_CA_ADAP_UTILS: CANativeJNISetJavaVM
+12-10 16:27:58.077 30560 30643 F JNI_CA_INTERFACE: CaInterface_initialize
+12-10 16:27:58.077 30560 30643 D OIC_CA_ADAP_UTILS: CANativeSetActivity
+12-10 16:27:58.077 30560 30643 E OIC_CA_ADAP_UTILS: activity is null
+12-10 16:27:58.077 30560 30643 D OIC_CA_ADAP_UTILS: CANativeJNISetContext
+12-10 16:27:58.077 30560 30643 I OIC-JNI : OcPlatform_configure
+12-10 16:27:58.078 30560 30643 I OIC_RI_STACK: RegisterPersistentStorageHandler !!
+12-10 16:27:58.078 30560 30643 I OIC-JNI : OcPlatform.start
+12-10 16:27:58.078 30560 30643 I OIC_PLATFORM: start
+12-10 16:27:58.078 30560 30643 I OIC_PLATFORM: init
+12-10 16:27:58.078 30560 30643 I OIC_RI_STACK: Entering OCInit2
+12-10 16:27:58.078 30560 30643 I OIC_RI_STACK: IoTivity version is v2.0.1
+12-10 16:27:58.078 30560 30643 D OIC_CA_CONN_MGR: CAInitialize type : 0
+12-10 16:27:58.078 30560 30643 D OIC_CA_INF_CTR: Set Receiver handle callback
+12-10 16:27:58.078 30560 30643 D OIC_CA_INF_CTR: Set error handle callback
+12-10 16:27:58.078 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.078 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.078 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.079 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.079 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.079 30560 30644 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.079 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.079 30560 30644 D OIC_CA_QING: wait..
+12-10 16:27:58.079 30560 30643 D OIC_CA_RETRANS: thread initialize
+12-10 16:27:58.079 30560 30643 D OIC_CA_BWT: CAInitializeBlockWiseTransfer
+12-10 16:27:58.079 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.079 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.079 30560 30645 D OIC_CA_RETRANS: retransmission main thread start
+12-10 16:27:58.079 30560 30643 D OIC_CA_INF_CTR: initialize adapters 0
+12-10 16:27:58.079 30560 30645 D OIC_CA_RETRANS: wait..there is no retransmission data.
+12-10 16:27:58.079 30560 30643 D OIC_CA_IP_ADAP: IN
+12-10 16:27:58.079 30560 30643 D OIC_CA_INF_CTR: 1 type adapter, register complete!
+12-10 16:27:58.079 30560 30643 I OIC_CA_IP_ADAP: OUT IntializeIP is Success
+12-10 16:27:58.080 30560 30643 D OIC_CA_EDR_MONITOR: CAEDRNetworkMonitorJniInit
+12-10 16:27:58.080 30560 30643 D OIC_CA_EDR_MONITOR: CAEDRSetNetworkChangeCallback
+12-10 16:27:58.080 30560 30643 D OIC_CA_EDR_CLIENT: CAEDRInitialize
+12-10 16:27:58.080 30560 30643 D OIC_CA_EDR_CLIENT: CAEdrClientJniInit
+12-10 16:27:58.080 30560 30643 D OIC_CA_EDR_CLIENT: CAEDRJniInitContext
+12-10 16:27:58.083  1667  1689 D BluetoothManagerService: Message: 20
+12-10 16:27:58.083  1667  1689 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@fcb4e86:true
+12-10 16:27:58.084  1667  4134 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:27:58.084 30560 30643 D OIC_CA_EDR_CLIENT: My BT Address is 02:00:00:00:00:00
+12-10 16:27:58.085 30560 30643 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceStateList
+12-10 16:27:58.085 30560 30643 D OIC_CA_EDR_UTILS: Create device list
+12-10 16:27:58.085 30560 30643 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceSocketList
+12-10 16:27:58.085 30560 30643 D OIC_CA_EDR_UTILS: Create Device object list
+12-10 16:27:58.085 30560 30643 D OIC_CA_EDR_CLIENT: CAEDRCreateJNIInterfaceObject
+12-10 16:27:58.087 30560 30643 D OIC_CA_EDR_CLIENT: NewObject Success
+12-10 16:27:58.087 30560 30643 D OIC_CA_EDR_CLIENT: OUT
+12-10 16:27:58.087 30560 30643 D OIC_CA_EDR_SERVER: CAEDRServerInitialize
+12-10 16:27:58.087 30560 30643 D OIC_CA_EDR_SERVER: CAEDRServerJniInit
+12-10 16:27:58.087 30560 30643 D OIC_CA_INF_CTR: 4 type adapter, register complete!
+12-10 16:27:58.087 30560 30643 D OIC_CA_EDR_ADAP: OUT
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_ADAP: CAInitializeLE
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_ADAP: CAInitLEAdapterMutex
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_MONITOR: CALENetworkMonitorJNISetContext - it is not supported
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_MONITOR: CALENetworkMonitorJniInit
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_CLIENT: Initialize GATT Client
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_CLIENT: CALEClientInitialize
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_CLIENT: CALEClientJniInit
+12-10 16:27:58.087 30560 30643 D OIC_CA_LE_UTILS: sdk version is 25
+12-10 16:27:58.088 30560 30643 D OIC_CA_LE_CLIENT: CALEClientCreateDeviceList
+12-10 16:27:58.088 30560 30643 D OIC_CA_LE_CLIENT: Create g_gattObjectList
+12-10 16:27:58.088 30560 30643 D OIC_CA_LE_CLIENT: Create g_deviceStateList
+12-10 16:27:58.088 30560 30643 D OIC_CA_LE_CLIENT: Create g_deviceList
+12-10 16:27:58.088 30560 30643 D OIC_CA_LE_CLIENT: CALEClientJNISetContext
+12-10 16:27:58.088 30560 30643 D OIC_CA_LE_CLIENT: CALECreateJniInterfaceObject
+12-10 16:27:58.090 30560 30643 D OIC_CA_LE_CLIENT: caLeRegisterLeScanCallbackForV21
+12-10 16:27:58.090 30560 30643 D OIC_CA_LE_CLIENT: CaLeRegisterGattCallback
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_CLIENT: Create instance for CaLeClientInterface
+12-10 16:27:58.093 30560 30643 I OIC_CA_LE_SERVER: CASetLEServerThreadPoolHandle is not support
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: Initialize Gatt Server
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: IN - CALEServerInitialize
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: CALeServerJniInit
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_UTILS: sdk version is 25
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: CALEServerJNISetContext
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: Create device list
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: Create device list
+12-10 16:27:58.093 30560 30643 D OIC_CA_LE_SERVER: CALEServerCreateJniInterfaceObject
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_SERVER: Register Le Gatt Server Callback
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_SERVER: Register Le Advertise Callback
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_SERVER: Create instance for CaLeServerInterface
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_SERVER: OUT - CALEServerInitialize
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_ADAP: IN
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_MONITOR: Setting CALEDeviceStateChangedCallback
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_MONITOR: CALESetAdapterStateCallback
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_MONITOR: CASetLENWConnectionStateChangedCb
+12-10 16:27:58.094 30560 30643 D OIC_CA_LE_ADAP: OUT
+12-10 16:27:58.094 30560 30643 D OIC_CA_INF_CTR: 2 type adapter, register complete!
+12-10 16:27:58.094 30560 30643 D NFC_ADAP: IN
+12-10 16:27:58.094 30560 30643 D NFC_SERVER: CANfcJniInit
+12-10 16:27:58.095 30560 30643 D NFC_SERVER: CANfcJNISetContext
+12-10 16:27:58.095 30560 30643 D NFC_SERVER: CANfcCreateJniInterfaceObject IN
+12-10 16:27:58.095 30560 30643 E NFC_SERVER: Invalid input: g_activity
+12-10 16:27:58.095 30560 30643 E NFC_SERVER: CANfcJniInit failed
+12-10 16:27:58.095 30560 30643 E NFC_ADAP: CAInitializeNfcServer failed
+12-10 16:27:58.095 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.095 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.095 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.095 30560 30646 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.095 30560 30643 D OIC_RI_STACK: OCSelectNetwork [0]
+12-10 16:27:58.095 30560 30646 D OIC_CA_QING: wait..
+12-10 16:27:58.095 30560 30643 D OIC_RI_STACK: call CASelectNetwork [1]
+12-10 16:27:58.095 30560 30643 D OIC_CA_NW_CONFIG: Create network list
+12-10 16:27:58.095 30560 30643 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[1]
+12-10 16:27:58.095 30560 30643 D OIC_CA_IP_MONITOR: CAIPJniInit_IN
+12-10 16:27:58.098 30560 30643 D OIC_CA_IP_MONITOR: Create CaIpInterface instance, success
+12-10 16:27:58.098 30560 30643 D OIC_CA_IP_MONITOR: CAIPJniInit_OUT
+12-10 16:27:58.098 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.098 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.098 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.099 30560 30647 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.099 30560 30647 D OIC_CA_QING: wait..
+12-10 16:27:58.099 30560 30643 I OIC_CA_IP_SERVER: IPv6 unicast port: 56099
+12-10 16:27:58.099 30560 30643 I OIC_CA_IP_SERVER: IPv4 unicast port: 54532
+12-10 16:27:58.099 30560 30643 D OIC_CA_IP_SERVER: socket summary: u6=76, u6s=77, u4=71, u4s=74, m6=78, m6s=79, m4=75, m4s=80
+12-10 16:27:58.099 30560 30643 D OIC_CA_IP_SERVER: port summary: u6 port=56099, u6s port=41029, u4 port=54532, u4s port=44889, m6 port=5683,m6s port=5684, m4 port=5683, m4s port=5684
+12-10 16:27:58.099 30560 30643 D OIC_CA_IP_SERVER: IN CAInitializeFastShutdownMechanism
+12-10 16:27:58.099 30560 30643 D OIC_CA_IP_SERVER: OUT CAInitializeFastShutdownMechanism
+12-10 16:27:58.100 30560 30643 D OIC_CA_IP_SERVER: IN CARegisterForAddressChanges
+12-10 16:27:58.100 30560 30643 D OIC_CA_IP_SERVER: OUT CARegisterForAddressChanges
+12-10 16:27:58.100 30560 30643 D OIC_CA_IP_SERVER: IN CAIPStartListenServer
+12-10 16:27:58.100 30560 30643 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 16:27:58.101 30560 30643 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 16:27:58.101 30560 30643 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 16:27:58.101 30560 30643 D OIC_CA_IP_SERVER: IP network interfaces found: 4
+12-10 16:27:58.101 30560 30643 D OIC_CA_IP_SERVER: Adding IPv6 interface(38) to multicast group
+12-10 16:27:58.101 30560 30560 D OIC_IP_CB_INTERFACE: CONNECTIVITY_ACTION - activeNetwork: WIFI
+12-10 16:27:58.102 30560 30560 D OIC_CA_IP_MONITOR: Wifi is in Activated State
+12-10 16:27:58.102 30560 30560 D OIC_CA_IP_ADAP: IP adapter status is on. Store the own IP address info
+12-10 16:27:58.102 30560 30643 D OIC_CA_IP_SERVER: Adding IPv6 interface(12) to multicast group
+12-10 16:27:58.102 30560 30643 D OIC_CA_IP_SERVER: Adding IPv6 interface(2) to multicast group
+12-10 16:27:58.102 30560 30643 D OIC_CA_IP_SERVER: Adding IPv4 interface(38) to multicast group
+12-10 16:27:58.102 30560 30643 D OIC_CA_IP_SERVER: OUT CAIPStartListenServer
+12-10 16:27:58.102 30560 30560 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 16:27:58.102 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.102 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.102 30560 30560 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 16:27:58.102 30560 30643 D OIC_CA_IP_SERVER: CAReceiveHandler thread started successfully.
+12-10 16:27:58.102 30560 30643 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_IP_ADAPTER) function returns result: 0
+12-10 16:27:58.102 30560 30560 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 16:27:58.102 30560 30643 D OIC_RI_STACK: call CASelectNetwork [4]
+12-10 16:27:58.103 30560 30643 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[4]
+12-10 16:27:58.103 30560 30560 D OIC_CA_INF_CTR: [1] adapter state is changed to [1]
+12-10 16:27:58.103 30560 30560 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 16:27:58.103 30560 30560 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 16:27:58.103 30560 30560 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 16:27:58.103 30560 30560 D OIC_CA_IP_SERVER: Adding a new IPv6 interface(38) to multicast group
+12-10 16:27:58.103 30560 30560 D OIC_CA_IP_SERVER: Adding a new IPv6 interface(12) to multicast group
+12-10 16:27:58.103 30560 30560 D OIC_CA_IP_SERVER: Adding a new IPv6 interface(2) to multicast group
+12-10 16:27:58.103 30560 30560 D OIC_CA_IP_SERVER: Adding a new IPv4 interface(38) to multicast group
+12-10 16:27:58.105 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.105 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.105 30560 30643 D OIC_CA_EDR_ADAP: Queue is initialized!
+12-10 16:27:58.105 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.105 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.106 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.106 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.106 30560 30649 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.106 30560 30650 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.106 30560 30643 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_RFCOMM_ADAPTER) function returns result : 0
+12-10 16:27:58.106 30560 30649 D OIC_CA_QING: wait..
+12-10 16:27:58.106 30560 30650 D OIC_CA_QING: wait..
+12-10 16:27:58.106 30560 30643 D OIC_RI_STACK: call CASelectNetwork [2]
+12-10 16:27:58.106 30560 30643 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[2]
+12-10 16:27:58.106 30560 30643 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_GATT_ADAPTER) function returns result : 0
+12-10 16:27:58.106 30560 30643 D OIC_RI_STACK: call CASelectNetwork [32]
+12-10 16:27:58.106 30560 30643 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[32]
+12-10 16:27:58.106 30560 30643 E OIC_CA_INF_CTR: unknown connectivity type!
+12-10 16:27:58.106 30560 30643 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_ADAPTER_NFC) function returns result : 255
+12-10 16:27:58.106 30560 30643 D OIC_CA_COMMON_UTILS: CARegisterNetworkMonitorHandler
+12-10 16:27:58.106 30560 30643 D OIC_CA_INF_CTR: Set network monitoring callback
+12-10 16:27:58.106 30560 30643 D OIC_CA_INF_CTR: Add NetworkStateChanged Callback
+12-10 16:27:58.107 30560 30643 D OIC_SRM : SRMRegisterHandler !!
+12-10 16:27:58.107 30560 30643 D OIC_CA_CONN_MGR: CARegisterHandler
+12-10 16:27:58.107 30560 30643 D OIC_CA_CONN_MGR: CAStartListeningServer
+12-10 16:27:58.107 30560 30643 D OIC_CA_IP_SERVER: Adapter is started already
+12-10 16:27:58.107 30560 30643 D OIC_CA_EDR_SERVER: accept flag is set false
+12-10 16:27:58.108  1667  4134 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:27:58.108 30560 30643 D OIC_CA_EDR_SERVER: My BT Address is 02:00:00:00:00:00
+12-10 16:27:58.108 30560 30643 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceStateList
+12-10 16:27:58.108 30560 30643 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceSocketList
+12-10 16:27:58.108 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.108 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.108 30560 30643 D OIC_CA_EDR_SERVER: CAEDRStartReceiveThread
+12-10 16:27:58.108 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.109 30560 30651 D OIC_CA_EDR_SERVER: AcceptThread start
+12-10 16:27:58.109 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.109 30560 30651 D OIC_CA_EDR_SERVER: Could not get JNIEnv pointer
+12-10 16:27:58.109 30560 30643 D OIC_CA_EDR_SERVER: OUT
+12-10 16:27:58.109 30560 30643 D OIC_CA_LE_ADAP: IN - CAStartLEListeningServer
+12-10 16:27:58.109 30560 30652 D OIC_CA_EDR_SERVER: IN - CAReceiveHandler
+12-10 16:27:58.109 30560 30643 D OIC_CA_LE_ADAP: CAInitLEServerSenderQueue
+12-10 16:27:58.109 30560 30652 D OIC_CA_EDR_SERVER: CAReceiveHandler - Could not get JNIEnv pointer
+12-10 16:27:58.109 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.109 30560 30643 D OIC_CA_LE_ADAP: CAInitLEServerReceiverQueue
+12-10 16:27:58.109 30560 30643 D OIC_CA_QING: thread initialize..
+12-10 16:27:58.109 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.109 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.110 30560 30651 D OIC_CA_EDR_SERVER: CAEDRNativeListen - IN
+12-10 16:27:58.110 30560 30653 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.110 30560 30653 D OIC_CA_QING: wait..
+12-10 16:27:58.111 30560 30643 D OIC_CA_LE_UTILS: adapter state is 1
+12-10 16:27:58.111 30560 30643 D OIC_CA_LE_ADAP: CALEAdapterGattServerStart
+12-10 16:27:58.111 30560 30643 D OIC_CA_LE_SERVER: IN - CALEServerStartMulticastServer
+12-10 16:27:58.111 30560 30643 D OIC_CA_LE_SERVER: IN - CALEServerStartGattServer
+12-10 16:27:58.113 30560 30643 D OIC_CA_LE_UTILS: adapter state is 1
+12-10 16:27:58.113 30560 30643 D OIC_CA_LE_SERVER: Gatt server already started
+12-10 16:27:58.113 30560 30643 D OIC_CA_LE_SERVER: IN - CALEServerOpenGattServer
+12-10 16:27:58.114  1667  4134 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:27:58.115 30560 30643 D OIC_CA_LE_UTILS: adapter state is 1
+12-10 16:27:58.115 30560 30651 W BluetoothAdapter: getBluetoothService() called with no BluetoothManagerCallback
+12-10 16:27:58.117 30560 30643 D BluetoothGattServer: registerCallback()
+12-10 16:27:58.117 30560 30643 D BluetoothGattServer: registerCallback() - UUID=9c6851e4-0a61-41e5-aceb-651cf24b6a59
+12-10 16:27:58.119 26043 26057 D BtGatt.GattService: registerServer() - UUID=9c6851e4-0a61-41e5-aceb-651cf24b6a59
+12-10 16:27:58.119 30560 30651 D OIC_CA_EDR_SERVER: CAEDRNativeListen - OUT
+12-10 16:27:58.119 26043 26075 E bt_btif : register application first_unuse rcb_idx = 0
+12-10 16:27:58.120 26043 26068 D BtGatt.GattService: onServerRegistered() - UUID=9c6851e4-0a61-41e5-aceb-651cf24b6a59, serverIf=5
+12-10 16:27:58.120 30560 30651 D OIC_CA_EDR_SERVER: CAEDRNativeAccept - IN
+12-10 16:27:58.120 30560 30651 D OIC_CA_EDR_SERVER: waiting for the new connection request...
+12-10 16:27:58.121 30560 30590 D BluetoothGattServer: onServerRegistered() - status=0 serverIf=5
+12-10 16:27:58.121 30560 30643 D OIC_CA_LE_SERVER: OUT - CALEServerOpenGattServer
+12-10 16:27:58.121 30560 30643 D OIC_CA_LE_SERVER: IN - CALEServerCreateGattService
+12-10 16:27:58.122 30560 30643 D OIC_CA_LE_UTILS: adapter state is 1
+12-10 16:27:58.123 30560 30643 D OIC_CA_LE_SERVER: OUT - CALEServerCreateGattService
+12-10 16:27:58.124 30560 30643 D OIC_CA_LE_SERVER: IN - CALEServerAddGattService
+12-10 16:27:58.124 30560 30643 D OIC_CA_LE_UTILS: adapter state is 1
+12-10 16:27:58.124 30560 30643 D BluetoothGattServer: addService() - service: ade3d529-c784-4f63-a987-eb69f70ee816
+12-10 16:27:58.125 26043 26057 D BtGatt.GattService: beginServiceDeclaration() - uuid=ade3d529-c784-4f63-a987-eb69f70ee816
+12-10 16:27:58.126 26043 26057 D BtGatt.GattService: addCharacteristic() - uuid=e9241982-4580-42c4-8831-95048216b256
+12-10 16:27:58.127 26043 26057 D BtGatt.GattService: addCharacteristic() - uuid=ad7b334f-4637-4b86-90b6-9d787f03d218
+12-10 16:27:58.128 26043 26057 D BtGatt.GattService: endServiceDeclaration()
+12-10 16:27:58.128 26043 26057 D BtGatt.GattService: continueServiceDeclaration() - srvcHandle=0
+12-10 16:27:58.128 26043 26057 D BtGatt.GattService: continueServiceDeclaration() - next entry type=1
+12-10 16:27:58.128 30560 30643 D OIC_CA_LE_SERVER: OUT - CALEServerAddGattService
+12-10 16:27:58.128 30560 30643 I OIC_CA_LE_SERVER: the advertisement of the bleFlags is disable[0]
+12-10 16:27:58.129 30560 30643 D OIC_CA_LE_SERVER: OUT - CALEServerStartMulticastServer
+12-10 16:27:58.129 26043 26075 E bt_btif : create service rcb_idx = 0
+12-10 16:27:58.129 30560 30643 D OIC_CA_UTHREADPOOL: IN
+12-10 16:27:58.129 26043 26068 D BtGatt.GattService: onServiceAdded() UUID=ade3d529-c784-4f63-a987-eb69f70ee816, status=0, handle=40
+12-10 16:27:58.129 26043 26068 D BtGatt.GattService: continueServiceDeclaration() - srvcHandle=40
+12-10 16:27:58.129 30560 30643 D OIC_CA_UTHREADPOOL: OUT
+12-10 16:27:58.129 26043 26068 D BtGatt.GattService: continueServiceDeclaration() - next entry type=2
+12-10 16:27:58.129 30560 30643 D OIC_CA_LE_ADAP: OUT
+12-10 16:27:58.129 30560 30643 E OIC_CA_INF_CTR: unknown connectivity type!
+12-10 16:27:58.129 30560 30643 I OIC_RI_STACK: Server mode: CAStartListeningServer
+12-10 16:27:58.129 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.129 30560 30643 I OIC_RI_STACK: Added type oic.wk.ad to /oic/ad
+12-10 16:27:58.129 30560 30643 I OIC_RI_STACK: Binding core.r interface to /oic/ad
+12-10 16:27:58.130 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/ad
+12-10 16:27:58.130 26043 26068 D BtGatt.GattService: onCharacteristicAdded() UUID=e9241982-4580-42c4-8831-95048216b256, status=0, srvcHandle=40, charHandle=42
+12-10 16:27:58.130 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/ad
+12-10 16:27:58.130 26043 26068 D BtGatt.GattService: continueServiceDeclaration() - srvcHandle=40
+12-10 16:27:58.130 26043 26068 D BtGatt.GattService: continueServiceDeclaration() - next entry type=2
+12-10 16:27:58.130 26043 26068 D BtGatt.GattService: onCharacteristicAdded() UUID=ad7b334f-4637-4b86-90b6-9d787f03d218, status=0, srvcHandle=40, charHandle=44
+12-10 16:27:58.130 26043 26068 D BtGatt.GattService: continueServiceDeclaration() - srvcHandle=40
+12-10 16:27:58.130 26043 26068 D BtGatt.GattService: continueServiceDeclaration() - completed.
+12-10 16:27:58.130 30560 30654 D OIC_CA_QING: message handler main thread start..
+12-10 16:27:58.130 30560 30654 D OIC_CA_QING: wait..
+12-10 16:27:58.131 26043 26068 D BtGatt.GattService: onServiceStarted() srvcHandle=40, status=0
+12-10 16:27:58.131   776   776 I cnss-daemon: RTM_NEWROUTE Indication
+12-10 16:27:58.131 30560 30590 D BluetoothGattServer: onServiceAdded() - service=ade3d529-c784-4f63-a987-eb69f70ee816status=0
+12-10 16:27:58.131 30560 30590 D OIC_CA_LE_SERVER: Gatt Service Added Callback(0)
+12-10 16:27:58.132 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.132 30560 30643 I OIC_RI_OBSERVE: Entering SendObserverNotification
+12-10 16:27:58.132 30560 30643 I OIC_RI_OBSERVE: Resource has no observers
+12-10 16:27:58.132 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.132 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.132 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.132 30560 30643 D OIC_SRM_DOXM: ReadSVDataFromPS failed
+12-10 16:27:58.132 30560 30643 D OIC_SRM_DOXM: GetDoxmToDefault
+12-10 16:27:58.132 30560 30643 D OIC_SRM_DOXM: IN: CheckDeviceID
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: Generated device UUID is [e0274e90-273e-08b5-40f7-231160d90371]
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including oxms Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including oxmsel Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including sct Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including owned Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including deviceuuid Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including devowneruuid Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: including rowneruuid Property.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_DOXM: DoxmToCBORPayloadPartial: encoding rowneruuid = 00000000-0000-0000-0000-000000000000.
+12-10 16:27:58.133 30560 30643 D OIC_SRM_PSI: UpdateResourceInPS IN
+12-10 16:27:58.133 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.133 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.134 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.134 30560 30643 D OIC_SRM_PSI: Writing in the file: 222
+12-10 16:27:58.134 30560 30643 E OIC_SRM_PSI: File open failed.
+12-10 16:27:58.134 30560 30643 E OIC_SRM_PSI: (OC_STACK_OK == ret) failed!!
+12-10 16:27:58.134 30560 30643 F OIC_SRM_DOXM: UpdatePersistentStorage failed!
+12-10 16:27:58.134 30560 30643 D OIC_SRM_DOXM: OUT: CheckDeviceID
+12-10 16:27:58.134 30560 30643 D OIC_SRM_DOXM: Initial Doxm Owned = 0
+12-10 16:27:58.134 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.134 30560 30643 I OIC_RI_STACK: Added type oic.r.doxm to /oic/sec/doxm
+12-10 16:27:58.134 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/sec/doxm
+12-10 16:27:58.134 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/sec/doxm
+12-10 16:27:58.135 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.135 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.135 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.135 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.135 30560 30643 D OIC_SRM_PSTAT: ReadSVDataFromPS failed
+12-10 16:27:58.135 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.135 30560 30643 I OIC_RI_STACK: OCCreateResourceWithEp: Creating Resource /oic/sec/pstat as OC_SECURE by default.
+12-10 16:27:58.135 30560 30643 I OIC_RI_STACK: Added type oic.r.pstat to /oic/sec/pstat
+12-10 16:27:58.135 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/sec/pstat
+12-10 16:27:58.135 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/sec/pstat
+12-10 16:27:58.136 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.136 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.136 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.136 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.136 30560 30643 D OIC_SRM_SP: GetSecureVirtualDatabaseFromPS failed trying to read sp data
+12-10 16:27:58.136 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.136 30560 30643 I OIC_RI_STACK: OCCreateResourceWithEp: Creating Resource /oic/sec/sp as OC_SECURE by default.
+12-10 16:27:58.136 30560 30643 I OIC_RI_STACK: Added type oic.r.sp to /oic/sec/sp
+12-10 16:27:58.137 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/sec/sp
+12-10 16:27:58.137 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/sec/sp
+12-10 16:27:58.137 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.137 30560 30643 D OIC_SRM_SP: -------------------------------------------------
+12-10 16:27:58.137 30560 30643 D OIC_SRM_SP: SP resource after startup initialization
+12-10 16:27:58.137 30560 30643 D OIC_SRM_SP: -------------------------------------------------
+12-10 16:27:58.137 30560 30643 D OIC_SRM_SP: # security profiles supported: 1
+12-10 16:27:58.138 30560 30643 D OIC_SRM_SP:   0: 1.3.6.1.4.1.51414.0.0.1.0
+12-10 16:27:58.138 30560 30643 D OIC_SRM_SP: Current security profile: 1.3.6.1.4.1.51414.0.0.1.0
+12-10 16:27:58.138 30560 30643 D OIC_SRM_SP: -------------------------------------------------
+12-10 16:27:58.138 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.138 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.138 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.138 30560 30643 D OIC_SRM_ACL: ReadSVDataFromPS failed
+12-10 16:27:58.138 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.138 30560 30643 I OIC_RI_STACK: OCCreateResourceWithEp: Creating Resource /oic/sec/acl2 as OC_SECURE by default.
+12-10 16:27:58.138 30560 30643 I OIC_RI_STACK: Added type oic.r.acl2 to /oic/sec/acl2
+12-10 16:27:58.138 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/sec/acl2
+12-10 16:27:58.138 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/sec/acl2
+12-10 16:27:58.139 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.139 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.139 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.139 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.139 30560 30643 D OIC_SRM_CREDL: ReadSVDataFromPS failed
+12-10 16:27:58.139 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.139 30560 30643 I OIC_RI_STACK: OCCreateResourceWithEp: Creating Resource /oic/sec/cred as OC_SECURE by default.
+12-10 16:27:58.139 30560 30643 I OIC_RI_STACK: Added type oic.r.cred to /oic/sec/cred
+12-10 16:27:58.139 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/sec/cred
+12-10 16:27:58.139 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/sec/cred
+12-10 16:27:58.140 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.140 30560 30643 D OIC_SRM_CREDL: OUT InitCredResource.
+12-10 16:27:58.140 30560 30643 W OIC_SRM_RM: InitSecureResources: /amacl Resource implementation incomplete; not initializing.
+12-10 16:27:58.140 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.140 30560 30643 I OIC_RI_STACK: Added type oic.wk.res to /oic/res
+12-10 16:27:58.140 30560 30643 I OIC_RI_STACK: Binding oic.if.ll interface to /oic/res
+12-10 16:27:58.141 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/res
+12-10 16:27:58.141 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/res
+12-10 16:27:58.141 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.141 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/res
+12-10 16:27:58.141 30560 30643 D OIC_SRM_PSI: CreateResetProfile IN
+12-10 16:27:58.142 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.142 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.142 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.142 30560 30643 D OIC_SRM_PSI: CreateResetProfile OUT
+12-10 16:27:58.142 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.142 30560 30643 I OIC_RI_STACK: Added type oic.wk.d to /oic/d
+12-10 16:27:58.142 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/d
+12-10 16:27:58.142 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/d
+12-10 16:27:58.143 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.143 30560 30643 I OIC_RI_STACK: Binding oic.if.r interface to /oic/d
+12-10 16:27:58.143 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.143 30560 30643 I OIC_RI_STACK: Added type oic.wk.p to /oic/p
+12-10 16:27:58.143 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /oic/p
+12-10 16:27:58.143 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /oic/p
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: Binding oic.if.r interface to /oic/p
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: OCCreateResourceWithEp: Creating Resource /introspection as OC_SECURE by default.
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: Added type oic.wk.introspection to /introspection
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /introspection
+12-10 16:27:58.144 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /introspection
+12-10 16:27:58.145 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.145 30560 30643 I OIC_RI_STACK: Binding oic.if.r interface to /introspection
+12-10 16:27:58.145 30560 30643 I OIC_RI_STACK: Entering OCCreateResource
+12-10 16:27:58.145 30560 30643 I OIC_RI_STACK: Added type oic.wk.introspection.payload to /introspection/payload
+12-10 16:27:58.145 30560 30643 I OIC_RI_STACK: Binding oic.if.baseline interface to /introspection/payload
+12-10 16:27:58.145 30560 30643 I OIC_RI_STACK: Binding 449 TPS flags to /introspection/payload
+12-10 16:27:58.146 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.146 30560 30643 I OIC_RI_STACK: Binding oic.if.r interface to /introspection/payload
+12-10 16:27:58.146 30560 30643 D OIC_RI_RESOURCE: InitializeDeviceProperties IN
+12-10 16:27:58.146 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.146 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.146 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.146 30560 30643 E OIC_RI_RESOURCE: ReadDatabaseFromPS failed
+12-10 16:27:58.146 30560 30643 E OIC_RI_RESOURCE: ReadDevicePropertiesFromDatabase failed
+12-10 16:27:58.147 30560 30643 D OIC_RI_RESOURCE: CreateDeviceProperties IN
+12-10 16:27:58.147 30560 30643 D OIC_RI_RESOURCE: CreateDeviceProperties OUT
+12-10 16:27:58.147 30560 30643 D OIC_RI_RESOURCE: CreateDeviceProperties IN
+12-10 16:27:58.147 30560 30643 D OIC_RI_RESOURCE: CreateDeviceProperties OUT
+12-10 16:27:58.147 30560 30643 D OIC_SRM_PSI: UpdateResourceInPS IN
+12-10 16:27:58.147 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS IN
+12-10 16:27:58.147 30560 30643 D OIC_SRM_PSI: File Read Size: 0
+12-10 16:27:58.147 30560 30643 D OIC_SRM_PSI: ReadDatabaseFromPS OUT
+12-10 16:27:58.147 30560 30643 D OIC_SRM_PSI: Writing in the file: 66
+12-10 16:27:58.147 30560 30643 E OIC_SRM_PSI: File open failed.
+12-10 16:27:58.148 30560 30643 E OIC_SRM_PSI: (OC_STACK_OK == ret) failed!!
+12-10 16:27:58.148 30560 30643 E OIC_RI_RESOURCE: UpdateResourceInPS failed with 255!
+12-10 16:27:58.148 30560 30643 E OIC_RI_RESOURCE: UpdateDevicePropertiesDatabase failed!
+12-10 16:27:58.148 30560 30643 D OIC_RI_RESOURCE: InitializeDeviceProperties OUT
+12-10 16:27:58.150 30560 30643 I OIC_SERVER_WRAPPER: start
+12-10 16:27:58.150 30560 30643 I DeviceDiscoveryServer: Registering device info
+12-10 16:27:58.151 30560 30643 I OIC-JNI : OcPlatform_registerDeviceInfo
+12-10 16:27:58.151 30560 30643 I OIC_RI_STACK: Added type oic.d.phone to /oic/d
+12-10 16:27:58.152 30560 30643 I OIC_RI_STACK: SendPresenceNotification
+12-10 16:27:58.152 30560 30643 I OIC_RI_RESOURCE: Device parameter initialized successfully.
+12-10 16:27:58.152 30560 30643 I DeviceDiscoveryServer: Registering platform info
+12-10 16:27:58.153 30560 30643 I OIC-JNI : OcPlatform_registerPlatformInfo
+12-10 16:27:58.153 30560 30643 I OIC_RI_RESOURCE: Entering OCSetPlatformInfo
+12-10 16:27:58.153 30560 30643 I OIC_RI_RESOURCE: Platform parameter initialized successfully.
+12-10 16:27:58.153 30560 30643 I DeviceDiscoveryServer: Waiting for the requests...
+12-10 16:27:58.153 30560 30643 I DeviceDiscoveryServer: ------------------------------------------------------------------------
+12-10 16:27:58.820 30152 30657 D AsyTskExecutor: [null] -- start_pipeline#com.alipay.mobile.framework.SECOND start at 1575966478819
+12-10 16:27:58.834 30152 30657 D AsyTskExecutor: [null] -- start_pipeline#com.alipay.mobile.framework.SECOND end cost 15
+12-10 16:27:58.834 30152 30657 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@cdae4e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = start_pipeline#com.alipay.mobile.framework.SECOND
+12-10 16:27:58.855 30188 30663 D AsyTskExecutor: [null] -- 3_SPH.initConfigFromLocal start at 1575966478854
+12-10 16:27:58.855 30114 30662 D AsyTskExecutor: [null] -- 3_SPH.initConfigFromLocal start at 1575966478855
+12-10 16:27:58.880 30152 30665 D AsyTskExecutor: [null] -- Fusion.InterceptorManager.initPrivacyInterceptors start at 1575966478880
+12-10 16:27:58.894 30152 30665 D AsyTskExecutor: [null] -- Fusion.InterceptorManager.initPrivacyInterceptors end cost 13
+12-10 16:27:58.894 30152 30665 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@cbf07d, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = Fusion.InterceptorManager.initPrivacyInterceptors
+12-10 16:27:58.942  1667  1851 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-10 16:27:59.576 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- GuardPolicy end cost 3095
+12-10 16:27:59.577 30114 30242 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@3112115, task = com.alipay.dexaop.power.GuardPolicy$1$1, threadName = GuardPolicy
+12-10 16:27:59.578 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage start at 1575966479578
+12-10 16:27:59.583 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage end cost 4
+12-10 16:27:59.583 30114 30242 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@2600138, task = com.alipay.mobile.common.fgbg.FgBgMonitorService$3, threadName = FgBgServiceMessage
+12-10 16:27:59.583 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- 4_BgTimeTick start at 1575966479583
+12-10 16:27:59.606 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:00.006  1929  1929 D KeyguardUpdateMonitor: handleTimeUpdate
+12-10 16:28:00.312 30152 30152 D HOOK    : AssetManager isUpToDate:true
+12-10 16:28:00.748 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- GuardPolicy end cost 3010
+12-10 16:28:00.750 30188 30366 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@705df22, task = com.alipay.dexaop.power.GuardPolicy$1$1, threadName = GuardPolicy
+12-10 16:28:00.751 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage start at 1575966480750
+12-10 16:28:00.771 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage end cost 21
+12-10 16:28:00.771 30188 30366 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@5030f70, task = com.alipay.mobile.common.fgbg.FgBgMonitorService$3, threadName = FgBgServiceMessage
+12-10 16:28:00.771 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- 4_BgTimeTick start at 1575966480771
+12-10 16:28:00.790 30152 30669 D AsyTskExecutor: [null] -- com.alipay.mobile.quinox.application.LauncherApplicationWrapper$17 start at 1575966480790
+12-10 16:28:00.792 30152 30669 D AsyTskExecutor: [null] -- com.alipay.mobile.quinox.application.LauncherApplicationWrapper$17 end cost 2
+12-10 16:28:00.792 30152 30669 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@5f0228a, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = com.alipay.mobile.quinox.application.LauncherApplicationWrapper$17
+12-10 16:28:01.402 30152 30672 D AsyTskExecutor: [null] -- com.alipay.mobile.quinox.startup.AnomalousRestartProcessor$1 start at 1575966481401
+12-10 16:28:01.427 30152 30672 D AsyTskExecutor: [null] -- com.alipay.mobile.quinox.startup.AnomalousRestartProcessor$1 end cost 26
+12-10 16:28:01.428 30152 30672 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@162c38e, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = com.alipay.mobile.quinox.startup.AnomalousRestartProcessor$1
+12-10 16:28:01.815  2177  2187 D RendererCore: cleanUp: miui.maml.RendererCore@29e586b
+12-10 16:28:01.859 30114 30662 D AsyTskExecutor: [null] -- 3_SPH.initConfigFromLocal end cost 3004
+12-10 16:28:01.859 30114 30662 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@53dc3ce, task = com.alipay.fusion.intercept.manager.config.helper.SubProcessHelper$SPObserver$1, threadName = 3_SPH.initConfigFromLocal
+12-10 16:28:01.861 30188 30663 D AsyTskExecutor: [null] -- 3_SPH.initConfigFromLocal end cost 3006
+12-10 16:28:01.861 30188 30663 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@ce1b29c, task = com.alipay.fusion.intercept.manager.config.helper.SubProcessHelper$SPObserver$1, threadName = 3_SPH.initConfigFromLocal
+12-10 16:28:02.586 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- 4_BgTimeTick end cost 3003
+12-10 16:28:02.586 30114 30242 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@c4952ef, task = com.alipay.dexaop.power.BgTimeTickManager$1$1, threadName = 4_BgTimeTick
+12-10 16:28:02.587 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage start at 1575966482587
+12-10 16:28:02.591 30114 30242 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage end cost 4
+12-10 16:28:02.591 30114 30242 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@3112115, task = com.alipay.mobile.common.fgbg.FgBgMonitorService$3, threadName = FgBgServiceMessage
+12-10 16:28:02.631 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:02.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:02.661   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:02.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:02.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:02.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:02.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:02.668   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:02.670   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:02.843  2119  2250 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-10 16:28:02.844  2870  2870 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-10 16:28:02.845  3741  3992 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+12-10 16:28:02.845  1929  1929 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-10 16:28:02.846 26043 26082 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+12-10 16:28:02.847  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 32
+12-10 16:28:02.849  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 32
+12-10 16:28:02.849  3741  3998 D PowerKeeper.Thermal: current battery temperature:31 xo_thermal 32 valid true
+12-10 16:28:03.775 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- 4_BgTimeTick end cost 3004
+12-10 16:28:03.776 30188 30366 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@12cc4a5, task = com.alipay.dexaop.power.BgTimeTickManager$1$1, threadName = 4_BgTimeTick
+12-10 16:28:03.776 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage start at 1575966483776
+12-10 16:28:03.782 30188 30366 D PipelineRunnable: [GlobalStandardPipeline] -- FgBgServiceMessage end cost 6
+12-10 16:28:03.782 30188 30366 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@705df22, task = com.alipay.mobile.common.fgbg.FgBgMonitorService$3, threadName = FgBgServiceMessage
+12-10 16:28:04.844  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:28:05.645 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:05.922 30674 30674 I sh      : type=1400 audit(0.0:28490): avc: denied { execute } for name="su" dev="mmcblk0p65" ino=5590 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+12-10 16:28:06.565  5299  5349 I StepList: stepsList new StepMode
+12-10 16:28:07.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:07.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:07.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:07.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:07.665   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:07.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:07.667   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:07.668   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:08.670 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:09.777   776   776 I cnss-daemon: RTM_NEWROUTE Indication
+12-10 16:28:09.777   776   776 E cnss-daemon: gateway mac address: %02x:%02x:%02x:%02x:%02x:%02x
+12-10 16:28:09.777   776   776 E cnss-daemon: : 00:00:00:00:00:00
+12-10 16:28:09.777 30560 30648 D OIC_CA_IP_ADAP: Address: fe80::f6f5:dbff:fe26:2384%wlan0, port:47771
+12-10 16:28:09.778   776   776 E cnss-daemon: Invalid mac address: 0x5588506110M
+12-10 16:28:09.778 30560 30648 I OIC_TRACER: entering oic_trace_init
+12-10 16:28:09.779 30560 30648 I OIC_TRACER: exit oic_trace_init with: 84
+12-10 16:28:09.779 30560 30648 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.779 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.779 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 16:28:09.780 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 16:28:09.780 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.780 30560 30648 D OIC_CA_MSG_HANDLE: code = 1
+12-10 16:28:09.780 30560 30648 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 16:28:09.780 30560 30648 D OIC_CA_MSG_HANDLE: address : fe80::f6f5:dbff:fe26:2384%wlan0
+12-10 16:28:09.780 30560 30648 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 16:28:09.780 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.781 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.781 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 16:28:09.781 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 16:28:09.781 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 16:28:09.781 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 16:28:09.781 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 16:28:09.781 30560 30648 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 16:28:09.782 30560 30648 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 16:28:09.782 30560 30648 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: list: '
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: list: 
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: list: À
+12-10 16:28:09.782 30560 30648 D OIC_CA_MSG_HANDLE: token:
+12-10 16:28:09.783 30560 30648 D OIC_CA_MSG_HANDLE: 7F 93 C0 73 7C FC D1 2E 
+12-10 16:28:09.783 30560 30648 D OIC_CA_MSG_HANDLE: msgID: 19346
+12-10 16:28:09.783 30560 30648 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 16:28:09.783 30560 30648 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 16:28:09.783 30560 30648 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.783 30560 30648 D OIC_ANALYZER: =================================================
+12-10 16:28:09.783 30560 30648 D OIC_ANALYZER: Is Multicast = false
+12-10 16:28:09.783 30560 30648 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[47771]
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: -------------------------------------------------
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: Method = [GET]
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: Msg ID = [37451]
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: Coap Token
+12-10 16:28:09.784 30560 30648 D OIC_ANALYZER: 7F 93 C0 73 7C FC D1 2E 
+12-10 16:28:09.784 30560 30648 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.784 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 16:28:09.785 30560 30648 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.785 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: Payload Format = [0]
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: 58 01 92 4B 7F 93 C0 73 7C FC D1 2E B3 6F 69 63 
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 16:28:09.785 30560 30648 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 16:28:09.786 30560 30648 D OIC_ANALYZER: CoAP Payload
+12-10 16:28:09.786 30560 30648 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 16:28:09.786 30560 30648 D OIC_ANALYZER: =================================================
+12-10 16:28:09.786 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.786 30560 30648 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 16:28:09.786 30560 30648 D OIC_CA_BWT: it's normal pdu
+12-10 16:28:09.786 30560 30648 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 16:28:09.786 30560 30648 D OIC_UQUEUE: Queue Count : 1
+12-10 16:28:09.787 30560 30648 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 16:28:09.787 30560 30648 D OIC_CA_MSG_HANDLE: 58 01 92 4B 7F 93 C0 73 7C FC D1 2E B3 6F 69 63 
+12-10 16:28:09.787 30560 30648 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 16:28:09.787 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.787 30560 30648 D OIC_CA_IP_ADAP: Address: 192.168.1.69, port:40768
+12-10 16:28:09.787 30560 30648 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.787 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.788 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 16:28:09.788 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 16:28:09.788 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.788 30560 30648 D OIC_CA_MSG_HANDLE: code = 1
+12-10 16:28:09.788 30560 30648 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 16:28:09.788 30560 30648 D OIC_CA_MSG_HANDLE: address : 192.168.1.69
+12-10 16:28:09.788 30560 30656 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 16:28:09.788 30560 30656 I OIC_RI_STACK: Enter HandleCARequests
+12-10 16:28:09.788 30560 30648 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 16:28:09.789 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.789 30560 30656 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.789 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.789 30560 30656 D OIC_RM_UTIL: Request- optionID: 17
+12-10 16:28:09.789 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 16:28:09.789 30560 30656 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 16:28:09.789 30560 30656 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 16:28:09.789 30560 30656 I OIC_RM_UTIL: Found Option at 2
+12-10 16:28:09.789 30560 30656 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.789 30560 30656 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.789 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 16:28:09.789 30560 30656 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 16:28:09.790 30560 30656 I OIC_RI_STACK: Endpoint URI : /oic/p
+12-10 16:28:09.790 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 16:28:09.790 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 16:28:09.790 30560 30656 I OIC_RI_STACK: URI without query: /oic/p
+12-10 16:28:09.790 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 16:28:09.790 30560 30656 I OIC_RI_STACK: Query : (null)
+12-10 16:28:09.790 30560 30648 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 16:28:09.790 30560 30648 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 16:28:09.790 30560 30656 I OIC_RI_STACK: 7F 93 C0 73 7C FC D1 2E 
+12-10 16:28:09.790 30560 30648 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 16:28:09.790 30560 30656 I OIC_RI_STACK: Entering HandleStackRequests (OCStack Layer)
+12-10 16:28:09.790 30560 30648 I OIC_CA_MSG_HANDLE: IPv4 duplicate message ignored
+12-10 16:28:09.791 30560 30656 I OIC_RI_SERVERREQUEST: Get server request with token
+12-10 16:28:09.791 30560 30648 I OIC_CA_MSG_HANDLE: Second Request with same Token, Drop it
+12-10 16:28:09.791 30560 30656 I OIC_RI_SERVERREQUEST: 7F 93 C0 73 7C FC D1 2E 
+12-10 16:28:09.791 30560 30648 E OIC_CA_MSG_HANDLE: CAReceivedPacketCallback, CAGenerateHandlerData failed!
+12-10 16:28:09.791 30560 30656 I OIC_RI_SERVERREQUEST: Server Request not found!!
+12-10 16:28:09.791 30560 30648 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 16:28:09.791 30560 30656 I OIC_RI_STACK: This is a new Server Request
+12-10 16:28:09.791 30560 30648 D OIC_CA_MSG_HANDLE: 58 01 92 4B 7F 93 C0 73 7C FC D1 2E B3 6F 69 63 
+12-10 16:28:09.791 30560 30656 I OIC_RI_SERVERREQUEST: AddServerRequest entry [fe80::f6f5:dbff:fe26:2384%wlan0:47771]
+12-10 16:28:09.791 30560 30648 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 16:28:09.791 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.791 30560 30656 I OIC_RI_SERVERREQUEST: Server Request Added
+12-10 16:28:09.791 30560 30656 I OIC_RI_STACK: This Server Request is complete
+12-10 16:28:09.791 30560 30656 I OIC_RI_RESOURCE: DetermineResourceHandling for /oic/p
+12-10 16:28:09.792 30560 30656 I OIC_RI_RESOURCE: /oic/p is virtual
+12-10 16:28:09.792 30560 30656 I OIC_RI_RESOURCE: Entering HandleVirtualResource
+12-10 16:28:09.792 30560 30656 D PayloadLog: Payload Type: Representation
+12-10 16:28:09.792 30560 30656 D PayloadLog: 	Resource #1
+12-10 16:28:09.792 30560 30656 D PayloadLog: 	Resource Types:
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		oic.wk.p
+12-10 16:28:09.792 30560 30656 D PayloadLog: 	Interfaces:
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		oic.if.baseline
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		oic.if.r
+12-10 16:28:09.792 30560 30656 D PayloadLog: 	Values:
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		st(string):1575966478152
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		mnsl(string):https://www.mysupportlink.com
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		mnfv(string):myFirmwareVersion
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		mnhw(string):myHardwareVersion
+12-10 16:28:09.792 30560 30656 D PayloadLog: 		mnos(string):Manufacturer OS version
+12-10 16:28:09.793 30560 30656 D PayloadLog: 		mnpv(string):myPlatformVersion
+12-10 16:28:09.794 30560 30656 D PayloadLog: 		mndt(string):2016-01-15
+12-10 16:28:09.794 30560 30656 D PayloadLog: 		mnmo(string):myModelNumber
+12-10 16:28:09.794 30560 30656 D PayloadLog: 		mnml(string):https://www.mylink.com
+12-10 16:28:09.794 30560 30656 D PayloadLog: 		mnmn(string):myManufactName
+12-10 16:28:09.794 30560 30656 D PayloadLog: 		pi(string):0A3E0D6F-DBF5-404E-8719-D6880042463A
+12-10 16:28:09.794 30560 30656 I OIC_TRACER: error writing, len: 37, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.797 30560 30656 I OIC_RI_STACK: Entering OCDoResponse
+12-10 16:28:09.797 30560 30656 I OIC_RI_PAYLOADCONVERT: Converting payload of type 4
+12-10 16:28:09.797 30560 30656 I OIC_RI_PAYLOADCONVERT: Payload has types
+12-10 16:28:09.797 30560 30656 I OIC_RI_PAYLOADCONVERT: Payload has interfaces
+12-10 16:28:09.798 30560 30656 I OIC_RI_PAYLOADCONVERT: Payload has types
+12-10 16:28:09.798 30560 30656 I OIC_RI_PAYLOADCONVERT: Payload has interfaces
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: Payload Size: 319 Payload : 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: BF 62 72 74 81 68 6F 69 63 2E 77 6B 2E 70 62 69 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 66 82 6F 6F 69 63 2E 69 66 2E 62 61 73 65 6C 69 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 6E 65 68 6F 69 63 2E 69 66 2E 72 62 73 74 6D 31 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 35 37 35 39 36 36 34 37 38 31 35 32 64 6D 6E 73 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 6C 78 1D 68 74 74 70 73 3A 2F 2F 77 77 77 2E 6D 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 79 73 75 70 70 6F 72 74 6C 69 6E 6B 2E 63 6F 6D 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 64 6D 6E 66 76 71 6D 79 46 69 72 6D 77 61 72 65 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 56 65 72 73 69 6F 6E 64 6D 6E 68 77 71 6D 79 48 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 61 72 64 77 61 72 65 56 65 72 73 69 6F 6E 64 6D 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 6E 6F 73 77 4D 61 6E 75 66 61 63 74 75 72 65 72 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 20 4F 53 20 76 65 72 73 69 6F 6E 64 6D 6E 70 76 
+12-10 16:28:09.798 30560 30656 D OIC_RI_PAYLOADCONVERT: 71 6D 79 50 6C 61 74 66 6F 72 6D 56 65 72 73 69 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 6F 6E 64 6D 6E 64 74 6A 32 30 31 36 2D 30 31 2D 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 31 35 64 6D 6E 6D 6F 6D 6D 79 4D 6F 64 65 6C 4E 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 75 6D 62 65 72 64 6D 6E 6D 6C 76 68 74 74 70 73 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 3A 2F 2F 77 77 77 2E 6D 79 6C 69 6E 6B 2E 63 6F 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 6D 64 6D 6E 6D 6E 6E 6D 79 4D 61 6E 75 66 61 63 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 74 4E 61 6D 65 62 70 69 78 24 30 41 33 45 30 44 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 36 46 2D 44 42 46 35 2D 34 30 34 45 2D 38 37 31 
+12-10 16:28:09.799 30560 30656 D OIC_RI_PAYLOADCONVERT: 39 2D 44 36 38 38 30 30 34 32 34 36 33 41 FF 
+12-10 16:28:09.799 30560 30656 D OIC_RM_UTIL: Request- optionID: 2053
+12-10 16:28:09.799 30560 30656 D OIC_RM_UTIL: Request- optionID: 12
+12-10 16:28:09.799 30560 30656 I OIC_RM_UTIL: Route option is not present
+12-10 16:28:09.799 30560 30656 D OIC_RM_RAP: createoption dlen 0 slen [0]
+12-10 16:28:09.799 30560 30656 D OIC_RM_RAP: Source and destination is not present
+12-10 16:28:09.800 30560 30656 D OIC_RM_RAP: OptValue NOR Message Type
+12-10 16:28:09.800 30560 30656 I OIC_RM_RAP: Option Length is 1
+12-10 16:28:09.800 30560 30656 D OIC_CA_CONN_MGR: CASendResponse
+12-10 16:28:09.801 30560 30656 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 16:28:09.801 30560 30656 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is 
+12-10 16:28:09.801 30560 30656 D OIC_CA_BWT: BlockID is 
+12-10 16:28:09.801 30560 30656 D OIC_CA_BWT: 7F 93 C0 73 7C FC D1 2E BA 9B 66 65 38 30 3A 3A 
+12-10 16:28:09.802 30560 30656 D OIC_CA_BWT: 66 36 66 35 3A 64 62 66 66 3A 66 65 32 36 3A 32 
+12-10 16:28:09.802 30560 30656 D OIC_CA_BWT: 33 38 34 25 77 6C 61 6E 30 
+12-10 16:28:09.802 30560 30656 D OIC_CA_BWT: There is no block data
+12-10 16:28:09.802 30560 30656 D OIC_CA_BWT: payloadLen=319, maxBlockSize=1024
+12-10 16:28:09.802 30560 30656 D OIC_CA_MSG_HANDLE: normal msg will be sent
+12-10 16:28:09.802 30560 30656 D OIC_UQUEUE: Queue Count : 1
+12-10 16:28:09.802 30560 30656 I OIC_RI_SERVERREQUEST: Server Request Removed
+12-10 16:28:09.802 30560 30656 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.802 30560 30656 I OIC_RI_STACK: Exit OCHandleRequests
+12-10 16:28:09.802 30560 30656 I OIC_RI_STACK: Exit HandleCARequests
+12-10 16:28:09.803 30560 30656 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.803 30560 30656 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 16:28:09.803 30560 30656 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 16:28:09.803 30560 30644 D OIC_CA_QING: wake up..
+12-10 16:28:09.803 30560 30644 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.803 30560 30644 D OIC_CA_MSG_HANDLE: Unicast message
+12-10 16:28:09.803 30560 30644 D OIC_CA_MSG_HANDLE: responseInfo is available..
+12-10 16:28:09.803 30560 30644 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 16:28:09.803 30560 30644 D OIC_CA_PRTCL_MSG: generate pdu for [1]adapter, [162]flags
+12-10 16:28:09.803 30560 30644 D OIC_CA_PRTCL_MSG: uri : /oic/p
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->payloadFormat = 9; info->payloadVersion = 2048
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatVersion = 2048
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 16:28:09.804 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 319
+12-10 16:28:09.804 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: msgID is 19346
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: messageId in pdu is 19346, 19346
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: 7F 93 C0 73 7C FC D1 2E 
+12-10 16:28:09.804 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.804 30560 30644 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: IN-AddBlockOption
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: dataLength - 319
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: BlockID is 
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: 7F 93 C0 73 7C FC D1 2E BA 9B 66 65 38 30 3A 3A 
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: 66 36 66 35 3A 64 62 66 66 3A 66 65 32 36 3A 32 
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: 33 38 34 25 77 6C 61 6E 30 
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: IN-GetBlockOptionType
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: OUT-GetBlockOptionType
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: no BLOCK option
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [oic] opt will be added.
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [12] pdu length
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [p] opt will be added.
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [16] pdu length
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: ['] opt will be added.
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [18] pdu length
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [] opt will be added.
+12-10 16:28:09.805 30560 30644 D OIC_CA_BWT: [21] pdu length
+12-10 16:28:09.806 30560 30644 D OIC_CA_BWT: [À] opt will be added.
+12-10 16:28:09.806 30560 30644 D OIC_CA_BWT: [26] pdu length
+12-10 16:28:09.806 30560 30644 D OIC_CA_BWT: [30] pdu length after option
+12-10 16:28:09.806 30560 30644 I OIC_CA_BWT: not Blockwise Transfer
+12-10 16:28:09.806 30560 30644 D OIC_CA_BWT: OUT-AddBlockOption
+12-10 16:28:09.806 30560 30644 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 16:28:09.806 30560 30644 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: =================================================
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: Is Multicast = false
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[47771]
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: Data Type = [CA_RESPONSE_DATA]
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: -------------------------------------------------
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: result code = [205]
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: Msg ID = [37451]
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: Coap Token
+12-10 16:28:09.806 30560 30644 D OIC_ANALYZER: 7F 93 C0 73 7C FC D1 2E 
+12-10 16:28:09.806 30560 30644 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.807 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 16:28:09.807 30560 30644 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:09.807 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: Payload Format = [CA_FORMAT_APPLICATION_VND_OCF_CBOR]
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: CoAP Message Full Size = [350]
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: 58 45 92 4B 7F 93 C0 73 7C FC D1 2E B3 6F 69 63 
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: 01 70 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF 
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: CoAP Header size = [31]
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: CoAP Payload
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: CoAP Payload Size = [319]
+12-10 16:28:09.807 30560 30644 D OIC_ANALYZER: =================================================
+12-10 16:28:09.807 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.807 30560 30644 I OIC_CA_MSG_HANDLE: CASendUnicastData type : 2
+12-10 16:28:09.807 30560 30644 D OIC_CA_INF_CTR: unicast message to adapter
+12-10 16:28:09.807 30560 30644 D OIC_UQUEUE: Queue Count : 1
+12-10 16:28:09.808 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:09.808 30560 30647 D OIC_CA_QING: wake up..
+12-10 16:28:09.808 30560 30644 D OIC_CA_RETRANS: sent pdu, msgtype=1, msgid=19346
+12-10 16:28:09.808 30560 30647 D OIC_CA_IP_SERVER: IN sendData
+12-10 16:28:09.808 30560 30644 D OIC_CA_RETRANS: not supported message type
+12-10 16:28:09.808 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:09.808 30560 30644 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 16:28:09.808 30560 30644 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 16:28:09.808 30560 30644 D OIC_CA_QING: wait..
+12-10 16:28:09.808   776   776 I cnss-daemon: RTM_NEWROUTE Indication
+12-10 16:28:09.808 30560 30647 I OIC_CA_IP_SERVER: unicast ipv6 sendTo is successful: 350 bytes
+12-10 16:28:09.808 30560 30647 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 16:28:09.808 30560 30647 D OIC_ANALYZER: =================================================
+12-10 16:28:09.808 30560 30647 D OIC_ANALYZER: Send Success, sent length = [350]
+12-10 16:28:09.809 30560 30647 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 16:28:09.809 30560 30647 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[47771]
+12-10 16:28:09.809 30560 30647 D OIC_ANALYZER: =================================================
+12-10 16:28:09.809 30560 30647 D OIC_CA_QING: wait..
+12-10 16:28:11.012 30536 30536 I KernelThread-2: type=1400 audit(0.0:28491): avc: denied { ioctl } for path="socket:[807676]" dev="sockfs" ino=807676 ioctlcmd=8927 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=udp_socket permissive=1
+12-10 16:28:11.012 30536 30536 I KernelThread-2: type=1400 audit(0.0:28492): avc: denied { read } for name="address" dev="sysfs" ino=39216 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+12-10 16:28:11.012 30536 30536 I KernelThread-2: type=1400 audit(0.0:28493): avc: denied { open } for path="/sys/devices/soc/a000000.qcom,wcnss-wlan/net/wlan0/address" dev="sysfs" ino=39216 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+12-10 16:28:11.012 30536 30536 I KernelThread-2: type=1400 audit(0.0:28494): avc: denied { getattr } for path="/sys/devices/soc/a000000.qcom,wcnss-wlan/net/wlan0/address" dev="sysfs" ino=39216 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+12-10 16:28:11.022 30536 30536 I KernelThread-2: type=1400 audit(0.0:28495): avc: denied { ioctl } for path="socket:[807713]" dev="sockfs" ino=807713 ioctlcmd=8b15 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=udp_socket permissive=1
+12-10 16:28:11.072 30536 30536 I KernelThread-2: type=1400 audit(0.0:28496): avc: denied { read } for name="vold" dev="mmcblk0p65" ino=830 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vold_exec:s0 tclass=file permissive=1
+12-10 16:28:11.072 30536 30536 I KernelThread-2: type=1400 audit(0.0:28497): avc: denied { open } for path="/system/bin/vold" dev="mmcblk0p65" ino=830 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:vold_exec:s0 tclass=file permissive=1
+12-10 16:28:11.072 30536 30536 I KernelThread-2: type=1400 audit(0.0:28498): avc: denied { read } for name="debuggerd" dev="mmcblk0p65" ino=451 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:debuggerd_exec:s0 tclass=file permissive=1
+12-10 16:28:11.072 30536 30536 I KernelThread-2: type=1400 audit(0.0:28499): avc: denied { open } for path="/system/bin/debuggerd" dev="mmcblk0p65" ino=451 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:debuggerd_exec:s0 tclass=file permissive=1
+12-10 16:28:11.082 30536 30536 I KernelThread-2: type=1400 audit(0.0:28500): avc: denied { read } for name="power_supply" dev="sysfs" ino=17861 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+12-10 16:28:11.082 30536 30536 I KernelThread-2: type=1400 audit(0.0:28501): avc: denied { open } for path="/sys/class/power_supply" dev="sysfs" ino=17861 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=1
+12-10 16:28:11.136  1667  1689 D BluetoothManagerService: Message: 20
+12-10 16:28:11.136  1667  1689 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@301ec6a:true
+12-10 16:28:11.138  1667  1851 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:28:11.151  1667  1851 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:28:11.692 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:11.825 30560 30648 D OIC_CA_IP_ADAP: Address: fe80::f6f5:dbff:fe26:2384%wlan0, port:47771
+12-10 16:28:11.825 30560 30648 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.825 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.825 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 16:28:11.826 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 16:28:11.826 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.826 30560 30648 D OIC_CA_MSG_HANDLE: code = 1
+12-10 16:28:11.826 30560 30648 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 16:28:11.826 30560 30648 D OIC_CA_MSG_HANDLE: address : fe80::f6f5:dbff:fe26:2384%wlan0
+12-10 16:28:11.826 30560 30648 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 16:28:11.826 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.827 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 16:28:11.827 30560 30648 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 16:28:11.828 30560 30648 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: list: '
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: list: 
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: list: À
+12-10 16:28:11.828 30560 30648 D OIC_CA_MSG_HANDLE: token:
+12-10 16:28:11.829 30560 30648 D OIC_CA_MSG_HANDLE: 3C CD B8 50 49 89 DD DA 
+12-10 16:28:11.829 30560 30648 D OIC_CA_MSG_HANDLE: msgID: 42429
+12-10 16:28:11.829 30560 30648 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 16:28:11.829 30560 30648 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 16:28:11.829 30560 30648 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.829 30560 30648 D OIC_ANALYZER: =================================================
+12-10 16:28:11.829 30560 30648 D OIC_ANALYZER: Is Multicast = false
+12-10 16:28:11.829 30560 30648 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 16:28:11.829 30560 30648 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[47771]
+12-10 16:28:11.830 30560 30648 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 16:28:11.830 30560 30648 D OIC_ANALYZER: -------------------------------------------------
+12-10 16:28:11.830 30560 30648 D OIC_ANALYZER: Method = [GET]
+12-10 16:28:11.830 30560 30648 D OIC_ANALYZER: Msg ID = [48549]
+12-10 16:28:11.830 30560 30648 D OIC_ANALYZER: Coap Token
+12-10 16:28:11.830 30560 30648 D OIC_ANALYZER: 3C CD B8 50 49 89 DD DA 
+12-10 16:28:11.830 30560 30648 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.831 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.831 30560 30648 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 16:28:11.831 30560 30648 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.831 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.831 30560 30648 D OIC_ANALYZER: Payload Format = [0]
+12-10 16:28:11.831 30560 30648 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 16:28:11.831 30560 30648 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 16:28:11.831 30560 30648 D OIC_ANALYZER: 58 01 BD A5 3C CD B8 50 49 89 DD DA B3 6F 69 63 
+12-10 16:28:11.832 30560 30648 D OIC_ANALYZER: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 16:28:11.832 30560 30648 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 16:28:11.832 30560 30648 D OIC_ANALYZER: CoAP Payload
+12-10 16:28:11.832 30560 30648 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 16:28:11.832 30560 30648 D OIC_ANALYZER: =================================================
+12-10 16:28:11.832 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.832 30560 30648 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 16:28:11.832 30560 30648 D OIC_CA_BWT: it's normal pdu
+12-10 16:28:11.832 30560 30648 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 16:28:11.833 30560 30648 D OIC_UQUEUE: Queue Count : 1
+12-10 16:28:11.833 30560 30648 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 16:28:11.833 30560 30648 D OIC_CA_MSG_HANDLE: 58 01 BD A5 3C CD B8 50 49 89 DD DA B3 6F 69 63 
+12-10 16:28:11.833 30560 30648 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 16:28:11.833 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.833 30560 30648 D OIC_CA_IP_ADAP: Address: 192.168.1.69, port:40768
+12-10 16:28:11.834 30560 30648 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.834 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.834 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 16:28:11.834 30560 30648 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 16:28:11.834 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.834 30560 30648 D OIC_CA_MSG_HANDLE: code = 1
+12-10 16:28:11.834 30560 30648 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 16:28:11.834 30560 30648 D OIC_CA_MSG_HANDLE: address : 192.168.1.69
+12-10 16:28:11.834 30560 30648 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 16:28:11.835 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.835 30560 30648 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 16:28:11.835 30560 30648 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 16:28:11.836 30560 30648 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 16:28:11.836 30560 30648 I OIC_CA_MSG_HANDLE: IPv4 duplicate message ignored
+12-10 16:28:11.836 30560 30648 I OIC_CA_MSG_HANDLE: Second Request with same Token, Drop it
+12-10 16:28:11.836 30560 30648 E OIC_CA_MSG_HANDLE: CAReceivedPacketCallback, CAGenerateHandlerData failed!
+12-10 16:28:11.836 30560 30648 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 16:28:11.836 30560 30648 D OIC_CA_MSG_HANDLE: 58 01 BD A5 3C CD B8 50 49 89 DD DA B3 6F 69 63 
+12-10 16:28:11.836 30560 30648 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 16:28:11.836 30560 30648 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.841 30560 30656 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 16:28:11.842 30560 30656 I OIC_RI_STACK: Enter HandleCARequests
+12-10 16:28:11.842 30560 30656 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.842 30560 30656 D OIC_RM_UTIL: Request- optionID: 17
+12-10 16:28:11.842 30560 30656 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 16:28:11.842 30560 30656 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 16:28:11.842 30560 30656 I OIC_RM_UTIL: Found Option at 2
+12-10 16:28:11.842 30560 30656 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.843 30560 30656 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.843 30560 30656 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 16:28:11.843 30560 30656 I OIC_RI_STACK: Endpoint URI : /oic/d
+12-10 16:28:11.843 30560 30656 I OIC_RI_STACK: URI without query: /oic/d
+12-10 16:28:11.843 30560 30656 I OIC_RI_STACK: Query : (null)
+12-10 16:28:11.843 30560 30656 I OIC_RI_STACK: 3C CD B8 50 49 89 DD DA 
+12-10 16:28:11.843 30560 30656 I OIC_RI_STACK: Entering HandleStackRequests (OCStack Layer)
+12-10 16:28:11.843 30560 30656 I OIC_RI_SERVERREQUEST: Get server request with token
+12-10 16:28:11.844 30560 30656 I OIC_RI_SERVERREQUEST: 3C CD B8 50 49 89 DD DA 
+12-10 16:28:11.844 30560 30656 I OIC_RI_SERVERREQUEST: Server Request not found!!
+12-10 16:28:11.844 30560 30656 I OIC_RI_STACK: This is a new Server Request
+12-10 16:28:11.844 30560 30656 I OIC_RI_SERVERREQUEST: AddServerRequest entry [fe80::f6f5:dbff:fe26:2384%wlan0:47771]
+12-10 16:28:11.844 30560 30656 I OIC_RI_SERVERREQUEST: Server Request Added
+12-10 16:28:11.844 30560 30656 I OIC_RI_STACK: This Server Request is complete
+12-10 16:28:11.844 30560 30656 I OIC_RI_RESOURCE: DetermineResourceHandling for /oic/d
+12-10 16:28:11.845 30560 30656 I OIC_RI_RESOURCE: /oic/d is virtual
+12-10 16:28:11.845 30560 30656 I OIC_RI_RESOURCE: Entering HandleVirtualResource
+12-10 16:28:11.845 30560 30656 D PayloadLog: Payload Type: Representation
+12-10 16:28:11.845 30560 30656 D PayloadLog: 	Resource #1
+12-10 16:28:11.845 30560 30656 D PayloadLog: 	Resource Types:
+12-10 16:28:11.845 30560 30656 D PayloadLog: 		oic.wk.d
+12-10 16:28:11.845 30560 30656 D PayloadLog: 		oic.d.phone
+12-10 16:28:11.845 30560 30656 D PayloadLog: 	Interfaces:
+12-10 16:28:11.845 30560 30656 D PayloadLog: 		oic.if.baseline
+12-10 16:28:11.846 30560 30656 D PayloadLog: 		oic.if.r
+12-10 16:28:11.846 30560 30656 D PayloadLog: 	Values:
+12-10 16:28:11.846 30560 30656 D PayloadLog: 		di(string):e0274e90-273e-08b5-40f7-231160d90371
+12-10 16:28:11.846 30560 30656 D PayloadLog: 		dmv(string):ocf.res.1.1.0,ocf.sh.1.1.0
+12-10 16:28:11.846 30560 30656 D PayloadLog: 		icv(string):ocf.1.1.0
+12-10 16:28:11.846 30560 30656 D PayloadLog: 		n(string):myDeviceName
+12-10 16:28:11.846 30560 30656 D PayloadLog: 		piid(string):d40f57a7-bff7-efb6-5e61-87676d18dcbe
+12-10 16:28:11.846 30560 30656 I OIC_TRACER: error writing, len: 37, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.847 30560 30656 I OIC_RI_STACK: Entering OCDoResponse
+12-10 16:28:11.847 30560 30656 I OIC_RI_PAYLOADCONVERT: Converting payload of type 4
+12-10 16:28:11.847 30560 30656 I OIC_RI_PAYLOADCONVERT: Payload has types
+12-10 16:28:11.847 30560 30656 I OIC_RI_PAYLOADCONVERT: Payload has interfaces
+12-10 16:28:11.847 30560 30656 D OIC_RI_PAYLOADCONVERT: Payload Size: 201 Payload : 
+12-10 16:28:11.847 30560 30656 D OIC_RI_PAYLOADCONVERT: BF 62 72 74 82 68 6F 69 63 2E 77 6B 2E 64 6B 6F 
+12-10 16:28:11.847 30560 30656 D OIC_RI_PAYLOADCONVERT: 69 63 2E 64 2E 70 68 6F 6E 65 62 69 66 82 6F 6F 
+12-10 16:28:11.851 30560 30656 D OIC_RI_PAYLOADCONVERT: 69 63 2E 69 66 2E 62 61 73 65 6C 69 6E 65 68 6F 
+12-10 16:28:11.851 30560 30656 D OIC_RI_PAYLOADCONVERT: 69 63 2E 69 66 2E 72 62 64 69 78 24 65 30 32 37 
+12-10 16:28:11.851 30560 30656 D OIC_RI_PAYLOADCONVERT: 34 65 39 30 2D 32 37 33 65 2D 30 38 62 35 2D 34 
+12-10 16:28:11.851 30560 30656 D OIC_RI_PAYLOADCONVERT: 30 66 37 2D 32 33 31 31 36 30 64 39 30 33 37 31 
+12-10 16:28:11.851 30560 30656 D OIC_RI_PAYLOADCONVERT: 63 64 6D 76 78 1A 6F 63 66 2E 72 65 73 2E 31 2E 
+12-10 16:28:11.852 30560 30656 D OIC_RI_PAYLOADCONVERT: 31 2E 30 2C 6F 63 66 2E 73 68 2E 31 2E 31 2E 30 
+12-10 16:28:11.853 30560 30656 D OIC_RI_PAYLOADCONVERT: 63 69 63 76 69 6F 63 66 2E 31 2E 31 2E 30 61 6E 
+12-10 16:28:11.853 30560 30656 D OIC_RI_PAYLOADCONVERT: 6C 6D 79 44 65 76 69 63 65 4E 61 6D 65 64 70 69 
+12-10 16:28:11.853 30560 30656 D OIC_RI_PAYLOADCONVERT: 69 64 78 24 64 34 30 66 35 37 61 37 2D 62 66 66 
+12-10 16:28:11.853 30560 30656 D OIC_RI_PAYLOADCONVERT: 37 2D 65 66 62 36 2D 35 65 36 31 2D 38 37 36 37 
+12-10 16:28:11.853 30560 30656 D OIC_RI_PAYLOADCONVERT: 36 64 31 38 64 63 62 65 FF 
+12-10 16:28:11.856 30560 30656 D OIC_RM_UTIL: Request- optionID: 2053
+12-10 16:28:11.856 30560 30656 D OIC_RM_UTIL: Request- optionID: 12
+12-10 16:28:11.856 30560 30656 I OIC_RM_UTIL: Route option is not present
+12-10 16:28:11.856 30560 30656 D OIC_RM_RAP: createoption dlen 0 slen [0]
+12-10 16:28:11.856 30560 30656 D OIC_RM_RAP: Source and destination is not present
+12-10 16:28:11.856 30560 30656 D OIC_RM_RAP: OptValue NOR Message Type
+12-10 16:28:11.856 30560 30656 I OIC_RM_RAP: Option Length is 1
+12-10 16:28:11.856 30560 30656 D OIC_CA_CONN_MGR: CASendResponse
+12-10 16:28:11.856 30560 30656 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 16:28:11.856 30560 30656 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is 
+12-10 16:28:11.856 30560 30656 D OIC_CA_BWT: BlockID is 
+12-10 16:28:11.856 30560 30656 D OIC_CA_BWT: 3C CD B8 50 49 89 DD DA BA 9B 66 65 38 30 3A 3A 
+12-10 16:28:11.856 30560 30656 D OIC_CA_BWT: 66 36 66 35 3A 64 62 66 66 3A 66 65 32 36 3A 32 
+12-10 16:28:11.856 30560 30656 D OIC_CA_BWT: 33 38 34 25 77 6C 61 6E 30 
+12-10 16:28:11.857 30560 30656 D OIC_CA_BWT: There is no block data
+12-10 16:28:11.857 30560 30656 D OIC_CA_BWT: payloadLen=201, maxBlockSize=1024
+12-10 16:28:11.857 30560 30656 D OIC_CA_MSG_HANDLE: normal msg will be sent
+12-10 16:28:11.857 30560 30656 D OIC_UQUEUE: Queue Count : 1
+12-10 16:28:11.857 30560 30656 I OIC_RI_SERVERREQUEST: Server Request Removed
+12-10 16:28:11.857 30560 30656 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.857 30560 30644 D OIC_CA_QING: wake up..
+12-10 16:28:11.857 30560 30656 I OIC_RI_STACK: Exit OCHandleRequests
+12-10 16:28:11.857 30560 30644 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.857 30560 30656 I OIC_RI_STACK: Exit HandleCARequests
+12-10 16:28:11.857 30560 30644 D OIC_CA_MSG_HANDLE: Unicast message
+12-10 16:28:11.857 30560 30656 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.857 30560 30644 D OIC_CA_MSG_HANDLE: responseInfo is available..
+12-10 16:28:11.857 30560 30656 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 16:28:11.857 30560 30644 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 16:28:11.857 30560 30656 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 16:28:11.857 30560 30644 D OIC_CA_PRTCL_MSG: generate pdu for [1]adapter, [162]flags
+12-10 16:28:11.857 30560 30644 D OIC_CA_PRTCL_MSG: uri : /oic/d
+12-10 16:28:11.857 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 16:28:11.857 30560 30644 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 16:28:11.857 30560 30644 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->payloadFormat = 9; info->payloadVersion = 2048
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatVersion = 2048
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 16:28:11.858 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 201
+12-10 16:28:11.858 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: msgID is 42429
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: messageId in pdu is 42429, 42429
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: 3C CD B8 50 49 89 DD DA 
+12-10 16:28:11.858 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.858 30560 30644 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 16:28:11.858 30560 30644 D OIC_CA_BWT: IN-AddBlockOption
+12-10 16:28:11.858 30560 30644 D OIC_CA_BWT: dataLength - 201
+12-10 16:28:11.858 30560 30644 D OIC_CA_BWT: BlockID is 
+12-10 16:28:11.858 30560 30644 D OIC_CA_BWT: 3C CD B8 50 49 89 DD DA BA 9B 66 65 38 30 3A 3A 
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: 66 36 66 35 3A 64 62 66 66 3A 66 65 32 36 3A 32 
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: 33 38 34 25 77 6C 61 6E 30 
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: IN-GetBlockOptionType
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: OUT-GetBlockOptionType
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: no BLOCK option
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [oic] opt will be added.
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [12] pdu length
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [d] opt will be added.
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [16] pdu length
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: ['] opt will be added.
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [18] pdu length
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [] opt will be added.
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [21] pdu length
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [À] opt will be added.
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [26] pdu length
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: [30] pdu length after option
+12-10 16:28:11.859 30560 30644 I OIC_CA_BWT: not Blockwise Transfer
+12-10 16:28:11.859 30560 30644 D OIC_CA_BWT: OUT-AddBlockOption
+12-10 16:28:11.860 30560 30644 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 16:28:11.860 30560 30644 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: =================================================
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Is Multicast = false
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[47771]
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Data Type = [CA_RESPONSE_DATA]
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: -------------------------------------------------
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: result code = [205]
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Msg ID = [48549]
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Coap Token
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: 3C CD B8 50 49 89 DD DA 
+12-10 16:28:11.860 30560 30644 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.860 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.860 30560 30644 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 16:28:11.860 30560 30644 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 16:28:11.860 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: Payload Format = [CA_FORMAT_APPLICATION_VND_OCF_CBOR]
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: CoAP Message Full Size = [232]
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: 58 45 BD A5 3C CD B8 50 49 89 DD DA B3 6F 69 63 
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: 01 64 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF 
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: CoAP Header size = [31]
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: CoAP Payload
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: CoAP Payload Size = [201]
+12-10 16:28:11.861 30560 30644 D OIC_ANALYZER: =================================================
+12-10 16:28:11.861 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.861 30560 30644 I OIC_CA_MSG_HANDLE: CASendUnicastData type : 2
+12-10 16:28:11.861 30560 30644 D OIC_CA_INF_CTR: unicast message to adapter
+12-10 16:28:11.861 30560 30644 D OIC_UQUEUE: Queue Count : 1
+12-10 16:28:11.861 30560 30644 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 16:28:11.861 30560 30647 D OIC_CA_QING: wake up..
+12-10 16:28:11.861 30560 30644 D OIC_CA_RETRANS: sent pdu, msgtype=1, msgid=42429
+12-10 16:28:11.861 30560 30647 D OIC_CA_IP_SERVER: IN sendData
+12-10 16:28:11.861 30560 30644 D OIC_CA_RETRANS: not supported message type
+12-10 16:28:11.861 30560 30644 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 16:28:11.862 30560 30644 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 16:28:11.862 30560 30644 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 16:28:11.862 30560 30644 D OIC_CA_QING: wait..
+12-10 16:28:11.862 30560 30647 I OIC_CA_IP_SERVER: unicast ipv6 sendTo is successful: 232 bytes
+12-10 16:28:11.862 30560 30647 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 16:28:11.862 30560 30647 D OIC_ANALYZER: =================================================
+12-10 16:28:11.862 30560 30647 D OIC_ANALYZER: Send Success, sent length = [232]
+12-10 16:28:11.862 30560 30647 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 16:28:11.862 30560 30647 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[47771]
+12-10 16:28:11.862 30560 30647 D OIC_ANALYZER: =================================================
+12-10 16:28:11.862 30560 30647 D OIC_CA_QING: wait..
+12-10 16:28:12.657   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:12.658   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:12.659   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:12.659   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:12.659   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:12.660   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:12.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:12.660   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:13.171   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:28:13.172   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-10 16:28:14.717 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:14.811   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:28:14.812   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-10 16:28:14.903   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:28:14.903   776   776 I cnss-daemon: NDA_DST received: fe80::f6f5:dbff:fe26:2384 ul: 33022
+12-10 16:28:14.903   776   776 I cnss-daemon: NDA_LLADDR received
+12-10 16:28:14.903   776   776 E cnss-daemon: gateway mac address: %02x:%02x:%02x:%02x:%02x:%02x
+12-10 16:28:14.903   776   776 E cnss-daemon: : 00:00:00:00:00:00
+12-10 16:28:14.904   776   776 E cnss-daemon: Invalid mac address: 0x5588506110M
+12-10 16:28:15.324  1667  1684 I ActivityManager: Waited long enough for: ServiceRecord{4d93a55 u0 com.eg.android.AlipayGphone/com.alipay.android.launcher.service.LauncherService}
+12-10 16:28:17.651  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:28:17.657   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:17.658   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:17.659   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:17.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:17.661   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:17.661   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:17.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:17.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:17.741 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:20.763 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:22.655   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:22.656   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:22.657   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:22.657   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:22.657   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:22.658   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:22.658   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:22.658   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:22.762  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:28:23.784 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:24.358  2119  2250 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-10 16:28:24.359  2870  2870 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-10 16:28:24.361  3741  3992 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+12-10 16:28:24.363  1929  1929 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-10 16:28:24.364  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 32
+12-10 16:28:24.364 26043 26082 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+12-10 16:28:24.367  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 32
+12-10 16:28:24.367  3741  3998 D PowerKeeper.Thermal: current battery temperature:32 xo_thermal 32 valid true
+12-10 16:28:24.387  1667  5696 E LocSvc_libulp: I/int ulp_msg_process_system_update(const UlpSystemEvent): systemEvent:5 
+12-10 16:28:24.387  1667  5696 E LocSvc_libulp: I/===> int ulp_brain_turn_onoff_dr_provider() line 848 
+12-10 16:28:24.387  1667  5696 E LocSvc_libulp: I/===> int ulp_dr_stop_engine() line 235 
+12-10 16:28:24.388  1667  5696 E LocSvc_libulp: I/int ulp_msg_process_start_req(), at ulp state = 1
+12-10 16:28:24.388  1667  2091 E LocSvc_api_v02: I/---> locClientSendReq line 2069 QMI_LOC_GET_BEST_AVAILABLE_POSITION_REQ_V02
+12-10 16:28:24.392  1667  2105 E LocSvc_ApiV02: I/<--- void globalRespCb(locClientHandleType, uint32_t, const locClientRespIndUnionType, uint32_t, void *) line 140 QMI_LOC_GET_BEST_AVAILABLE_POSITION_REQ_V02
+12-10 16:28:24.392  1667  5696 E LocSvc_libulp: I/int ulp_brain_process_zpp_position_report(const enum loc_sess_status, LocPosTechMask, UlpLocation *), report ZPP position to providers,report_position = 1
+12-10 16:28:24.392  1667  5696 E LocSvc_libulp: I/===> int ulp_brain_turn_onoff_dr_provider() line 848 
+12-10 16:28:24.392  1667  5696 E LocSvc_libulp: I/===> int ulp_dr_stop_engine() line 235 
+12-10 16:28:26.056  1667  1851 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:28:26.811 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:27.660   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:27.661   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:27.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:27.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:27.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:27.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:27.667   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:27.668   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:27.717  1667  1689 D BluetoothManagerService: Message: 20
+12-10 16:28:27.717  1667  1689 D BluetoothManagerService: Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@6f1d1f8:true
+12-10 16:28:27.721  1667  1851 D BluetoothManagerService: checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+12-10 16:28:27.722 30639 30639 I utdid:0 : type=1400 audit(0.0:28502): avc: denied { read } for name="cid" dev="sysfs" ino=28472 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+12-10 16:28:27.722 30639 30639 I utdid:0 : type=1400 audit(0.0:28503): avc: denied { open } for path="/sys/devices/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/cid" dev="sysfs" ino=28472 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+12-10 16:28:27.722 30639 30639 I utdid:0 : type=1400 audit(0.0:28504): avc: denied { getattr } for path="/sys/devices/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/cid" dev="sysfs" ino=28472 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+12-10 16:28:27.893 30152 30639 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+12-10 16:28:28.971   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:28:28.971   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-10 16:28:29.835 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:30.835 30092 30092 D CTDataAutoRegistration: onRegistrationRquest = false
+12-10 16:28:30.841 30092 30092 D CTDataAutoRegistration: mDataSimstate1 sim :  5
+12-10 16:28:30.841 30092 30092 D CTDataAutoRegistration: mDataSimstate2 sim :  1
+12-10 16:28:30.866 30092 30092 D CTDataAutoRegistration: Registered subs, Ignore
+12-10 16:28:31.191   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-10 16:28:31.191   776   776 I cnss-daemon: NDA_DST received: 192.168.1.1 ul: 562992919980224
+12-10 16:28:31.191   776   776 I cnss-daemon: NDA_LLADDR received
+12-10 16:28:32.656   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:32.657   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:32.657   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:32.658   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:32.658   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:32.659   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:32.659   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:32.659   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:32.858 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:35.573  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-10 16:28:35.883 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:37.660   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:37.662   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:37.663   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:37.664   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:37.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:37.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:37.667   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:37.668   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:38.901 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:41.913 15894 15894 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-10 16:28:42.660   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:42.662   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:42.663   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:42.664   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-10 16:28:42.665   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-10 16:28:42.666   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-10 16:28:42.666   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-10 16:28:42.668   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)

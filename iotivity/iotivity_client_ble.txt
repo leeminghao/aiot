@@ -1,0 +1,198 @@
+12-10 09:36:39.443 24014 24151 D OIC-JNI : OcPlatform_findResource
+12-10 09:36:39.443 24014 24151 D OIC-JNI : OnResourceFoundListener: new listener
+12-10 09:36:39.443 24014 24151 I OIC_TRACER: error writing, len: 36, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.443 24014 24151 I OIC_RI_STACK: Entering OCDoResource
+12-10 09:36:39.443 24014 24151 D OIC_RI_STACK: OCDoRequest: adapter = 0, flags = 0
+12-10 09:36:39.443 24014 24151 D OIC_RI_STACK: devAddr is set as destination
+12-10 09:36:39.443 24014 24151 D OIC_RI_STACK: remoteId of devAddr : 
+12-10 09:36:39.444 24014 24151 D OIC_CA_CONN_MGR: CAGenerateToken
+12-10 09:36:39.445 24014 24151 D OIC_CA_PRTCL_MSG: token len:8, token:
+12-10 09:36:39.445 24014 24151 D OIC_CA_PRTCL_MSG: C2 BB C5 4B 88 ED FA 50 
+12-10 09:36:39.445 24014 24151 I OIC_TRACER: error writing, len: 39, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.445 24014 24151 I OIC_RI_CLIENTCB: Adding client callback with token
+12-10 09:36:39.445 24014 24151 I OIC_RI_CLIENTCB: C2 BB C5 4B 88 ED FA 50 
+12-10 09:36:39.445 24014 24151 I OIC_TRACER: error writing, len: 63, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.445 24014 24151 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.445 24014 24151 I OIC_RI_CLIENTCB: No payload present
+12-10 09:36:39.445 24014 24151 I OIC_RI_CLIENTCB: Added Callback for uri : /oic/res?rt=core.light
+12-10 09:36:39.445 24014 24151 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.445 24014 24151 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.446 24014 24151 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.446 24014 24151 I OIC_TRACER: error writing, len: 38, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.446 24014 24151 D OIC_RM_UTIL: Request- optionID: 17
+12-10 09:36:39.446 24014 24151 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 09:36:39.446 24014 24151 I OIC_RM_UTIL: Route option is not present
+12-10 09:36:39.446 24014 24151 D OIC_RM_RAP: createoption dlen 0 slen [0]
+12-10 09:36:39.446 24014 24151 D OIC_RM_RAP: Source and destination is not present
+12-10 09:36:39.446 24014 24151 D OIC_RM_RAP: OptValue NOR Message Type
+12-10 09:36:39.446 24014 24151 I OIC_RM_RAP: Option Length is 1
+12-10 09:36:39.446 24014 24151 D OIC_CA_CONN_MGR: CASendRequest
+12-10 09:36:39.446 24014 24151 D OIC_CA_CONN_MGR: CASendMessageMultipleAdapter
+12-10 09:36:39.446 24014 24151 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 09:36:39.446 24014 24151 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is 
+12-10 09:36:39.446 24014 24151 D OIC_UQUEUE: Queue Count : 1
+12-10 09:36:39.446 24014 24151 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 09:36:39.446 24014 24047 D OIC_CA_QING: wake up..
+12-10 09:36:39.446 24014 24151 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is 
+12-10 09:36:39.446 24014 24047 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.446 24014 24151 D OIC_UQUEUE: Queue Count : 1
+12-10 09:36:39.446 24014 24047 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 09:36:39.446 24014 24047 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 09:36:39.446 24014 24151 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 09:36:39.447 24014 24151 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: generate pdu for [1]adapter, [98]flags
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: uri : /oic/res?rt=core.light
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 09:36:39.447 24014 24047 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 0
+12-10 09:36:39.447 24014 24047 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: msgID is 0
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: gen msg id=42429
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: messageId in pdu is 42429, 42429
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: C2 BB C5 4B 88 ED FA 50 
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: [oic] opt will be added.
+12-10 09:36:39.447 24014 24047 D OIC_CA_PRTCL_MSG: [12] pdu length
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [res] opt will be added.
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [16] pdu length
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [rt=core.light] opt will be added.
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [20] pdu length
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: ['] opt will be added.
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [35] pdu length
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: ] opt will be added.
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [38] pdu length
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [�] opt will be added.
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [43] pdu length
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: [47] pdu length after option
+12-10 09:36:39.448 24014 24047 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 09:36:39.448 24014 24047 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 09:36:39.448 24014 24047 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+
+
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: =================================================
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Is Multicast = true
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Address = []:[0]
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: -------------------------------------------------
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Method = [GET]
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Msg ID = [48549]
+12-10 09:36:39.448 24014 24047 D OIC_ANALYZER: Coap Token
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: C2 BB C5 4B 88 ED FA 50 
+12-10 09:36:39.449 24014 24047 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.449 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: Res URI = [/oic/res?rt=core.light]
+12-10 09:36:39.449 24014 24047 I OIC_TRACER: error writing, len: 69, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.449 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: Payload Format = [0]
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: CoAP Message Full Size = [47]
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: 58 01 BD A5 C2 BB C5 4B 88 ED FA 50 B3 6F 69 63 
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: 03 72 65 73 4D 00 72 74 3D 63 6F 72 65 2E 6C 69 
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: 67 68 74 22 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: CoAP Header size = [47]
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: CoAP Payload
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 09:36:39.449 24014 24047 D OIC_ANALYZER: =================================================
+
+
+12-10 09:36:39.449 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.450 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.450 24014 24047 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 09:36:39.450 24014 24047 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 09:36:39.450 24014 24047 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.450 24014 24047 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 09:36:39.450 24014 24047 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: generate pdu for [2]adapter, [98]flags
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: uri : /oic/res?rt=core.light
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[3], optLength[4], msgLength[4]
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[3], optLength[4], msgLength[8]
+12-10 09:36:39.450 24014 24047 D OIC_CA_PRTCL_MSG: curOptNumber[15], prevOptNumber[15], optValueLen[13], optLength[15], msgLength[23]
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: curOptNumber[17], prevOptNumber[17], optValueLen[2], optLength[3], msgLength[26]
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: curOptNumber[2049], prevOptNumber[2049], optValueLen[2], optLength[5], msgLength[31]
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: curOptNumber[65524], prevOptNumber[65524], optValueLen[1], optLength[4], msgLength[35]
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: transport type: 2, payload size: 0
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: C2 BB C5 4B 88 ED FA 50 
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [oic] opt will be added.
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [11] pdu length
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [res] opt will be added.
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [15] pdu length
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [rt=core.light] opt will be added.
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [19] pdu length
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: ['] opt will be added.
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [34] pdu length
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: ] opt will be added.
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [37] pdu length
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [�] opt will be added.
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [42] pdu length
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: [46] pdu length after option
+12-10 09:36:39.451 24014 24047 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 09:36:39.452 24014 24047 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 09:36:39.452 24014 24047 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+
+
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: =================================================
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Is Multicast = true
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_GATT_BTLE]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Address = []:[0]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: -------------------------------------------------
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Method = [GET]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Msg ID = [450]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Coap Token
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: C2 BB C5 4B 88 ED FA 50 
+12-10 09:36:39.452 24014 24047 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.452 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Res URI = [/oic/res?rt=core.light]
+12-10 09:36:39.452 24014 24047 I OIC_TRACER: error writing, len: 69, ret: -1, errno: 9 at oic_trace_begin
+12-10 09:36:39.452 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: Payload Format = [0]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: CoAP Message Full Size = [46]
+12-10 09:36:39.452 24014 24047 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: D8 16 01 C2 BB C5 4B 88 ED FA 50 B3 6F 69 63 03 
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: 72 65 73 4D 00 72 74 3D 63 6F 72 65 2E 6C 69 67 
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: 68 74 22 27 10 E2 06 E3 08 00 E1 F6 E6 C0 
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: CoAP Header size = [46]
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: CoAP Payload
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 09:36:39.453 24014 24047 D OIC_ANALYZER: =================================================
+
+
+12-10 09:36:39.453 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.453 24014 24047 D OIC_CA_LE_ADAP: IN - CASendLEMulticastData
+12-10 09:36:39.453 24014 24047 D OIC_CA_LE_ADAP: g_adapterType: 3
+12-10 09:36:39.453 24014 24047 D OIC_CA_LE_ADAP: Data Sending to LE layer [46]
+12-10 09:36:39.453 24014 24047 E OIC_CA_REMOTE_HANDLER: parameter is null
+12-10 09:36:39.453 24014 24047 D OIC_UQUEUE: Queue Count : 1
+12-10 09:36:39.453 24014 24047 D OIC_CA_LE_ADAP: OUT - CASendLEMulticastData
+12-10 09:36:39.453 24014 24052 D OIC_CA_QING: wake up..
+12-10 09:36:39.453 24014 24047 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 09:36:39.453 24014 24052 D OIC_CA_LE_ADAP: IN - CALEClientSendDataThread
+12-10 09:36:39.453 24014 24047 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 09:36:39.453 24014 24052 E OIC_CA_LE_ADAP: Invalid endpoint of bledata!
+12-10 09:36:39.453 24014 24047 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 09:36:39.453 24014 24052 D OIC_CA_QING: wait..
+12-10 09:36:39.453 24014 24047 D OIC_CA_QING: wait..
+
+
+
+
+

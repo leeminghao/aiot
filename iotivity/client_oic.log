@@ -1,0 +1,2140 @@
+12-10 17:39:00.522  3849  3885 I OIC-JNI : JNI_OnLoad
+12-10 17:39:00.526  3849  3885 D OIC_CA_ADAP_UTILS: CANativeJNISetJavaVM
+12-10 17:39:00.526  3849  3885 D OIC_CA_ADAP_UTILS: CANativeSetActivity
+12-10 17:39:00.526  3849  3885 E OIC_CA_ADAP_UTILS: activity is null
+12-10 17:39:00.526  3849  3885 D OIC_CA_ADAP_UTILS: CANativeJNISetContext
+12-10 17:39:00.526  3849  3885 I OIC-JNI : OcPlatform_configure
+12-10 17:39:00.526  3849  3885 I OIC_RI_STACK: RegisterPersistentStorageHandler !!
+12-10 17:39:00.527  3849  3885 I OIC-JNI : OcPlatform.start
+12-10 17:39:00.527  3849  3885 I OIC_PLATFORM: start
+12-10 17:39:00.527  3849  3885 I OIC_PLATFORM: init
+12-10 17:39:00.527  3849  3885 I OIC_CLIENT_WRAPPER: start
+12-10 17:39:00.527  3849  3885 I OIC_RI_STACK: Entering OCInit2
+12-10 17:39:00.527  3849  3886 E OIC_RI_STACK: OCProcess has failed. ocstack is not initialized
+12-10 17:39:00.527  3849  3885 I OIC_RI_STACK: IoTivity version is v2.0.1
+12-10 17:39:00.527  3849  3885 D OIC_CA_CONN_MGR: CAInitialize type : 0
+12-10 17:39:00.527  3849  3885 D OIC_CA_INF_CTR: Set Receiver handle callback
+12-10 17:39:00.527  3849  3885 D OIC_CA_INF_CTR: Set error handle callback
+12-10 17:39:00.527  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.527  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.528  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.528  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.528  3849  3887 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.528  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.528  3849  3887 D OIC_CA_QING: wait..
+12-10 17:39:00.528  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.528  3849  3885 D OIC_CA_RETRANS: thread initialize
+12-10 17:39:00.528  3849  3885 D OIC_CA_BWT: CAInitializeBlockWiseTransfer
+12-10 17:39:00.528  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.528  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.528  3849  3888 D OIC_CA_RETRANS: retransmission main thread start
+12-10 17:39:00.528  3849  3885 D OIC_CA_INF_CTR: initialize adapters 0
+12-10 17:39:00.529  3849  3888 D OIC_CA_RETRANS: wait..there is no retransmission data.
+12-10 17:39:00.529  3849  3885 D OIC_CA_IP_ADAP: IN
+12-10 17:39:00.529  3849  3885 D OIC_CA_INF_CTR: 1 type adapter, register complete!
+12-10 17:39:00.529  3849  3885 I OIC_CA_IP_ADAP: OUT IntializeIP is Success
+12-10 17:39:00.529  3849  3885 D OIC_CA_EDR_MONITOR: CAEDRNetworkMonitorJniInit
+12-10 17:39:00.529  3849  3885 D OIC_CA_EDR_MONITOR: CAEDRSetNetworkChangeCallback
+12-10 17:39:00.529  3849  3885 D OIC_CA_EDR_CLIENT: CAEDRInitialize
+12-10 17:39:00.529  3849  3885 D OIC_CA_EDR_CLIENT: CAEdrClientJniInit
+12-10 17:39:00.529  3849  3885 D OIC_CA_EDR_CLIENT: CAEDRJniInitContext
+12-10 17:39:00.532  3849  3885 D OIC_CA_EDR_CLIENT: My BT Address is 02:00:00:00:00:00
+12-10 17:39:00.533  3849  3885 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceStateList
+12-10 17:39:00.533  3849  3885 D OIC_CA_EDR_UTILS: Create device list
+12-10 17:39:00.533  3849  3885 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceSocketList
+12-10 17:39:00.533  3849  3885 D OIC_CA_EDR_UTILS: Create Device object list
+12-10 17:39:00.533  3849  3885 D OIC_CA_EDR_CLIENT: CAEDRCreateJNIInterfaceObject
+12-10 17:39:00.535  3849  3885 D OIC_CA_EDR_CLIENT: NewObject Success
+12-10 17:39:00.535  3849  3885 D OIC_CA_EDR_CLIENT: OUT
+12-10 17:39:00.535  3849  3885 D OIC_CA_EDR_SERVER: CAEDRServerInitialize
+12-10 17:39:00.535  3849  3885 D OIC_CA_EDR_SERVER: CAEDRServerJniInit
+12-10 17:39:00.535  3849  3885 D OIC_CA_INF_CTR: 4 type adapter, register complete!
+12-10 17:39:00.535  3849  3885 D OIC_CA_EDR_ADAP: OUT
+12-10 17:39:00.535  3849  3885 D OIC_CA_LE_ADAP: CAInitializeLE
+12-10 17:39:00.535  3849  3885 D OIC_CA_LE_ADAP: CAInitLEAdapterMutex
+12-10 17:39:00.535  3849  3885 D OIC_CA_LE_MONITOR: CALENetworkMonitorJNISetContext - it is not supported
+12-10 17:39:00.535  3849  3885 D OIC_CA_LE_MONITOR: CALENetworkMonitorJniInit
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: Initialize GATT Client
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: CALEClientInitialize
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: CALEClientJniInit
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_UTILS: sdk version is 25
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: CALEClientCreateDeviceList
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: Create g_gattObjectList
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: Create g_deviceStateList
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: Create g_deviceList
+12-10 17:39:00.536  3849  3885 D OIC_CA_LE_CLIENT: CALEClientJNISetContext
+12-10 17:39:00.537  3849  3885 D OIC_CA_LE_CLIENT: CALECreateJniInterfaceObject
+12-10 17:39:00.537  3849  3886 E OIC_RI_STACK: OCProcess has failed. ocstack is not initialized
+12-10 17:39:00.538  3849  3885 D OIC_CA_LE_CLIENT: caLeRegisterLeScanCallbackForV21
+12-10 17:39:00.538  3849  3885 D OIC_CA_LE_CLIENT: CaLeRegisterGattCallback
+12-10 17:39:00.539  3849  3885 D OIC_CA_LE_CLIENT: Create instance for CaLeClientInterface
+12-10 17:39:00.539  3849  3885 I OIC_CA_LE_SERVER: CASetLEServerThreadPoolHandle is not support
+12-10 17:39:00.539  3849  3885 D OIC_CA_LE_SERVER: Initialize Gatt Server
+12-10 17:39:00.539  3849  3885 D OIC_CA_LE_SERVER: IN - CALEServerInitialize
+12-10 17:39:00.539  3849  3885 D OIC_CA_LE_SERVER: CALeServerJniInit
+12-10 17:39:00.539  3849  3885 D OIC_CA_LE_UTILS: sdk version is 25
+12-10 17:39:00.540  3849  3885 D OIC_CA_LE_SERVER: CALEServerJNISetContext
+12-10 17:39:00.540  3849  3885 D OIC_CA_LE_SERVER: Create device list
+12-10 17:39:00.540  3849  3885 D OIC_CA_LE_SERVER: Create device list
+12-10 17:39:00.540  3849  3885 D OIC_CA_LE_SERVER: CALEServerCreateJniInterfaceObject
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_SERVER: Register Le Gatt Server Callback
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_SERVER: Register Le Advertise Callback
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_SERVER: Create instance for CaLeServerInterface
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_SERVER: OUT - CALEServerInitialize
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_ADAP: IN
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_MONITOR: Setting CALEDeviceStateChangedCallback
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_MONITOR: CALESetAdapterStateCallback
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_MONITOR: CASetLENWConnectionStateChangedCb
+12-10 17:39:00.541  3849  3885 D OIC_CA_LE_ADAP: OUT
+12-10 17:39:00.541  3849  3885 D OIC_CA_INF_CTR: 2 type adapter, register complete!
+12-10 17:39:00.542  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.542  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.542  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.542  3849  3889 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.542  3849  3889 D OIC_CA_QING: wait..
+
+
+12-10 17:39:00.543  3849  3885 D OIC_RI_STACK: OCSelectNetwork [0]
+12-10 17:39:00.543  3849  3885 D OIC_RI_STACK: call CASelectNetwork [1]
+12-10 17:39:00.543  3849  3885 D OIC_CA_NW_CONFIG: Create network list
+12-10 17:39:00.543  3849  3885 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[1]
+12-10 17:39:00.543  3849  3885 D OIC_CA_IP_MONITOR: CAIPJniInit_IN
+12-10 17:39:00.545  3849  3885 D OIC_CA_IP_MONITOR: Create CaIpInterface instance, success
+12-10 17:39:00.545  3849  3885 D OIC_CA_IP_MONITOR: CAIPJniInit_OUT
+12-10 17:39:00.545  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.545  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.545  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.545  3849  3890 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.545  3849  3890 D OIC_CA_QING: wait..
+12-10 17:39:00.546  3849  3885 I OIC_CA_IP_SERVER: IPv6 unicast port: 53254
+12-10 17:39:00.546  3849  3885 I OIC_CA_IP_SERVER: IPv4 unicast port: 42708
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: socket summary: u6=69, u6s=74, u4=77, u4s=78, m6=75, m6s=76, m4=79, m4s=80
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: port summary: u6 port=53254, u6s port=34668, u4 port=42708, u4s port=38823, m6 port=5683,m6s port=5684, m4 port=5683, m4s port=5684
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: IN CAInitializeFastShutdownMechanism
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: OUT CAInitializeFastShutdownMechanism
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: IN CARegisterForAddressChanges
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: OUT CARegisterForAddressChanges
+12-10 17:39:00.546  3849  3885 D OIC_CA_IP_SERVER: IN CAIPStartListenServer
+12-10 17:39:00.547  3849  3885 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 17:39:00.547  3849  3849 D OIC_IP_CB_INTERFACE: CONNECTIVITY_ACTION - activeNetwork: WIFI
+12-10 17:39:00.547  3849  3885 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:00.547  3849  3885 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:00.547  3849  3849 D OIC_CA_IP_MONITOR: Wifi is in Activated State
+12-10 17:39:00.547  3849  3885 D OIC_CA_IP_SERVER: IP network interfaces found: 4
+12-10 17:39:00.547  3849  3885 D OIC_CA_IP_SERVER: Adding IPv6 interface(29) to multicast group
+12-10 17:39:00.547  3849  3849 D OIC_CA_IP_ADAP: IP adapter status is on. Store the own IP address info
+12-10 17:39:00.547  3849  3885 D OIC_CA_IP_SERVER: Adding IPv6 interface(12) to multicast group
+12-10 17:39:00.547  3849  3886 E OIC_RI_STACK: OCProcess has failed. ocstack is not initialized
+12-10 17:39:00.547  3849  3885 D OIC_CA_IP_SERVER: Adding IPv6 interface(2) to multicast group
+12-10 17:39:00.548  3849  3885 D OIC_CA_IP_SERVER: Adding IPv4 interface(29) to multicast group
+12-10 17:39:00.548  3849  3885 D OIC_CA_IP_SERVER: OUT CAIPStartListenServer
+12-10 17:39:00.548  3849  3849 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 17:39:00.548  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.548  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.548  3849  3885 D OIC_CA_IP_SERVER: CAReceiveHandler thread started successfully.
+12-10 17:39:00.548  3849  3885 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_IP_ADAPTER) function returns result: 0
+12-10 17:39:00.548  3849  3849 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:00.548  3849  3885 D OIC_RI_STACK: call CASelectNetwork [4]
+12-10 17:39:00.548  3849  3885 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[4]
+12-10 17:39:00.548  3849  3849 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:00.548  3849  3849 D OIC_CA_INF_CTR: [1] adapter state is changed to [1]
+12-10 17:39:00.549  3849  3849 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 17:39:00.549  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.549  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.549  3849  3885 D OIC_CA_EDR_ADAP: Queue is initialized!
+12-10 17:39:00.549  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.549  3849  3849 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:00.549  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.549  3849  3849 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:00.549  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.549  3849  3892 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.549  3849  3849 D OIC_CA_IP_SERVER: Adding a new IPv6 interface(29) to multicast group
+12-10 17:39:00.549  3849  3892 D OIC_CA_QING: wait..
+12-10 17:39:00.549  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.549  3849  3849 D OIC_CA_IP_SERVER: Adding a new IPv6 interface(12) to multicast group
+12-10 17:39:00.549  3849  3885 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_RFCOMM_ADAPTER) function returns result : 0
+12-10 17:39:00.549  3849  3893 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.549  3849  3885 D OIC_RI_STACK: call CASelectNetwork [2]
+12-10 17:39:00.549  3849  3893 D OIC_CA_QING: wait..
+12-10 17:39:00.549  3849  3849 D OIC_CA_IP_SERVER: Adding a new IPv6 interface(2) to multicast group
+12-10 17:39:00.550  3849  3885 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[2]
+12-10 17:39:00.550  3849  3849 D OIC_CA_IP_SERVER: Adding a new IPv4 interface(29) to multicast group
+12-10 17:39:00.550  3849  3885 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_GATT_ADAPTER) function returns result : 0
+12-10 17:39:00.550  3849  3885 D OIC_RI_STACK: call CASelectNetwork [32]
+12-10 17:39:00.550  3849  3885 D OIC_CA_INF_CTR: Start the adapter of CAConnectivityType[32]
+12-10 17:39:00.550  3849  3885 E OIC_CA_INF_CTR: unknown connectivity type!
+12-10 17:39:00.550  3849  3885 D OIC_CA_CONN_MGR: CAAddNetworkType(CA_ADAPTER_NFC) function returns result : 255
+12-10 17:39:00.550  3849  3885 D OIC_CA_COMMON_UTILS: CARegisterNetworkMonitorHandler
+12-10 17:39:00.550  3849  3885 D OIC_CA_INF_CTR: Set network monitoring callback
+12-10 17:39:00.550  3849  3885 D OIC_CA_INF_CTR: Add NetworkStateChanged Callback
+12-10 17:39:00.550  3849  3885 D OIC_CA_CONN_MGR: CARegisterHandler
+12-10 17:39:00.550  3849  3885 D OIC_CA_CONN_MGR: CAStartDiscoveryServer
+12-10 17:39:00.550  3849  3885 D OIC_CA_IP_SERVER: Adapter is started already
+12-10 17:39:00.550  3849  3885 D OIC_CA_EDR_SERVER: accept flag is set false
+12-10 17:39:00.551  3849  3885 D OIC_CA_EDR_SERVER: My BT Address is 02:00:00:00:00:00
+12-10 17:39:00.551  3849  3885 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceStateList
+12-10 17:39:00.551  3849  3885 D OIC_CA_EDR_UTILS: CAEDRNativeCreateDeviceSocketList
+12-10 17:39:00.551  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.551  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.551  3849  3894 D OIC_CA_EDR_SERVER: AcceptThread start
+12-10 17:39:00.551  3849  3885 D OIC_CA_EDR_SERVER: CAEDRStartReceiveThread
+12-10 17:39:00.551  3849  3894 D OIC_CA_EDR_SERVER: Could not get JNIEnv pointer
+12-10 17:39:00.551  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.552  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.552  3849  3885 D OIC_CA_EDR_SERVER: OUT
+12-10 17:39:00.552  3849  3895 D OIC_CA_EDR_SERVER: IN - CAReceiveHandler
+12-10 17:39:00.552  3849  3885 D OIC_CA_LE_ADAP: IN - CAStartLEDiscoveryServer
+12-10 17:39:00.552  3849  3895 D OIC_CA_EDR_SERVER: CAReceiveHandler - Could not get JNIEnv pointer
+12-10 17:39:00.552  3849  3885 D OIC_CA_LE_ADAP: CAInitLEClientSenderQueue
+12-10 17:39:00.552  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.552  3849  3885 D OIC_CA_LE_ADAP: CAInitLEClientReceiverQueue
+12-10 17:39:00.552  3849  3885 D OIC_CA_QING: thread initialize..
+12-10 17:39:00.552  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.552  3849  3894 D OIC_CA_EDR_SERVER: CAEDRNativeListen - IN
+12-10 17:39:00.552  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.553  3849  3896 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.553  3849  3896 D OIC_CA_QING: wait..
+12-10 17:39:00.554  3849  3885 D OIC_CA_LE_UTILS: adapter state is 1
+12-10 17:39:00.554  3849  3885 D OIC_CA_LE_ADAP: CALEAdapterGattClientStart
+12-10 17:39:00.554  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.554  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.554  3849  3885 D OIC_CA_UTHREADPOOL: IN
+12-10 17:39:00.554  3849  3885 D OIC_CA_UTHREADPOOL: OUT
+12-10 17:39:00.554  3849  3885 D OIC_CA_LE_ADAP: OUT
+12-10 17:39:00.554  3849  3885 D OIC_CA_INF_CTR: unknown connectivity type!
+12-10 17:39:00.554  3849  3885 I OIC_RI_STACK: Client mode: CAStartDiscoveryServer
+12-10 17:39:00.554  3849  3898 D OIC_CA_QING: message handler main thread start..
+12-10 17:39:00.554  3849  3885 I OIC_CLIENT_WRAPPER: start
+12-10 17:39:00.554  3849  3898 D OIC_CA_QING: wait..
+12-10 17:39:00.554  3849  3897 D OIC_CA_LE_CLIENT: scan waiting time out
+12-10 17:39:00.554  3849  3897 D OIC_CA_LE_CLIENT: scan thread is started
+12-10 17:39:00.554  3849  3897 D OIC_CA_LE_CLIENT: CALEClientSetScanInterval : 10 -> 0, next scan state will be 1
+12-10 17:39:00.554  3849  3897 D OIC_CA_LE_CLIENT: wait for Scan Interval Time during 0 sec
+12-10 17:39:00.558  3849  3894 D OIC_CA_EDR_SERVER: CAEDRNativeListen - OUT
+12-10 17:39:00.558  3849  3894 D OIC_CA_EDR_SERVER: CAEDRNativeAccept - IN
+12-10 17:39:00.558  3849  3894 D OIC_CA_EDR_SERVER: waiting for the new connection request...
+12-10 17:39:01.558  3849  3885 D OIC-JNI : OcPlatform_getPlatformInfo0
+12-10 17:39:01.558  3849  3885 I OIC-JNI : OnPlatformInfoListener: new listener
+12-10 17:39:01.558  3849  3885 I OIC_TRACER: entering oic_trace_init
+12-10 17:39:01.560  3849  3885 I OIC_TRACER: exit oic_trace_init with: 84
+12-10 17:39:01.560  3849  3885 I OIC_TRACER: error writing, len: 36, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.560  3849  3885 I OIC_RI_STACK: Entering OCDoResource
+12-10 17:39:01.560  3849  3885 D OIC_RI_STACK: OCDoRequest: adapter = 0, flags = 0
+12-10 17:39:01.560  3849  3885 D OIC_RI_STACK: devAddr is set as destination
+12-10 17:39:01.560  3849  3885 D OIC_RI_STACK: remoteId of devAddr :
+12-10 17:39:01.563  3849  3885 D OIC_CA_CONN_MGR: CAGenerateToken
+12-10 17:39:01.565  3849  3885 D OIC_CA_PRTCL_MSG: token len:8, token:
+12-10 17:39:01.565  3849  3885 D OIC_CA_PRTCL_MSG: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.565  3849  3885 I OIC_TRACER: error writing, len: 39, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.565  3849  3885 I OIC_RI_CLIENTCB: Adding client callback with token
+12-10 17:39:01.565  3849  3885 I OIC_RI_CLIENTCB: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.566  3849  3885 I OIC_TRACER: error writing, len: 63, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.566  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.566  3849  3885 I OIC_RI_CLIENTCB: No payload present
+12-10 17:39:01.566  3849  3885 I OIC_RI_CLIENTCB: Added Callback for uri : /oic/p
+12-10 17:39:01.566  3849  3885 I OIC_TRACER: error writing, len: 50, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.566  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.566  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.567  3849  3885 I OIC_TRACER: error writing, len: 38, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.567  3849  3885 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:01.567  3849  3885 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:01.567  3849  3885 I OIC_RM_UTIL: Route option is not present
+12-10 17:39:01.567  3849  3885 D OIC_RM_RAP: createoption dlen 0 slen [0]
+12-10 17:39:01.567  3849  3885 D OIC_RM_RAP: Source and destination is not present
+12-10 17:39:01.567  3849  3885 D OIC_RM_RAP: OptValue NOR Message Type
+12-10 17:39:01.567  3849  3885 I OIC_RM_RAP: Option Length is 1
+12-10 17:39:01.568  3849  3885 D OIC_CA_CONN_MGR: CASendRequest
+12-10 17:39:01.568  3849  3885 D OIC_CA_CONN_MGR: CASendMessageMultipleAdapter
+12-10 17:39:01.568  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:01.568  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:01.568  3849  3885 D OIC_CA_BWT: IN-CACreateNewBlockMulticastData
+12-10 17:39:01.568  3849  3885 D OIC_CA_BWT: OUT-CACreateNewBlockMulticastData
+12-10 17:39:01.568  3849  3885 D OIC_CA_BWT: multicast message can't be sent to the block
+12-10 17:39:01.568  3849  3885 D OIC_CA_MSG_HANDLE: normal msg will be sent
+12-10 17:39:01.568  3849  3885 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.569  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:01.569  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:01.569  3849  3887 D OIC_CA_QING: wake up..
+12-10 17:39:01.569  3849  3885 I OIC_CA_PRTCL_MSG: adapter value of BWT is 2
+12-10 17:39:01.569  3849  3885 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.569  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.569  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:01.569  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:01.569  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:01.569  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:01.569  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:01.569  3849  3885 I OIC_CA_PRTCL_MSG: adapter value of BWT is 4
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [1]adapter, [98]flags
+12-10 17:39:01.570  3849  3885 D OIC_UQUEUE: Queue Count : 2
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/p
+12-10 17:39:01.570  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:01.570  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:01.570  3849  3885 D OIC_CA_BWT: multicast message can't be sent to the block
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:01.570  3849  3885 D OIC_CA_MSG_HANDLE: normal msg will be sent
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:01.570  3849  3885 D OIC_UQUEUE: Queue Count : 3
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:01.570  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.570  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:01.570  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:01.571  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 0
+12-10 17:39:01.571  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: msgID is 0
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: gen msg id=19346
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: messageId in pdu is 19346, 19346
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:01.571  3849  3887 D OIC_CA_PRTCL_MSG: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.572  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.572  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: IN-AddBlockOption
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: BlockID is
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: 1E 4A 11 3D D7 9E 96 DC 00 00
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: IN-GetBlockOptionType
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: OUT-GetBlockOptionType
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: no BLOCK option
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [oic] opt will be added.
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [12] pdu length
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [p] opt will be added.
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [16] pdu length
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: ['] opt will be added.
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [18] pdu length
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [] opt will be added.
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [21] pdu length
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [À] opt will be added.
+12-10 17:39:01.572  3849  3887 D OIC_CA_BWT: [26] pdu length
+12-10 17:39:01.573  3849  3887 D OIC_CA_BWT: [30] pdu length after option
+12-10 17:39:01.573  3849  3887 I OIC_CA_BWT: not Blockwise Transfer
+12-10 17:39:01.573  3849  3887 D OIC_CA_BWT: OUT-AddBlockOption
+12-10 17:39:01.573  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.573  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Msg ID = [37451]
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.573  3849  3887 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.573  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.573  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.574  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.574  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.574  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.574  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.574  3849  3887 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.574  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.574  3849  3890 D OIC_CA_QING: wake up..
+12-10 17:39:01.575  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.575  3849  3890 D OIC_CA_IP_ADAP: Send Multicast Data is called
+12-10 17:39:01.575  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.575  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.575  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:01.575  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [2]adapter, [98]flags
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/p
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:01.575  3849  3890 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:01.575  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[3], optLength[4], msgLength[4]
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[1], optLength[2], msgLength[6]
+12-10 17:39:01.576  3849  3890 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[17], prevOptNumber[17], optValueLen[2], optLength[3], msgLength[9]
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[2049], prevOptNumber[2049], optValueLen[2], optLength[5], msgLength[14]
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[65524], prevOptNumber[65524], optValueLen[1], optLength[4], msgLength[18]
+12-10 17:39:01.576  3849  3890 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 2, payload size: 0
+12-10 17:39:01.576  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [oic] opt will be added.
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [11] pdu length
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [p] opt will be added.
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [15] pdu length
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: ['] opt will be added.
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [17] pdu length
+12-10 17:39:01.576  3849  3890 I OIC_CA_IP_SERVER: multicast ipv6 sendTo is successful: 30 bytes
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [] opt will be added.
+12-10 17:39:01.576  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [20] pdu length
+12-10 17:39:01.576  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.576  3849  3887 D OIC_CA_PRTCL_MSG: [À] opt will be added.
+12-10 17:39:01.576  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:01.577  3849  3887 D OIC_CA_PRTCL_MSG: [25] pdu length
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.577  3849  3887 D OIC_CA_PRTCL_MSG: [29] pdu length after option
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: Address = [ff02::158]:[5683]
+12-10 17:39:01.577  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.577  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of BWT is 2
+12-10 17:39:01.577  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::f6f5:dbff:fe26:2384%wlan0, port:53254
+12-10 17:39:01.577  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:01.577  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.577  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.577  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.577  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_GATT_BTLE]
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:01.577  3849  3890 I OIC_CA_IP_SERVER: multicast ipv6 sendTo is successful: 30 bytes
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.577  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:01.577  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.577  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Msg ID = [286]
+12-10 17:39:01.577  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.577  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: Address = [ff02::158]:[5683]
+12-10 17:39:01.577  3849  3887 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.577  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:01.577  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.577  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.578  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::f6f5:dbff:fe26:2384%wlan0
+12-10 17:39:01.578  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:01.578  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.578  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.578  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.578  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.578  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.578  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.578  3849  3890 I OIC_CA_IP_SERVER: multicast ipv6 sendTo is successful: 30 bytes
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:01.578  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [29]
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:01.578  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:01.578  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: D8 05 01 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63 01
+12-10 17:39:01.578  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.578  3849  3890 D OIC_ANALYZER: Address = [ff02::158]:[5683]
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: CoAP Header size = [29]
+12-10 17:39:01.578  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.578  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:01.578  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.578  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:01.579  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.579  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 17:39:01.579  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.579  3849  3887 D OIC_CA_LE_ADAP: IN - CASendLEMulticastData
+12-10 17:39:01.579  3849  3890 I OIC_CA_IP_SERVER: multicast ipv4 sendTo is successful: 30 bytes
+12-10 17:39:01.579  3849  3887 D OIC_CA_LE_ADAP: g_adapterType: 3
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 17:39:01.579  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:01.579  3849  3887 D OIC_CA_LE_ADAP: Data Sending to LE layer [29]
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:01.579  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.579  3849  3887 E OIC_CA_REMOTE_HANDLER: parameter is null
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 17:39:01.579  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:01.579  3849  3887 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:01.579  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.579  3849  3887 D OIC_CA_LE_ADAP: OUT - CASendLEMulticastData
+12-10 17:39:01.579  3849  3898 D OIC_CA_QING: wake up..
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:01.579  3849  3890 D OIC_ANALYZER: Address = [224.0.1.187]:[5683]
+12-10 17:39:01.579  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:01.579  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:01.579  3849  3898 D OIC_CA_LE_ADAP: IN - CALEClientSendDataThread
+12-10 17:39:01.579  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:01.579  3849  3898 E OIC_CA_LE_ADAP: Invalid endpoint of bledata!
+12-10 17:39:01.579  3849  3890 D OIC_CA_QING: wait..
+12-10 17:39:01.579  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.579  3849  3898 D OIC_CA_QING: wait..
+12-10 17:39:01.579  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 19346
+12-10 17:39:01.579  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:01.579  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:01.580  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:01.580  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:01.580  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [4]adapter, [98]flags
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/p
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[53254]
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Msg ID = [37451]
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:01.580  3849  3891 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:01.580  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[3], optLength[4], msgLength[4]
+12-10 17:39:01.580  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[1], optLength[2], msgLength[6]
+12-10 17:39:01.581  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[17], prevOptNumber[17], optValueLen[2], optLength[3], msgLength[9]
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[2049], prevOptNumber[2049], optValueLen[2], optLength[5], msgLength[14]
+12-10 17:39:01.581  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[65524], prevOptNumber[65524], optValueLen[1], optLength[4], msgLength[18]
+12-10 17:39:01.581  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 2, payload size: 0
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: [oic] opt will be added.
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: [11] pdu length
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: [p] opt will be added.
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:01.581  3849  3887 D OIC_CA_PRTCL_MSG: [15] pdu length
+12-10 17:39:01.581  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.582  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: ['] opt will be added.
+12-10 17:39:01.582  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: [17] pdu length
+12-10 17:39:01.582  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: [] opt will be added.
+12-10 17:39:01.582  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: [20] pdu length
+12-10 17:39:01.582  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: [À] opt will be added.
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: [25] pdu length
+12-10 17:39:01.582  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: [29] pdu length after option
+12-10 17:39:01.582  3849  3891 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.582  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:01.582  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:01.582  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of BWT is 4
+12-10 17:39:01.582  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.582  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.582  3849  3891 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.582  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.582  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.582  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.582  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:01.582  3849  3887 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_RFCOMM_BTEDR]
+12-10 17:39:01.582  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::6270:1d68:d152:a69a%rmnet_data7, port:53254
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.583  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.583  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.583  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Msg ID = [286]
+12-10 17:39:01.583  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.583  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.583  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:01.583  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.583  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:01.583  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.583  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::6270:1d68:d152:a69a%rmnet_data7
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.583  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:01.583  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.583  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.583  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.583  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.583  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.583  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:01.583  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [29]
+12-10 17:39:01.584  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.584  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: D8 05 01 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63 01
+12-10 17:39:01.584  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.584  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: CoAP Header size = [29]
+12-10 17:39:01.584  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.584  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: Request Info :
+
+
+12-10 17:39:01.584  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 17:39:01.584  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:01.584  3849  3887 D OIC_CA_EDR_ADAP: IN - CASendEDRMulticastData
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 17:39:01.584  3849  3887 D OIC_CA_EDR_ADAP: IN - CAAdapterSendData
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:01.584  3849  3887 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:01.584  3849  3887 D OIC_CA_EDR_ADAP: OUT - CAAdapterSendData
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:01.584  3849  3887 D OIC_CA_EDR_ADAP: OUT - CASendEDRMulticastData
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.584  3849  3892 D OIC_CA_QING: wake up..
+12-10 17:39:01.584  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.584  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 19346
+
+
+12-10 17:39:01.584  3849  3892 D OIC_CA_EDR_ADAP: IN - CAAdapterDataSendHandler
+12-10 17:39:01.584  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.585  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:01.585  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.585  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.585  3849  3892 D OIC_CA_EDR_ADAP: sending multicast data : ØJ=×ž–Ü³oicpb'âã
+12-10 17:39:01.585  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.585  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.585  3849  3892 D OIC_CA_EDR_CLIENT: CAEDRSendMulticastMessage - Could not get JNIEnv pointer
+12-10 17:39:01.585  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.585  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [32]adapter, [98]flags
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Address = [fe80::6270:1d68:d152:a69a%rmnet_data7]:[53254]
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/p
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Msg ID = [37451]
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:01.585  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:01.585  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:01.585  3849  3891 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.585  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:01.586  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 32
+12-10 17:39:01.586  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 0
+12-10 17:39:01.586  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.586  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 32
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: msgID is 0
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: gen msg id=24323
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: messageId in pdu is 24323, 24323
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.586  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 32
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.586  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:01.586  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.586  3849  3887 D OIC_CA_BWT: IN-AddBlockOption
+12-10 17:39:01.586  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.586  3849  3887 D OIC_CA_BWT: BlockID is
+12-10 17:39:01.586  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:01.586  3849  3887 D OIC_CA_BWT: 1E 4A 11 3D D7 9E 96 DC 00 00
+12-10 17:39:01.586  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:01.586  3849  3887 D OIC_CA_BWT: IN-GetBlockOptionType
+12-10 17:39:01.587  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: OUT-GetBlockOptionType
+12-10 17:39:01.587  3849  3891 D OIC_UQUEUE: Queue Count : 2
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: no BLOCK option
+12-10 17:39:01.587  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [oic] opt will be added.
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [12] pdu length
+12-10 17:39:01.587  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [p] opt will be added.
+12-10 17:39:01.587  3849  3891 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [16] pdu length
+12-10 17:39:01.587  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: ['] opt will be added.
+12-10 17:39:01.587  3849  3891 D OIC_CA_IP_ADAP: Address: 192.168.1.69, port:42708
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [18] pdu length
+12-10 17:39:01.587  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [] opt will be added.
+12-10 17:39:01.587  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [21] pdu length
+12-10 17:39:01.587  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [À] opt will be added.
+12-10 17:39:01.587  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [26] pdu length
+12-10 17:39:01.587  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: [30] pdu length after option
+12-10 17:39:01.587  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:01.587  3849  3887 I OIC_CA_BWT: not Blockwise Transfer
+12-10 17:39:01.587  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:01.587  3849  3887 D OIC_CA_BWT: OUT-AddBlockOption
+12-10 17:39:01.588  3849  3891 D OIC_CA_MSG_HANDLE: address : 192.168.1.69
+12-10 17:39:01.588  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.588  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:01.588  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.588  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.588  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Transport Type = [32]
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Msg ID = [863]
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.588  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:01.588  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:01.588  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.588  3849  3891 I OIC_CA_MSG_HANDLE: IPv4 duplicate message ignored
+12-10 17:39:01.588  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.588  3849  3891 I OIC_CA_MSG_HANDLE: Second Request with same Token, Drop it
+12-10 17:39:01.588  3849  3887 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.588  3849  3891 E OIC_CA_MSG_HANDLE: CAReceivedPacketCallback, CAGenerateHandlerData failed!
+12-10 17:39:01.588  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.589  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:01.589  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.589  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.589  3849  3891 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.589  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: 58 01 03 5F 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.589  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::4c91:90ff:fead:dca2%dummy0, port:53254
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:01.589  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.589  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.589  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:01.589  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:01.589  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.589  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:01.589  3849  3887 E OIC_CA_INF_CTR: unknown connectivity type!
+12-10 17:39:01.589  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.589  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:01.589  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.589  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:01.589  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.589  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::4c91:90ff:fead:dca2%dummy0
+12-10 17:39:01.590  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.590  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:01.590  3849  3887 D OIC_CA_QING: wait..
+12-10 17:39:01.590  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.590  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:01.590  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:01.590  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:01.590  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:01.591  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:01.591  3849  3891 D OIC_CA_MSG_HANDLE: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.591  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 19346
+12-10 17:39:01.591  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:01.591  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.591  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Address = [fe80::4c91:90ff:fead:dca2%dummy0]:[53254]
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Msg ID = [37451]
+12-10 17:39:01.591  3849  3886 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.591  3849  3886 I OIC_RI_STACK: Enter HandleCARequests
+12-10 17:39:01.591  3849  3891 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.591  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.591  3849  3886 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.591  3849  3886 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:01.591  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.592  3849  3886 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.592  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:01.592  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.592  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:01.592  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:01.592  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:01.592  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.592  3849  3886 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.592  3849  3886 I OIC_RI_STACK: Endpoint URI : /oic/p
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.592  3849  3886 I OIC_RI_STACK: Exit HandleCARequests
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:01.592  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.592  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:01.592  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.592  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.592  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.592  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:01.592  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:01.592  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:01.592  3849  3891 D OIC_UQUEUE: Queue Count : 2
+12-10 17:39:01.592  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:01.592  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.592  3849  3891 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.592  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.593  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::6270:1d68:d152:a69a%rmnet_data7, port:53254
+12-10 17:39:01.593  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.593  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:01.593  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.593  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:01.593  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:01.593  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::6270:1d68:d152:a69a%rmnet_data7
+12-10 17:39:01.593  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:01.593  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.593  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:01.593  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:01.593  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:01.593  3849  3891 I OIC_CA_MSG_HANDLE: IPv6 duplicate message ignored
+12-10 17:39:01.593  3849  3891 I OIC_CA_MSG_HANDLE: Second Request with same Token, Drop it
+12-10 17:39:01.593  3849  3891 E OIC_CA_MSG_HANDLE: CAReceivedPacketCallback, CAGenerateHandlerData failed!
+12-10 17:39:01.593  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:01.593  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.594  3849  3891 D OIC_CA_MSG_HANDLE: 01 70 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:01.594  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+
+
+12-10 17:39:01.594  3849  3892 D OIC_CA_EDR_CLIENT: device name is lmh-server, address is 50:8F:4C:2A:C2:5F
+12-10 17:39:01.597  3849  3892 D OIC_CA_EDR_UTILS: CAEDRIsConnectedDevice
+12-10 17:39:01.598  3849  3892 D OIC_CA_EDR_CLIENT: try to connect with [50:8F:4C:2A:C2:5F] before sending data
+12-10 17:39:01.599  3849  3892 D OIC_CA_EDR_CLIENT: initiating connection...
+12-10 17:39:01.602  3849  3886 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 17:39:01.602  3849  3886 I OIC_RI_STACK: Enter HandleCARequests
+12-10 17:39:01.602  3849  3886 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.603  3849  3886 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:01.603  3849  3886 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:01.603  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:01.603  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:01.603  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.603  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.603  3849  3886 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 17:39:01.603  3849  3886 I OIC_RI_STACK: Endpoint URI : /oic/p
+12-10 17:39:01.603  3849  3886 I OIC_RI_STACK: Exit HandleCARequests
+12-10 17:39:01.603  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.603  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.603  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.613  3849  3886 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 17:39:01.613  3849  3886 I OIC_RI_STACK: Enter HandleCARequests
+12-10 17:39:01.613  3849  3886 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.613  3849  3886 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:01.613  3849  3886 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:01.613  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:01.613  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:01.614  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.614  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.614  3849  3886 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 17:39:01.614  3849  3886 I OIC_RI_STACK: Endpoint URI : /oic/p
+12-10 17:39:01.614  3849  3886 I OIC_RI_STACK: Exit HandleCARequests
+12-10 17:39:01.614  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.614  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.614  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.846  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::528f:4cff:fe6d:817f%wlan0, port:60595
+12-10 17:39:01.846  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.846  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.846  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:01.846  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:01.846  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.847  3849  3891 D OIC_CA_MSG_HANDLE: code = 205
+12-10 17:39:01.847  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:01.847  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::528f:4cff:fe6d:817f%wlan0
+12-10 17:39:01.847  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:01.847  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.847  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.847  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:01.848  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:01.849  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:01.849  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:01.849  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:01.849  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:01.849  3849  3891 D OIC_CA_PRTCL_MSG: inside pdu->data
+12-10 17:39:01.849  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:01.849  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: Response Info :
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 12
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2053
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: payload: 0x7f67ae3c00(319)
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:01.850  3849  3891 D OIC_CA_MSG_HANDLE: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.851  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 19346
+12-10 17:39:01.851  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:01.851  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:01.851  3849  3891 D OIC_CA_RETRANS: IN
+12-10 17:39:01.851  3849  3891 D OIC_CA_RETRANS: received pdu, msgtype=1, msgid=19346, code=205
+12-10 17:39:01.851  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:01.851  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: Address = [fe80::528f:4cff:fe6d:817f%wlan0]:[60595]
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: Data Type = [CA_RESPONSE_DATA]
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: result code = [205]
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: Msg ID = [37451]
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:01.852  3849  3891 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.853  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.853  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.853  3849  3891 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:01.853  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.853  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.853  3849  3891 D OIC_ANALYZER: Payload Format = [CA_FORMAT_APPLICATION_VND_OCF_CBOR]
+12-10 17:39:01.853  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [350]
+12-10 17:39:01.853  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:01.854  3849  3891 D OIC_ANALYZER: 58 45 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.854  3849  3891 D OIC_ANALYZER: 01 70 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF
+12-10 17:39:01.854  3849  3891 D OIC_ANALYZER: CoAP Header size = [31]
+12-10 17:39:01.854  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:01.854  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [319]
+12-10 17:39:01.854  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:01.854  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.854  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:01.855  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:01.855  3849  3891 D OIC_CA_BWT: BlockID is
+12-10 17:39:01.855  3849  3891 D OIC_CA_BWT: 1E 4A 11 3D D7 9E 96 DC EC B3 66 65 38 30 3A 3A
+12-10 17:39:01.855  3849  3891 D OIC_CA_BWT: 35 32 38 66 3A 34 63 66 66 3A 66 65 36 64 3A 38
+12-10 17:39:01.855  3849  3891 D OIC_CA_BWT: 31 37 66 25 77 6C 61 6E 30
+12-10 17:39:01.855  3849  3891 D OIC_CA_BWT: CARemoveBlockData
+12-10 17:39:01.855  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:01.855  3849  3891 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:01.855  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 58 45 92 4B 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 01 70 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF BF
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 62 72 74 81 68 6F 69 63 2E 77 6B 2E 70 62 69 66
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 82 6F 6F 69 63 2E 69 66 2E 62 61 73 65 6C 69 6E
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 65 68 6F 69 63 2E 69 66 2E 72 62 73 74 6D 31 35
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 37 35 39 36 39 33 35 38 30 32 34 64 6D 6E 73 6C
+12-10 17:39:01.856  3849  3891 D OIC_CA_MSG_HANDLE: 78 1D 68 74 74 70 73 3A 2F 2F 77 77 77 2E 6D 79
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 73 75 70 70 6F 72 74 6C 69 6E 6B 2E 63 6F 6D 64
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 6D 6E 66 76 71 6D 79 46 69 72 6D 77 61 72 65 56
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 65 72 73 69 6F 6E 64 6D 6E 68 77 71 6D 79 48 61
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 72 64 77 61 72 65 56 65 72 73 69 6F 6E 64 6D 6E
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 6F 73 77 4D 61 6E 75 66 61 63 74 75 72 65 72 20
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 4F 53 20 76 65 72 73 69 6F 6E 64 6D 6E 70 76 71
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 6D 79 50 6C 61 74 66 6F 72 6D 56 65 72 73 69 6F
+12-10 17:39:01.857  3849  3891 D OIC_CA_MSG_HANDLE: 6E 64 6D 6E 64 74 6A 32 30 31 36 2D 30 31 2D 31
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 35 64 6D 6E 6D 6F 6D 6D 79 4D 6F 64 65 6C 4E 75
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 6D 62 65 72 64 6D 6E 6D 6C 76 68 74 74 70 73 3A
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 2F 2F 77 77 77 2E 6D 79 6C 69 6E 6B 2E 63 6F 6D
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 64 6D 6E 6D 6E 6E 6D 79 4D 61 6E 75 66 61 63 74
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 4E 61 6D 65 62 70 69 78 24 30 41 33 45 30 44 36
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 46 2D 44 42 46 35 2D 34 30 34 45 2D 38 37 31 39
+12-10 17:39:01.858  3849  3891 D OIC_CA_MSG_HANDLE: 2D 44 36 38 38 30 30 34 32 34 36 33 41 FF
+12-10 17:39:01.859  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.859  3849  3886 D OIC_CA_MSG_HANDLE: response callback : 3
+12-10 17:39:01.859  3849  3886 I OIC_RI_STACK: Enter HandleCAResponses
+12-10 17:39:01.859  3849  3886 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.859  3849  3886 D OIC_RM_UTIL: Request- optionID: 12
+12-10 17:39:01.859  3849  3886 D OIC_RM_UTIL: Request- optionID: 2053
+12-10 17:39:01.860  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:01.860  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:01.860  3849  3886 D OIC_RI_STACK: Enter OCHandleResponse
+12-10 17:39:01.860  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:01.860  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.860  3849  3886 I OIC_RI_CLIENTCB: Looking for token
+12-10 17:39:01.860  3849  3886 I OIC_RI_CLIENTCB: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:01.860  3849  3886 I OIC_RI_CLIENTCB: Found in callback list
+12-10 17:39:01.860  3849  3886 I OIC_RI_STACK: There is a cbNode associated with the response token
+12-10 17:39:01.861  3849  3886 I OIC_RI_STACK: This is a regular response, A client call back is found
+12-10 17:39:01.861  3849  3886 I OIC_RI_STACK: Calling into application address space
+12-10 17:39:01.861  3849  3886 I OIC_RI_PAYLOADPARSE: CBOR Parsing size: 319 of Payload Type: 4, Payload:
+12-10 17:39:01.861  3849  3886 I OIC_RI_PAYLOADPARSE: Finished parse payload, result is 0
+12-10 17:39:01.862  3849  3886 E OIC_RI_RESOURCE: Query is empty!
+12-10 17:39:01.862  3849  3886 D OIC_CLIENT_WRAPPER: OCStackApplicationResult OC::listenDeviceCallback(void*, OCDoHandle, OCClientResponse*): call response callback
+12-10 17:39:01.863  3849  3886 I OIC_RI_STACK: Exit HandleCAResponses
+12-10 17:39:01.863  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:01.863  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:01.864  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:01.871  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.872  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.872  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.873  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.873  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.873  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.874  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.874  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.874  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.875  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:01.876  3849  3901 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.053  3849  3892 D OIC_CA_EDR_UTILS: CANativeAddDeviceobjToList
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: CANativeIsDeviceObjInList
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: there are no the Device obejct in list
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: add new device socket object to list
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: there are no the device in list.
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: add new device state[1] to list
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_CLIENT: successfully connected
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: CAEDRIsConnectedDevice
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_CLIENT: Get MethodID for i/o stream
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_UTILS: CAEDRNativeGetDeviceSocketBaseAddr
+12-10 17:39:03.054  3849  3892 E OIC_CA_EDR_UTILS: remove object : 50:8F:4C:2A:C2:5F
+12-10 17:39:03.054  3849  3892 D OIC_CA_EDR_CLIENT: ready outputStream..
+12-10 17:39:03.055  3849  3892 I OIC_CA_EDR_CLIENT: EDR sendTo is successful: 29 bytes, to 50:8F:4C:2A:C2:5F
+12-10 17:39:03.055  3849  3892 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:03.055  3849  3892 D OIC_ANALYZER: =================================================
+12-10 17:39:03.055  3849  3892 D OIC_ANALYZER: Send Success, sent length = [29]
+12-10 17:39:03.055  3849  3892 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_RFCOMM_BTEDR]
+12-10 17:39:03.055  3849  3892 D OIC_ANALYZER: Address = [50:8F:4C:2A:C2:5F]:[0]
+12-10 17:39:03.055  3849  3892 D OIC_ANALYZER: =================================================
+12-10 17:39:03.055  3849  3892 D OIC_CA_EDR_CLIENT: DetachCurrentThread
+12-10 17:39:03.055  3849  3892 D OIC_CA_EDR_CLIENT: OUT - CAEDRSendMulticastMessage
+12-10 17:39:03.055  3849  3892 D OIC_CA_EDR_ADAP: OUT
+12-10 17:39:03.056  3849  3892 D OIC_CA_QING: wait..
+12-10 17:39:03.103  3849  3895 D OIC_CA_EDR_UTILS: CAEDRGetDeviceInfoFromAddress
+12-10 17:39:03.104  3849  3895 D OIC_CA_EDR_SERVER: read InputStream (idx:0, addr:50:8F:4C:2A:C2:5F)
+12-10 17:39:03.104  3849  3895 D OIC_CA_EDR_SERVER: read success (length: 6 bytes)
+12-10 17:39:03.104  3849  3895 D OIC_CA_EDR_SERVER: total data length [350] bytes
+12-10 17:39:03.105  3849  3895 D OIC_CA_EDR_UTILS: CAEDRGetDeviceInfoFromAddress
+12-10 17:39:03.106  3849  3895 D OIC_CA_EDR_SERVER: read InputStream (idx:0, addr:50:8F:4C:2A:C2:5F)
+12-10 17:39:03.106  3849  3895 D OIC_CA_EDR_SERVER: read success (length: 344 bytes)
+12-10 17:39:03.106  3849  3895 D OIC_CA_EDR_SERVER: data will be sent to callback routine: è, 350
+12-10 17:39:03.106  3849  3895 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.106  3849  3893 D OIC_CA_QING: wake up..
+12-10 17:39:03.106  3849  3893 D OIC_CA_EDR_ADAP: IN_CAAdapterDataReceiverHandler
+12-10 17:39:03.106  3849  3893 D OIC_CA_EDR_ADAP: Sending data up !
+12-10 17:39:03.107  3849  3893 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 3
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.107  3849  3893 I OIC_CA_PRTCL_MSG: there is no version info in coap header
+12-10 17:39:03.107  3849  3893 D OIC_CA_MSG_HANDLE: code = 205
+12-10 17:39:03.107  3849  3893 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.107  3849  3893 D OIC_CA_MSG_HANDLE: address : 50:8F:4C:2A:C2:5F
+12-10 17:39:03.107  3849  3893 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : p
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.107  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.108  3849  3893 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.108  3849  3893 D OIC_CA_PRTCL_MSG: inside pdu->data
+12-10 17:39:03.108  3849  3893 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.108  3849  3893 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: Response Info :
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: optionID: 12
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: optionID: 2053
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: payload: 0x7f58c64cc0(319)
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:03.108  3849  3893 D OIC_CA_MSG_HANDLE: msgID: 0
+12-10 17:39:03.109  3849  3893 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:03.109  3849  3893 I OIC_CA_MSG_HANDLE: retransmission is not supported
+12-10 17:39:03.109  3849  3893 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.109  3849  3893 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: =================================================
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_RFCOMM_BTEDR]
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: Address = [50:8F:4C:2A:C2:5F]:[0]
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: Data Type = [CA_RESPONSE_DATA]
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: result code = [205]
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: Msg ID = [17733]
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.109  3849  3893 D OIC_ANALYZER: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:03.110  3849  3893 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.110  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: Res URI = [/oic/p]
+12-10 17:39:03.110  3849  3893 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.110  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: Payload Format = [CA_FORMAT_APPLICATION_VND_OCF_CBOR]
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: CoAP Message Full Size = [350]
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: E8 00 45 45 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: 01 70 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: CoAP Header size = [31]
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.110  3849  3893 D OIC_ANALYZER: CoAP Payload Size = [319]
+12-10 17:39:03.111  3849  3893 D OIC_ANALYZER: =================================================
+12-10 17:39:03.111  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.111  3849  3893 I OIC_CA_PRTCL_MSG: adapter value of BWT is 4
+12-10 17:39:03.111  3849  3893 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.111  3849  3886 D OIC_CA_MSG_HANDLE: response callback : 3
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: E8 00 45 45 1E 4A 11 3D D7 9E 96 DC B3 6F 69 63
+12-10 17:39:03.111  3849  3886 I OIC_RI_STACK: Enter HandleCAResponses
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: 01 70 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF BF
+12-10 17:39:03.111  3849  3886 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: 62 72 74 81 68 6F 69 63 2E 77 6B 2E 70 62 69 66
+12-10 17:39:03.111  3849  3886 D OIC_RM_UTIL: Request- optionID: 12
+12-10 17:39:03.111  3849  3886 D OIC_RM_UTIL: Request- optionID: 2053
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: 82 6F 6F 69 63 2E 69 66 2E 62 61 73 65 6C 69 6E
+12-10 17:39:03.111  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: 65 68 6F 69 63 2E 69 66 2E 72 62 73 74 6D 31 35
+12-10 17:39:03.111  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:03.111  3849  3893 D OIC_CA_MSG_HANDLE: 37 35 39 36 39 33 35 38 30 32 34 64 6D 6E 73 6C
+12-10 17:39:03.112  3849  3886 D OIC_RI_STACK: Enter OCHandleResponse
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 78 1D 68 74 74 70 73 3A 2F 2F 77 77 77 2E 6D 79
+12-10 17:39:03.112  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 73 75 70 70 6F 72 74 6C 69 6E 6B 2E 63 6F 6D 64
+12-10 17:39:03.112  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 6D 6E 66 76 71 6D 79 46 69 72 6D 77 61 72 65 56
+12-10 17:39:03.112  3849  3886 I OIC_RI_CLIENTCB: Looking for token
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 65 72 73 69 6F 6E 64 6D 6E 68 77 71 6D 79 48 61
+12-10 17:39:03.112  3849  3886 I OIC_RI_CLIENTCB: 1E 4A 11 3D D7 9E 96 DC
+12-10 17:39:03.112  3849  3886 I OIC_RI_CLIENTCB: Found in callback list
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 72 64 77 61 72 65 56 65 72 73 69 6F 6E 64 6D 6E
+12-10 17:39:03.112  3849  3886 I OIC_RI_STACK: There is a cbNode associated with the response token
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 6F 73 77 4D 61 6E 75 66 61 63 74 75 72 65 72 20
+12-10 17:39:03.112  3849  3886 I OIC_RI_STACK: This is a regular response, A client call back is found
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 4F 53 20 76 65 72 73 69 6F 6E 64 6D 6E 70 76 71
+12-10 17:39:03.112  3849  3886 I OIC_RI_STACK: Calling into application address space
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 6D 79 50 6C 61 74 66 6F 72 6D 56 65 72 73 69 6F
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 6E 64 6D 6E 64 74 6A 32 30 31 36 2D 30 31 2D 31
+12-10 17:39:03.112  3849  3886 I OIC_RI_PAYLOADPARSE: CBOR Parsing size: 319 of Payload Type: 4, Payload:
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 35 64 6D 6E 6D 6F 6D 6D 79 4D 6F 64 65 6C 4E 75
+12-10 17:39:03.112  3849  3893 D OIC_CA_MSG_HANDLE: 6D 62 65 72 64 6D 6E 6D 6C 76 68 74 74 70 73 3A
+12-10 17:39:03.113  3849  3893 D OIC_CA_MSG_HANDLE: 2F 2F 77 77 77 2E 6D 79 6C 69 6E 6B 2E 63 6F 6D
+12-10 17:39:03.113  3849  3886 I OIC_RI_PAYLOADPARSE: Finished parse payload, result is 0
+12-10 17:39:03.113  3849  3893 D OIC_CA_MSG_HANDLE: 64 6D 6E 6D 6E 6E 6D 79 4D 61 6E 75 66 61 63 74
+12-10 17:39:03.113  3849  3886 E OIC_RI_RESOURCE: Query is empty!
+12-10 17:39:03.113  3849  3893 D OIC_CA_MSG_HANDLE: 4E 61 6D 65 62 70 69 78 24 30 41 33 45 30 44 36
+12-10 17:39:03.113  3849  3886 D OIC_CLIENT_WRAPPER: OCStackApplicationResult OC::listenDeviceCallback(void*, OCDoHandle, OCClientResponse*): call response callback
+12-10 17:39:03.113  3849  3893 D OIC_CA_MSG_HANDLE: 46 2D 44 42 46 35 2D 34 30 34 45 2D 38 37 31 39
+12-10 17:39:03.113  3849  3893 D OIC_CA_MSG_HANDLE: 2D 44 36 38 38 30 30 34 32 34 36 33 41 FF
+12-10 17:39:03.113  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.113  3849  3893 D OIC_CA_EDR_ADAP: OUT_CAAdapterDataReceiverHandler
+12-10 17:39:03.113  3849  3893 D OIC_CA_QING: wait..
+12-10 17:39:03.113  3849  3886 I OIC_RI_STACK: Exit HandleCAResponses
+12-10 17:39:03.114  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.114  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.114  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.116  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.116  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.117  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.117  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.117  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.118  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.119  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.119  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.120  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.120  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.120  3849  3904 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.573  3849  3885 D OIC-JNI : OcPlatform_getDeviceInfo0
+12-10 17:39:03.573  3849  3885 I OIC-JNI : OnDeviceInfoListener: new listener
+12-10 17:39:03.573  3849  3885 I OIC_TRACER: error writing, len: 36, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.573  3849  3885 I OIC_RI_STACK: Entering OCDoResource
+12-10 17:39:03.573  3849  3885 D OIC_RI_STACK: OCDoRequest: adapter = 0, flags = 0
+12-10 17:39:03.573  3849  3885 D OIC_RI_STACK: devAddr is set as destination
+12-10 17:39:03.573  3849  3885 D OIC_RI_STACK: remoteId of devAddr :
+12-10 17:39:03.574  3849  3885 D OIC_CA_CONN_MGR: CAGenerateToken
+12-10 17:39:03.575  3849  3885 D OIC_CA_PRTCL_MSG: token len:8, token:
+12-10 17:39:03.576  3849  3885 D OIC_CA_PRTCL_MSG: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 39, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.576  3849  3885 I OIC_RI_CLIENTCB: Adding client callback with token
+12-10 17:39:03.576  3849  3885 I OIC_RI_CLIENTCB: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 63, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.576  3849  3885 I OIC_RI_CLIENTCB: No payload present
+12-10 17:39:03.576  3849  3885 I OIC_RI_CLIENTCB: Added Callback for uri : /oic/d
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 50, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.576  3849  3885 I OIC_TRACER: error writing, len: 38, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.576  3849  3885 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:03.576  3849  3885 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:03.576  3849  3885 I OIC_RM_UTIL: Route option is not present
+12-10 17:39:03.576  3849  3885 D OIC_RM_RAP: createoption dlen 0 slen [0]
+12-10 17:39:03.577  3849  3885 D OIC_RM_RAP: Source and destination is not present
+12-10 17:39:03.577  3849  3885 D OIC_RM_RAP: OptValue NOR Message Type
+12-10 17:39:03.577  3849  3885 I OIC_RM_RAP: Option Length is 1
+12-10 17:39:03.577  3849  3885 D OIC_CA_CONN_MGR: CASendRequest
+12-10 17:39:03.577  3849  3885 D OIC_CA_CONN_MGR: CASendMessageMultipleAdapter
+12-10 17:39:03.577  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:03.577  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:03.577  3849  3885 D OIC_CA_BWT: IN-CACreateNewBlockMulticastData
+12-10 17:39:03.577  3849  3885 D OIC_CA_BWT: OUT-CACreateNewBlockMulticastData
+12-10 17:39:03.577  3849  3885 D OIC_CA_BWT: multicast message can't be sent to the block
+12-10 17:39:03.577  3849  3885 D OIC_CA_MSG_HANDLE: normal msg will be sent
+12-10 17:39:03.577  3849  3885 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.577  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:03.577  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:03.577  3849  3887 D OIC_CA_QING: wake up..
+12-10 17:39:03.577  3849  3885 I OIC_CA_PRTCL_MSG: adapter value of BWT is 2
+12-10 17:39:03.577  3849  3885 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.577  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.577  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:03.577  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:03.578  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:03.578  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:03.578  3849  3885 I OIC_CA_PRTCL_MSG: adapter value of BWT is 4
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [1]adapter, [98]flags
+12-10 17:39:03.578  3849  3885 D OIC_UQUEUE: Queue Count : 2
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/d
+12-10 17:39:03.578  3849  3885 D OIC_CA_MSG_HANDLE: CAPrepareSendData IN
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:03.578  3849  3885 D OIC_CA_MSG_HANDLE: device ID of endpoint of this message is
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:03.578  3849  3885 D OIC_CA_BWT: multicast message can't be sent to the block
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:03.578  3849  3885 D OIC_CA_MSG_HANDLE: normal msg will be sent
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:03.578  3849  3885 D OIC_UQUEUE: Queue Count : 3
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:03.578  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:03.578  3849  3885 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:03.578  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 0
+12-10 17:39:03.578  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: msgID is 0
+12-10 17:39:03.578  3849  3887 D OIC_CA_PRTCL_MSG: gen msg id=42429
+12-10 17:39:03.579  3849  3887 D OIC_CA_PRTCL_MSG: messageId in pdu is 42429, 42429
+12-10 17:39:03.579  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:03.579  3849  3887 D OIC_CA_PRTCL_MSG: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.579  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.579  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:03.579  3849  3887 D OIC_CA_BWT: IN-AddBlockOption
+12-10 17:39:03.584  3849  3887 D OIC_CA_BWT: BlockID is
+12-10 17:39:03.584  3849  3887 D OIC_CA_BWT: B4 FC 7B 21 6D 27 8A 09 00 00
+12-10 17:39:03.584  3849  3887 D OIC_CA_BWT: IN-GetBlockOptionType
+12-10 17:39:03.584  3849  3887 D OIC_CA_BWT: OUT-GetBlockOptionType
+12-10 17:39:03.584  3849  3887 D OIC_CA_BWT: no BLOCK option
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [oic] opt will be added.
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [12] pdu length
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [d] opt will be added.
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [16] pdu length
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: ['] opt will be added.
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [18] pdu length
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [] opt will be added.
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [21] pdu length
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [À] opt will be added.
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [26] pdu length
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: [30] pdu length after option
+12-10 17:39:03.585  3849  3887 I OIC_CA_BWT: not Blockwise Transfer
+12-10 17:39:03.585  3849  3887 D OIC_CA_BWT: OUT-AddBlockOption
+12-10 17:39:03.585  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.585  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.585  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.585  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:03.585  3849  3887 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Msg ID = [48549]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.586  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.586  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.586  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.586  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:03.586  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.588  3849  3887 D OIC_ANALYZER: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.588  3849  3887 D OIC_ANALYZER: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.588  3849  3887 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:03.588  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.589  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.589  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.589  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.589  3849  3887 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.589  3849  3890 D OIC_CA_QING: wake up..
+12-10 17:39:03.589  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.589  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.589  3849  3890 D OIC_CA_IP_ADAP: Send Multicast Data is called
+12-10 17:39:03.589  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.589  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.589  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:03.589  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:03.589  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:03.590  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [2]adapter, [98]flags
+12-10 17:39:03.590  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/d
+12-10 17:39:03.590  3849  3890 D OIC_CA_IFADDRS: NLMSG_DONE
+12-10 17:39:03.591  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:03.591  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:03.591  3849  3890 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:03.594  3849  3890 D OIC_CA_IP_MONITOR: LOOPBACK continue!!!
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:03.594  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[3], optLength[4], msgLength[4]
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[1], optLength[2], msgLength[6]
+12-10 17:39:03.594  3849  3890 I OIC_CA_IP_SERVER: multicast ipv6 sendTo is successful: 30 bytes
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[17], prevOptNumber[17], optValueLen[2], optLength[3], msgLength[9]
+12-10 17:39:03.594  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[2049], prevOptNumber[2049], optValueLen[2], optLength[5], msgLength[14]
+12-10 17:39:03.594  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[65524], prevOptNumber[65524], optValueLen[1], optLength[4], msgLength[18]
+12-10 17:39:03.594  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 2, payload size: 0
+12-10 17:39:03.594  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:03.594  3849  3890 D OIC_ANALYZER: Address = [ff02::158]:[5683]
+12-10 17:39:03.594  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.594  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:03.594  3849  3887 D OIC_CA_PRTCL_MSG: [oic] opt will be added.
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [11] pdu length
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [d] opt will be added.
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [15] pdu length
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: ['] opt will be added.
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [17] pdu length
+12-10 17:39:03.595  3849  3890 I OIC_CA_IP_SERVER: multicast ipv6 sendTo is successful: 30 bytes
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [] opt will be added.
+12-10 17:39:03.595  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [20] pdu length
+12-10 17:39:03.595  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [À] opt will be added.
+12-10 17:39:03.595  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [25] pdu length
+12-10 17:39:03.595  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: [29] pdu length after option
+12-10 17:39:03.595  3849  3890 D OIC_ANALYZER: Address = [ff02::158]:[5683]
+12-10 17:39:03.595  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:03.595  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.595  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of BWT is 2
+12-10 17:39:03.595  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:03.595  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.595  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.595  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.595  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:03.595  3849  3890 I OIC_CA_IP_SERVER: multicast ipv6 sendTo is successful: 30 bytes
+12-10 17:39:03.595  3849  3887 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_GATT_BTLE]
+12-10 17:39:03.595  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:03.595  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:03.595  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: Msg ID = [436]
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: Address = [ff02::158]:[5683]
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.596  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.596  3849  3890 D OIC_CA_IP_SERVER: IN sendData
+12-10 17:39:03.596  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.596  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.596  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.596  3849  3890 I OIC_CA_IP_SERVER: multicast ipv4 sendTo is successful: 30 bytes
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.596  3849  3890 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [29]
+12-10 17:39:03.596  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::f6f5:dbff:fe26:2384%wlan0, port:53254
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.596  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: Send Success, sent length = [30]
+12-10 17:39:03.596  3849  3887 D OIC_ANALYZER: D8 05 01 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63 01
+12-10 17:39:03.596  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.596  3849  3890 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.596  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.597  3849  3887 D OIC_ANALYZER: 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.597  3849  3890 D OIC_ANALYZER: Address = [224.0.1.187]:[5683]
+12-10 17:39:03.597  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.597  3849  3890 D OIC_ANALYZER: =================================================
+12-10 17:39:03.597  3849  3887 D OIC_ANALYZER: CoAP Header size = [29]
+12-10 17:39:03.597  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:03.597  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.597  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.597  3849  3890 D OIC_CA_QING: wait..
+12-10 17:39:03.597  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.597  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::f6f5:dbff:fe26:2384%wlan0
+12-10 17:39:03.597  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.597  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.597  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.597  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.597  3849  3887 D OIC_CA_LE_ADAP: IN - CASendLEMulticastData
+12-10 17:39:03.597  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.597  3849  3887 D OIC_CA_LE_ADAP: g_adapterType: 3
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.597  3849  3887 D OIC_CA_LE_ADAP: Data Sending to LE layer [29]
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.597  3849  3887 E OIC_CA_REMOTE_HANDLER: parameter is null
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.597  3849  3887 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.597  3849  3887 D OIC_CA_LE_ADAP: OUT - CASendLEMulticastData
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.597  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.597  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.598  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.598  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.598  3849  3898 D OIC_CA_QING: wake up..
+12-10 17:39:03.598  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 17:39:03.598  3849  3898 D OIC_CA_LE_ADAP: IN - CALEClientSendDataThread
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 17:39:03.598  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.598  3849  3898 E OIC_CA_LE_ADAP: Invalid endpoint of bledata!
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:03.598  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:03.598  3849  3898 D OIC_CA_QING: wait..
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 17:39:03.598  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:03.598  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:03.598  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [4]adapter, [98]flags
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 42429
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:03.598  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.598  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.598  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/d
+12-10 17:39:03.598  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.598  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:03.598  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:03.598  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:03.598  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.598  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:03.598  3849  3891 D OIC_ANALYZER: Address = [fe80::f6f5:dbff:fe26:2384%wlan0]:[53254]
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: Msg ID = [48549]
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:03.599  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:03.599  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[3], optLength[4], msgLength[4]
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.599  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[11], prevOptNumber[11], optValueLen[1], optLength[2], msgLength[6]
+12-10 17:39:03.599  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.599  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[17], prevOptNumber[17], optValueLen[2], optLength[3], msgLength[9]
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.599  3849  3891 D OIC_ANALYZER: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[2049], prevOptNumber[2049], optValueLen[2], optLength[5], msgLength[14]
+12-10 17:39:03.600  3849  3891 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: curOptNumber[65524], prevOptNumber[65524], optValueLen[1], optLength[4], msgLength[18]
+12-10 17:39:03.600  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 2, payload size: 0
+12-10 17:39:03.600  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:03.600  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.600  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [oic] opt will be added.
+12-10 17:39:03.600  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [11] pdu length
+12-10 17:39:03.600  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [d] opt will be added.
+12-10 17:39:03.600  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [15] pdu length
+12-10 17:39:03.600  3849  3891 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: ['] opt will be added.
+12-10 17:39:03.600  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [17] pdu length
+12-10 17:39:03.600  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [] opt will be added.
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [20] pdu length
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [À] opt will be added.
+12-10 17:39:03.600  3849  3887 D OIC_CA_PRTCL_MSG: [25] pdu length
+12-10 17:39:03.601  3849  3887 D OIC_CA_PRTCL_MSG: [29] pdu length after option
+12-10 17:39:03.601  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:03.601  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of BWT is 4
+12-10 17:39:03.601  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.601  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_RFCOMM_BTEDR]
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.601  3849  3891 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.601  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Msg ID = [436]
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.601  3849  3887 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.601  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::6270:1d68:d152:a69a%rmnet_data7, port:53254
+12-10 17:39:03.602  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.602  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.602  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.602  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.602  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:03.602  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.602  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.602  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.602  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [29]
+12-10 17:39:03.602  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.602  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: D8 05 01 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63 01
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: CoAP Header size = [29]
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.602  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.603  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.602  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::6270:1d68:d152:a69a%rmnet_data7
+12-10 17:39:03.603  3849  3887 D OIC_CA_EDR_ADAP: IN - CASendEDRMulticastData
+12-10 17:39:03.603  3849  3887 D OIC_CA_EDR_ADAP: IN - CAAdapterSendData
+12-10 17:39:03.603  3849  3887 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.603  3849  3887 D OIC_CA_EDR_ADAP: OUT - CAAdapterSendData
+12-10 17:39:03.603  3849  3887 D OIC_CA_EDR_ADAP: OUT - CASendEDRMulticastData
+12-10 17:39:03.603  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.603  3849  3892 D OIC_CA_QING: wake up..
+12-10 17:39:03.603  3849  3892 D OIC_CA_EDR_ADAP: IN - CAAdapterDataSendHandler
+12-10 17:39:03.603  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.603  3849  3892 D OIC_CA_EDR_ADAP: sending multicast data : Ø´ü{!m'Š	³oicdb'âã
+12-10 17:39:03.603  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.603  3849  3892 D OIC_CA_EDR_CLIENT: CAEDRSendMulticastMessage - Could not get JNIEnv pointer
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.604  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.604  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.604  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.604  3849  3887 I OIC_TRACER: error writing, len: 47, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.604  3849  3887 D OIC_CA_MSG_HANDLE: Multicast message
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.604  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.604  3849  3887 D OIC_CA_MSG_HANDLE: requestInfo is available..
+12-10 17:39:03.604  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: IN
+12-10 17:39:03.604  3849  3887 D OIC_CA_PRTCL_MSG: generate pdu for [32]adapter, [98]flags
+12-10 17:39:03.604  3849  3887 D OIC_CA_PRTCL_MSG: uri : /oic/d
+12-10 17:39:03.604  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: IN
+12-10 17:39:03.604  3849  3887 D OIC_CA_PRTCL_MSG: parse Head Opt: 3
+12-10 17:39:03.604  3849  3887 D OIC_CA_PRTCL_MSG: Head opt ID[65524], length[1]
+12-10 17:39:03.605  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.605  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: info->acceptVersion = 2048
+12-10 17:39:03.605  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: set contentFormatAcceptVersion = 2048
+12-10 17:39:03.605  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: IN
+12-10 17:39:03.605  3849  3887 D OIC_CA_PRTCL_MSG: CAParsePayloadFormatHeadOption: OUT
+12-10 17:39:03.605  3849  3887 D OIC_CA_PRTCL_MSG: CAParseHeadOption: OUT
+12-10 17:39:03.605  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 32
+12-10 17:39:03.605  3849  3887 D OIC_CA_PRTCL_MSG: transport type: 0, payload size: 0
+12-10 17:39:03.606  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 32
+12-10 17:39:03.606  3849  3891 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 17:39:03.606  3849  3887 D OIC_CA_PRTCL_MSG: msgID is 0
+12-10 17:39:03.606  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 17:39:03.606  3849  3887 D OIC_CA_PRTCL_MSG: gen msg id=58730
+12-10 17:39:03.606  3849  3887 D OIC_CA_PRTCL_MSG: messageId in pdu is 58730, 58730
+12-10 17:39:03.607  3849  3887 D OIC_CA_PRTCL_MSG: token info token length: 8, token :
+12-10 17:39:03.607  3849  3887 D OIC_CA_PRTCL_MSG: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.607  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:03.607  3849  3887 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 32
+12-10 17:39:03.607  3849  3887 D OIC_CA_PRTCL_MSG: CAGeneratePDU: OUT
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: IN-AddBlockOption
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: BlockID is
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: B4 FC 7B 21 6D 27 8A 09 00 00
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: IN-GetBlockOptionType
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: OUT-GetBlockOptionType
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: no BLOCK option
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: [oic] opt will be added.
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: [12] pdu length
+12-10 17:39:03.607  3849  3887 D OIC_CA_BWT: [d] opt will be added.
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [16] pdu length
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: ['] opt will be added.
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [18] pdu length
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [] opt will be added.
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [21] pdu length
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [À] opt will be added.
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [26] pdu length
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: [30] pdu length after option
+12-10 17:39:03.608  3849  3887 I OIC_CA_BWT: not Blockwise Transfer
+12-10 17:39:03.608  3849  3887 D OIC_CA_BWT: OUT-AddBlockOption
+12-10 17:39:03.608  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 17:39:03.608  3849  3887 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.609  3849  3887 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Is Multicast = true
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Transport Type = [32]
+12-10 17:39:03.609  3849  3886 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Address = []:[0]
+12-10 17:39:03.609  3849  3886 I OIC_RI_STACK: Enter HandleCARequests
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.609  3849  3892 D OIC_CA_EDR_CLIENT: device name is lmh-server, address is 50:8F:4C:2A:C2:5F
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.609  3849  3886 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.609  3849  3886 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Msg ID = [27365]
+12-10 17:39:03.609  3849  3886 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.609  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.609  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:03.609  3849  3887 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.609  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.609  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.609  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.609  3849  3887 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.609  3849  3886 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 17:39:03.609  3849  3886 I OIC_RI_STACK: Endpoint URI : /oic/d
+12-10 17:39:03.609  3849  3887 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.609  3849  3886 I OIC_RI_STACK: Exit HandleCARequests
+12-10 17:39:03.609  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.609  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.610  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:03.610  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: 58 01 6A E5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.610  3849  3887 D OIC_ANALYZER: =================================================
+12-10 17:39:03.610  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:03.610  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.610  3849  3887 E OIC_CA_INF_CTR: unknown connectivity type!
+12-10 17:39:03.610  3849  3892 D OIC_CA_EDR_UTILS: CAEDRIsConnectedDevice
+12-10 17:39:03.610  3849  3887 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.610  3849  3892 D OIC_CA_EDR_UTILS: CAEDRIsConnectedDevice
+12-10 17:39:03.610  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.610  3849  3887 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.610  3849  3892 D OIC_CA_EDR_CLIENT: Get MethodID for i/o stream
+12-10 17:39:03.610  3849  3887 D OIC_CA_QING: wait..
+12-10 17:39:03.610  3849  3892 D OIC_CA_EDR_UTILS: CAEDRNativeGetDeviceSocketBaseAddr
+12-10 17:39:03.611  3849  3892 E OIC_CA_EDR_UTILS: remove object : 50:8F:4C:2A:C2:5F
+12-10 17:39:03.611  3849  3892 D OIC_CA_EDR_CLIENT: ready outputStream..
+12-10 17:39:03.611  3849  3892 I OIC_CA_EDR_CLIENT: EDR sendTo is successful: 29 bytes, to 50:8F:4C:2A:C2:5F
+12-10 17:39:03.611  3849  3892 D OIC_CA_ADAP_UTILS: CALogSendStateInfo
+12-10 17:39:03.611  3849  3892 D OIC_ANALYZER: =================================================
+12-10 17:39:03.611  3849  3892 D OIC_ANALYZER: Send Success, sent length = [29]
+12-10 17:39:03.611  3849  3892 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_RFCOMM_BTEDR]
+12-10 17:39:03.611  3849  3892 D OIC_ANALYZER: Address = [50:8F:4C:2A:C2:5F]:[0]
+12-10 17:39:03.611  3849  3892 D OIC_ANALYZER: =================================================
+12-10 17:39:03.611  3849  3892 D OIC_CA_EDR_CLIENT: DetachCurrentThread
+12-10 17:39:03.611  3849  3892 D OIC_CA_EDR_CLIENT: OUT - CAEDRSendMulticastMessage
+12-10 17:39:03.611  3849  3892 D OIC_CA_EDR_ADAP: OUT
+12-10 17:39:03.612  3849  3892 D OIC_CA_QING: wait..
+12-10 17:39:03.612  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:03.612  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:03.612  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:03.612  3849  3891 D OIC_CA_MSG_HANDLE: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.614  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 42429
+12-10 17:39:03.614  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:03.614  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.614  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Address = [fe80::6270:1d68:d152:a69a%rmnet_data7]:[53254]
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Msg ID = [48549]
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.614  3849  3891 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.615  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.615  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.615  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.615  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.615  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.615  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.615  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:03.615  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:03.615  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:03.615  3849  3891 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.615  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.615  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.615  3849  3891 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.615  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.616  3849  3891 D OIC_CA_IP_ADAP: Address: 192.168.1.69, port:42708
+12-10 17:39:03.616  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.616  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.616  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.616  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:03.616  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.616  3849  3891 D OIC_CA_MSG_HANDLE: address : 192.168.1.69
+12-10 17:39:03.616  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.616  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.616  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.616  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.616  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.616  3849  3891 I OIC_CA_MSG_HANDLE: IPv4 duplicate message ignored
+12-10 17:39:03.616  3849  3891 I OIC_CA_MSG_HANDLE: Second Request with same Token, Drop it
+12-10 17:39:03.616  3849  3891 E OIC_CA_MSG_HANDLE: CAReceivedPacketCallback, CAGenerateHandlerData failed!
+12-10 17:39:03.616  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.617  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.617  3849  3891 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.617  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.617  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::4c91:90ff:fead:dca2%dummy0, port:53254
+12-10 17:39:03.617  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.617  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.617  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:03.617  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.617  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.617  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:03.617  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.617  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::4c91:90ff:fead:dca2%dummy0
+12-10 17:39:03.617  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.617  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.617  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.617  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.617  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.617  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.618  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.618  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.618  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.618  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.618  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: Request Info :
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 17
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2049
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 42429
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:03.618  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.618  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Address = [fe80::4c91:90ff:fead:dca2%dummy0]:[53254]
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Data Type = [CA_REQUEST_DATA]
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Method = [GET]
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Msg ID = [48549]
+12-10 17:39:03.618  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.619  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.619  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.619  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.619  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: Payload Format = [0]
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [30]
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [0]
+12-10 17:39:03.619  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.619  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.619  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:03.619  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:03.619  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:03.619  3849  3891 D OIC_UQUEUE: Queue Count : 2
+12-10 17:39:03.619  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.619  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.620  3849  3891 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.620  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.620  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::6270:1d68:d152:a69a%rmnet_data7, port:53254
+12-10 17:39:03.620  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.620  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.620  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.620  3849  3891 D OIC_CA_MSG_HANDLE: code = 1
+12-10 17:39:03.620  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.620  3849  3886 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 17:39:03.620  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::6270:1d68:d152:a69a%rmnet_data7
+12-10 17:39:03.620  3849  3886 I OIC_RI_STACK: Enter HandleCARequests
+12-10 17:39:03.620  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.620  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.620  3849  3886 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.620  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.620  3849  3886 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:03.620  3849  3886 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.620  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.620  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.620  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.620  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.620  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.620  3849  3886 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 17:39:03.621  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.621  3849  3886 I OIC_RI_STACK: Endpoint URI : /oic/d
+12-10 17:39:03.621  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.621  3849  3886 I OIC_RI_STACK: Exit HandleCARequests
+12-10 17:39:03.621  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.621  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.621  3849  3891 I OIC_CA_MSG_HANDLE: IPv6 duplicate message ignored
+12-10 17:39:03.621  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.621  3849  3891 I OIC_CA_MSG_HANDLE: Second Request with same Token, Drop it
+12-10 17:39:03.621  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.621  3849  3891 E OIC_CA_MSG_HANDLE: CAReceivedPacketCallback, CAGenerateHandlerData failed!
+12-10 17:39:03.621  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.621  3849  3891 D OIC_CA_MSG_HANDLE: 58 01 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.621  3849  3891 D OIC_CA_MSG_HANDLE: 01 64 62 27 10 E2 06 E3 08 00 E1 F6 E6 C0
+12-10 17:39:03.621  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.632  3849  3886 D OIC_CA_MSG_HANDLE: request callback : 3
+12-10 17:39:03.632  3849  3886 I OIC_RI_STACK: Enter HandleCARequests
+12-10 17:39:03.632  3849  3886 I OIC_TRACER: error writing, len: 41, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.632  3849  3886 D OIC_RM_UTIL: Request- optionID: 17
+12-10 17:39:03.632  3849  3886 D OIC_RM_UTIL: Request- optionID: 2049
+12-10 17:39:03.632  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:03.632  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:03.632  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.632  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.632  3849  3886 D OIC_RI_STACK: Enter OCHandleRequests
+12-10 17:39:03.632  3849  3886 I OIC_RI_STACK: Endpoint URI : /oic/d
+12-10 17:39:03.632  3849  3886 I OIC_RI_STACK: Exit HandleCARequests
+12-10 17:39:03.632  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.632  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.632  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.660  3849  3891 D OIC_CA_IP_ADAP: Address: fe80::528f:4cff:fe6d:817f%wlan0, port:60595
+12-10 17:39:03.660  3849  3891 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.660  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.660  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 0
+12-10 17:39:03.660  3849  3891 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.661  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: code = 205
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: address : fe80::528f:4cff:fe6d:817f%wlan0
+12-10 17:39:03.661  3849  3891 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.661  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.661  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: inside pdu->data
+12-10 17:39:03.661  3849  3891 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.661  3849  3891 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: Response Info :
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 12
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 2053
+12-10 17:39:03.661  3849  3891 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: payload: 0x7f6a50ae80(201)
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: msgID: 42429
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:03.662  3849  3891 I OIC_CA_PRTCL_MSG: adapter value of CoAP/TCP is 1
+12-10 17:39:03.662  3849  3891 D OIC_CA_RETRANS: IN
+12-10 17:39:03.662  3849  3891 D OIC_CA_RETRANS: received pdu, msgtype=1, msgid=42429, code=205
+12-10 17:39:03.662  3849  3891 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.662  3849  3891 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_IP]
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: Address = [fe80::528f:4cff:fe6d:817f%wlan0]:[60595]
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: Data Type = [CA_RESPONSE_DATA]
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: result code = [205]
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: Msg ID = [48549]
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.662  3849  3891 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.662  3849  3891 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.663  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.663  3849  3891 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.663  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: Payload Format = [CA_FORMAT_APPLICATION_VND_OCF_CBOR]
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: CoAP Message Full Size = [232]
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: 58 45 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: 01 64 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: CoAP Header size = [31]
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: CoAP Payload Size = [201]
+12-10 17:39:03.663  3849  3891 D OIC_ANALYZER: =================================================
+12-10 17:39:03.663  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: CAReceiveBlockWiseData
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: it's normal pdu
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: BlockID is
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: B4 FC 7B 21 6D 27 8A 09 EC B3 66 65 38 30 3A 3A
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: 35 32 38 66 3A 34 63 66 66 3A 66 65 36 64 3A 38
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: 31 37 66 25 77 6C 61 6E 30
+12-10 17:39:03.663  3849  3891 D OIC_CA_BWT: CARemoveBlockData
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: this message does not have block option
+12-10 17:39:03.664  3849  3891 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 58 45 BD A5 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 01 64 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF BF
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 62 72 74 82 68 6F 69 63 2E 77 6B 2E 64 6B 6F 69
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 63 2E 64 2E 70 68 6F 6E 65 62 69 66 82 6F 6F 69
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 63 2E 69 66 2E 62 61 73 65 6C 69 6E 65 68 6F 69
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 63 2E 69 66 2E 72 62 64 69 78 24 35 63 62 37 35
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 63 32 31 2D 66 63 37 32 2D 34 36 30 30 2D 36 33
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 38 34 2D 34 31 32 37 35 38 32 38 37 34 62 34 63
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 64 6D 76 78 1A 6F 63 66 2E 72 65 73 2E 31 2E 31
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 2E 30 2C 6F 63 66 2E 73 68 2E 31 2E 31 2E 30 63
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 69 63 76 69 6F 63 66 2E 31 2E 31 2E 30 61 6E 6C
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 6D 79 44 65 76 69 63 65 4E 61 6D 65 64 70 69 69
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 64 78 24 33 64 37 38 62 33 66 66 2D 39 63 31 34
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 2D 32 65 32 35 2D 38 35 66 66 2D 38 39 32 36 39
+12-10 17:39:03.664  3849  3891 D OIC_CA_MSG_HANDLE: 65 35 36 65 37 30 34 FF
+12-10 17:39:03.664  3849  3891 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.673  3849  3886 D OIC_CA_MSG_HANDLE: response callback : 3
+12-10 17:39:03.673  3849  3886 I OIC_RI_STACK: Enter HandleCAResponses
+12-10 17:39:03.673  3849  3886 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.673  3849  3886 D OIC_RM_UTIL: Request- optionID: 12
+12-10 17:39:03.673  3849  3886 D OIC_RM_UTIL: Request- optionID: 2053
+12-10 17:39:03.673  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:03.673  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:03.673  3849  3886 D OIC_RI_STACK: Enter OCHandleResponse
+12-10 17:39:03.674  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.674  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.674  3849  3886 I OIC_RI_CLIENTCB: Looking for token
+12-10 17:39:03.674  3849  3886 I OIC_RI_CLIENTCB: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.674  3849  3886 I OIC_RI_CLIENTCB: Found in callback list
+12-10 17:39:03.674  3849  3886 I OIC_RI_STACK: There is a cbNode associated with the response token
+12-10 17:39:03.674  3849  3886 I OIC_RI_STACK: This is a regular response, A client call back is found
+12-10 17:39:03.674  3849  3886 I OIC_RI_STACK: Calling into application address space
+12-10 17:39:03.674  3849  3886 I OIC_RI_PAYLOADPARSE: CBOR Parsing size: 201 of Payload Type: 4, Payload:
+12-10 17:39:03.674  3849  3886 I OIC_RI_PAYLOADPARSE: Finished parse payload, result is 0
+12-10 17:39:03.674  3849  3886 E OIC_RI_RESOURCE: Query is empty!
+12-10 17:39:03.674  3849  3886 D OIC_CLIENT_WRAPPER: OCStackApplicationResult OC::listenDeviceCallback(void*, OCDoHandle, OCClientResponse*): call response callback
+12-10 17:39:03.675  3849  3886 I OIC_RI_STACK: Exit HandleCAResponses
+12-10 17:39:03.675  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.675  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.675  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.676  3849  3905 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.677  3849  3905 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.677  3849  3905 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.677  3849  3905 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.678  3849  3905 D OIC-JNI : OcRepresentation_getResourceTypes
+12-10 17:39:03.683  3849  3895 D OIC_CA_EDR_UTILS: CAEDRGetDeviceInfoFromAddress
+12-10 17:39:03.684  3849  3895 D OIC_CA_EDR_SERVER: read InputStream (idx:0, addr:50:8F:4C:2A:C2:5F)
+12-10 17:39:03.684  3849  3895 D OIC_CA_EDR_SERVER: read success (length: 6 bytes)
+12-10 17:39:03.684  3849  3895 D OIC_CA_EDR_SERVER: total data length [231] bytes
+12-10 17:39:03.685  3849  3895 D OIC_CA_EDR_UTILS: CAEDRGetDeviceInfoFromAddress
+12-10 17:39:03.685  3849  3895 D OIC_CA_EDR_SERVER: read InputStream (idx:0, addr:50:8F:4C:2A:C2:5F)
+12-10 17:39:03.685  3849  3895 D OIC_CA_EDR_SERVER: read success (length: 225 bytes)
+12-10 17:39:03.686  3849  3895 D OIC_CA_EDR_SERVER: data will be sent to callback routine: ØÏE´ü{!m'Š	³oicd'âì, 231
+12-10 17:39:03.686  3849  3895 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.686  3849  3893 D OIC_CA_QING: wake up..
+12-10 17:39:03.686  3849  3893 D OIC_CA_EDR_ADAP: IN_CAAdapterDataReceiverHandler
+12-10 17:39:03.686  3849  3893 D OIC_CA_EDR_ADAP: Sending data up !
+12-10 17:39:03.686  3849  3893 I OIC_TRACER: error writing, len: 54, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: pdu parse-transport type : 2
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: pdu parse ret: 1
+12-10 17:39:03.686  3849  3893 I OIC_CA_PRTCL_MSG: there is no version info in coap header
+12-10 17:39:03.686  3849  3893 D OIC_CA_MSG_HANDLE: code = 205
+12-10 17:39:03.686  3849  3893 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData IN
+12-10 17:39:03.686  3849  3893 D OIC_CA_MSG_HANDLE: address : 50:8F:4C:2A:C2:5F
+12-10 17:39:03.686  3849  3893 I OIC_CA_PRTCL_MSG: IN - CAGetInfoFromPDU
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : oic
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : d
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : '
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : 
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: COAP URI element : À
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: inside token length : 8
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: inside pdu->data
+12-10 17:39:03.686  3849  3893 D OIC_CA_PRTCL_MSG: URL length:6
+12-10 17:39:03.687  3849  3893 I OIC_CA_PRTCL_MSG: OUT - CAGetInfoFromPDU
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: Response Info :
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: optionID: 12
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: list: '
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: optionID: 2053
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: list: 
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: optionID: 65524
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: list: À
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: payload: 0x7f6ce253e0(201)
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: token:
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: msgID: 0
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: CAGenerateHandlerData OUT
+12-10 17:39:03.687  3849  3893 I OIC_CA_MSG_HANDLE: retransmission is not supported
+12-10 17:39:03.687  3849  3893 D OIC_CA_MSG_HANDLE: CALogPDUInfo
+12-10 17:39:03.687  3849  3893 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: =================================================
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: Is Multicast = false
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: Transport Type = [OC_ADAPTER_RFCOMM_BTEDR]
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: Address = [50:8F:4C:2A:C2:5F]:[0]
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: Data Type = [CA_RESPONSE_DATA]
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: -------------------------------------------------
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: result code = [205]
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: Msg ID = [17844]
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: Coap Token
+12-10 17:39:03.687  3849  3893 D OIC_ANALYZER: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.688  3849  3893 I OIC_TRACER: error writing, len: 66, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.688  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: Res URI = [/oic/d]
+12-10 17:39:03.688  3849  3893 I OIC_TRACER: error writing, len: 53, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.688  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: Payload Format = [CA_FORMAT_APPLICATION_VND_OCF_CBOR]
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: CoAP Message Full Size = [231]
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: CoAP Header (+ 0xFF)
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: D8 CF 45 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63 01
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: 64 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: CoAP Header size = [30]
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: CoAP Payload
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: CoAP Payload Size = [201]
+12-10 17:39:03.688  3849  3893 D OIC_ANALYZER: =================================================
+12-10 17:39:03.688  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.688  3849  3893 I OIC_CA_PRTCL_MSG: adapter value of BWT is 4
+12-10 17:39:03.688  3849  3893 D OIC_UQUEUE: Queue Count : 1
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: received pdu data :
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: D8 CF 45 B4 FC 7B 21 6D 27 8A 09 B3 6F 69 63 01
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: 64 12 27 10 E2 06 EC 08 00 E1 F6 E2 C0 FF BF 62
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: 72 74 82 68 6F 69 63 2E 77 6B 2E 64 6B 6F 69 63
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: 2E 64 2E 70 68 6F 6E 65 62 69 66 82 6F 6F 69 63
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: 2E 69 66 2E 62 61 73 65 6C 69 6E 65 68 6F 69 63
+12-10 17:39:03.688  3849  3893 D OIC_CA_MSG_HANDLE: 2E 69 66 2E 72 62 64 69 78 24 35 63 62 37 35 63
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 32 31 2D 66 63 37 32 2D 34 36 30 30 2D 36 33 38
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 34 2D 34 31 32 37 35 38 32 38 37 34 62 34 63 64
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 6D 76 78 1A 6F 63 66 2E 72 65 73 2E 31 2E 31 2E
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 30 2C 6F 63 66 2E 73 68 2E 31 2E 31 2E 30 63 69
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 63 76 69 6F 63 66 2E 31 2E 31 2E 30 61 6E 6C 6D
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 79 44 65 76 69 63 65 4E 61 6D 65 64 70 69 69 64
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 78 24 33 64 37 38 62 33 66 66 2D 39 63 31 34 2D
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 32 65 32 35 2D 38 35 66 66 2D 38 39 32 36 39 65
+12-10 17:39:03.689  3849  3893 D OIC_CA_MSG_HANDLE: 35 36 65 37 30 34 FF
+12-10 17:39:03.689  3849  3893 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.689  3849  3893 D OIC_CA_EDR_ADAP: OUT_CAAdapterDataReceiverHandler
+12-10 17:39:03.689  3849  3893 D OIC_CA_QING: wait..
+12-10 17:39:03.695  3849  3886 D OIC_CA_MSG_HANDLE: response callback : 3
+12-10 17:39:03.695  3849  3886 I OIC_RI_STACK: Enter HandleCAResponses
+12-10 17:39:03.695  3849  3886 I OIC_TRACER: error writing, len: 42, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.695  3849  3886 D OIC_RM_UTIL: Request- optionID: 12
+12-10 17:39:03.696  3849  3886 D OIC_RM_UTIL: Request- optionID: 2053
+12-10 17:39:03.696  3849  3886 D OIC_RM_UTIL: Request- optionID: 65524
+12-10 17:39:03.696  3849  3886 I OIC_RM_UTIL: Found Option at 2
+12-10 17:39:03.696  3849  3886 D OIC_RI_STACK: Enter OCHandleResponse
+12-10 17:39:03.696  3849  3886 I OIC_TRACER: error writing, len: 48, ret: -1, errno: 9 at oic_trace_begin
+12-10 17:39:03.696  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.696  3849  3886 I OIC_RI_CLIENTCB: Looking for token
+12-10 17:39:03.696  3849  3886 I OIC_RI_CLIENTCB: B4 FC 7B 21 6D 27 8A 09
+12-10 17:39:03.696  3849  3886 I OIC_RI_CLIENTCB: Found in callback list
+12-10 17:39:03.696  3849  3886 I OIC_RI_STACK: There is a cbNode associated with the response token
+12-10 17:39:03.696  3849  3886 I OIC_RI_STACK: This is a regular response, A client call back is found
+12-10 17:39:03.696  3849  3886 I OIC_RI_STACK: Calling into application address space
+12-10 17:39:03.696  3849  3886 I OIC_RI_PAYLOADPARSE: CBOR Parsing size: 201 of Payload Type: 4, Payload:
+12-10 17:39:03.696  3849  3886 I OIC_RI_PAYLOADPARSE: Finished parse payload, result is 0
+12-10 17:39:03.696  3849  3886 E OIC_RI_RESOURCE: Query is empty!
+12-10 17:39:03.696  3849  3886 D OIC_CLIENT_WRAPPER: OCStackApplicationResult OC::listenDeviceCallback(void*, OCDoHandle, OCClientResponse*): call response callback
+12-10 17:39:03.700  3849  3886 I OIC_RI_STACK: Exit HandleCAResponses
+12-10 17:39:03.700  3849  3886 I OIC_TRACER: error writing, len: 1, ret: -1, errno: 9 at oic_trace_end
+12-10 17:39:03.700  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData IN
+12-10 17:39:03.700  3849  3886 D OIC_CA_MSG_HANDLE: CADestroyData OUT
+12-10 17:39:03.704  3849  3906 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.704  3849  3906 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.706  3849  3906 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.706  3849  3906 D OIC-JNI : OcRepresentation_getValue
+12-10 17:39:03.707  3849  3906 D OIC-JNI : OcRepresentation_getResourceTypes

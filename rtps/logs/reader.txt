@@ -1,0 +1,726 @@
+--------- beginning of main
+12-05 14:53:22.534 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+--------- beginning of crash
+12-05 14:53:22.541 23607 23607 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:22.541 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:53:22.599  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:27.556 23611 23611 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:26.606  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:27.782  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:53:30.582  3515  3515 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:53:30.584  4445  4445 D PowerChecker_DayPower: battery status = 2 plug = 2 level = 75
+12-05 14:53:30.584  4445  4598 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 74, status = 2, level = 75, plug = 2, scale = 100
+--------- beginning of system
+12-05 14:53:30.580  2055  2086 E UsbDeviceManager: handle message = 9
+12-05 14:53:30.584  2382  2382 I MiuiChargeManager: notifyBatteryStatusChanged:  status: 2 isPlugged: 2 level: 75 wireState: 11 chargeSpeed: 0 chargeDeviceType: -1
+12-05 14:53:30.585  2382  2382 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:53:30.587  2382  2382 D KeyguardUpdateMonitor: handleBatteryUpdate
+12-05 14:53:30.588  2382  2382 I MiuiChargeController: checkBatteryStatus: chargeType 11 status 2 plugged 2 isRapidCharge false isSuperCharge false isCarMode false mChargeDeviceType -1 mChargeDeviceForAnalytic -1
+12-05 14:53:30.588  2382  2382 I KeyguardIndication: updateIndication: mVisible true mDozing false mTransientIndication null mPowerPluggedIn true mUpArrowIndication null
+12-05 14:53:30.590  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:53:30.593  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:53:30.597  4445  4618 D ThermalTempInfoHelper: thermal sensor1 temp is 29
+12-05 14:53:30.602  3515 14336 I PowerUtils: has feature phone typ: false
+12-05 14:53:30.602  3515 20634 I PowerUtils: has feature phone typ: false
+12-05 14:53:30.603  3515 14336 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:30.603  3515 20634 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:30.604  2382 23614 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:30.604  3515 23613 D BatteryHistoryLoadMgr: getHistoryInfo begin
+12-05 14:53:30.606  3515 20634 I PowerUtils: has feature phone typ: false
+12-05 14:53:30.607  3515 20634 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:30.608  2382 23615 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:30.611  2382 23616 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:30.611  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:30.645  2055  2084 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+12-05 14:53:30.842  3515 23613 D BatteryHistoryLoadMgr: getHistoryInfo end
+12-05 14:53:30.843  3515 23613 I BatteryInfoReceiver: update charge detail 143
+12-05 14:53:30.849  3515 23613 I PowerUtils: use feature battery typ capacity
+12-05 14:53:30.858  3515 23613 I chatty  : uid=1000(system) com.miui.securitycenter.remote identical 2 lines
+12-05 14:53:30.859  3515 23613 I PowerUtils: use feature battery typ capacity
+12-05 14:53:30.860  3515 23613 I BatteryChargeTimeHelper: Left charge time, 0.25 1h52m51s70ms
+12-05 14:53:31.102  3515 14336 I PowerCenterProvider: call METHOD_GET_BATTERY_INFO
+12-05 14:53:31.113  3515 14336 D BatteryHistoryLoadMgr: getHistoryInfo begin
+12-05 14:53:31.382  3515 14336 D BatteryHistoryLoadMgr: getHistoryInfo end
+12-05 14:53:31.384  3515 14336 I PowerUtils: use feature battery typ capacity
+12-05 14:53:31.387  3515 14336 I chatty  : uid=1000(system) Binder:3515_8 identical 2 lines
+12-05 14:53:31.388  3515 14336 I PowerUtils: use feature battery typ capacity
+12-05 14:53:31.389  3515 14336 I BatteryChargeTimeHelper: Left charge time, 0.25 1h52m51s70ms
+12-05 14:53:31.389  3515 14336 I PowerUtils: use feature battery typ capacity
+12-05 14:53:31.392  3515 20634 I PowerUtils: has feature phone typ: false
+12-05 14:53:31.392  3515 20634 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:32.574 23618 23618 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:33.631  3515  3586 I PowerUtils: has feature phone typ: false
+12-05 14:53:33.631  3515 20634 I PowerUtils: has feature phone typ: false
+12-05 14:53:33.632  3515 14336 I PowerUtils: has feature phone typ: false
+12-05 14:53:33.633  3515  3586 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:33.634  3515 20634 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:33.635  3515 14336 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:31.148  2055  2084 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+12-05 14:53:33.635  2382 23614 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:33.635  2382 23615 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:33.635  2382 23616 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:34.614  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:37.580 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:53:37.593 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:53:37.601 23620 23620 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:38.620  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:40.608  4445  4598 D PowerCheckerService: caculateNetSpeed, netSpeed=30.0 dataused=300.0 timepassed=10.0
+12-05 14:53:40.611  4445  4598 I KernelRpmStatsReader: readRpmStatsType0 mRpmStatsData = [0, 0, 0, 100860, 16708, -1, -1, -1]
+12-05 14:53:40.611  4445  4598 D PowerCheckerService: Update Rpm Stats: vddLow=0, vddMin=0, APSS=0, MPSS=100860, ADSP=16708, SLPI=-1, CDSP=-1
+12-05 14:53:42.610 23621 23621 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:42.623  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:44.508  1095  1260 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+12-05 14:53:47.629 23623 23623 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:46.626  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:48.056  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:53:50.632  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:50.646  3515 20634 I PowerUtils: has feature phone typ: false
+12-05 14:53:50.646  3515 14336 I PowerUtils: has feature phone typ: false
+12-05 14:53:50.647  3515  3586 I PowerUtils: has feature phone typ: false
+12-05 14:53:50.648  3515 14336 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:50.649  2382 23615 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:50.661  3515 20634 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:50.662  2382 23617 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:50.665  3515  3586 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:53:50.665  2382 23614 D ChargingUtils: isQuickCharging() quickCharging=false
+12-05 14:53:52.619 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:53:52.630 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:53:52.651 23624 23624 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:54.638  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:53:57.672 23628 23628 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:53:58.645  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:02.465  3386  3639 W PushService: 2019-12-05 14:54:02,465 - [WARN::PushService] - [Thread:147] JOB: do reconnect..
+12-05 14:54:02.474  3386  3639 W PushService: 2019-12-05 14:54:02,474 - [WARN::PushService] - [Thread:147] update the connection status. disconnected -> connecting : ERROR_OK 
+12-05 14:54:02.475  3386  3639 W PushService: 2019-12-05 14:54:02,475 - [WARN::PushService] - [Thread:147] begin to connect...
+12-05 14:54:02.477  3386  3639 W PushService: 2019-12-05 14:54:02,477 - [WARN::PushService] - get bucket for host : cn.app.chat.xiaomi.net starts
+12-05 14:54:02.488  3386  3639 W PushService: 2019-12-05 14:54:02,487 - [WARN::PushService] - get bucket for host : cn.app.chat.xiaomi.net ends in 10 ms
+12-05 14:54:02.492  3386  3639 W PushService: 2019-12-05 14:54:02,489 - [WARN::PushService] - [Thread:147] begin to connect to cn.app.chat.xiaomi.net
+12-05 14:54:02.519  3386 23629 W PushService: 2019-12-05 14:54:02,518 - [WARN::PushService] - [Thread:187] fetch bucket from : http://resolver.msg.xiaomi.net/gslb/?ver=4.0&type=wifi&uuid=0&list=cn.app.chat.xiaomi.net%2Cresolver.msg.xiaomi.net&countrycode=CN&sdkver=38&osver=28&os=Redmi%20Note%205%3A9.10.30&mi=2
+12-05 14:54:02.541  2055  2163 D NtpTrustedTime: currentTimeMillis() cache hit
+12-05 14:54:02.580  2055  2163 D NtpTrustedTime: currentTimeMillis() cache hit
+12-05 14:54:02.584  3515  4184 I TrafficManageService: mina mTrafficStatsReceiver onReceive
+12-05 14:54:02.650  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:02.678 23632 23632 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:06.656  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:07.673 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:54:07.679 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:54:07.695 23634 23634 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:08.719  2055  2086 E UsbDeviceManager: handle message = 9
+12-05 14:54:08.720  3515  3515 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:54:08.722  4445  4598 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 75, status = 2, level = 75, plug = 2, scale = 100
+12-05 14:54:08.723  2382  2382 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:54:08.726  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:54:08.728  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:54:08.732  4445  4618 D ThermalTempInfoHelper: thermal sensor1 temp is 29
+12-05 14:54:10.663  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:12.487  3515  3515 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:54:12.490  2382  2382 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:54:12.493  4445  4598 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 75, status = 2, level = 75, plug = 2, scale = 100
+12-05 14:54:12.497  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:54:12.499  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:54:12.501  4445  4618 D ThermalTempInfoHelper: thermal sensor1 temp is 29
+12-05 14:54:12.705 23636 23636 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:14.668  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:17.721 23641 23641 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:18.672  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:22.631  3386  3639 W PushService: 2019-12-05 14:54:22,631 - [WARN::PushService] - SMACK: Could not connect to:cn.app.chat.xiaomi.net
+12-05 14:54:22.642  3386 23629 W PushService: 2019-12-05 14:54:22,642 - [WARN::PushService] - [Thread:187] network exception: IOException:UnknownHostException
+12-05 14:54:22.644  3386 23629 W PushService: 2019-12-05 14:54:22,644 - [WARN::PushService] - [Thread:187] failed to get bucket IOException:UnknownHostException
+12-05 14:54:22.657  3386  3639 W PushService: 2019-12-05 14:54:22,655 - [WARN::PushService] - fail to create Slim connection
+12-05 14:54:22.657  3386  3639 W PushService: 
+12-05 14:54:22.657  3386  3639 W PushService: SMACK: Could not connect to cn.app.chat.xiaomi.net port:5222 err:UnknownHostException
+12-05 14:54:22.657  3386  3639 W PushService: : 
+12-05 14:54:22.657  3386  3639 W PushService: 	at com.xiaomi.f.i.q(Unknown Source:565)
+12-05 14:54:22.657  3386  3639 W PushService: 	at com.xiaomi.push.service.XMPushService.k(Unknown Source:52)
+12-05 14:54:22.657  3386  3639 W PushService: 	at com.xiaomi.push.service.cw.a(Unknown Source:10)
+12-05 14:54:22.657  3386  3639 W PushService: 	at com.xiaomi.push.service.db.run(Unknown Source:32)
+12-05 14:54:22.657  3386  3639 W PushService: 	at com.xiaomi.push.service.j.run(Unknown Source:159)
+12-05 14:54:22.658  3386  3639 W PushService: 2019-12-05 14:54:22,658 - [WARN::PushService] - [Thread:147] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED 
+12-05 14:54:22.668  3515  3515 I TrafficManageService: mExtraNetworkReceiver tag = miui.intent.action.NETWORK_BLOCKED
+12-05 14:54:22.669  3515  3515 I NetworkDiagnostics_CheckStateManager: networkBlocked
+12-05 14:54:22.669  3515  3515 I NetworkDiagnostics_CheckStateManager: checkNetworkState
+12-05 14:54:22.669  3305  3305 E WcnsEventManager: Received network blocked action
+12-05 14:54:22.669  3305  3305 E TelephonyEventHandler: Received network blocked action
+12-05 14:54:22.672  3305  3452 E WcnsEventManager: Network diagnostic start
+12-05 14:54:22.673  3305  3305 E TelephonyEventHandler: Received network blocked action currentNwType=1
+12-05 14:54:22.673  3515 23643 I NetworkDiagnostics_CheckStateManager: CheckNetworkThread run.
+12-05 14:54:22.676  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:22.676  3515  3515 I NetworkDiagnostics_CheckStateManager: onDiagnosticsResult ret=CONNECTED
+12-05 14:54:22.679  3386  3639 W PushService: 2019-12-05 14:54:22,679 - [WARN::PushService] - [Thread:147] schedule reconnect in 300000ms
+12-05 14:54:22.683  3386  3639 W PushService: 2019-12-05 14:54:22,682 - [WARN::PushService] - [Thread:147] JOB: notify job
+12-05 14:54:22.686  3515  3515 I TrafficManageService: mExtraNetworkReceiver tag = miui.intent.action.NETWORK_BLOCKED
+12-05 14:54:22.686  3515  3515 I NetworkDiagnostics_CheckStateManager: networkBlocked
+12-05 14:54:22.686  3515  3515 I NetworkDiagnostics_CheckStateManager: checkNetworkState
+12-05 14:54:22.687  3305  3305 E WcnsEventManager: Received network blocked action
+12-05 14:54:22.687  3305  3305 E TelephonyEventHandler: Received network blocked action
+12-05 14:54:22.688  3305  3305 E TelephonyEventHandler: Received network blocked action currentNwType=1
+12-05 14:54:22.690  3515 23644 I NetworkDiagnostics_CheckStateManager: CheckNetworkThread run.
+12-05 14:54:22.692  3515  3515 I NetworkDiagnostics_CheckStateManager: onDiagnosticsResult ret=CONNECTED
+12-05 14:54:22.702  3305 23642 E NetworkDiagnostics: Network diagnostics stop, because misMatch !!!
+12-05 14:54:22.702  3305  3452 E WcnsEventManager: Network diagnostic end
+12-05 14:54:22.718 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:54:22.722 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:54:22.729 23645 23645 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:22.798  2055  2147 D PowerKeeperPolicy: hasAlarmRestrict uid=10121 tag=*walarm*:com.xiaomi.push.PING_TIMER ret=false
+12-05 14:54:12.494  2055  2086 E UsbDeviceManager: handle message = 9
+12-05 14:54:22.804  2055  2080 I ActivityManager: Killing 20082:com.android.thememanager/9801 (adj 906): empty for 1813s
+12-05 14:54:22.805  2055  2080 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:54:22.805  2055  2080 D CompatibilityInfo: applicationDensity - 440
+12-05 14:54:22.805  2055  2080 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:54:22.806  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.808  3386  3386 W PushService: 2019-12-05 14:54:22,808 - [WARN::PushService] - [Thread:2] com.xiaomi.xmsf is the package name
+12-05 14:54:22.808  3386  3386 W PushService: 2019-12-05 14:54:22,808 - [WARN::PushService] - [Thread:2] Ping XMChannelService on timer
+12-05 14:54:22.810  4445  4445 I PowerKeeperBackgroundService: onStartCommand()
+12-05 14:54:22.810  4445  4445 I PowerKeeperService: onAlarm
+12-05 14:54:22.812  4445  4445 I PowerKeeperBackgroundService: onStartCommand()
+12-05 14:54:22.812  4445  4445 I PowerKeeperService: onAlarm
+12-05 14:54:22.812  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.813  4445  4522 D AppActiveChecker: onAlarmHappen, elapsedRealtime = 14400016ms
+12-05 14:54:22.813  4445  4522 D DeviceIdleAppRuleChecker: onAlarmHappen, elapsedRealtime = 14400016ms
+12-05 14:54:22.813  4445  4522 D KillProcessAppRuleChecker: onAlarmHappen, elapsedRealtime = 14400016ms
+12-05 14:54:22.813  4445  4522 D HideModeStateMachine: onAlarmHappen, elapsedRealtime = 14400016ms
+12-05 14:54:22.814  3386  3386 W PushService: 2019-12-05 14:54:22,814 - [WARN::PushService] - [Thread:2] onStart() with intent.Action = com.xiaomi.push.timer, chid = null, pkg = null|null, from-bridge = null
+12-05 14:54:22.814  4445  4522 D ActiveStateController: onAlarmHappen, elapsedRealtime = 14400016ms
+12-05 14:54:22.814  4445  4522 D AppActiveChecker: onAlarmHappen, elapsedRealtime = 14400017ms
+12-05 14:54:22.814  4445  4522 D DeviceIdleAppRuleChecker: onAlarmHappen, elapsedRealtime = 14400017ms
+12-05 14:54:22.814  3386  3639 W PushService: 2019-12-05 14:54:22,814 - [WARN::PushService] - [Thread:147] JOB: Handle intent action = com.xiaomi.push.timer
+12-05 14:54:22.814  4445  4522 D KillProcessAppRuleChecker: onAlarmHappen, elapsedRealtime = 14400017ms
+12-05 14:54:22.815  4445  4522 D HideModeStateMachine: onAlarmHappen, elapsedRealtime = 14400017ms
+12-05 14:54:22.815  3386  3639 W PushService: 2019-12-05 14:54:22,815 - [WARN::PushService] - [Thread:147] Service called on timer
+12-05 14:54:22.815  3386  3639 W PushService: 2019-12-05 14:54:22,815 - [WARN::PushService] - [Thread:147] register alarm. (false)
+12-05 14:54:22.815  4445  4522 D ActiveStateController: onAlarmHappen, elapsedRealtime = 14400017ms
+12-05 14:54:22.817  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.820  2382  2382 D KeyguardUpdateMonitor: handleTimeUpdate
+12-05 14:54:22.821  3386  3639 W PushService: 2019-12-05 14:54:22,821 - [WARN::PushService] - [Thread:147] register timer 1575529462796
+12-05 14:54:22.823  2382  2382 I KeyguardIndication: updateIndication: mVisible true mDozing false mTransientIndication null mPowerPluggedIn true mUpArrowIndication null
+12-05 14:54:22.824  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.824  3386  3639 W PushService: 2019-12-05 14:54:22,824 - [WARN::PushService] - [Thread:147] JOB: do reconnect..
+12-05 14:54:22.830  3386  3639 W PushService: 2019-12-05 14:54:22,828 - [WARN::PushService] - [Thread:147] update the connection status. disconnected -> connecting : ERROR_OK 
+12-05 14:54:22.830  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.832  3386  3639 W PushService: 2019-12-05 14:54:22,831 - [WARN::PushService] - [Thread:147] begin to connect...
+12-05 14:54:22.834  3386  3639 W PushService: 2019-12-05 14:54:22,833 - [WARN::PushService] - get bucket for host : cn.app.chat.xiaomi.net starts
+12-05 14:54:22.836  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.842  2055  2083 I chatty  : uid=1000(system) ActivityManager identical 1 line
+12-05 14:54:22.848  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.853  3386  3639 W PushService: 2019-12-05 14:54:22,853 - [WARN::PushService] - get bucket for host : cn.app.chat.xiaomi.net ends in 20 ms
+12-05 14:54:22.854  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.855  3386  3639 W PushService: 2019-12-05 14:54:22,855 - [WARN::PushService] - [Thread:147] begin to connect to cn.app.chat.xiaomi.net
+12-05 14:54:22.859  3386  3639 W PushService: 2019-12-05 14:54:22,858 - [WARN::PushService] - SMACK: Could not connect to:cn.app.chat.xiaomi.net
+12-05 14:54:22.859  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.865  2055  2083 I chatty  : uid=1000(system) ActivityManager identical 1 line
+12-05 14:54:22.870  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.872   999   999 I Zygote  : Process 20082 exited due to signal (9)
+12-05 14:54:22.872  2055  2081 V UidProcStateHelper: process died:[20082,9801]
+12-05 14:54:22.876  2055  2083 W libprocessgroup: kill(-20082, 9) failed: No such process
+12-05 14:54:22.876  2055  2083 I libprocessgroup: Successfully killed process cgroup uid 9801 pid 20082 in 71ms
+12-05 14:54:22.880  3386  3639 W PushService: 2019-12-05 14:54:22,879 - [WARN::PushService] - fail to create Slim connection
+12-05 14:54:22.880  3386  3639 W PushService: 
+12-05 14:54:22.880  3386  3639 W PushService: SMACK: Could not connect to cn.app.chat.xiaomi.net port:5222 err:UnknownHostException
+12-05 14:54:22.880  3386  3639 W PushService: : 
+12-05 14:54:22.880  3386  3639 W PushService: 	at com.xiaomi.f.i.q(Unknown Source:565)
+12-05 14:54:22.880  3386  3639 W PushService: 	at com.xiaomi.push.service.XMPushService.k(Unknown Source:52)
+12-05 14:54:22.880  3386  3639 W PushService: 	at com.xiaomi.push.service.cw.a(Unknown Source:10)
+12-05 14:54:22.880  3386  3639 W PushService: 	at com.xiaomi.push.service.db.run(Unknown Source:32)
+12-05 14:54:22.880  3386  3639 W PushService: 	at com.xiaomi.push.service.j.run(Unknown Source:159)
+12-05 14:54:22.880  3386  3639 W PushService: 2019-12-05 14:54:22,880 - [WARN::PushService] - [Thread:147] update the connection status. connecting -> disconnected : ERROR_NETWORK_FAILED 
+12-05 14:54:22.885  3305  3305 E WcnsEventManager: Received network blocked action
+12-05 14:54:22.885  3515  3515 I TrafficManageService: mExtraNetworkReceiver tag = miui.intent.action.NETWORK_BLOCKED
+12-05 14:54:22.885  3515  3515 I NetworkDiagnostics_CheckStateManager: networkBlocked
+12-05 14:54:22.885  3515  3515 I NetworkDiagnostics_CheckStateManager: checkNetworkState
+12-05 14:54:22.885  3305  3305 E TelephonyEventHandler: Received network blocked action
+12-05 14:54:22.886  3305  3305 E TelephonyEventHandler: Received network blocked action currentNwType=1
+12-05 14:54:22.887  3305  3452 E WcnsEventManager: Network diagnostic start
+12-05 14:54:22.887  3386  3639 W PushService: 2019-12-05 14:54:22,887 - [WARN::PushService] - [Thread:147] schedule reconnect in 300000ms
+12-05 14:54:22.888  3386  3639 W PushService: 2019-12-05 14:54:22,888 - [WARN::PushService] - [Thread:147] JOB: notify job
+12-05 14:54:22.889  3305  3305 E WcnsEventManager: Received network blocked action
+12-05 14:54:22.889  3515  3515 I TrafficManageService: mExtraNetworkReceiver tag = miui.intent.action.NETWORK_BLOCKED
+12-05 14:54:22.889  3515  3515 I NetworkDiagnostics_CheckStateManager: networkBlocked
+12-05 14:54:22.889  3515  3515 I NetworkDiagnostics_CheckStateManager: checkNetworkState
+12-05 14:54:22.889  3305  3305 E TelephonyEventHandler: Received network blocked action
+12-05 14:54:22.891  3305  3305 E TelephonyEventHandler: Received network blocked action currentNwType=1
+12-05 14:54:22.896  3515 23648 I NetworkDiagnostics_CheckStateManager: CheckNetworkThread run.
+12-05 14:54:22.896  3515 23647 I NetworkDiagnostics_CheckStateManager: CheckNetworkThread run.
+12-05 14:54:22.898  3515  3515 I NetworkDiagnostics_CheckStateManager: onDiagnosticsResult ret=CONNECTED
+12-05 14:54:22.901  3515  3515 I NetworkDiagnostics_CheckStateManager: onDiagnosticsResult ret=CANCELLED
+12-05 14:54:22.903  3305 23646 E NetworkDiagnostics: Network diagnostics stop, because misMatch !!!
+12-05 14:54:22.903  3305  3452 E WcnsEventManager: Network diagnostic end
+12-05 14:54:23.177  2055  2084 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+12-05 14:54:23.329  3515 20634 I PowerCenterProvider: call METHOD_GET_BATTERY_INFO
+12-05 14:54:23.332  3515 20634 D BatteryHistoryLoadMgr: getHistoryInfo begin
+12-05 14:54:23.508  3515 20634 D BatteryHistoryLoadMgr: getHistoryInfo end
+12-05 14:54:23.512  3515 20634 I PowerUtils: use feature battery typ capacity
+12-05 14:54:23.515  3515 20634 I chatty  : uid=1000(system) Binder:3515_A identical 2 lines
+12-05 14:54:23.517  3515 20634 I PowerUtils: use feature battery typ capacity
+12-05 14:54:23.518  3515 20634 I BatteryChargeTimeHelper: Left charge time, 0.25 1h52m51s70ms
+12-05 14:54:23.519  3515 20634 I PowerUtils: use feature battery typ capacity
+12-05 14:54:23.522  3515 14336 I PowerUtils: has feature phone typ: false
+12-05 14:54:23.524  3515 14336 I PowerCenterProvider: call METHOD_GET_POWER_SUPPLY_INFO, quick_charge:false
+12-05 14:54:23.554  2055  2065 I system_server: Background concurrent copying GC freed 165404(8MB) AllocSpace objects, 119(9MB) LOS objects, 42% free, 28MB/49MB, paused 515us total 285.139ms
+12-05 14:54:26.681  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:27.754 23652 23652 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:23.357  2055  2084 E BatteryExternalStatsWorker: no controller energy info supplied for bluetooth
+12-05 14:54:28.607  2055  3668 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: from process:23665
+12-05 14:54:28.607  2055  3668 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:54:28.621  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:54:28.623  3445  3739 I chatty  : uid=10030(com.android.providers.media) FileObserver identical 1 line
+12-05 14:54:28.624  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:54:28.626  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:54:28.626  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:54:28.626  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:54:28.627  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:54:28.670  2055  2091 W ProcessCpuTracker: Skipping unknown process pid 23663
+12-05 14:54:29.097  2055  3668 I ActivityManager: Force stopping com.xiaomi.mi_connect_service.test appid=10167 user=0: from process:23678
+12-05 14:54:29.098  2055  3668 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service.test uid : 10167
+12-05 14:54:29.109  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:54:29.110  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:54:29.110  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:54:29.110  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:54:29.115  3445  3739 I chatty  : uid=10030(com.android.providers.media) FileObserver identical 2 lines
+12-05 14:54:29.117  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:54:29.437 23682 23682 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+12-05 14:54:29.535 23682 23682 I app_process: The ClassLoaderContext is a special shared library.
+12-05 14:54:29.589 23682 23682 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-05 14:54:29.633  2055  3298 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: start instr
+12-05 14:54:29.633  2055  3298 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:54:29.722  2055  2082 D Boost   : hostingType=added application, hostingName=com.xiaomi.mi_connect_service, callerPackage=android, isSystem=true, isBoostNeeded=false.
+12-05 14:54:29.733  2055  2082 I ActivityManager: Start proc 23691:com.xiaomi.mi_connect_service/u0a145 for added application com.xiaomi.mi_connect_service caller=android
+12-05 14:54:29.736 23691 23691 I connect_servic: Late-enabling -Xcheck:jni
+12-05 14:54:29.844  2055  3298 D CompatibilityInfo: mCompatibilityFlags - 0
+12-05 14:54:29.844  2055  3298 D CompatibilityInfo: applicationDensity - 440
+12-05 14:54:29.844  2055  3298 D CompatibilityInfo: applicationScale - 1.0
+12-05 14:54:29.848   729  3247 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10145, silenced:0)
+12-05 14:54:29.848   729  3247 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10145, silenced:0)
+12-05 14:54:30.009 23691 23691 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.xiaomi.mi_connect_service]: arm64-v8a, null instrumentation[com.xiaomi.mi_connect_service.test]: null, null
+12-05 14:54:30.014 23691 23691 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:54:30.016 23691 23691 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:54:30.558 23691 23691 I Perf    : Connecting to perf service.
+12-05 14:54:30.571 23691 23691 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:54:30.573  2055  2086 E UsbDeviceManager: handle message = 9
+12-05 14:54:30.572 23691 23691 I connect_servic: The ClassLoaderContext is a special shared library.
+12-05 14:54:30.574  3515  3515 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:54:30.577  2382  2382 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:54:30.578  4445  4598 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 75, status = 2, level = 75, plug = 2, scale = 100
+12-05 14:54:30.580  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:54:30.582  4445  4618 D ThermalTempInfoHelper: thermal sensor8 temp is 32
+12-05 14:54:30.584  4445  4618 D ThermalTempInfoHelper: thermal sensor1 temp is 29
+12-05 14:54:30.584  4445  4618 D PowerKeeper.Thermal: current battery temperature:31 xo_thermal 32 valid true
+12-05 14:54:30.685  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:31.084 23691 23691 W connect_servic: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+12-05 14:54:31.084 23691 23691 W connect_servic: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (light greylist, linking)
+12-05 14:54:31.107 23691 23691 W System.err: java.io.FileNotFoundException: /jacoco.exec (Read-only file system)
+12-05 14:54:31.107 23691 23691 W System.err: 	at java.io.FileOutputStream.open0(Native Method)
+12-05 14:54:31.107 23691 23691 W System.err: 	at java.io.FileOutputStream.open(FileOutputStream.java:308)
+12-05 14:54:31.107 23691 23691 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+12-05 14:54:31.107 23691 23691 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.openFile(FileOutput.java:67)
+12-05 14:54:31.107 23691 23691 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.startup(FileOutput.java:49)
+12-05 14:54:31.108 23691 23691 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.startup(Agent.java:122)
+12-05 14:54:31.108 23691 23691 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.getInstance(Agent.java:50)
+12-05 14:54:31.108 23691 23691 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.<clinit>(Offline.java:31)
+12-05 14:54:31.108 23691 23691 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.getProbes(Offline.java:51)
+12-05 14:54:31.108 23691 23691 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.$jacocoInit(Unknown Source:13)
+12-05 14:54:31.108 23691 23691 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.<init>(Unknown Source:0)
+12-05 14:54:31.108 23691 23691 W System.err: 	at java.lang.Class.newInstance(Native Method)
+12-05 14:54:31.108 23691 23691 W System.err: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:50)
+12-05 14:54:31.108 23691 23691 W System.err: 	at android.support.v4.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:49)
+12-05 14:54:31.108 23691 23691 W System.err: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1121)
+12-05 14:54:31.108 23691 23691 W System.err: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1065)
+12-05 14:54:31.109 23691 23691 W System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5931)
+12-05 14:54:31.109 23691 23691 W System.err: 	at android.app.ActivityThread.access$1200(ActivityThread.java:201)
+12-05 14:54:31.109 23691 23691 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1674)
+12-05 14:54:31.109 23691 23691 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+12-05 14:54:31.109 23691 23691 W System.err: 	at android.os.Looper.loop(Looper.java:201)
+12-05 14:54:31.109 23691 23691 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6821)
+12-05 14:54:31.109 23691 23691 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-05 14:54:31.109 23691 23691 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:547)
+12-05 14:54:31.109 23691 23691 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:873)
+12-05 14:54:31.120 23691 23691 I MonitoringInstr: Instrumentation started!
+12-05 14:54:31.122 23691 23691 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]'
+12-05 14:54:31.137 23691 23691 D RegionUtil: CN
+12-05 14:54:31.139 23691 23691 W Looper  : Slow Looper main: Long Msg: seq=2 plan=14:54:29.885  late=3ms wall=1249ms running=0ms h=android.app.ActivityThread$H w=110
+12-05 14:54:31.140 23691 23691 I MonitoringInstr: No JSBridge.
+12-05 14:54:31.146 23691 23717 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/lib/arm64, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-o1cWL7UhhSJixmzBtf6l9Q==/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-35iVQxOIl6kuVO7-hjP7wg==/base.apk!/lib/arm64-v8a, /system/lib64]]]'
+12-05 14:54:31.193 23691 23717 I UsageTrackerFacilitator: Usage tracking enabled
+12-05 14:54:31.241 23691 23717 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+12-05 14:54:31.241 23691 23717 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+12-05 14:54:31.241 23691 23717 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+12-05 14:54:31.255 23691 23717 I TestRunner: run started: 1 tests
+12-05 14:54:31.260 23691 23717 I TestRunner: started: testSubscribe(com.xiaomi.mi_connect_service.test.DpsNativeTest)
+12-05 14:54:31.264 23691 23691 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-05 14:54:31.305 23691 23717 I dps_jni : JNI OnLoad.
+12-05 14:54:31.305 23691 23717 I RTPS_PARTICIPANT: 
+12-05 14:54:31.309 23691 23719 I RTPS_PARTICIPANT: Thread: 484784477424 created and waiting for tasks.
+12-05 14:54:31.312 23691 23717 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:31.314 23691 23717 I chatty  : uid=10145(com.xiaomi.mi_connect_service) roidJUnitRunner identical 4 lines
+12-05 14:54:31.315 23691 23717 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:31.315 23691 23717 I RTPS_PARTICIPANT: RTPSParticipant Created with NO default Unicast Locator List, adding Locators:192.168.43.158:7413,
+12-05 14:54:31.315 23691 23717 I RTPS_PDP: Beginning
+12-05 14:54:31.315 23691 23717 I RTPS_PDP: Beginning
+12-05 14:54:31.315 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
+12-05 14:54:31.315 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.315 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 26
+12-05 14:54:31.315 23691 23717 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:54:31.315 23691 23717 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:31.316 23691 23717 I RTPS_READER: Writer |GUID UNKNOWN| added to 0.1.0.c7
+12-05 14:54:31.316 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:31.316 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.316 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:31.317 23691 23717 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:54:31.317 23691 23717 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:31.317 23691 23717 I RTPS_READER: Reader |GUID UNKNOWN| added to 0.1.0.c2
+12-05 14:54:31.317 23691 23717 I RTPS_PDP: SPDP Endpoints creation finished
+12-05 14:54:31.317 23691 23717 I RTPS_EDP: Beginning Simple Endpoint Discovery Protocol
+12-05 14:54:31.317 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:31.317 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.317 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:31.317 23691 23723 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:31.317 23691 23717 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:31.317 23691 23717 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:31.318 23691 23717 I RTPS_EDP: SEDP Publication Writer created
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:31.318 23691 23717 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:31.318 23691 23717 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:31.318 23691 23717 I RTPS_EDP: SEDP Subscription Reader created
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:31.318 23691 23717 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:31.318 23691 23717 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:31.318 23691 23717 I RTPS_EDP: SEDP Publication Reader created
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:31.318 23691 23717 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:31.318 23691 23717 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:31.318 23691 23717 I RTPS_EDP: SEDP Subscription Writer created
+12-05 14:54:31.318 23691 23717 I RTPS_EDP: Creation finished
+12-05 14:54:31.318 23691 23717 I RTPS_LIVELINESS: Initializing Liveliness Protocol
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 100
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.318 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:31.318 23691 23717 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:31.318 23691 23717 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:31.319 23691 23717 I RTPS_LIVELINESS: Builtin Liveliness Writer created
+12-05 14:54:31.319 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 101 with payload of size: 100
+12-05 14:54:31.319 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.319 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 101
+12-05 14:54:31.319 23691 23717 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:31.319 23691 23717 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:31.319 23691 23717 I RTPS_LIVELINESS: Builtin Liveliness Reader created
+12-05 14:54:31.319 23691 23717 I RTPS_PDP: Announcing RTPSParticipant State (new change: 1)
+12-05 14:54:31.319 23691 23717 I RTPS_WRITER: Creating new change
+12-05 14:54:31.319 23691 23717 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:54:31.319 23691 23717 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:31.319 23691 23717 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:31.319 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:54:31.319 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:54:31.319 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:31.319 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:31.319 23691 23720 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:54:31.319 23691 23720 I RTPS_PDP: SPDP Message received
+12-05 14:54:31.320 23691 23720 I RTPS_PDP: Message from own RTPSParticipant, removing
+12-05 14:54:31.320 23691 23720 I RTPS_HISTORY: Removing change 1
+12-05 14:54:31.320 23691 23720 I RTPS_PARTICIPANT: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:31.320 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:54:31.320 23691 23717 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:41859
+12-05 14:54:31.320 23691 23717 I RTPS_PARTICIPANT: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:31.320 23691 23717 I RTPS_PARTICIPANT: RTPSParticipant "RTPSParticipant" with guidPrefix: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:31.322 23691 23717 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-05 14:54:31.322 23691 23717 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:31.322 23691 23717 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-05 14:54:31.322 23691 23717 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:54:31.322 23691 23717 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:31.322 23691 23717 I RTPS_EDP: Adding 0.0.1.4 in topic Test
+12-05 14:54:31.322 23691 23717 I RTPS_PDP: Adding reader proxy data 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4
+12-05 14:54:31.323 23691 23717 I RTPS_EDP: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-05 14:54:31.323 23691 23717 I RTPS_EDP: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-05 14:54:31.323 23691 23717 I RTPS_EDP: 0.0.1.4
+12-05 14:54:31.323 23691 23717 I RTPS_WRITER: Creating new change
+12-05 14:54:31.323 23691 23717 I RTPS_HISTORY: Change 1 added with 268 bytes
+12-05 14:54:31.323 23691 23717 I RTPS_WRITER: No reader proxy to add change.
+12-05 14:54:31.323 23691 23717 I RTPS_PARTICIPANT: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:31.323 23691 23717 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4
+12-05 14:54:32.773 23724 23724 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:34.605  1146  1207 I LOWI-8.6.0.26: [LOWIUtils] inPostcardToRequest - FROM: GTP-FDAL, TO:   LOWI-SERVER, REQ:  LOWI_ASYNC_DISCOVERY_SCAN_RESULTS
+12-05 14:54:34.611  1146  1207 I LOWI-8.6.0.26: [LOWIController] addRequestToAsyncScanRequestList: Request GTP-FDAL_1 timeout! Dropping it!
+12-05 14:54:34.688  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:37.767 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:54:37.772 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:54:37.792 23728 23728 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:38.694  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:39.872  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:54:42.700  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:42.808 23729 23729 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:44.513  1095  1260 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+12-05 14:54:47.825 23731 23731 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:46.707  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:48.601  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:54:50.711  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:50.720 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:54:50.721 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:54:50.721 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:50.721 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:50.721 23691 23720 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:54:50.721 23691 23720 I RTPS_PDP: SPDP Message received
+12-05 14:54:50.723 23691 23720 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-05 14:54:50.723 23691 23720 I RTPS_PDP: For RTPSParticipant: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:50.724 23691 23723 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:50.724 23691 23720 I RTPS_READER: Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-05 14:54:50.724 23691 23723 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:50.725 23691 23723 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:41859
+12-05 14:54:50.725 23691 23723 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:50.725 23691 23720 I RTPS_READER: Reader 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-05 14:54:50.725 23691 23720 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-05 14:54:50.725 23691 23720 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-05 14:54:50.725 23691 23723 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:50.725 23691 23723 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:50.726 23691 23720 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-05 14:54:50.726 23691 23720 I RTPS_READER: Writer Proxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-05 14:54:50.726 23691 23720 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-05 14:54:50.726 23691 23723 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:41859
+12-05 14:54:50.726 23691 23723 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:50.726 23691 23720 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:50.726 23691 23720 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:50.727 23691 23720 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.727 23691 23720 I RTPS_WRITER: Reader Proxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-05 14:54:50.727 23691 23720 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-05 14:54:50.727 23691 23720 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-05 14:54:50.728 23691 23720 I RTPS_READER: Writer Proxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-05 14:54:50.728 23691 23720 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-05 14:54:50.728 23691 23720 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:50.728 23691 23720 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-05 14:54:50.728 23691 23720 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.728 23691 23720 I RTPS_WRITER: Reader Proxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-05 14:54:50.728 23691 23720 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-05 14:54:50.729 23691 23720 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-05 14:54:50.729 23691 23720 I RTPS_READER: Writer Proxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-05 14:54:50.729 23691 23720 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-05 14:54:50.729 23691 23720 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:50.729 23691 23720 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:50.729 23691 23720 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.729 23691 23720 I RTPS_WRITER: Reader Proxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-05 14:54:50.730 23691 23720 I RTPS_PARTICIPANT: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:50.730 23691 23720 I RTPS_HISTORY: Removing change 1
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) MessageReceiver not add change 1
+12-05 14:54:50.730 23691 23720 I RTPS_LIVELINESS: RTPSParticipant 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:54:50.730 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:54:50.731 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:54:50.731 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:50.731 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:50.731 23691 23720 I RTPS_MSG_IN: (ID:484777051376) MessageReceiver not add change 1
+12-05 14:54:50.731 23691 23720 I RTPS_LIVELINESS: RTPSParticipant 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:50.731 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:54:50.756 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.756 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.756 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:50.756 23691 23721 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-05 14:54:50.756 23691 23721 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 1 missing.
+12-05 14:54:50.757 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:54:50.757 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:54:50.757 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:50.757 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:50.757 23691 23720 I RTPS_MSG_IN: (ID:484777051376) MessageReceiver not add change 1
+12-05 14:54:50.757 23691 23720 I RTPS_LIVELINESS: RTPSParticipant 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:50.757 23691 23720 I RTPS_LIVELINESS:  Stopped for RTPSParticipant with ID: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:50.757 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:54:50.758 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:54:50.758 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:54:50.759 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:50.759 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:50.759 23691 23720 I RTPS_MSG_IN: (ID:484777051376) MessageReceiver not add change 1
+12-05 14:54:50.759 23691 23720 I RTPS_LIVELINESS: RTPSParticipant 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:50.759 23691 23720 I RTPS_LIVELINESS:  Stopped for RTPSParticipant with ID: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:50.759 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:54:50.760 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.760 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.760 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:50.760 23691 23721 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-05 14:54:50.760 23691 23721 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-05 14:54:50.760 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.760 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.760 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:50.760 23691 23721 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-05 14:54:50.760 23691 23721 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-05 14:54:50.766 23691 23719 I RTPS_READER: 
+12-05 14:54:50.766 23691 23719 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:54:50.767 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.768 23691 23719 I RTPS_READER: 
+12-05 14:54:50.768 23691 23719 I RTPS_READER: Sending ACKNACK: 1:1-
+12-05 14:54:50.768 23691 23719 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.772 23691 23719 I RTPS_READER: 
+12-05 14:54:50.772 23691 23719 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:54:50.772 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.797 23691 23719 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:54:50.798 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.798 23691 23719 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:54:50.798 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.800 23691 23719 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:54:50.800 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.825 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.826 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.826 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:50.826 23691 23721 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-05 14:54:50.826 23691 23721 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 1 missing.
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:50.827 23691 23721 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-05 14:54:50.827 23691 23721 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:50.827 23691 23721 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-05 14:54:50.827 23691 23721 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-05 14:54:50.827 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.828 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.828 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:50.828 23691 23721 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:50.828 23691 23721 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.828 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.829 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.829 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:50.829 23691 23721 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-05 14:54:50.829 23691 23721 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.830 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.830 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.830 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:50.830 23691 23721 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:50.831 23691 23721 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.833 23691 23719 I RTPS_READER: 
+12-05 14:54:50.834 23691 23719 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:54:50.834 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.838 23691 23719 I RTPS_READER: 
+12-05 14:54:50.838 23691 23719 I RTPS_READER: Sending ACKNACK: 1:1-
+12-05 14:54:50.839 23691 23719 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.839 23691 23719 I RTPS_READER: 
+12-05 14:54:50.839 23691 23719 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:54:50.839 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.843 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.844 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.844 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:50.849 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.849 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.849 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:50.849 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.849 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.849 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:50.849 23691 23721 I RTPS_WRITER: Requested Changes: 1:1-
+12-05 14:54:50.876 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:50.877 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.877 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoTS Submsg received, processing...
+12-05 14:54:50.877 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Data Submsg received, processing.
+12-05 14:54:50.877 23691 23721 I RTPS_MSG_IN: (ID:484776010992) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.3.c2; possible RTPSReaders: 4
+12-05 14:54:50.877 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Trying to add change 1 TO reader: 0.0.3.c7
+12-05 14:54:50.877 23691 23721 I RTPS_HISTORY: Change 1 added with 276 bytes
+12-05 14:54:50.877 23691 23721 I RTPS_READER: 0.0.3.c2: seqNum: 1
+12-05 14:54:50.877 23691 23721 I RTPS_EDP: 
+12-05 14:54:50.878 23691 23721 I RTPS_PDP: Adding writer proxy data 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3
+12-05 14:54:50.878 23691 23721 I RTPS_EDP: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-05 14:54:50.878 23691 23721 I RTPS_READER: Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3 added to 0.0.1.4
+12-05 14:54:50.878 23691 23721 I RTPS_EDP: Valid Matching to local reader: 0.0.1.4
+12-05 14:54:50.878 23691 23721 I dps_manager_impl: Reader(0x70eaaed600): Matched with a Writer
+12-05 14:54:50.878 23691 23721 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4
+12-05 14:54:50.878 23691 23721 I RTPS_PARTICIPANT: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:50.879 23691 23721 I RTPS_PARTICIPANT: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:50.879 23691 23721 I RTPS_PROXY_DATA: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3
+12-05 14:54:50.879 23691 23721 I RTPS_HISTORY: Removing change 1
+12-05 14:54:50.879 23691 23721 I RTPS_READER: 0.0.3.c7 FINDS writerProxy 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.3.c2 from 1
+12-05 14:54:50.879 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Sub Message DATA processed
+12-05 14:54:50.943 23691 23719 I RTPS_WRITER: Responding to Acknack messages
+12-05 14:54:50.944 23691 23723 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:50.944 23691 23723 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:50.945 23691 23723 I RTPS_MSG_OUT: UDPTransport: 340 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:50.945 23691 23723 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:50.955 23691 23722 I RTPS_MSG_IN: (ID:484774970608) InfoDST message received, processing...
+12-05 14:54:50.955 23691 23722 I RTPS_MSG_IN: (ID:484774970608) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:50.955 23691 23722 I RTPS_MSG_IN: (ID:484774970608) Heartbeat Submsg received, processing...
+12-05 14:54:50.955 23691 23722 I RTPS_MSG_IN: (ID:484774970608) Gap Submsg received, processing...
+12-05 14:54:50.955 23691 23719 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.4.c7
+12-05 14:54:51.730 23691 23719 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-05 14:54:51.731 23691 23719 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:51.762 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:51.762 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:51.762 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Heartbeat Submsg received, processing...
+12-05 14:54:51.762 23691 23721 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-05 14:54:51.763 23691 23721 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 1 missing.
+12-05 14:54:51.775 23691 23719 I RTPS_READER: 
+12-05 14:54:51.775 23691 23719 I RTPS_READER: Sending ACKNACK: 2:
+12-05 14:54:51.775 23691 23719 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.1:7412 FROM 0.0.0.0:41859
+12-05 14:54:51.776 23691 23721 I RTPS_MSG_IN: (ID:484776010992) InfoDST message received, processing...
+12-05 14:54:51.776 23691 23721 I RTPS_MSG_IN: (ID:484776010992) DST RTPSParticipant is now: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:51.776 23691 23721 I RTPS_MSG_IN: (ID:484776010992) Acknack Submsg received, processing...
+12-05 14:54:52.401  3474  3655 I DatabaseUtil: writeApplyOperatorDetailInfo
+12-05 14:54:52.814 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:54:52.822 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:54:52.845 23732 23732 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:54.714  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:54:55.641  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:54:57.860 23736 23736 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:54:58.718  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:55:02.872 23737 23737 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:55:02.725  2592  4816 I chatty  : uid=1000(system) DPMReceiver identical 1 line
+12-05 14:55:06.732  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:55:06.903  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:55:07.868 21654 21725 D MI_STAT : UploaderEngine postToServer network is not connected 
+12-05 14:55:07.873 21654 21725 D MI_STAT : UploadTimer handleMessage: true
+12-05 14:55:07.900 23739 23739 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:55:08.802   687   687 W memtrack@1.0-se: type=1400 audit(0.0:2125): avc: denied { read } for name="mem" dev="debugfs" ino=311651 scontext=u:r:hal_memtrack_default:s0 tcontext=u:object_r:qti_debugfs:s0 tclass=file permissive=0
+12-05 14:55:10.739  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:55:11.340 23691 23719 I RTPS_PDP: ResendDiscoveryData Period
+12-05 14:55:11.341 23691 23719 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-05 14:55:11.342 23691 23723 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:55:11.342 23691 23723 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:55:11.344 23691 23723 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:41859
+12-05 14:55:11.344 23691 23723 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:55:11.344 23691 23720 I RTPS_MSG_IN: (ID:484777051376) InfoTS Submsg received, processing...
+12-05 14:55:11.344 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Data Submsg received, processing.
+12-05 14:55:11.344 23691 23720 I RTPS_MSG_IN: (ID:484777051376) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:55:11.344 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:55:11.344 23691 23720 I RTPS_MSG_IN: (ID:484777051376) MessageReceiver not add change 1
+12-05 14:55:11.345 23691 23720 I RTPS_LIVELINESS: RTPSParticipant 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:55:11.345 23691 23720 I RTPS_MSG_IN: (ID:484777051376) Sub Message DATA processed
+12-05 14:55:11.385  2382  2569 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:55:12.918 23740 23740 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit
+12-05 14:55:14.747  2592  4816 I DPMJ    : |REQ:RCVR| DPM creating socket
+12-05 14:55:16.174  2055  2130 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: from process:23744
+12-05 14:55:16.175  2055  2130 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:55:16.175  2055  2130 D AutoStartManagerService: prepare force stop p:23691 s: 19
+12-05 14:55:16.175  2055  2130 I Process : Sending signal. PID: 23691 SIG: 19
+12-05 14:55:16.177  2055  2130 I ActivityManager: Killing 23691:com.xiaomi.mi_connect_service/u0a145 (adj 0): stop com.xiaomi.mi_connect_service: from process:23744
+12-05 14:55:16.178  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.178  2055  2130 W ActivityManager: Crash of app com.xiaomi.mi_connect_service running instrumentation ComponentInfo{com.xiaomi.mi_connect_service.test/androidx.test.runner.AndroidJUnitRunner}
+12-05 14:55:16.179  2055  2130 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10145 user=0: finished inst
+12-05 14:55:16.179  2055  2130 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10145
+12-05 14:55:16.181  2055 23746 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+12-05 14:55:16.181  2055 23746 W Binder  : java.lang.Throwable
+12-05 14:55:16.181  2055 23746 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:460)
+12-05 14:55:16.181  2055 23746 W Binder  : 	at android.app.IInstrumentationWatcher$Stub$Proxy.instrumentationFinished(IInstrumentationWatcher.java:164)
+12-05 14:55:16.181  2055 23746 W Binder  : 	at com.android.server.am.InstrumentationReporter$MyThread.run(InstrumentationReporter.java:86)
+12-05 14:55:16.183 23682 23682 D AndroidRuntime: Shutting down VM
+12-05 14:55:16.183  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.188   729  3247 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10145, silenced:1)
+12-05 14:55:16.188   729  3247 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10145, silenced:1)
+12-05 14:55:16.188  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.190  2055  2081 V UidProcStateHelper: process died:[23691,10145]
+12-05 14:55:16.194  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.195  4445  4522 D ActiveStateController: updateStateForUidActiveChangedLocked, uid: 10145 active: false
+12-05 14:55:16.197  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:55:16.199  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:55:16.200  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.201  3445  3739 W MtpStorageManager: The file lcfp.lock was 0 KB size 
+12-05 14:55:16.202  2629  2629 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:55:16.203  2629  2629 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+12-05 14:55:16.203  2629  2629 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:55:16.206  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.236  2055  2083 I chatty  : uid=1000(system) ActivityManager identical 5 lines
+12-05 14:55:16.242  2055  2083 W libprocessgroup: kill(-23691, 9) failed: No such process
+12-05 14:55:16.243  2055  2083 I libprocessgroup: Successfully killed process cgroup uid 10145 pid 23691 in 65ms
+12-05 14:55:16.243   999   999 I Zygote  : Process 23691 exited due to signal (9)
+12-05 14:55:17.935 23752 23752 F linker  : CANNOT LINK EXECUTABLE "/system/bin/dpmd": "/system/lib64/libdpmframework.so" is 32-bit instead of 64-bit

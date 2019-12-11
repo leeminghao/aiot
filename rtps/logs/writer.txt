@@ -1,0 +1,759 @@
+--------- beginning of main
+12-05 14:53:33.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:33.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:33.778   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:33.778   894   894 I MSM-irqbalance: Decided to move IRQ164 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:33.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:33.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:33.780   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:33.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:33.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:33.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:33.783   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:33.783   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:37.937   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:53:37.937   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-05 14:53:38.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:38.777   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:38.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:38.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:38.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:38.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:38.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:38.781   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:38.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:43.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:43.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:43.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:43.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:43.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:43.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:43.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:43.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:48.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:48.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:48.778   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:48.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:48.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:48.780   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:48.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:48.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:48.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:48.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:53.776   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:53.777   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:53.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:53.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:53.779   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:53.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:53.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:53.781   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:53.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:53.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:53.783   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:58.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:58.777   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:58.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:58.779   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:58.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:58.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:58.781   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:58.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:53:58.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:53:58.783   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:53:58.783   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:53:59.917   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:53:59.917   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-05 14:53:59.931   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:53:59.932   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-05 14:53:59.939   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:53:59.939   776   776 I cnss-daemon: NDA_DST received: 192.168.43.158 ul: 562995556755648
+12-05 14:53:59.939   776   776 I cnss-daemon: NDA_LLADDR received
+12-05 14:54:03.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:03.777   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:03.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:03.778   894   894 I MSM-irqbalance: Decided to move IRQ164 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:03.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:03.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:03.780   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:03.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:03.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:03.782   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:03.783   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:03.784   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:03.784   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:08.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:08.779   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:08.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:08.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:08.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:08.782   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:08.782   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:08.783   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:08.784   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:08.784   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:08.785   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:08.786   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:13.097   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:13.097   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-05 14:54:13.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:13.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:13.778   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:13.779   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:13.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:13.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:13.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:13.781   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:13.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:13.783   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:13.783   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:13.784   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:18.398   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:18.398   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-05 14:54:18.435   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:18.435   776   776 I cnss-daemon: NDA_DST received: 192.168.43.158 ul: 562995556755648
+12-05 14:54:18.435   776   776 I cnss-daemon: NDA_LLADDR received
+12-05 14:54:18.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:18.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:18.778   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:18.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:18.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:18.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:18.781   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:18.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:18.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:18.783   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:23.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:23.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:23.778   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:23.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:23.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:23.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:23.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:23.784   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:23.785   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:23.786   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:23.787   894   894 I MSM-irqbalance: Decided to move IRQ164 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:28.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:28.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:28.778   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:28.779   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:28.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:28.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:28.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:28.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:28.783   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:28.784   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:28.785   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:28.786   894   894 I MSM-irqbalance: Decided to move IRQ187 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:28.786   894   894 I MSM-irqbalance: Decided to move IRQ164 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:31.577   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:31.577   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-05 14:54:33.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:33.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:33.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:33.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:33.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:33.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:33.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:33.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:38.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:38.776   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:38.777   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:38.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:38.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:38.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:38.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:38.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:39.677   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:39.677   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-05 14:54:39.709   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:39.710   776   776 I cnss-daemon: NDA_DST received: 192.168.43.158 ul: 562995556755648
+12-05 14:54:39.710   776   776 I cnss-daemon: NDA_LLADDR received
+12-05 14:54:43.387  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:54:43.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:43.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:43.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:43.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:43.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:43.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:43.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:43.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:46.859 15035 15035 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:46.863 15035 15035 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:46.937 15035 15035 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:46.966 15035 15035 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:46.982 15044 15044 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:46.986 15044 15044 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:46.988 15035 15035 D AndroidRuntime: Calling main entry com.android.commands.wm.Wm
+12-05 14:54:47.048 15035 15035 D AndroidRuntime: Shutting down VM
+12-05 14:54:47.059 15044 15044 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:47.088 15044 15044 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:47.108 15044 15044 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+12-05 14:54:47.170 15044 15044 I art     : System.exit called, status: 0
+12-05 14:54:47.170 15044 15044 I AndroidRuntime: VM exiting with result code 0.
+12-05 14:54:47.713 15062 15062 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:47.717 15062 15062 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:47.791 15062 15062 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:47.819 15062 15062 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:47.839 15062 15062 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+--------- beginning of system
+12-05 14:54:47.898  1667  2414 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10138 user=0: from process:15062
+12-05 14:54:47.898  1667  2414 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10138
+12-05 14:54:47.901 15062 15062 D AndroidRuntime: Shutting down VM
+12-05 14:54:47.909  2154  2154 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:54:47.910  2154  2154 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:54:48.540 15079 15079 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:48.544 15079 15079 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:48.618 15079 15079 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:48.646 15079 15079 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:48.666 15079 15079 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+12-05 14:54:48.725 15079 15079 I art     : System.exit called, status: 0
+12-05 14:54:48.726 15079 15079 I AndroidRuntime: VM exiting with result code 0.
+12-05 14:54:48.769   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:48.769   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:48.769   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:48.770   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:48.770   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:48.770   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:48.770   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:48.770   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:49.266 15093 15093 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:49.270 15093 15093 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:49.344 15093 15093 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:49.375 15093 15093 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:49.395 15093 15093 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+12-05 14:54:49.456 15093 15093 I art     : System.exit called, status: 0
+12-05 14:54:49.456 15093 15093 I AndroidRuntime: VM exiting with result code 0.
+12-05 14:54:50.016 15104 15104 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:50.019 15104 15104 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:50.089 15104 15104 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:50.116 15104 15104 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:50.137 15104 15104 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-05 14:54:50.197  1667  4139 I ActivityManager: Force stopping com.xiaomi.mi_connect_service.test appid=10152 user=0: from process:15104
+12-05 14:54:50.197  1667  4139 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service.test uid : 10152
+12-05 14:54:50.199 15104 15104 D AndroidRuntime: Shutting down VM
+12-05 14:54:50.205  2154  2154 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:54:50.206  2154  2154 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:54:50.763 15116 15116 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:54:50.766 15116 15116 D AndroidRuntime: CheckJNI is OFF
+12-05 14:54:50.836 15116 15116 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:54:50.863 15116 15116 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:54:50.883 15116 15116 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-05 14:54:50.944  1667  4139 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10138 user=0: start instr
+12-05 14:54:50.944  1667  4139 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10138
+12-05 14:54:50.958  1667  4139 D Boost   : hostingType=added application, hostingName=com.xiaomi.mi_connect_service, callerPackage=android, isSystem=true, isBoostNeeded=false.
+12-05 14:54:50.958  1667  4139 I ActivityManager: Start proc 15125:com.xiaomi.mi_connect_service/u0a138 for added application com.xiaomi.mi_connect_service caller=android
+12-05 14:54:50.962 15125 15125 I art     : Late-enabling -Xcheck:jni
+12-05 14:54:50.983 15125 15125 W ReflectionUtils:
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-05 14:54:50.983 15125 15125 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-05 14:54:50.984 15125 15125 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@960a7e0
+12-05 14:54:50.995  1667  1685 V UidProcStateHelper: process state changed:[15125,10138,4]
+12-05 14:54:51.062 15125 15125 W art     : Found duplicate classes, falling back to interpreter mode for /data/app/com.xiaomi.mi_connect_service-2/base.apk
+12-05 14:54:51.062 15125 15125 W art     : Found duplicated class when checking oat files: 'Landroid/support/v4/app/INotificationSideChannel;' in /data/app/com.xiaomi.mi_connect_service-2/base.apk and /data/app/com.xiaomi.mi_connect_service.test-2/base.apk
+12-05 14:54:51.197 15125 15125 W System  : ClassLoader referenced unknown path: /data/app/com.xiaomi.mi_connect_service.test-2/lib/arm64
+12-05 14:54:51.200 15125 15125 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-05 14:54:51.205 15125 15125 W System  : ClassLoader referenced unknown path:
+12-05 14:54:51.206 15125 15125 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-05 14:54:51.229 15125 15125 W System.err: java.io.FileNotFoundException: /jacoco.exec (Read-only file system)
+12-05 14:54:51.230 15125 15125 W System.err: 	at java.io.FileOutputStream.open(Native Method)
+12-05 14:54:51.230 15125 15125 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+12-05 14:54:51.230 15125 15125 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.openFile(FileOutput.java:67)
+12-05 14:54:51.230 15125 15125 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.startup(FileOutput.java:49)
+12-05 14:54:51.230 15125 15125 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.startup(Agent.java:122)
+12-05 14:54:51.230 15125 15125 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.getInstance(Agent.java:50)
+12-05 14:54:51.230 15125 15125 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.<clinit>(Offline.java:31)
+12-05 14:54:51.230 15125 15125 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.getProbes(Offline.java:51)
+12-05 14:54:51.230 15125 15125 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.$jacocoInit(MyApplication.java)
+12-05 14:54:51.230 15125 15125 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.<init>(MyApplication.java)
+12-05 14:54:51.230 15125 15125 W System.err: 	at java.lang.Class.newInstance(Native Method)
+12-05 14:54:51.230 15125 15125 W System.err: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1008)
+12-05 14:54:51.230 15125 15125 W System.err: 	at android.app.Instrumentation.newApplication(Instrumentation.java:993)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:800)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5520)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1626)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.os.Looper.loop(Looper.java:163)
+12-05 14:54:51.231 15125 15125 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6388)
+12-05 14:54:51.231 15125 15125 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-05 14:54:51.231 15125 15125 W System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-05 14:54:51.231 15125 15125 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-05 14:54:51.238 15125 15125 I MonitoringInstr: Instrumentation started!
+12-05 14:54:51.240 15125 15125 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-2/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-2/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-2/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-2/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-2/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-2/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-2/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-2/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]'
+12-05 14:54:51.244 15125 15125 D RegionUtil: CN
+12-05 14:54:51.245 15125 15125 I MonitoringInstr: No JSBridge.
+12-05 14:54:51.247 15125 15148 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-2/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-2/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-2/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-2/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-2/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-2/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service-2/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-2/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-2/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]'
+12-05 14:54:51.256 15125 15148 I UsageTrackerFacilitator: Usage tracking enabled
+12-05 14:54:51.268 15125 15148 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+12-05 14:54:51.269 15125 15148 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+12-05 14:54:51.269 15125 15148 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+12-05 14:54:51.275 15125 15148 I TestRunner: run started: 1 tests
+12-05 14:54:51.279 15125 15148 I TestRunner: started: testPublish(com.xiaomi.mi_connect_service.test.DpsNativeTest)
+12-05 14:54:51.282 15125 15125 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+
+
+12-05 14:54:51.324 15125 15148 I dps_jni : JNI OnLoad.
+12-05 14:54:51.325 15125 15148 I RTPS_PARTICIPANT:
+12-05 14:54:51.314 15153 15153 I ps      : type=1400 audit(0.0:10929): avc: denied { read } for name="cmdline" dev="proc" ino=277 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+12-05 14:54:51.314 15153 15153 I ps      : type=1400 audit(0.0:10930): avc: denied { open } for path="/proc/1/cmdline" dev="proc" ino=277 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+12-05 14:54:51.314 15153 15153 I ps      : type=1400 audit(0.0:10931): avc: denied { getattr } for path="/proc/2" dev="proc" ino=26691 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+12-05 14:54:51.314 15153 15153 I ps      : type=1400 audit(0.0:10932): avc: denied { search } for name="2" dev="proc" ino=26691 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+12-05 14:54:51.314 15153 15153 I ps      : type=1400 audit(0.0:10933): avc: denied { read } for name="cmdline" dev="proc" ino=27074 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+12-05 14:54:51.314 15153 15153 I ps      : type=1400 audit(0.0:10934): avc: denied { open } for path="/proc/2/cmdline" dev="proc" ino=27074 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+12-05 14:54:51.328 15125 15157 I RTPS_PARTICIPANT: Thread: 547437880400 created and waiting for tasks.
+12-05 14:54:51.330 15125 15148 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:51.331 15125 15148 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:51.331 15125 15148 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:51.332 15125 15148 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:51.333 15125 15148 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:51.333 15125 15148 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-05 14:54:51.333 15125 15148 I RTPS_PARTICIPANT: RTPSParticipant Created with NO default Unicast Locator List, adding Locators:192.168.43.1:7413,
+12-05 14:54:51.334 15125 15148 I RTPS_PDP: Beginning
+12-05 14:54:51.334 15125 15148 I RTPS_PDP: Beginning
+12-05 14:54:51.334 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
+12-05 14:54:51.334 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.334 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 26
+12-05 14:54:51.334 15125 15148 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:54:51.334 15125 15148 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:51.336 15125 15148 I RTPS_READER: Writer |GUID UNKNOWN| added to 0.1.0.c7
+12-05 14:54:51.336 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:51.336 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.336 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:51.337 15125 15148 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-05 14:54:51.337 15125 15148 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:51.337 15125 15148 I RTPS_READER: Reader |GUID UNKNOWN| added to 0.1.0.c2
+12-05 14:54:51.337 15125 15148 I RTPS_PDP: SPDP Endpoints creation finished
+12-05 14:54:51.337 15125 15161 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:51.337 15125 15148 I RTPS_EDP: Beginning Simple Endpoint Discovery Protocol
+12-05 14:54:51.337 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:51.337 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.338 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:51.338 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.338 15125 15148 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:51.338 15125 15148 I RTPS_EDP: SEDP Publication Writer created
+12-05 14:54:51.338 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:51.338 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.338 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:51.338 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.339 15125 15148 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:51.339 15125 15148 I RTPS_EDP: SEDP Subscription Reader created
+12-05 14:54:51.339 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:51.339 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.339 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:51.339 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.339 15125 15148 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:51.339 15125 15148 I RTPS_EDP: SEDP Publication Reader created
+12-05 14:54:51.339 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-05 14:54:51.339 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.339 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:51.340 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.340 15125 15148 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:51.340 15125 15148 I RTPS_EDP: SEDP Subscription Writer created
+12-05 14:54:51.340 15125 15148 I RTPS_EDP: Creation finished
+12-05 14:54:51.340 15125 15148 I RTPS_LIVELINESS: Initializing Liveliness Protocol
+12-05 14:54:51.340 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 100
+12-05 14:54:51.340 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.340 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-05 14:54:51.340 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.340 15125 15148 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:51.340 15125 15148 I RTPS_LIVELINESS: Builtin Liveliness Writer created
+12-05 14:54:51.340 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 101 with payload of size: 100
+12-05 14:54:51.340 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.340 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 101
+12-05 14:54:51.341 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.341 15125 15148 I RTPS_READER: RTPSReader created correctly
+12-05 14:54:51.341 15125 15148 I RTPS_LIVELINESS: Builtin Liveliness Reader created
+12-05 14:54:51.341 15125 15148 I RTPS_PDP: Announcing RTPSParticipant State (new change: 1)
+12-05 14:54:51.341 15125 15148 I RTPS_WRITER: Creating new change
+12-05 14:54:51.341 15125 15148 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:54:51.341 15125 15148 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:51.341 15125 15148 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:51.341 15125 15148 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:57947
+12-05 14:54:51.342 15125 15148 I RTPS_PARTICIPANT: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:51.342 15125 15148 I RTPS_PARTICIPANT: RTPSParticipant "RTPSParticipant" with guidPrefix: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.342 15125 15158 I RTPS_MSG_IN: (ID:547426296912) InfoTS Submsg received, processing...
+12-05 14:54:51.342 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Data Submsg received, processing.
+12-05 14:54:51.342 15125 15158 I RTPS_MSG_IN: (ID:547426296912) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:51.342 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:51.342 15125 15158 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:54:51.342 15125 15158 I RTPS_PDP: SPDP Message received
+12-05 14:54:51.342 15125 15158 I RTPS_PDP: Message from own RTPSParticipant, removing
+12-05 14:54:51.342 15125 15158 I RTPS_HISTORY: Removing change 1
+12-05 14:54:51.342 15125 15158 I RTPS_PARTICIPANT: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:51.342 15125 15148 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-05 14:54:51.342 15125 15148 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-05 14:54:51.342 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Sub Message DATA processed
+12-05 14:54:51.342 15125 15148 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-05 14:54:51.343 15125 15148 I RTPS_PARTICIPANT:  of type RELIABLE
+12-05 14:54:51.343 15125 15148 I RTPS_WRITER: RTPSWriter created
+12-05 14:54:51.343 15125 15148 I RTPS_EDP: Adding 0.0.1.3 in topic Test
+12-05 14:54:51.344 15125 15148 I RTPS_PDP: Adding writer proxy data 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3
+12-05 14:54:51.344 15125 15148 I RTPS_EDP: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-05 14:54:51.344 15125 15148 I RTPS_EDP: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-05 14:54:51.344 15125 15148 I RTPS_EDP: 0.0.1.3
+12-05 14:54:51.344 15125 15148 I RTPS_WRITER: Creating new change
+12-05 14:54:51.344 15125 15148 I RTPS_HISTORY: Change 1 added with 276 bytes
+12-05 14:54:51.344 15125 15148 I RTPS_WRITER: No reader proxy to add change.
+12-05 14:54:51.344 15125 15148 I RTPS_PARTICIPANT: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:51.344 15125 15148 I RTPS_PROXY_DATA: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3
+12-05 14:54:51.344 15125 15148 I RTPS_LIVELINESS: 0.0.1.3 to Liveliness Protocol
+12-05 14:54:51.345 15125 15148 I RTPS_WRITER: Creating new change
+12-05 14:54:51.345 15125 15148 I RTPS_HISTORY: Change 1 added with 11 bytes
+12-05 14:54:51.345 15125 15148 I RTPS_WRITER: No reader proxy to add change.
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10935): avc: denied { getattr } for path="/proc/422" dev="proc" ino=5335 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10936): avc: denied { search } for name="422" dev="proc" ino=5335 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10937): avc: denied { read } for name="cmdline" dev="proc" ino=27732 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10938): avc: denied { open } for path="/proc/422/cmdline" dev="proc" ino=27732 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10939): avc: denied { getattr } for path="/proc/446" dev="proc" ino=5868 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10940): avc: denied { search } for name="446" dev="proc" ino=5868 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10941): avc: denied { read } for name="cmdline" dev="proc" ino=269 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10942): avc: denied { open } for path="/proc/446/cmdline" dev="proc" ino=269 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10943): avc: denied { getattr } for path="/proc/447" dev="proc" ino=5878 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10944): avc: denied { search } for name="447" dev="proc" ino=5878 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10945): avc: denied { read } for name="cmdline" dev="proc" ino=274 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10946): avc: denied { open } for path="/proc/447/cmdline" dev="proc" ino=274 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10947): avc: denied { getattr } for path="/proc/458" dev="proc" ino=286 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10948): avc: denied { search } for name="458" dev="proc" ino=286 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10949): avc: denied { read } for name="cmdline" dev="proc" ino=363 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10950): avc: denied { open } for path="/proc/458/cmdline" dev="proc" ino=363 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10951): avc: denied { getattr } for path="/proc/460" dev="proc" ino=14856 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10952): avc: denied { search } for name="460" dev="proc" ino=14856 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10953): avc: denied { read } for name="cmdline" dev="proc" ino=370 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10954): avc: denied { open } for path="/proc/460/cmdline" dev="proc" ino=370 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10955): avc: denied { getattr } for path="/proc/470" dev="proc" ino=5964 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10956): avc: denied { search } for name="470" dev="proc" ino=5964 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10957): avc: denied { read } for name="cmdline" dev="proc" ino=404 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10958): avc: denied { open } for path="/proc/470/cmdline" dev="proc" ino=404 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10959): avc: denied { getattr } for path="/proc/536" dev="proc" ino=17558 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10960): avc: denied { search } for name="536" dev="proc" ino=17558 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10961): avc: denied { read } for name="cmdline" dev="proc" ino=27798 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10962): avc: denied { open } for path="/proc/536/cmdline" dev="proc" ino=27798 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10963): avc: denied { getattr } for path="/proc/539" dev="proc" ino=17564 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:rmt_storage:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10964): avc: denied { search } for name="539" dev="proc" ino=17564 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:rmt_storage:s0 tclass=dir permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10965): avc: denied { read } for name="cmdline" dev="proc" ino=1852 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:rmt_storage:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10966): avc: denied { open } for path="/proc/539/cmdline" dev="proc" ino=1852 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:rmt_storage:s0 tclass=file permissive=1
+12-05 14:54:51.354 15153 15153 I ps      : type=1400 audit(0.0:10967): avc: denied { getattr } for path="/proc/540" dev="proc" ino=17568 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:rfs_access:s0 tclass=dir permissive=1
+12-05 14:54:51.551 15125 15158 I RTPS_MSG_IN: (ID:547426296912) InfoTS Submsg received, processing...
+12-05 14:54:51.551 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Data Submsg received, processing.
+12-05 14:54:51.552 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.552 15125 15158 I RTPS_MSG_IN: (ID:547426296912) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:51.552 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:51.552 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.552 15125 15158 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-05 14:54:51.552 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:51.552 15125 15158 I RTPS_PDP: SPDP Message received
+12-05 14:54:51.552 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.552 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.553 15125 15158 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-05 14:54:51.553 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:51.553 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.553 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.553 15125 15161 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:51.553 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:51.553 15125 15161 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:51.554 15125 15161 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:57947
+12-05 14:54:51.554 15125 15161 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:51.554 15125 15158 I RTPS_PDP: For RTPSParticipant: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:51.554 15125 15158 I RTPS_READER: Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-05 14:54:51.555 15125 15158 I RTPS_READER: Reader 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-05 14:54:51.555 15125 15161 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:51.555 15125 15161 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:51.557 15125 15161 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:57947
+12-05 14:54:51.557 15125 15161 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:51.557 15125 15158 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-05 14:54:51.557 15125 15158 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-05 14:54:51.558 15125 15158 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-05 14:54:51.558 15125 15158 I RTPS_READER: Writer Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-05 14:54:51.558 15125 15158 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-05 14:54:51.559 15125 15158 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:51.559 15125 15158 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-05 14:54:51.559 15125 15158 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.560 15125 15158 I RTPS_WRITER: Reader Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-05 14:54:51.560 15125 15158 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-05 14:54:51.560 15125 15158 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-05 14:54:51.562 15125 15158 I RTPS_READER: Writer Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-05 14:54:51.562 15125 15158 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-05 14:54:51.563 15125 15158 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:51.563 15125 15158 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:51.563 15125 15158 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.564 15125 15158 I RTPS_WRITER: Reader Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-05 14:54:51.564 15125 15158 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-05 14:54:51.564 15125 15158 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-05 14:54:51.565 15125 15158 I RTPS_READER: Writer Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-05 14:54:51.565 15125 15158 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-05 14:54:51.565 15125 15158 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:51.565 15125 15158 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:51.566 15125 15158 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.566 15125 15158 I RTPS_WRITER: Reader Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-05 14:54:51.566 15125 15158 I RTPS_PARTICIPANT: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:51.566 15125 15158 I RTPS_HISTORY: Removing change 1
+12-05 14:54:51.567 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Sub Message DATA processed
+12-05 14:54:51.567 15125 15158 I RTPS_MSG_IN: (ID:547426296912) InfoTS Submsg received, processing...
+12-05 14:54:51.567 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Data Submsg received, processing.
+12-05 14:54:51.567 15125 15158 I RTPS_MSG_IN: (ID:547426296912) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:51.567 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:51.567 15125 15158 I RTPS_MSG_IN: (ID:547426296912) MessageReceiver not add change 1
+12-05 14:54:51.568 15125 15158 I RTPS_LIVELINESS: RTPSParticipant 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:51.568 15125 15158 I RTPS_LIVELINESS:  Stopped for RTPSParticipant with ID: 1.f.13.9f.8b.5c.0.0.1.0.0.0
+12-05 14:54:51.568 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Sub Message DATA processed
+12-05 14:54:51.568 15125 15158 I RTPS_MSG_IN: (ID:547426296912) InfoTS Submsg received, processing...
+12-05 14:54:51.568 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Data Submsg received, processing.
+12-05 14:54:51.569 15125 15158 I RTPS_MSG_IN: (ID:547426296912) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:51.569 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:51.569 15125 15158 I RTPS_MSG_IN: (ID:547426296912) MessageReceiver not add change 1
+12-05 14:54:51.569 15125 15158 I RTPS_LIVELINESS: RTPSParticipant 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:51.569 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Sub Message DATA processed
+12-05 14:54:51.570 15125 15158 I RTPS_MSG_IN: (ID:547426296912) InfoTS Submsg received, processing...
+12-05 14:54:51.570 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Data Submsg received, processing.
+12-05 14:54:51.570 15125 15158 I RTPS_MSG_IN: (ID:547426296912) from Writer 1.f.40.bb.15.3b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-05 14:54:51.570 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Trying to add change 1 TO reader: 0.1.0.c7
+12-05 14:54:51.570 15125 15158 I RTPS_MSG_IN: (ID:547426296912) MessageReceiver not add change 1
+12-05 14:54:51.572 15125 15158 I RTPS_LIVELINESS: RTPSParticipant 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-05 14:54:51.572 15125 15158 I RTPS_MSG_IN: (ID:547426296912) Sub Message DATA processed
+12-05 14:54:51.577 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.577 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.577 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.578 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.578 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.578 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.578 15125 15159 I RTPS_WRITER: Requested Changes: 1:1-
+12-05 14:54:51.587 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.587 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.587 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.613 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.613 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.613 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.613 15125 15159 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-05 14:54:51.614 15125 15159 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.614 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.614 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.614 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.615 15125 15159 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:51.615 15125 15159 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.616 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.616 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.616 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.616 15125 15159 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-05 14:54:51.616 15125 15159 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.629 15125 15157 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:54:51.629 15125 15157 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.631 15125 15157 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:54:51.631 15125 15157 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.634 15125 15157 I RTPS_READER: Sending ACKNACK: 0:
+12-05 14:54:51.635 15125 15157 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.639 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.639 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.639 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:51.640 15125 15159 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-05 14:54:51.640 15125 15159 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-05 14:54:51.640 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.640 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.640 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:51.641 15125 15159 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-05 14:54:51.641 15125 15159 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 1 missing.
+12-05 14:54:51.641 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.641 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.641 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:51.641 15125 15159 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-05 14:54:51.642 15125 15159 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-05 14:54:51.647 15125 15157 I RTPS_READER:
+12-05 14:54:51.648 15125 15157 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:54:51.648 15125 15157 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.652 15125 15157 I RTPS_READER:
+12-05 14:54:51.652 15125 15157 I RTPS_READER: Sending ACKNACK: 1:
+12-05 14:54:51.653 15125 15157 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.653 15125 15157 I RTPS_READER:
+12-05 14:54:51.653 15125 15157 I RTPS_READER: Sending ACKNACK: 1:1-
+12-05 14:54:51.654 15125 15157 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.655 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.655 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.655 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.655 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.655 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.655 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.656 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.657 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.657 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:51.671 15125 15157 I RTPS_WRITER: Responding to Acknack messages
+12-05 14:54:51.672 15125 15161 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-05 14:54:51.672 15125 15161 I RTPS_WRITER: Sending INFO_TS message
+12-05 14:54:51.672 15125 15161 I RTPS_MSG_OUT: UDPTransport: 348 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:51.673 15125 15161 I RTPS_WRITER: Finish sending unsent changes
+12-05 14:54:51.684 15125 15157 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.3.c7
+12-05 14:54:51.755 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:51.755 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:51.755 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoTS Submsg received, processing...
+12-05 14:54:51.755 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Data Submsg received, processing.
+12-05 14:54:51.755 15125 15159 I RTPS_MSG_IN: (ID:547425260624) from Writer 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.4.c2; possible RTPSReaders: 4
+12-05 14:54:51.756 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Trying to add change 1 TO reader: 0.0.4.c7
+12-05 14:54:51.756 15125 15159 I RTPS_HISTORY: Change 1 added with 268 bytes
+12-05 14:54:51.756 15125 15159 I RTPS_READER: 0.0.4.c2: seqNum: 1
+12-05 14:54:51.756 15125 15159 I RTPS_EDP:
+12-05 14:54:51.757 15125 15159 I RTPS_PDP: Adding reader proxy data 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4
+12-05 14:54:51.757 15125 15159 I RTPS_EDP: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-05 14:54:51.758 15125 15159 I RTPS_WRITER: Reader Proxy started
+12-05 14:54:51.758 15125 15159 I RTPS_WRITER: 0.0.1.3 Sending Heartbeat (1 - 1)
+12-05 14:54:51.759 15125 15159 I RTPS_MSG_OUT: UDPTransport: 100 bytes TO endpoint: 192.168.43.158:7413 FROM 0.0.0.0:57947
+12-05 14:54:51.760 15125 15159 I RTPS_WRITER: Reader Proxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4 added to 0.0.1.3 with 1(u)-0(m) locators
+12-05 14:54:51.760 15125 15159 I RTPS_EDP: Valid Matching to local writer: 0.0.1.3
+12-05 14:54:51.760 15125 15159 I dps_manager_impl: Writer(0x7f89f89e00): matching with a reader
+12-05 14:54:51.760 15125 15159 I RTPS_PROXY_DATA: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.3
+12-05 14:54:51.760 15125 15159 I RTPS_PARTICIPANT: 1.f.40.bb.15.3b.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:51.761 15125 15159 I RTPS_PARTICIPANT: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.c1
+12-05 14:54:51.761 15125 15159 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.1.4
+12-05 14:54:51.761 15125 15159 I RTPS_HISTORY: Removing change 1
+12-05 14:54:51.761 15125 15159 I RTPS_READER: 0.0.4.c7 FINDS writerProxy 1.f.13.9f.8b.5c.0.0.1.0.0.0|0.0.4.c2 from 1
+12-05 14:54:51.761 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Sub Message DATA processed
+12-05 14:54:52.558 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:52.558 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:52.558 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Heartbeat Submsg received, processing...
+12-05 14:54:52.558 15125 15159 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-05 14:54:52.558 15125 15159 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 1 missing.
+12-05 14:54:52.560 15125 15157 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-05 14:54:52.561 15125 15157 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:52.570 15125 15157 I RTPS_READER:
+12-05 14:54:52.570 15125 15157 I RTPS_READER: Sending ACKNACK: 2:
+12-05 14:54:52.570 15125 15157 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.43.158:7412 FROM 0.0.0.0:57947
+12-05 14:54:52.586 15125 15159 I RTPS_MSG_IN: (ID:547425260624) InfoDST message received, processing...
+12-05 14:54:52.586 15125 15159 I RTPS_MSG_IN: (ID:547425260624) DST RTPSParticipant is now: 1.f.40.bb.15.3b.0.0.1.0.0.0
+12-05 14:54:52.586 15125 15159 I RTPS_MSG_IN: (ID:547425260624) Acknack Submsg received, processing...
+12-05 14:54:52.858   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:52.858   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-05 14:54:53.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:53.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:53.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:53.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:53.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:53.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:53.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:53.783   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:58.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:58.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:58.777   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:58.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:58.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:54:58.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:54:58.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-05 14:54:58.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-05 14:54:59.808   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:59.808   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-05 14:54:59.847   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:54:59.848   776   776 I cnss-daemon: NDA_DST received: 192.168.43.158 ul: 562995556755648
+12-05 14:54:59.848   776   776 I cnss-daemon: NDA_LLADDR received
+12-05 14:55:03.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:03.778   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:03.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:03.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:03.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:03.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:03.783   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:03.783   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:04.070  1929  1929 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-05 14:55:04.071  2870  2870 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-05 14:55:04.072  2119  2250 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-05 14:55:04.075  3741  3992 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+12-05 14:55:04.077  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 33
+12-05 14:55:04.080  3741  3998 D ThermalTempInfoHelper: thermal sensor1 temp is 33
+12-05 14:55:08.775   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:08.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:08.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:08.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:08.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:08.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:08.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:08.782   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:10.774 15167 15167 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-05 14:55:10.778 15167 15167 D AndroidRuntime: CheckJNI is OFF
+12-05 14:55:10.852 15167 15167 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-05 14:55:10.880 15167 15167 I Radio-JNI: register_android_hardware_Radio DONE
+12-05 14:55:10.901 15167 15167 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-05 14:55:10.961  1667  2414 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10138 user=0: from process:15167
+12-05 14:55:10.961  1667  2414 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10138
+12-05 14:55:10.962  1667  2414 D AutoStartManagerService: prepare force stop p:15125 s: 19
+12-05 14:55:10.962  1667  2414 I Process : Sending signal. PID: 15125 SIG: 19
+12-05 14:55:10.963  1667  2414 I ActivityManager: Killing 15125:com.xiaomi.mi_connect_service/u0a138 (adj 0): stop com.xiaomi.mi_connect_service: from process:15167
+12-05 14:55:10.954  2414  2414 I Binder:1667_9: type=1400 audit(0.0:11243): avc: denied { sigstop } for scontext=u:r:system_server:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=process permissive=1
+12-05 14:55:10.963  1667  2414 D ActivityManager: cleanUpApplicationRecord -- 15125
+12-05 14:55:10.964  1667  2414 W ActivityManager: Crash of app com.xiaomi.mi_connect_service running instrumentation ComponentInfo{com.xiaomi.mi_connect_service.test/androidx.test.runner.AndroidJUnitRunner}
+12-05 14:55:10.964  1667  2414 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10138 user=0: finished inst
+12-05 14:55:10.965  1667  2414 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10138
+12-05 14:55:10.966 15116 15116 D AndroidRuntime: Shutting down VM
+12-05 14:55:10.967  1667  2414 I ActivityManager: Killing 12504:com.miui.systemAdSolution:ui/u0a65 (adj 906): empty for 1804s
+12-05 14:55:10.971 15167 15167 D AndroidRuntime: Shutting down VM
+12-05 14:55:10.975  1667  1685 V UidProcStateHelper: process died:[15125,10138]
+12-05 14:55:10.977  3741  3923 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-05 14:55:10.977  3741  3923 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:646)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:612)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:582)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Handler.post(Handler.java:338)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyProcessDiedListeners(ProcessObserver.java:432)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.-wrap4(ProcessObserver.java)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$1$2.run(ProcessObserver.java:140)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Handler.handleCallback(Handler.java:754)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.Looper.loop(Looper.java:163)
+12-05 14:55:10.977  3741  3923 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-05 14:55:10.978  3741  3992 D PowerChecker.Notify: removeNotification, type = 0, uid = 10138, pkg = null
+12-05 14:55:10.979  3741  3875 D ActiveStateController: updateStateForUidActiveChangedLocked, uid: 10138 active: false
+12-05 14:55:10.980  2154  2154 D CarrierSvcBindHelper: No carrier app for: 0
+12-05 14:55:10.981  2154  2154 D CarrierSvcBindHelper: No carrier app for: 1
+12-05 14:55:10.991  5491  5503 W AD-PLUGIN-RemoteMethodInvoker: Service[interface com.miui.zeus.msa.app.floating.uiprocess.IFloatingUIInterface, com.miui.zeus.msa.app.floating.uiprocess.IFloatingUIInterface$Stub$a@51ad5df] died, remove from reusing-map!
+12-05 14:55:10.991  5491  6744 W AD-PLUGIN-RemoteMethodInvoker: Service[interface com.miui.zeus.msa.app.splashad.aidl.ISplashUIInterface, com.miui.zeus.msa.app.splashad.aidl.ISplashUIInterface$Stub$a@863a1d7] died, remove from reusing-map!
+12-05 14:55:10.991  5491  5503 W art     : Before Android 4.1, method double java.util.concurrent.ThreadLocalRandom.internalNextDouble(double, double) would have incorrectly overridden the package-private method in java.util.Random
+12-05 14:55:10.991  1667  2414 D ActivityManager: cleanUpApplicationRecord -- 12504
+12-05 14:55:10.991  5491  5503 W art     : Before Android 4.1, method int java.util.concurrent.ThreadLocalRandom.internalNextInt(int, int) would have incorrectly overridden the package-private method in java.util.Random
+12-05 14:55:10.991  5491  5503 W art     : Before Android 4.1, method long java.util.concurrent.ThreadLocalRandom.internalNextLong(long, long) would have incorrectly overridden the package-private method in java.util.Random
+12-05 14:55:10.992  1667  1685 V UidProcStateHelper: process died:[12504,10065]
+12-05 14:55:10.993  3741  3923 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-05 14:55:10.993  3741  3923 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {c59b2d7} sending message to a Handler on a dead thread
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:646)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:612)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:582)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Handler.post(Handler.java:338)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyProcessDiedListeners(ProcessObserver.java:432)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.-wrap4(ProcessObserver.java)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$1$2.run(ProcessObserver.java:140)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Handler.handleCallback(Handler.java:754)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.Looper.loop(Looper.java:163)
+12-05 14:55:10.993  3741  3923 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-05 14:55:10.993  3741  3992 D PowerChecker.Notify: removeNotification, type = 0, uid = 10065, pkg = null
+12-05 14:55:10.995  3741  3875 D AppActiveChecker: onProcessDiedListener ignore for other process alive uid=10065
+12-05 14:55:11.008  1667 15177 I ActivityManager: Failure reporting to instrumentation watcher: comp=ComponentInfo{com.xiaomi.mi_connect_service.test/androidx.test.runner.AndroidJUnitRunner} results=Bundle[{shortMsg=Process crashed.}]
+12-05 14:55:11.541  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:55:13.017   776   776 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-05 14:55:13.017   776   776 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-05 14:55:13.776   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:13.777   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:13.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:13.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:13.780   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:13.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:13.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:13.782   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:14.104  1929  2391 D NetworkController.MobileSignalController(1): 4G level = 5
+12-05 14:55:18.776   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:18.777   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:18.778   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:18.779   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:18.779   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-05 14:55:18.780   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-05 14:55:18.781   894   894 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-05 14:55:18.781   894   894 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-05 14:55:20.035  4066 15181 D AsyTskExecutor: [null] -- BgTimeTick start at 1575528920035
+12-05 14:55:20.044  4066 15181 D AsyTskExecutor: [null] -- BgTimeTick end cost 9
+12-05 14:55:20.045  4066 15181 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@7830cbe, task = com.alipay.mobile.framework.pipeline.analysis.AnalysedRunnable, threadName = BgTimeTick

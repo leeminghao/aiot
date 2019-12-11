@@ -1,0 +1,1014 @@
+--------- beginning of main
+12-07 11:10:57.661   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-07 11:10:57.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-07 11:10:57.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-07 11:10:57.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-07 11:10:57.665   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:10:57.666   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-07 11:10:57.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-07 11:10:57.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:10:58.953  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:00.007  1957  1957 D KeyguardUpdateMonitor: handleTimeUpdate
+12-07 11:11:01.966  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:02.662   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:02.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:02.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:02.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:02.666   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:02.667   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:02.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:02.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:04.998  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:07.662   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:07.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:07.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:07.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:07.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:07.666   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:07.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:07.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:08.019  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:11.047  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:11.459  2134  2241 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-07 11:11:11.461  1908  2523 D HeadsetStateMachine: Disconnected process message: 10, size: 0
+12-07 11:11:11.463  1957  1957 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-07 11:11:11.463  3823  4067 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+12-07 11:11:11.464  2842  2842 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-07 11:11:11.466  2171  2171 E QtiImsExtUtils: getConfigForPhoneId subId is invalid
+12-07 11:11:11.466  2171  2171 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-07 11:11:11.467  3823  4089 D ThermalTempInfoHelper: thermal sensor1 temp is 30
+12-07 11:11:11.470  3823  4089 D ThermalTempInfoHelper: thermal sensor1 temp is 30
+12-07 11:11:12.035  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-07 11:11:12.035  2092  2092 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-07 11:11:12.035  2092  2092 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-07 11:11:12.035  2092  2092 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-07 11:11:12.035  2092  2092 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-07 11:11:12.036  2092  2092 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f9102e3c0
+12-07 11:11:12.036  2092  2092 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-07 11:11:12.036  2092  2092 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f9102e3c0 after 0.000253 second wait
+12-07 11:11:12.036  2092  2092 D wpa_supplicant: wlan0: nl80211: scan request
+12-07 11:11:12.036  2092  2092 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-07 11:11:12.037  2092  2092 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-07 11:11:12.037  2092  2092 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-07 11:11:12.037  2092  2092 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-07 11:11:12.038  2092  2092 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-07 11:11:12.039  2092  2092 D wpa_supplicant: nl80211: Event message available
+12-07 11:11:12.039  2092  2092 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-07 11:11:12.039  2092  2092 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-07 11:11:12.039  2092  2092 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-07 11:11:12.039  2092  2092 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000666 seconds
+12-07 11:11:12.661   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:12.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:12.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:12.664   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:12.665   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:12.666   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:12.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:12.667   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:13.165   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-07 11:11:13.166   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-07 11:11:13.166   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-07 11:11:14.065  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:14.667  2092  2092 D wpa_supplicant: nl80211: Event message available
+12-07 11:11:14.667  2092  2092 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-07 11:11:14.667  2092  2092 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-07 11:11:14.668  2092  2092 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-07 11:11:14.668  2092  2092 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-07 11:11:14.668  2092  2092 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-07 11:11:14.668  2092  2092 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-07 11:11:14.668  2092  2092 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-07 11:11:14.668  2092  2092 D wpa_supplicant: wlan0: Scan completed in 2.629104 seconds
+12-07 11:11:14.669  2092  2092 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-07 11:11:14.669  2092  2092 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-07 11:11:14.670  2092  2092 D wpa_supplicant: nl80211: Received scan results (73 BSSes)
+12-07 11:11:14.671  2092  2092 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-07 11:11:14.672  2092  2092 D wpa_supplicant: wlan0: BSS: Start scan result update 70
+12-07 11:11:14.672  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 671 BSSID 0c:2c:54:f2:e1:98 SSID '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' freq 5765
+12-07 11:11:14.673  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 672 BSSID 8c:be:be:10:06:28 SSID 'ljy_camera_123' freq 2427
+12-07 11:11:14.674  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 673 BSSID 02:c2:c6:f4:0e:70 SSID 'DIRECT-XYNIUMENGNNANmsBF' freq 5785
+12-07 11:11:14.675  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 674 BSSID 48:4a:e9:9e:22:c0 SSID 'MIOffice-2.4G' freq 2462
+12-07 11:11:14.676  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 675 BSSID 28:6c:07:57:ee:31 SSID '!xiaomi_test_ls' freq 5805
+12-07 11:11:14.677  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 676 BSSID 48:4a:e9:a0:6b:f2 SSID 'MIOT' freq 5260
+12-07 11:11:14.678  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 677 BSSID 80:37:73:dc:f0:70 SSID 'NETGEAR83' freq 2472
+12-07 11:11:14.683  2092  2092 D wpa_supplicant: wlan0: BSS: Add new id 678 BSSID 48:4a:e9:a0:69:b0 SSID 'MIPublic' freq 5805
+12-07 11:11:14.683  2092  2092 D wpa_supplicant: BSS: last_scan_res_used=73/128
+12-07 11:11:14.684  2092  2092 D wpa_supplicant: wlan0: Scan-only results received
+12-07 11:11:14.684  2092  2092 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f9102e3c0 done in 2.647777 seconds
+12-07 11:11:14.684  2092  2092 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f9102e3c0: num_active_works --> 0
+12-07 11:11:14.684  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-07 11:11:14.688  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.763  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.766  2092  2092 D wpa_supplicant: WPS: Unknown Vendor Extension (Vendor ID 311)
+12-07 11:11:14.772  1678  1892 I AppScanObserverService: Start to match app observer
+12-07 11:11:14.781  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-07 11:11:14.781  3312  3526 W WifiMonitor: getScanResults has none
+12-07 11:11:14.787  1678  1840 D WifiQualifiedNetworkSelector:: ==========start qualified Network Selection==========
+12-07 11:11:14.787  1678  1840 D WifiQualifiedNetworkSelector:: Current network is: "NETGEAR65-5G" ,ID is: 4
+12-07 11:11:14.788  1678  1840 D WifiQualifiedNetworkSelector:: Quit qualified Network Selection since it is not forced and current network is qualified already
+12-07 11:11:16.485   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-07 11:11:16.485   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-07 11:11:16.485   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-07 11:11:17.077  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:17.661   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:17.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:17.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:17.664   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:17.665   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:17.666   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:17.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:17.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:20.103  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:22.015  3076  3076 D TimerBroadcastReceiver: 未激活，不执行receiver,isRegister:false
+12-07 11:11:22.662   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:22.663   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:22.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:22.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:22.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:22.666   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:22.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:22.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:23.130  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:25.492   783   783 I cnss-daemon: RTM_NEWROUTE Indication
+12-07 11:11:26.157  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:27.662   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:27.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:27.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:27.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:27.665   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:27.666   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:27.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:27.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:29.184  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:32.211  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:32.661   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:32.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:32.663   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:32.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:32.666   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:32.666   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:32.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:32.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:33.636   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-07 11:11:33.637   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-07 11:11:33.637   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-07 11:11:35.239  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:37.661   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:37.663   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:37.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:37.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:37.666   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:37.666   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:37.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:37.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:38.252  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:41.278  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:42.405  6824  6824 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:42.409  6824  6824 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:42.484  6824  6824 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:42.512  6824  6824 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:42.517  6833  6833 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:42.521  6833  6833 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:42.535  6824  6824 D AndroidRuntime: Calling main entry com.android.commands.wm.Wm
+12-07 11:11:42.591  6833  6833 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:42.593  6824  6824 D AndroidRuntime: Shutting down VM
+12-07 11:11:42.620  6833  6833 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:42.641  6833  6833 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+12-07 11:11:42.655   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:42.656   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:42.656   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:42.656   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:42.656   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:42.657   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:42.657   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:42.657   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:42.703  6833  6833 I art     : System.exit called, status: 0
+12-07 11:11:42.703  6833  6833 I AndroidRuntime: VM exiting with result code 0.
+12-07 11:11:43.237  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 620 BSSID 64:09:80:67:d6:ae SSID 'Xiaomi_D6AD' due to wpa_bss_flush_by_age
+12-07 11:11:43.237  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 625 BSSID 8c:53:c3:3b:df:0a SSID 'Xiaomi_DF099' due to wpa_bss_flush_by_age
+12-07 11:11:43.237  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 629 BSSID 8c:be:be:44:f5:9e SSID 'DianOffice' due to wpa_bss_flush_by_age
+12-07 11:11:43.238  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 632 BSSID 50:64:2b:b5:84:97 SSID 'lifeiyun' due to wpa_bss_flush_by_age
+12-07 11:11:43.238  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 649 BSSID 50:64:2b:b5:87:7e SSID 'MiMesh_877B_7884' due to wpa_bss_flush_by_age
+12-07 11:11:43.238  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 650 BSSID 50:64:2b:b5:8c:40 SSID 'MiMesh_zyx_test' due to wpa_bss_flush_by_age
+12-07 11:11:43.238  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 653 BSSID ec:41:18:4e:d4:54 SSID 'Xiaomi_xyz' due to wpa_bss_flush_by_age
+12-07 11:11:43.238  2092  2092 D wpa_supplicant: wlan0: BSS: Remove id 661 BSSID 48:4a:e9:a0:68:a0 SSID 'MIOffice-2.4G' due to wpa_bss_flush_by_age
+12-07 11:11:43.245  6852  6852 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:43.248  6852  6852 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:43.322  6852  6852 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:43.351  6852  6852 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:43.372  6852  6852 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+--------- beginning of system
+12-07 11:11:43.429  1678  1690 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10041 user=0: from process:6852
+12-07 11:11:43.430  1678  1690 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10041
+12-07 11:11:43.434  6852  6852 D AndroidRuntime: Shutting down VM
+12-07 11:11:43.439  2171  2171 D CarrierSvcBindHelper: No carrier app for: 0
+12-07 11:11:43.440  2171  2171 D CarrierSvcBindHelper: No carrier app for: 1
+12-07 11:11:44.028  6869  6869 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:44.032  6869  6869 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:44.105  6869  6869 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:44.131  6869  6869 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:44.151  6869  6869 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+12-07 11:11:44.210  6869  6869 I art     : System.exit called, status: 0
+12-07 11:11:44.210  6869  6869 I AndroidRuntime: VM exiting with result code 0.
+12-07 11:11:44.304  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:44.755  6884  6884 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:44.758  6884  6884 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:44.829  6884  6884 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:44.859  6884  6884 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:44.880  6884  6884 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+12-07 11:11:44.940  6884  6884 I art     : System.exit called, status: 0
+12-07 11:11:44.940  6884  6884 I AndroidRuntime: VM exiting with result code 0.
+12-07 11:11:45.504  6896  6896 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:45.508  6896  6896 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:45.581  6896  6896 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:45.608  6896  6896 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:45.628  6896  6896 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-07 11:11:45.685  1678  1690 I ActivityManager: Force stopping com.xiaomi.mi_connect_service.test appid=10071 user=0: from process:6896
+12-07 11:11:45.685  1678  1690 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service.test uid : 10071
+12-07 11:11:45.689  6896  6896 D AndroidRuntime: Shutting down VM
+12-07 11:11:45.694  2171  2171 D CarrierSvcBindHelper: No carrier app for: 0
+12-07 11:11:45.695  2171  2171 D CarrierSvcBindHelper: No carrier app for: 1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3480): avc: denied { getattr } for path="/proc/1" dev="proc" ino=15575 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3481): avc: denied { search } for name="1" dev="proc" ino=15575 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=dir permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3482): avc: denied { read } for name="cmdline" dev="proc" ino=292 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3483): avc: denied { open } for path="/proc/1/cmdline" dev="proc" ino=292 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=file permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3484): avc: denied { getattr } for path="/proc/2" dev="proc" ino=25810 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3485): avc: denied { search } for name="2" dev="proc" ino=25810 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=dir permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3486): avc: denied { read } for name="cmdline" dev="proc" ino=111324 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+12-07 11:11:45.793  6913  6913 I ps      : type=1400 audit(0.0:3487): avc: denied { open } for path="/proc/2/cmdline" dev="proc" ino=111324 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:kernel:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3488): avc: denied { getattr } for path="/proc/417" dev="proc" ino=6513 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3489): avc: denied { search } for name="417" dev="proc" ino=6513 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3490): avc: denied { read } for name="cmdline" dev="proc" ino=119819 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3491): avc: denied { open } for path="/proc/417/cmdline" dev="proc" ino=119819 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:ueventd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3492): avc: denied { getattr } for path="/proc/442" dev="proc" ino=7019 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3493): avc: denied { search } for name="442" dev="proc" ino=7019 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3494): avc: denied { read } for name="cmdline" dev="proc" ino=284 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3495): avc: denied { open } for path="/proc/442/cmdline" dev="proc" ino=284 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:mqsasd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3496): avc: denied { getattr } for path="/proc/443" dev="proc" ino=15613 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3497): avc: denied { search } for name="443" dev="proc" ino=15613 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3498): avc: denied { read } for name="cmdline" dev="proc" ino=289 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3499): avc: denied { open } for path="/proc/443/cmdline" dev="proc" ino=289 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:logd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3500): avc: denied { getattr } for path="/proc/454" dev="proc" ino=304 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3501): avc: denied { search } for name="454" dev="proc" ino=304 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3502): avc: denied { read } for name="cmdline" dev="proc" ino=379 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3503): avc: denied { open } for path="/proc/454/cmdline" dev="proc" ino=379 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:debuggerd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3504): avc: denied { getattr } for path="/proc/456" dev="proc" ino=7046 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3505): avc: denied { search } for name="456" dev="proc" ino=7046 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3506): avc: denied { read } for name="cmdline" dev="proc" ino=385 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3507): avc: denied { open } for path="/proc/456/cmdline" dev="proc" ino=385 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:vold:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3508): avc: denied { getattr } for path="/proc/466" dev="proc" ino=14457 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3509): avc: denied { search } for name="466" dev="proc" ino=14457 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3510): avc: denied { read } for name="cmdline" dev="proc" ino=420 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3511): avc: denied { open } for path="/proc/466/cmdline" dev="proc" ino=420 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:perfd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3512): avc: denied { getattr } for path="/proc/533" dev="proc" ino=17790 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3513): avc: denied { search } for name="533" dev="proc" ino=17790 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3514): avc: denied { read } for name="cmdline" dev="proc" ino=119848 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3515): avc: denied { open } for path="/proc/533/cmdline" dev="proc" ino=119848 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:healthd:s0 tclass=file permissive=1
+12-07 11:11:45.823  6913  6913 I ps      : type=1400 audit(0.0:3516): avc: denied { getattr } for path="/proc/536" dev="proc" ino=17796 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:rmt_storage:s0 tclass=dir permissive=1
+12-07 11:11:46.201  6912  6912 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:46.205  6912  6912 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:46.278  6912  6912 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:46.306  6912  6912 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:46.326  6912  6912 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-07 11:11:46.386  1678  1690 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10041 user=0: start instr
+12-07 11:11:46.387  1678  1690 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10041
+12-07 11:11:46.405  1678  1690 D Boost   : hostingType=added application, hostingName=com.xiaomi.mi_connect_service, callerPackage=android, isSystem=true, isBoostNeeded=false.
+12-07 11:11:46.405  1678  1690 I ActivityManager: Start proc 6927:com.xiaomi.mi_connect_service/u0a41 for added application com.xiaomi.mi_connect_service caller=android
+12-07 11:11:46.407  6927  6927 I art     : Late-enabling -Xcheck:jni
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: java.lang.NoSuchMethodException: android.os.MessageQueue#enableMonitor()#bestmatch
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:338)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at miui.util.ReflectionUtils.findMethodBestMatch(ReflectionUtils.java:375)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at miui.util.ReflectionUtils.callMethod(ReflectionUtils.java:800)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at miui.util.ReflectionUtils.tryCallMethod(ReflectionUtils.java:818)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at android.os.BaseLooper.enableMonitor(BaseLooper.java:47)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at android.os.Looper.prepareMainLooper(Looper.java:112)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at android.app.ActivityThread.main(ActivityThread.java:6371)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-07 11:11:46.425  6927  6927 W ReflectionUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-07 11:11:46.426  6927  6927 V BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@247665
+12-07 11:11:46.438  1678  1696 V UidProcStateHelper: process state changed:[6927,10041,4]
+12-07 11:11:46.833  6947  6947 I ps      : type=1400 audit(0.0:3956): avc: denied { getattr } for path="/proc/2915" dev="proc" ino=34255 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:priv_app:s0:c512,c768 tclass=dir permissive=1
+12-07 11:11:46.833  6947  6947 I ps      : type=1400 audit(0.0:3957): avc: denied { search } for name="2915" dev="proc" ino=34255 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:priv_app:s0:c512,c768 tclass=dir permissive=1
+12-07 11:11:46.833  6947  6947 I ps      : type=1400 audit(0.0:3958): avc: denied { read } for name="cmdline" dev="proc" ino=31296 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:priv_app:s0:c512,c768 tclass=file permissive=1
+12-07 11:11:46.833  6947  6947 I ps      : type=1400 audit(0.0:3959): avc: denied { open } for path="/proc/2915/cmdline" dev="proc" ino=31296 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:priv_app:s0:c512,c768 tclass=file permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3960): avc: denied { getattr } for path="/proc/4049" dev="proc" ino=38290 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:subsystem_ramdump:s0 tclass=dir permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3961): avc: denied { search } for name="4049" dev="proc" ino=38290 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:subsystem_ramdump:s0 tclass=dir permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3962): avc: denied { read } for name="cmdline" dev="proc" ino=38310 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:subsystem_ramdump:s0 tclass=file permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3963): avc: denied { open } for path="/proc/4049/cmdline" dev="proc" ino=38310 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:subsystem_ramdump:s0 tclass=file permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3964): avc: denied { getattr } for path="/proc/28696" dev="proc" ino=300719 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:updater:s0:c512,c768 tclass=dir permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3965): avc: denied { search } for name="28696" dev="proc" ino=300719 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:updater:s0:c512,c768 tclass=dir permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3966): avc: denied { read } for name="cmdline" dev="proc" ino=300730 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:updater:s0:c512,c768 tclass=file permissive=1
+12-07 11:11:46.843  6947  6947 I ps      : type=1400 audit(0.0:3967): avc: denied { open } for path="/proc/28696/cmdline" dev="proc" ino=300730 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:r:updater:s0:c512,c768 tclass=file permissive=1
+12-07 11:11:47.015  6927  6927 W art     : Found duplicate classes, falling back to interpreter mode for /data/app/com.xiaomi.mi_connect_service-1/base.apk
+12-07 11:11:47.015  6927  6927 W art     : Found duplicated class when checking oat files: 'Landroid/support/v4/app/INotificationSideChannel;' in /data/app/com.xiaomi.mi_connect_service-1/base.apk and /data/app/com.xiaomi.mi_connect_service.test-1/base.apk
+12-07 11:11:47.149  6927  6927 W System  : ClassLoader referenced unknown path: /data/app/com.xiaomi.mi_connect_service.test-1/lib/arm64
+12-07 11:11:47.152  6927  6927 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-07 11:11:47.158  6927  6927 W System  : ClassLoader referenced unknown path: 
+12-07 11:11:47.159  6927  6927 W ResourceType: No package identifier when getting name for resource number 0x00000000
+12-07 11:11:47.186  6927  6927 W System.err: java.io.FileNotFoundException: /jacoco.exec (Read-only file system)
+12-07 11:11:47.187  6927  6927 W System.err: 	at java.io.FileOutputStream.open(Native Method)
+12-07 11:11:47.187  6927  6927 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+12-07 11:11:47.187  6927  6927 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.openFile(FileOutput.java:67)
+12-07 11:11:47.187  6927  6927 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.output.FileOutput.startup(FileOutput.java:49)
+12-07 11:11:47.187  6927  6927 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.startup(Agent.java:122)
+12-07 11:11:47.187  6927  6927 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Agent.getInstance(Agent.java:50)
+12-07 11:11:47.187  6927  6927 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.<clinit>(Offline.java:31)
+12-07 11:11:47.187  6927  6927 W System.err: 	at org.jacoco.agent.rt.internal_8ff85ea.Offline.getProbes(Offline.java:51)
+12-07 11:11:47.187  6927  6927 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.$jacocoInit(MyApplication.java)
+12-07 11:11:47.187  6927  6927 W System.err: 	at com.xiaomi.mi_connect_service.MyApplication.<init>(MyApplication.java)
+12-07 11:11:47.187  6927  6927 W System.err: 	at java.lang.Class.newInstance(Native Method)
+12-07 11:11:47.187  6927  6927 W System.err: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1008)
+12-07 11:11:47.187  6927  6927 W System.err: 	at android.app.Instrumentation.newApplication(Instrumentation.java:993)
+12-07 11:11:47.187  6927  6927 W System.err: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:800)
+12-07 11:11:47.187  6927  6927 W System.err: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5520)
+12-07 11:11:47.187  6927  6927 W System.err: 	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+12-07 11:11:47.187  6927  6927 W System.err: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1626)
+12-07 11:11:47.188  6927  6927 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+12-07 11:11:47.188  6927  6927 W System.err: 	at android.os.Looper.loop(Looper.java:163)
+12-07 11:11:47.188  6927  6927 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:6388)
+12-07 11:11:47.188  6927  6927 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+12-07 11:11:47.188  6927  6927 W System.err: 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:930)
+12-07 11:11:47.188  6927  6927 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:820)
+12-07 11:11:47.197  6927  6927 I MonitoringInstr: Instrumentation started!
+12-07 11:11:47.199  6927  6927 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-1/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-1/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-1/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-1/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-1/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-1/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-1/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-1/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]'
+12-07 11:11:47.206  6927  6927 D RegionUtil: CN
+12-07 11:11:47.206  6927  6927 I MonitoringInstr: No JSBridge.
+12-07 11:11:47.208  6927  6954 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-1/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-1/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-1/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-1/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/data/app/com.xiaomi.mi_connect_service.test-1/base.apk", zip file "/data/app/com.xiaomi.mi_connect_service-1/base.apk"],nativeLibraryDirectories=[/data/app/com.xiaomi.mi_connect_service.test-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service-1/lib/arm64, /data/app/com.xiaomi.mi_connect_service.test-1/base.apk!/lib/arm64-v8a, /data/app/com.xiaomi.mi_connect_service-1/base.apk!/lib/arm64-v8a, /system/lib64, /vendor/lib64]]]'
+12-07 11:11:47.226  6927  6954 I UsageTrackerFacilitator: Usage tracking enabled
+12-07 11:11:47.255  6927  6954 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+12-07 11:11:47.256  6927  6954 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+12-07 11:11:47.256  6927  6954 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+12-07 11:11:47.261  6927  6954 I TestRunner: run started: 1 tests
+12-07 11:11:47.265  6927  6954 I TestRunner: started: testPublish(com.xiaomi.mi_connect_service.test.DpsNativeTest)
+12-07 11:11:47.268  6927  6927 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-07 11:11:47.307  6927  6954 I dps_jni : JNI OnLoad.
+12-07 11:11:47.307  6927  6954 I RTPS_PARTICIPANT: 
+12-07 11:11:47.310  6927  6956 I RTPS_PARTICIPANT: Thread: 546936980560 created and waiting for tasks.
+12-07 11:11:47.311  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.311  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-07 11:11:47.313  6927  6954 I RTPS_PARTICIPANT: RTPSParticipant Created with NO default Unicast Locator List, adding Locators:192.168.1.69:7413,
+12-07 11:11:47.313  6927  6954 I RTPS_PDP: Beginning
+12-07 11:11:47.313  6927  6954 I RTPS_PDP: Beginning
+12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
+12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 26
+12-07 11:11:47.314  6927  6954 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-07 11:11:47.314  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.315  6927  6954 I RTPS_READER: Writer |GUID UNKNOWN| added to 0.1.0.c7
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.315  6927  6954 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-07 11:11:47.315  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.315  6927  6954 I RTPS_WRITER: Reader |GUID UNKNOWN| added to 0.1.0.c2
+12-07 11:11:47.315  6927  6954 I RTPS_PDP: SPDP Endpoints creation finished
+12-07 11:11:47.315  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.315  6927  6954 I RTPS_EDP: Beginning Simple Endpoint Discovery Protocol
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.315  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.316  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.316  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.316  6927  6954 I RTPS_EDP: SEDP Publication Writer created
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.316  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.316  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.316  6927  6954 I RTPS_EDP: SEDP Subscription Reader created
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.316  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.316  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.317  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.317  6927  6954 I RTPS_EDP: SEDP Publication Reader created
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.317  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.317  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.317  6927  6954 I RTPS_EDP: SEDP Subscription Writer created
+12-07 11:11:47.317  6927  6954 I RTPS_EDP: Creation finished
+12-07 11:11:47.317  6927  6954 I RTPS_LIVELINESS: Initializing Liveliness Protocol
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 100
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.317  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-07 11:11:47.317  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.317  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.317  6927  6954 I RTPS_LIVELINESS: Builtin Liveliness Writer created
+12-07 11:11:47.318  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 101 with payload of size: 100
+12-07 11:11:47.318  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.318  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 101
+12-07 11:11:47.318  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.318  6927  6954 I RTPS_READER: RTPSReader created correctly
+12-07 11:11:47.318  6927  6954 I RTPS_LIVELINESS: Builtin Liveliness Reader created
+12-07 11:11:47.318  6927  6954 I RTPS_PDP: Announcing RTPSParticipant State (new change: 1)
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: Creating new change
+12-07 11:11:47.318  6927  6954 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.318  6927  6954 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.319  6927  6954 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.319  6927  6954 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.319  6927  6954 I RTPS_PARTICIPANT: RTPSParticipant "RTPSParticipant" with guidPrefix: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.319  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.319  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.319  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.320  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.320  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-07 11:11:47.320  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.320  6927  6954 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-07 11:11:47.320  6927  6954 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-07 11:11:47.320  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.320  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.320  6927  6957 I RTPS_PDP: Message from own RTPSParticipant, removing
+12-07 11:11:47.320  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.320  6927  6957 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.320  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.320  6927  6954 I RTPS_PARTICIPANT:  of type RELIABLE
+12-07 11:11:47.320  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:47.320  6927  6954 I RTPS_WRITER: RTPSWriter created
+12-07 11:11:47.320  6927  6954 I RTPS_EDP: Adding 0.0.1.3 in topic Test
+12-07 11:11:47.320  6927  6954 I RTPS_PDP: Adding writer proxy data 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3
+12-07 11:11:47.321  6927  6954 I RTPS_EDP: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-07 11:11:47.321  6927  6954 I RTPS_EDP: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-07 11:11:47.323  6927  6954 I RTPS_EDP: 0.0.1.3
+12-07 11:11:47.323  6927  6954 I RTPS_WRITER: Creating new change
+12-07 11:11:47.323  6927  6954 I RTPS_HISTORY: Change 1 added with 276 bytes
+12-07 11:11:47.323  6927  6954 I RTPS_WRITER: No reader proxy to add change.
+12-07 11:11:47.323  6927  6954 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.323  6927  6954 I RTPS_PROXY_DATA: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3
+12-07 11:11:47.324  6927  6954 I RTPS_LIVELINESS: 0.0.1.3 to Liveliness Protocol
+12-07 11:11:47.325  6927  6954 I RTPS_WRITER: Creating new change
+12-07 11:11:47.401  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.401  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.401  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.401  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.402  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.402  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.402  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.402  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.402  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.403  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.403  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.403  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.409  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.410  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.410  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.410  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.410  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.411  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.411  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.411  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.411  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.412  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.412  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.413  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.413  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.413  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.414  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.414  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.414  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.416  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.416  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.416  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.416  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.419  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.420  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.420  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.420  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.421  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.422  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.422  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.422  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.470  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.486  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.486  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.486  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.486  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.487  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.52:33211
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.487  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.488  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.488  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.488  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.489  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.489  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.490  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.490  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.490  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.491  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.491  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.491  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.492  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.492  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.492  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.493  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.513  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.513  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.514  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.514  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.515  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.515  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.515  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.515  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.516  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.599  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.49:48358
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.49:48358
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.600  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.600  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.601  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.601  6927  6957 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-07 11:11:47.601  6927  6957 I RTPS_PDP: For RTPSParticipant: 1.f.87.f4.dc.2f.0.0.1.0.0.0
+12-07 11:11:47.601  6927  6957 I RTPS_READER: Writer 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-07 11:11:47.602  6927  6957 I RTPS_WRITER: Reader 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-07 11:11:47.602  6927  6957 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-07 11:11:47.602  6927  6957 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-07 11:11:47.603  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-07 11:11:47.603  6927  6957 I RTPS_READER: Writer Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-07 11:11:47.603  6927  6957 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-07 11:11:47.603  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.604  6927  6957 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-07 11:11:47.604  6927  6957 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.49:7412,
+12-07 11:11:47.604  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.605  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-07 11:11:47.605  6927  6957 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-07 11:11:47.605  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-07 11:11:47.605  6927  6957 I RTPS_READER: Writer Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-07 11:11:47.607  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.607  6927  6957 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-07 11:11:47.608  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.608  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.608  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.608  6927  6957 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.608  6927  6957 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.49:7412,
+12-07 11:11:47.608  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.608  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.610  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.611  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-07 11:11:47.611  6927  6957 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-07 11:11:47.611  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-07 11:11:47.611  6927  6957 I RTPS_READER: Writer Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-07 11:11:47.612  6927  6957 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-07 11:11:47.612  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.612  6927  6957 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.613  6927  6957 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.49:7412,
+12-07 11:11:47.613  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.613  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-07 11:11:47.614  6927  6957 I RTPS_PARTICIPANT: 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.614  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.614  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.614  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.54:39553
+12-07 11:11:47.614  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.614  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.54:39553
+12-07 11:11:47.615  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.67.be.93.7e.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.615  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.615  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.615  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.615  6927  6957 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-07 11:11:47.616  6927  6957 I RTPS_PDP: For RTPSParticipant: 1.f.67.be.93.7e.0.0.1.0.0.0
+12-07 11:11:47.616  6927  6957 I RTPS_READER: Writer 1.f.67.be.93.7e.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-07 11:11:47.616  6927  6957 I RTPS_WRITER: Reader 1.f.67.be.93.7e.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-07 11:11:47.617  6927  6957 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-07 11:11:47.617  6927  6957 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-07 11:11:47.617  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.618  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.618  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-07 11:11:47.618  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.618  6927  6957 I RTPS_READER: Writer Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-07 11:11:47.618  6927  6957 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-07 11:11:47.619  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.619  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.620  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.620  6927  6957 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-07 11:11:47.620  6927  6957 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.54:7412,
+12-07 11:11:47.621  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.622  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-07 11:11:47.622  6927  6957 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-07 11:11:47.622  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-07 11:11:47.622  6927  6957 I RTPS_READER: Writer Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-07 11:11:47.623  6927  6957 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-07 11:11:47.623  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.623  6927  6957 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.623  6927  6957 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.54:7412,
+12-07 11:11:47.624  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.624  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-07 11:11:47.624  6927  6957 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-07 11:11:47.624  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-07 11:11:47.624  6927  6957 I RTPS_READER: Writer Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-07 11:11:47.624  6927  6957 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-07 11:11:47.625  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.625  6927  6957 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.625  6927  6957 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.54:7412,
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.626  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.67.be.93.7e.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-07 11:11:47.626  6927  6957 I RTPS_PARTICIPANT: 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.626  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.626  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.2:60805
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.2:60805
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.626  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.627  6927  6957 I RTPS_HISTORY: Change 1 added with 172 bytes
+12-07 11:11:47.627  6927  6957 I RTPS_PDP: SPDP Message received
+12-07 11:11:47.627  6927  6957 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-07 11:11:47.627  6927  6957 I RTPS_PDP: For RTPSParticipant: 1.f.6a.d1.3e.49.0.0.1.0.0.0
+12-07 11:11:47.627  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.627  6927  6957 I RTPS_READER: Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-07 11:11:47.627  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.627  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.627  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.628  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.628  6927  6957 I RTPS_WRITER: Reader 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-07 11:11:47.628  6927  6957 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-07 11:11:47.628  6927  6957 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-07 11:11:47.628  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-07 11:11:47.628  6927  6957 I RTPS_READER: Writer Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-07 11:11:47.628  6927  6957 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-07 11:11:47.628  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.629  6927  6957 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 1)
+12-07 11:11:47.629  6927  6957 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.2:7412,
+12-07 11:11:47.629  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.629  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-1(m) locators
+12-07 11:11:47.629  6927  6957 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-07 11:11:47.629  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-07 11:11:47.629  6927  6957 I RTPS_READER: Writer Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-07 11:11:47.629  6927  6957 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.2:7412,
+12-07 11:11:47.630  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.630  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-1(m) locators
+12-07 11:11:47.630  6927  6957 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-07 11:11:47.630  6927  6957 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-07 11:11:47.631  6927  6957 I RTPS_READER: Writer Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-07 11:11:47.631  6927  6957 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.631  6927  6957 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.631  6927  6957 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.631  6927  6957 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.2:7412,
+12-07 11:11:47.631  6927  6960 I RTPS_MSG_OUT: UDPTransport: 228 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.631  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.632  6927  6957 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.632  6927  6957 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-1(m) locators
+12-07 11:11:47.632  6927  6957 I RTPS_PARTICIPANT: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.633  6927  6957 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.633  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.633  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.2:60805
+12-07 11:11:47.633  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.633  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.2:60805
+12-07 11:11:47.635  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.635  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.635  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.635  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.636  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.636  6927  6957 I RTPS_LIVELINESS:  Stopped for RTPSParticipant with ID: 1.f.6a.d1.3e.49.0.0.1.0.0.0
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.636  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.636  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.637  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.637  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.637  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.637  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.638  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.638  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.638  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.638  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.638  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.638  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.638  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.638  6927  6958 I RTPS_WRITER: Requested Changes: 1:1-
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.638  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.638  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.639  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 4
+12-07 11:11:47.639  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Trying to add change 1 TO reader: 0.1.0.c7
+12-07 11:11:47.639  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) MessageReceiver not add change 1
+12-07 11:11:47.639  6927  6957 I RTPS_LIVELINESS: RTPSParticipant 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1 is Alive
+12-07 11:11:47.639  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.645  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.645  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.645  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.645  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.646  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.646  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.646  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.646  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.647  6927  6958 I RTPS_WRITER: Requested Changes: 1:1-
+12-07 11:11:47.647  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.647  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.647  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.647  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.656   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:47.657   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:47.657   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:47.657   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:47.658   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:47.658   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:47.658   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:47.658   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:47.662  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.662  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.662  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.662  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.662  6927  6958 I RTPS_WRITER: Requested Changes: 1:1-
+12-07 11:11:47.663  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.663  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.663  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Acknack Submsg received, processing...
+12-07 11:11:47.674  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.674  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.674  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.676  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.676  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.676  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.679  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.679  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.679  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.679  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.679  6927  6958 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-07 11:11:47.680  6927  6958 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.680  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.680  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.680  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.681  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.681  6927  6958 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-07 11:11:47.681  6927  6958 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.681  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.681  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.682  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.685  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.49:48358
+12-07 11:11:47.686  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.686  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.686  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.686  6927  6958 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-07 11:11:47.686  6927  6958 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.689  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.689  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.689  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.692  6927  6956 I RTPS_READER: 
+12-07 11:11:47.692  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.692  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.692  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.693  6927  6956 I RTPS_READER: 
+12-07 11:11:47.693  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.693  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.693  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.693  6927  6956 I RTPS_READER: 
+12-07 11:11:47.693  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.694  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.49:7412,
+12-07 11:11:47.694  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.49:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.694  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.694  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.694  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.695  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.695  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.695  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.695  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.695  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.695  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.695  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.695  6927  6958 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-07 11:11:47.695  6927  6958 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.698  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.698  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.698  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.698  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.698  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.698  6927  6958 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-07 11:11:47.698  6927  6958 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.698  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.699  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.699  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.54:39553
+12-07 11:11:47.699  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.699  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.700  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.700  6927  6958 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-07 11:11:47.700  6927  6958 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.700  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.700  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.701  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.701  6927  6956 I RTPS_READER: Sending ACKNACK: 0:
+12-07 11:11:47.701  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.701  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.703  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.703  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.704  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.704  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.704  6927  6958 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-07 11:11:47.704  6927  6958 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.705  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.705  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.705  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.705  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.706  6927  6958 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-07 11:11:47.706  6927  6958 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 1 missing.
+12-07 11:11:47.706  6927  6956 I RTPS_READER: 
+12-07 11:11:47.706  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.706  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.706  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.706  6927  6956 I RTPS_READER: 
+12-07 11:11:47.707  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.707  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.707  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.710  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.710  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.710  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.710  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Heartbeat Submsg received, processing...
+12-07 11:11:47.711  6927  6958 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-07 11:11:47.711  6927  6956 I RTPS_READER: 
+12-07 11:11:47.711  6927  6958 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-07 11:11:47.711  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.711  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.54:7412,
+12-07 11:11:47.711  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.54:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.716  6927  6956 I RTPS_READER: 
+12-07 11:11:47.716  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.716  6927  6956 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.716  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.717  6927  6956 I RTPS_READER: 
+12-07 11:11:47.717  6927  6956 I RTPS_READER: Sending ACKNACK: 1:
+12-07 11:11:47.717  6927  6956 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.717  6927  6956 I RTPS_MSG_OUT: UDPTransport: 64 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.717  6927  6956 I RTPS_READER: 
+12-07 11:11:47.717  6927  6956 I RTPS_READER: Sending ACKNACK: 1:1-
+12-07 11:11:47.717  6927  6956 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.2:7412,
+12-07 11:11:47.718  6927  6956 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7412 FROM 0.0.0.0:37897
+12-07 11:11:47.732  6927  6956 I RTPS_WRITER: Responding to Acknack messages
+12-07 11:11:47.733  6927  6960 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.733  6927  6960 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.733  6927  6960 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 239.255.0.1:7400,
+12-07 11:11:47.734  6927  6957 I RTPS_RECV: local locator: 239.255.0.1:7400,remote locator: 192.168.1.69:37897
+12-07 11:11:47.734  6927  6960 I RTPS_MSG_OUT: UDPTransport: 332 bytes TO endpoint: 239.255.0.1:7400 FROM 0.0.0.0:37897
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) InfoTS Submsg received, processing...
+12-07 11:11:47.734  6927  6960 I RTPS_WRITER: Finish sending unsent changes
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Data Submsg received, processing. locator: 192.168.1.69:37897
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) from Writer 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.3.c2; possible RTPSReaders: 4
+12-07 11:11:47.734  6927  6957 I RTPS_MSG_IN: (ID:546935944272) Sub Message DATA processed
+12-07 11:11:47.745  6927  6956 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.87.f4.dc.2f.0.0.1.0.0.0|0.0.3.c7
+12-07 11:11:47.745  6927  6956 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.67.be.93.7e.0.0.1.0.0.0|0.0.3.c7
+12-07 11:11:47.745  6927  6956 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.3.c7
+12-07 11:11:47.818  6927  6958 I RTPS_RECV: local locator: 192.168.1.69:7412,remote locator: 192.168.1.2:60805
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoDST message received, processing...
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) DST RTPSParticipant is now: 1.f.c0.1e.f.1b.0.0.1.0.0.0
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) InfoTS Submsg received, processing...
+12-07 11:11:47.818  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Data Submsg received, processing. locator: 192.168.1.2:60805
+12-07 11:11:47.819  6927  6958 I RTPS_MSG_IN: (ID:546934907984) from Writer 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c2; possible RTPSReaders: 4
+12-07 11:11:47.819  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Trying to add change 1 TO reader: 0.0.4.c7
+12-07 11:11:47.819  6927  6958 I RTPS_HISTORY: Change 1 added with 268 bytes
+12-07 11:11:47.819  6927  6958 I RTPS_READER: 0.0.4.c2: seqNum: 1
+12-07 11:11:47.820  6927  6958 I RTPS_EDP: 
+12-07 11:11:47.820  6927  6958 I RTPS_PDP: Adding reader proxy data 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4
+12-07 11:11:47.821  6927  6958 I RTPS_EDP: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-07 11:11:47.821  6927  6958 I RTPS_WRITER: Reader Proxy started
+12-07 11:11:47.822  6927  6958 I RTPS_WRITER: 0.0.1.3 Sending Heartbeat (1 - 0)
+12-07 11:11:47.822  6927  6958 I RTPS_WRITER: endpoint: 0.0.1.3, destinations: 192.168.1.2:7413,
+12-07 11:11:47.823  6927  6958 I RTPS_MSG_OUT: UDPTransport: 68 bytes TO endpoint: 192.168.1.2:7413 FROM 0.0.0.0:37897
+12-07 11:11:47.823  6927  6958 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4 added to 0.0.1.3 with 1(u)-0(m) locators
+12-07 11:11:47.824  6927  6958 I RTPS_EDP: Valid Matching to local writer: 0.0.1.3
+12-07 11:11:47.824  6927  6958 I dps_manager_impl: Writer(0x7f7524b580): matching with a reader
+12-07 11:11:47.825  6927  6954 I RTPS_HISTORY: Change 1 added with 11 bytes
+12-07 11:11:47.825  6927  6958 I RTPS_PROXY_DATA: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.3
+12-07 11:11:47.825  6927  6954 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-07 11:11:47.825  6927  6954 I RTPS_WRITER: Sending INFO_TS message
+12-07 11:11:47.826  6927  6958 I RTPS_PARTICIPANT: 1.f.c0.1e.f.1b.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.826  6927  6954 I RTPS_WRITER: endpoint: 0.0.1.3, destinations: 192.168.1.2:7413,
+12-07 11:11:47.826  6927  6958 I RTPS_PARTICIPANT: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.c1
+12-07 11:11:47.826  6927  6958 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.1.4
+12-07 11:11:47.826  6927  6954 I RTPS_MSG_OUT: UDPTransport: 84 bytes TO endpoint: 192.168.1.2:7413 FROM 0.0.0.0:37897
+12-07 11:11:47.827  6927  6958 I RTPS_HISTORY: Removing change 1
+12-07 11:11:47.827  6927  6958 I RTPS_READER: 0.0.4.c7 FINDS writerProxy 1.f.6a.d1.3e.49.0.0.1.0.0.0|0.0.4.c2 from 3
+12-07 11:11:47.827  6927  6954 I TestRunner: finished: testPublish(com.xiaomi.mi_connect_service.test.DpsNativeTest)
+12-07 11:11:47.827  6927  6958 I RTPS_MSG_IN: (ID:546934907984) Sub Message DATA processed
+12-07 11:11:47.835  6927  6927 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-07 11:11:47.838  6927  6954 I TestRunner: run finished: 1 tests, 0 failed, 0 ignored
+12-07 11:11:47.847  6927  6954 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-07 11:11:48.135  6927  6954 I MonitoringInstr: waitForActivitiesToComplete() took: 0ms
+12-07 11:11:48.136  6927  6927 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+12-07 11:11:48.139  1678  1690 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10041 user=0: finished inst
+12-07 11:11:48.140  1678  1690 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10041
+12-07 11:11:48.142  1678  1690 D AutoStartManagerService: prepare force stop p:6927 s: 19
+12-07 11:11:48.142  1678  1690 I Process : Sending signal. PID: 6927 SIG: 19
+12-07 11:11:48.133  1690  1690 I Binder:1678_2: type=1400 audit(0.0:3968): avc: denied { sigstop } for scontext=u:r:system_server:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=process permissive=1
+12-07 11:11:48.144  1678  1690 I ActivityManager: Killing 6927:com.xiaomi.mi_connect_service/u0a41 (adj 0): stop com.xiaomi.mi_connect_service: finished inst
+12-07 11:11:48.145  1678  1690 D ActivityManager: cleanUpApplicationRecord -- 6927
+12-07 11:11:48.153  6912  6912 D AndroidRuntime: Shutting down VM
+12-07 11:11:48.154  1678  1696 V UidProcStateHelper: process died:[6927,10041]
+12-07 11:11:48.156  3823  4027 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {136fd03} sending message to a Handler on a dead thread
+12-07 11:11:48.156  3823  4027 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {136fd03} sending message to a Handler on a dead thread
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:543)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:646)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:612)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:582)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Handler.post(Handler.java:338)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyProcessDiedListeners(ProcessObserver.java:432)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.-wrap4(ProcessObserver.java)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$1$2.run(ProcessObserver.java:140)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Handler.handleCallback(Handler.java:754)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.Looper.loop(Looper.java:163)
+12-07 11:11:48.156  3823  4027 W MessageQueue: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+12-07 11:11:48.158  3823  4067 D PowerChecker.Notify: removeNotification, type = 0, uid = 10041, pkg = null
+12-07 11:11:48.159  3823  4013 D ActiveStateController: updateStateForUidActiveChangedLocked, uid: 10041 active: false
+12-07 11:11:48.701  6965  6965 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-07 11:11:48.705  6965  6965 D AndroidRuntime: CheckJNI is OFF
+12-07 11:11:48.779  6965  6965 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+12-07 11:11:48.808  6965  6965 I Radio-JNI: register_android_hardware_Radio DONE
+12-07 11:11:48.828  6965  6965 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+12-07 11:11:48.887  1678  2964 I ActivityManager: Force stopping com.xiaomi.mi_connect_service appid=10041 user=0: from process:6965
+12-07 11:11:48.887  1678  2964 I AutoStartManagerService: MIUILOG- Reject RestartService packageName :com.xiaomi.mi_connect_service uid : 10041
+12-07 11:11:48.890  6965  6965 D AndroidRuntime: Shutting down VM
+12-07 11:11:48.894  2171  2171 D CarrierSvcBindHelper: No carrier app for: 0
+12-07 11:11:48.895  2171  2171 D CarrierSvcBindHelper: No carrier app for: 1
+12-07 11:11:50.341  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:52.528   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-07 11:11:52.529   783   783 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-07 11:11:52.529   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-07 11:11:52.529   783   783 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-07 11:11:52.529   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-07 11:11:52.529   783   783 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-07 11:11:52.529   783   783 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-07 11:11:52.529   783   783 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-07 11:11:52.530   783   783 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-07 11:11:52.664   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:52.665   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:52.666   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:52.667   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:52.667   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-07 11:11:52.668   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-07 11:11:52.668   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-07 11:11:52.669   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-07 11:11:53.369  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-07 11:11:56.396  2092  2092 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
