@@ -1,0 +1,1101 @@
+--------- beginning of main
+12-12 19:41:30.429  2134  2241 W QCNEJ   : |CORE| CNE received unexpected action: android.intent.action.BATTERY_CHANGED
+12-12 19:41:30.432  2842  2842 I BatteryInfoReceiver: ACTION_BATTERY_CHANGED
+12-12 19:41:30.433  3823  4067 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 100, status = 5, level = 100, plug = 2
+12-12 19:41:30.434  2171  2171 E QtiImsExtUtils: getConfigForPhoneId subId is invalid
+12-12 19:41:30.434  2171  2171 E QtiImsExtUtils: isCarrierConfigEnabled bundle is null
+12-12 19:41:30.436  1957  1957 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+12-12 19:41:30.436  3823  4089 D ThermalTempInfoHelper: thermal sensor1 temp is 30
+12-12 19:41:30.439  3823  4089 D ThermalTempInfoHelper: thermal sensor1 temp is 30
+12-12 19:41:31.908  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:33.370  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:41:33.370  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:41:33.371  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:41:33.371  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:41:33.372  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:41:33.372  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:41:33.372  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:41:33.372  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000253 second wait
+12-12 19:41:33.372  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:41:33.373  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:41:33.373  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:41:33.373  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:41:33.373  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:41:33.375  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:41:33.375  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:41:33.375  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:41:33.375  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:41:33.376  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:41:33.376  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000748 seconds
+12-12 19:41:33.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:33.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:33.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:33.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:33.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:33.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:33.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:33.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:34.414   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:34.414   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:34.414   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:34.933  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:36.004   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:36.005   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:36.005   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:36.007  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:41:36.007  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:41:36.007  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:41:36.007  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:41:36.008  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:41:36.008  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:41:36.008  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:41:36.008  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:41:36.008  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.632319 seconds
+12-12 19:41:36.009  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:41:36.009  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:41:36.010  4254  4254 D wpa_supplicant: nl80211: Received scan results (74 BSSes)
+12-12 19:41:36.011  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:41:36.011  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1072
+12-12 19:41:36.013  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4925 BSSID ec:41:18:4e:d4:54 SSID 'Xiaomi_xyz' freq 2462
+12-12 19:41:36.014  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4926 BSSID 50:64:2b:67:6c:b6 SSID '00_Curry_5G' freq 5745
+12-12 19:41:36.015  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4851 BSSID b0:b8:67:30:f3:81 SSID 'MIOT' due to no match in scan
+12-12 19:41:36.020  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4910 BSSID 48:4a:e9:a0:6a:e0 SSID 'MIOT' due to no match in scan
+12-12 19:41:36.021  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4912 BSSID 48:4a:e9:a0:69:b1 SSID 'MIOffice-5G' due to no match in scan
+12-12 19:41:36.021  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4883 BSSID b0:b8:67:31:7f:52 SSID 'MIOT' due to no match in scan
+12-12 19:41:36.022  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4917 BSSID 48:4a:e9:9f:ee:e1 SSID 'MIOT' due to no match in scan
+12-12 19:41:36.023  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4913 BSSID 48:4a:e9:a0:69:b2 SSID 'MIOT' due to no match in scan
+12-12 19:41:36.023  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4864 BSSID b0:b8:67:31:7f:51 SSID 'MIOffice-5G' due to no match in scan
+12-12 19:41:36.024  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4918 BSSID b0:b8:67:31:7f:40 SSID 'MIOffice-2.4G' due to no match in scan
+12-12 19:41:36.024  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4914 BSSID 48:4a:e9:a0:69:b0 SSID 'MIPublic' due to no match in scan
+12-12 19:41:36.025  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4873 BSSID b0:b8:67:31:7f:50 SSID 'MIPublic' due to no match in scan
+12-12 19:41:36.025  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=74/128
+12-12 19:41:36.026  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:41:36.028  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.655667 seconds
+12-12 19:41:36.028  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:41:36.029  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:41:36.033  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:41:36.115  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:41:36.120  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:41:36.120  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:41:36.121  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:41:36.121  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:41:36.178  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:41:36.180  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+--------- beginning of system
+12-12 19:41:37.489  1678  3120 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|157|395566942107747|94|3|2
+12-12 19:41:37.491  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|157|94|unknown|null|com.android.settings-com-118431799|395566942107747|Slow handle traversal|2
+12-12 19:41:37.944  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:38.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:38.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:38.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:38.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:38.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:38.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:38.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:38.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:40.968  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:43.378  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:41:43.378  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:41:43.379  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:41:43.379  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:41:43.379  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:41:43.379  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:41:43.379  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:41:43.380  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000226 second wait
+12-12 19:41:43.380  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:41:43.380  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:41:43.380  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:41:43.380  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:41:43.381  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:41:43.383  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:41:43.383  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:41:43.384  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:41:43.384  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:41:43.384  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:41:43.384  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000848 seconds
+12-12 19:41:43.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:43.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:43.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:43.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:43.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:43.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:43.516   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:43.517   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:43.978  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:44.415   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:44.415   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:44.415   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:45.887   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:45.887   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:45.887   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:46.046  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:41:46.046  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:41:46.047  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:41:46.047  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:41:46.047  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:41:46.047  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:41:46.047  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:41:46.047  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:41:46.048  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.663642 seconds
+12-12 19:41:46.048  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:41:46.048  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:41:46.050  4254  4254 D wpa_supplicant: nl80211: Received scan results (79 BSSes)
+12-12 19:41:46.051  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:41:46.052  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1073
+12-12 19:41:46.053  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4927 BSSID b0:b8:67:30:f3:81 SSID 'MIOT' freq 2412
+12-12 19:41:46.054  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4928 BSSID f0:b4:29:80:04:fe SSID 'coolkernel_router_5G' freq 5785
+12-12 19:41:46.054  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4929 BSSID b0:b8:67:31:7f:52 SSID 'MIOT' freq 5180
+12-12 19:41:46.055  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4930 BSSID b0:b8:67:31:7f:51 SSID 'MIOffice-5G' freq 5180
+12-12 19:41:46.055  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4931 BSSID b0:b8:67:31:7f:50 SSID 'MIPublic' freq 5180
+12-12 19:41:46.056  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4915 BSSID b0:b8:67:30:f3:80 SSID 'MIOffice-2.4G' due to no match in scan
+12-12 19:41:46.056  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4920 BSSID 48:4a:e9:9f:ee:f2 SSID 'MIOT' due to no match in scan
+12-12 19:41:46.057  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4921 BSSID a4:0d:bc:01:0c:1b SSID 'memobird-0C1B' due to no match in scan
+12-12 19:41:46.057  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=79/128
+12-12 19:41:46.057  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:41:46.058  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.677873 seconds
+12-12 19:41:46.058  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:41:46.058  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:41:46.064  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:41:46.151  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:41:46.157  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:41:46.157  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:41:46.157  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:41:46.157  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:41:46.221  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:41:46.997  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:47.536  1678  3722 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|154|395576985012431|90|3|2
+12-12 19:41:47.537  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|154|90|unknown|null|com.android.settings-com-118431799|395576985012431|Slow handle traversal|2
+12-12 19:41:48.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:48.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:48.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:48.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:48.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:48.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:48.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:48.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:50.010  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:53.023  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:53.386  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:41:53.386  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:41:53.386  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:41:53.386  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:41:53.387  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:41:53.387  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:41:53.387  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:41:53.387  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000231 second wait
+12-12 19:41:53.387  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:41:53.388  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:41:53.388  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:41:53.388  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:41:53.388  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:41:53.391  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:41:53.391  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:41:53.391  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:41:53.391  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:41:53.392  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:41:53.392  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000862 seconds
+12-12 19:41:53.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:53.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:53.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:53.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:53.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:53.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:53.517   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:53.517   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:53.671   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:53.671   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:53.671   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:54.694   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:54.695   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:54.695   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:55.966  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:41:55.966  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:41:55.966  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:41:55.966  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:41:55.966  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:41:55.967  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:41:55.967  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:41:55.967  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:41:55.967  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.575224 seconds
+12-12 19:41:55.968  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:41:55.968  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:41:55.970  4254  4254 D wpa_supplicant: nl80211: Received scan results (72 BSSes)
+12-12 19:41:55.970  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:41:55.971  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1074
+12-12 19:41:55.971  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4932 BSSID 50:d2:f5:03:d2:0a SSID 'Xiaomi_ssssssssssssssssssss' freq 2417
+12-12 19:41:55.972  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4933 BSSID 48:4a:e9:9f:ee:e0 SSID 'MIOffice-2.4G' freq 2462
+12-12 19:41:55.973  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4934 BSSID 48:4a:e9:9f:ee:e1 SSID 'MIOT' freq 2462
+12-12 19:41:55.973  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4834 BSSID 40:31:3c:d1:00:05 SSID 'wqy-test' due to no match in scan
+12-12 19:41:55.974  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=72/128
+12-12 19:41:55.974  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:41:55.974  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.587142 seconds
+12-12 19:41:55.975  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:41:55.975  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:41:55.982  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:41:56.075  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:41:56.080  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:41:56.091  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:41:56.091  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:41:56.091  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:41:56.091  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:41:56.148  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:41:56.537   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:41:56.538   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:41:56.538   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:41:57.487  1678  3120 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|190|395586955350916|113|3|2
+12-12 19:41:57.488  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|190|113|unknown|null|com.android.settings-com-118431799|395586955350916|Slow handle traversal|2
+12-12 19:41:58.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:58.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:58.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:58.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:58.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:41:58.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:41:58.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:41:58.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:41:59.089  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:00.006  1957  1957 D KeyguardUpdateMonitor: handleTimeUpdate
+12-12 19:42:02.102  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:03.394  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:42:03.394  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:42:03.395  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:03.395  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:03.395  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:42:03.395  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:42:03.395  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:42:03.396  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000226 second wait
+12-12 19:42:03.396  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:42:03.396  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:03.396  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:03.396  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:42:03.396  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:42:03.398  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:42:03.399  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:03.399  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:42:03.399  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:42:03.399  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:42:03.400  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000901 seconds
+12-12 19:42:03.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:03.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:03.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:03.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:03.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:03.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:03.516   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:03.517   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:04.475   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:04.475   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:04.475   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:05.114  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:05.549   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:05.549   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:05.549   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:05.790   751   886 I ThermalEngine: handle_thresh_sig: HIS Id HISTORY-XO Sensor xo_therm Temp 31000
+12-12 19:42:06.004  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:06.004  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:42:06.005  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:42:06.005  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:06.005  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:06.005  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:42:06.005  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:42:06.005  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:42:06.006  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.606096 seconds
+12-12 19:42:06.006  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:42:06.006  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:42:06.008  4254  4254 D wpa_supplicant: nl80211: Received scan results (75 BSSes)
+12-12 19:42:06.008  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:42:06.009  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1075
+12-12 19:42:06.010  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4935 BSSID 48:4a:e9:9f:e8:60 SSID 'MIOT' freq 2437
+12-12 19:42:06.010  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4936 BSSID 50:64:2b:7e:44:be SSID 'normanren_5G' freq 5785
+12-12 19:42:06.011  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4937 BSSID 48:4a:e9:a0:6a:e0 SSID 'MIOT' freq 2412
+12-12 19:42:06.011  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4938 BSSID a4:0d:bc:01:0c:1b SSID 'memobird-0C1B' freq 2417
+12-12 19:42:06.011  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4908 BSSID 64:09:80:67:d6:ae SSID 'Xiaomi_D6AD' due to no match in scan
+12-12 19:42:06.012  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4892 BSSID 48:4a:e9:9f:e8:61 SSID 'MIOffice-2.4G' due to no match in scan
+12-12 19:42:06.012  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4907 BSSID 8c:53:c3:3b:df:0a SSID 'Xiaomi_DF099' due to no match in scan
+12-12 19:42:06.012  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4885 BSSID 50:d2:f5:03:d2:0b SSID 'Xiaomi_ssssssssssssssssssss_5G' due to no match in scan
+12-12 19:42:06.012  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4923 BSSID 48:4a:e9:a0:62:c1 SSID 'MIOT' due to no match in scan
+12-12 19:42:06.012  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4879 BSSID 48:4a:e9:9e:22:c1 SSID 'MIOT' due to no match in scan
+12-12 19:42:06.012  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4909 BSSID 48:4a:e9:a0:6a:e1 SSID 'MIOffice-2.4G' due to no match in scan
+12-12 19:42:06.013  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4904 BSSID 80:37:73:dc:f0:70 SSID 'NETGEAR83' due to no match in scan
+12-12 19:42:06.013  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4924 BSSID 40:31:3c:1e:ee:92 SSID 'daokuan_office_5G' due to no match in scan
+12-12 19:42:06.013  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=75/128
+12-12 19:42:06.013  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:42:06.013  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.617629 seconds
+12-12 19:42:06.013  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:42:06.014  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:06.015  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:06.106  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:42:06.110  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:06.110  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:42:06.114  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:06.114  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:42:06.156  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:06.164  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:07.468  1678 19024 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|161|395596926373777|99|3|2
+12-12 19:42:07.469  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|161|99|unknown|null|com.android.settings-com-118431799|395596926373777|Slow handle traversal|2
+12-12 19:42:08.125  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:08.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:08.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:08.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:08.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:08.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:08.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:08.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:08.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:11.137  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:13.405  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:42:13.405  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:42:13.406  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:13.406  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:13.406  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:42:13.406  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:42:13.406  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:42:13.406  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000226 second wait
+12-12 19:42:13.407  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:42:13.407  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:13.407  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:13.407  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:42:13.407  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:42:13.409  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:42:13.410  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:13.410  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:42:13.410  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:42:13.410  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:42:13.410  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000970 seconds
+12-12 19:42:13.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:13.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:13.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:13.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:13.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:13.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:13.517   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:13.517   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:13.807   751   886 I ThermalEngine: handle_thresh_sig: HIS Id HISTORY-XO Sensor xo_therm Temp 30000
+12-12 19:42:14.148  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:14.515   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:14.515   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:14.515   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:14.765   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:14.765   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:14.765   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:14.809   751   886 I ThermalEngine: handle_thresh_sig: HIS Id HISTORY-XO Sensor xo_therm Temp 31000
+12-12 19:42:15.585   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:15.585   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:15.586   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:15.997  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:15.997  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:42:15.998  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:42:15.998  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:15.998  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:15.998  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:42:15.998  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:42:15.998  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:42:15.999  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.588177 seconds
+12-12 19:42:15.999  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:42:15.999  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:42:16.001  4254  4254 D wpa_supplicant: nl80211: Received scan results (70 BSSes)
+12-12 19:42:16.003  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:42:16.003  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1076
+12-12 19:42:16.004  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4939 BSSID 64:09:80:67:d6:ae SSID 'Xiaomi_D6AD' freq 2432
+12-12 19:42:16.005  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4940 BSSID 48:4a:e9:a0:69:b2 SSID 'MIOT' freq 5805
+12-12 19:42:16.005  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4941 BSSID 48:4a:e9:a0:69:b1 SSID 'MIOffice-5G' freq 5805
+12-12 19:42:16.006  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4889 BSSID 50:64:2b:b5:87:7e SSID 'MiMesh_877B_7884' due to no match in scan
+12-12 19:42:16.006  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4925 BSSID ec:41:18:4e:d4:54 SSID 'Xiaomi_xyz' due to no match in scan
+12-12 19:42:16.006  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=70/128
+12-12 19:42:16.007  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:42:16.007  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.600422 seconds
+12-12 19:42:16.007  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:42:16.010  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:16.017  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:16.102  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:42:16.108  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:16.108  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:42:16.109  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:16.109  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:42:16.163  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:17.158  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:17.499  1678  3120 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|222|395606994125180|134|3|2
+12-12 19:42:17.500  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|222|134|unknown|null|com.android.settings-com-118431799|395606994125180|Slow handle traversal|2
+12-12 19:42:18.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:18.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:18.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:18.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:18.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:18.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:18.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:18.516   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:19.704 16010 16010 I RTPS_PARTICIPANT: 
+12-12 19:42:19.709 16010 16013 I RTPS_PARTICIPANT: Thread: 548410500176 created and waiting for tasks.
+12-12 19:42:19.710 16010 16010 I RTCP    :  OpenInputChannel (physical: 16010; logical: 7412)
+12-12 19:42:19.711 16010 16010 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-12 19:42:19.713 16010 16010 I RTCP    :  OpenInputChannel (physical: 16010; logical: 7413)
+12-12 19:42:19.713 16010 16010 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-12 19:42:19.713 16010 16010 I RTPS_PARTICIPANT: Participant_sub Created with NO default Unicast Locator List, adding Locators:192.168.1.69:485834378,
+12-12 19:42:19.713 16010 16010 I RTPS_PDP: Beginning
+12-12 19:42:19.713 16010 16010 I RTPS_PDP: Beginning
+12-12 19:42:19.713 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
+12-12 19:42:19.713 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.714 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 26
+12-12 19:42:19.714 16010 16010 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-12 19:42:19.714 16010 16010 I RTPS_READER: RTPSReader created correctly
+12-12 19:42:19.714 16010 16010 I RTCP    : Called to OpenOutputChannel (physical: 18316; logical: 7410) @ 0.0.0.0@192.168.1.2:485640076
+12-12 19:42:19.714 16010 16010 I OpenOutputChannel: OpenOutputChannel (physical: 18316; logical: 7410) @ 0.0.0.0@192.168.1.2:485640076
+12-12 19:42:19.715 16010 16010 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
+12-12 19:42:19.716 16010 16010 I RTPS_READER: Writer |GUID UNKNOWN| added to 0.1.0.c7
+12-12 19:42:19.717 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-12 19:42:19.717 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.717 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-12 19:42:19.717 16010 16010 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-12 19:42:19.717 16010 16010 I RTPS_WRITER: RTPSWriter created
+12-12 19:42:19.718 16010 16010 I RTPS_WRITER: Reader |GUID UNKNOWN| added to 0.1.0.c2
+12-12 19:42:19.718 16010 16010 I RTPS_PDP: SPDP Endpoints creation finished
+12-12 19:42:19.718 16010 16010 I RTPS_EDP: Beginning Simple Endpoint Discovery Protocol
+12-12 19:42:19.718 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-12 19:42:19.718 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.718 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-12 19:42:19.719 16010 16010 I RTPS_PARTICIPANT:  of type RELIABLE
+12-12 19:42:19.719 16010 16010 I RTPS_WRITER: RTPSWriter created
+12-12 19:42:19.719 16010 16010 I RTPS_EDP: SEDP Publication Writer created
+12-12 19:42:19.719 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-12 19:42:19.719 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.719 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-12 19:42:19.720 16010 16010 I RTPS_PARTICIPANT:  of type RELIABLE
+12-12 19:42:19.720 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:19.720 16010 16010 I RTPS_READER: RTPSReader created correctly
+12-12 19:42:19.720 16010 16010 I RTPS_EDP: SEDP Subscription Reader created
+12-12 19:42:19.720 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-12 19:42:19.720 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.720 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-12 19:42:19.721 16010 16010 I RTPS_PARTICIPANT:  of type RELIABLE
+12-12 19:42:19.721 16010 16010 I RTPS_READER: RTPSReader created correctly
+12-12 19:42:19.721 16010 16010 I RTPS_EDP: SEDP Publication Reader created
+12-12 19:42:19.721 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 5000
+12-12 19:42:19.721 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.721 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-12 19:42:19.722 16010 16010 I RTPS_PARTICIPANT:  of type RELIABLE
+12-12 19:42:19.722 16010 16010 I RTPS_WRITER: RTPSWriter created
+12-12 19:42:19.722 16010 16010 I RTPS_EDP: SEDP Subscription Writer created
+12-12 19:42:19.722 16010 16010 I RTPS_EDP: Creation finished
+12-12 19:42:19.722 16010 16010 I RTPS_LIVELINESS: Initializing Liveliness Protocol
+12-12 19:42:19.722 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 21 with payload of size: 100
+12-12 19:42:19.723 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.723 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 21
+12-12 19:42:19.723 16010 16010 I RTPS_PARTICIPANT:  of type RELIABLE
+12-12 19:42:19.723 16010 16010 I RTPS_WRITER: RTPSWriter created
+12-12 19:42:19.723 16010 16010 I RTPS_LIVELINESS: Builtin Liveliness Writer created
+12-12 19:42:19.723 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 101 with payload of size: 100
+12-12 19:42:19.723 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.723 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 101
+12-12 19:42:19.724 16010 16010 I RTPS_PARTICIPANT:  of type RELIABLE
+12-12 19:42:19.724 16010 16010 I RTPS_READER: RTPSReader created correctly
+12-12 19:42:19.724 16010 16010 I RTPS_LIVELINESS: Builtin Liveliness Reader created
+12-12 19:42:19.724 16010 16010 I RTPS_PDP: Announcing RTPSParticipant State (new change: 1)
+12-12 19:42:19.724 16010 16010 I RTPS_WRITER: Creating new change
+12-12 19:42:19.724 16010 16010 I RTPS_HISTORY: Change 1 added with 144 bytes
+12-12 19:42:19.725 16010 16010 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:19.725 16010 16010 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:19.725 16010 16010 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:19.725 16010 16010 I RTPS_PARTICIPANT: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:19.725 16010 16010 I RTPS_PARTICIPANT: RTPSParticipant "Participant_sub" with guidPrefix: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:19.725 16010 16010 I RTPS_UTILS: Creating CacheChangePool of size: 501 with payload of size: 500
+12-12 19:42:19.725 16010 16010 I RTPS_UTILS: Static Mode is active, preallocating memory for pool_size elements
+12-12 19:42:19.726 16010 16010 I RTPS_UTILS: Allocating group of cache changes of size: 501
+12-12 19:42:19.727 16010 16010 I RTPS_PARTICIPANT:  of type BEST_EFFORT
+12-12 19:42:19.728 16010 16010 I RTPS_READER: RTPSReader created correctly
+12-12 19:42:19.728 16010 16010 I RTPS_EDP: Adding 0.0.1.4 in topic Test
+12-12 19:42:19.728 16010 16010 I RTPS_PDP: Adding reader proxy data 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.4
+12-12 19:42:19.728 16010 16010 I RTPS_EDP: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-12 19:42:19.728 16010 16010 I RTPS_EDP: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.4 in topic: "Test"
+12-12 19:42:19.728 16010 16010 I RTPS_EDP: 0.0.1.4
+12-12 19:42:19.728 16010 16010 I RTPS_WRITER: Creating new change
+12-12 19:42:19.728 16010 16010 I RTPS_HISTORY: Change 1 added with 264 bytes
+12-12 19:42:19.728 16010 16010 I RTPS_WRITER: No reader proxy to add change.
+12-12 19:42:19.729 16010 16010 I RTPS_PARTICIPANT: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:19.729 16010 16010 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.4
+12-12 19:42:20.172  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:22.016  3076  3076 D TimerBroadcastReceiver: 未激活，不执行receiver,isRegister:false
+12-12 19:42:23.186  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:23.408  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:42:23.409  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:42:23.409  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:23.409  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:23.409  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:42:23.410  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:42:23.410  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:42:23.410  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000242 second wait
+12-12 19:42:23.410  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:42:23.410  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:23.411  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:23.411  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:42:23.411  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:42:23.414  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:42:23.414  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:23.414  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:42:23.415  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:42:23.415  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:42:23.415  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000845 seconds
+12-12 19:42:23.509   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:23.510   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:23.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:23.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:23.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:23.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:23.516   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:23.517   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:24.713 16010 16012 I RTCP_MSG: Send [KEEP_ALIVE_REQUEST]
+12-12 19:42:24.714 16010 16012 I RTCP    : Bad sent size...0 bytes of 64 bytes: Success
+12-12 19:42:24.721   783   783 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-12 19:42:24.722   783   783 E cnss-daemon: Stale or unreachable neighbors, ndm state: 16
+12-12 19:42:24.730 16010 16013 I RTPS_PDP: ResendDiscoveryData Period
+12-12 19:42:24.730 16010 16013 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-12 19:42:24.731 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:24.731 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:24.731 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:24.732 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:25.006   783   783 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-12 19:42:25.006   783   783 E cnss-daemon: Stale or unreachable neighbors, ndm state: 4
+12-12 19:42:25.008   783   783 I cnss-daemon: RTM_NEWNEIGH message received: 28
+12-12 19:42:25.008   783   783 I cnss-daemon: NDA_DST received: 192.168.1.2 ul: 562992936757440
+12-12 19:42:25.008   783   783 I cnss-daemon: NDA_LLADDR received
+12-12 19:42:25.014 16010 16021 I RTCP_MSG: Send [BIND_CONNECTION_REQUEST] PhysicalPort: 16010
+12-12 19:42:25.024 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.025 16010 16021 I RTCP_MSG: Receive [BIND_CONNECTION_RESPONSE] LogicalPort: 0, Physical remote: 18316
+12-12 19:42:25.025 16010 16021 I RTCP    : Connection established (Resp) (physical: 18316)
+12-12 19:42:25.025 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7410
+12-12 19:42:25.126 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7412
+12-12 19:42:25.228 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7414
+12-12 19:42:25.329 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7416
+12-12 19:42:25.430 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.431 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.431 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:25.522 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.522 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.522 16010 16021 I RTCP    : OpenedLogicalPort: 7412
+12-12 19:42:25.530 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.530 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.531 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:25.537 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.537 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.538 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:25.539 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.540 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.541 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:25.543 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.543 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.544 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7413
+12-12 19:42:25.726 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.726 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.731 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.732 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.777 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:25.777 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:25.777 16010 16021 I RTCP    : OpenedLogicalPort: 7413
+12-12 19:42:25.935  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:25.935  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:42:25.936  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:42:25.936  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:25.936  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:25.936  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:42:25.936  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:42:25.936  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:42:25.937  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.521736 seconds
+12-12 19:42:25.937  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:42:25.937  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:42:25.939  4254  4254 D wpa_supplicant: nl80211: Received scan results (67 BSSes)
+12-12 19:42:25.939  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:42:25.940  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1077
+12-12 19:42:25.941  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4942 BSSID f0:b4:29:fe:fe:fb SSID 'handsome' freq 2457
+12-12 19:42:25.942  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4943 BSSID f0:b4:29:fe:fe:fc SSID 'handsome_5G' freq 5785
+12-12 19:42:25.942  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4919 BSSID 50:64:2b:75:bb:e3 SSID 'go_roaming' due to no match in scan
+12-12 19:42:25.942  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4927 BSSID b0:b8:67:30:f3:81 SSID 'MIOT' due to no match in scan
+12-12 19:42:25.943  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4906 BSSID 48:4a:e9:9f:ee:f1 SSID 'MIOffice-5G' due to no match in scan
+12-12 19:42:25.943  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4929 BSSID b0:b8:67:31:7f:52 SSID 'MIOT' due to no match in scan
+12-12 19:42:25.943  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4930 BSSID b0:b8:67:31:7f:51 SSID 'MIOffice-5G' due to no match in scan
+12-12 19:42:25.944  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4931 BSSID b0:b8:67:31:7f:50 SSID 'MIPublic' due to no match in scan
+12-12 19:42:25.944  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=67/128
+12-12 19:42:25.944  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:42:25.945  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.534643 seconds
+12-12 19:42:25.945  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:42:25.945  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:25.951  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:26.017  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:42:26.021  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:26.021  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:42:26.022  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:26.022  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:42:26.069  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:26.070  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:26.194  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:27.373  1678  3120 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|144|395616829800228|82|3|2
+12-12 19:42:27.375  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|144|82|unknown|null|com.android.settings-com-118431799|395616829800228|Slow handle traversal|2
+12-12 19:42:28.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:28.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:28.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:28.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:28.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:28.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:28.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:28.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:29.204  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:29.723 16010 16012 I RTCP_MSG: Send [KEEP_ALIVE_REQUEST]
+12-12 19:42:29.731 16010 16013 I RTPS_PDP: ResendDiscoveryData Period
+12-12 19:42:29.732 16010 16013 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-12 19:42:29.733 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:29.733 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:29.734 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:29.734 16010 16014 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7410
+12-12 19:42:29.735 16010 16014 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7414
+12-12 19:42:29.736 16010 16014 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7416
+12-12 19:42:29.736 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:30.690 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.690 16010 16021 I RTCP_MSG: Receive [KEEP_ALIVE_RESPONSE]
+12-12 19:42:30.695 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.696 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:30.696 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:30.697 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.698 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7412
+12-12 19:42:30.698 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_RESPONSE] Found: 7412
+12-12 19:42:30.711 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.711 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:30.712 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:30.716 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.716 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:30.717 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:30.717 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.717 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:30.721 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.721 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:30.725 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:30.726 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:30.770 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:30.776 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 64 bytes.
+12-12 19:42:30.776 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:30.776 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:30.777 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:30.777 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:30.777 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:30.777 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 64 bytes.
+12-12 19:42:30.778 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:30.778 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:30.778 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:30.778 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:30.783 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:30.783 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 64 bytes.
+12-12 19:42:30.783 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:30.784 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:30.784 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:30.784 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:31.764 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:31.770 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:31.771 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:31.771 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:31.771 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:31.771 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:32.216  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:32.790 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:32.794 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:32.795 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:32.795 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:32.796 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:32.796 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:33.416  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:42:33.417  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:42:33.417  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:33.417  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:33.417  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:42:33.418  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:42:33.418  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:42:33.418  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000226 second wait
+12-12 19:42:33.418  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:42:33.418  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:33.419  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:33.419  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:42:33.419  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:42:33.421  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:42:33.421  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:33.421  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:42:33.422  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:42:33.422  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:42:33.422  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.000850 seconds
+12-12 19:42:33.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:33.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:33.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:33.512   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:33.513   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:33.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:33.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:33.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:33.913 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:33.914   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:33.914   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:33.914   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:33.918 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:33.918 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:33.918 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:33.919 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:33.919 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:34.424   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:34.425   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:34.425   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:34.728 16010 16012 I RTCP_MSG: Send [KEEP_ALIVE_REQUEST]
+12-12 19:42:34.737 16010 16013 I RTPS_PDP: ResendDiscoveryData Period
+12-12 19:42:34.737 16010 16013 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-12 19:42:34.738 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:34.739 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:34.739 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:34.739 16010 16014 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7410
+12-12 19:42:34.740 16010 16014 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7414
+12-12 19:42:34.741 16010 16014 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7416
+12-12 19:42:34.742 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:34.951 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:34.958 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:34.958 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:34.958 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:34.958 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:34.959 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:34.959 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:34.959 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 200 bytes.
+12-12 19:42:34.959 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:34.960 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoTS Submsg received, processing...
+12-12 19:42:34.960 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Data Submsg received, processing. locator: 192.168.1.2:485771148
+12-12 19:42:34.960 16010 16021 I RTPS_MSG_IN: (ID:548406305872) from Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 5
+12-12 19:42:34.960 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Trying to add change 1 TO reader: 0.1.0.c7
+12-12 19:42:34.961 16010 16021 I RTPS_HISTORY: Change 1 added with 144 bytes
+12-12 19:42:34.961 16010 16021 I RTPS_PDP: SPDP Message received
+12-12 19:42:34.964 16010 16021 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-12 19:42:34.966 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:34.966 16010 16021 I RTPS_PDP: For RTPSParticipant: 1.f.6a.d1.5e.12.0.0.1.0.0.0
+12-12 19:42:34.966 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:34.967 16010 16021 I RTPS_READER: Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.1.0.c2 added to 0.1.0.c7
+12-12 19:42:34.967 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:34.968 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:34.969 16010 16021 I RTPS_WRITER: Reader 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.1.0.c7 added to 0.1.0.c2
+12-12 19:42:34.969 16010 16021 I RTPS_EDP: New DPD received, adding remote endpoints to our SimpleEDP endpoints
+12-12 19:42:34.969 16010 16021 I RTPS_EDP: Adding SEDP Pub Writer to my Pub Reader
+12-12 19:42:34.970 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:34.970 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:34.970 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:34.970 16010 16021 I RTPS_READER: Writer Proxy created in reader: 0.0.3.c7
+12-12 19:42:34.970 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:34.971 16010 16021 I RTPS_READER: Writer Proxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c2 added to 0.0.3.c7
+12-12 19:42:34.971 16010 16021 I RTPS_EDP: Adding SEDP Pub Reader to my Pub Writer
+12-12 19:42:34.972 16010 16021 I RTPS_WRITER: Reader Proxy started
+12-12 19:42:34.973 16010 16021 I RTPS_WRITER: 0.0.3.c2 Sending Heartbeat (1 - 0)
+12-12 19:42:34.973 16010 16021 I RTPS_WRITER: endpoint: 0.0.3.c2, destinations: 192.168.1.2:485771148,
+12-12 19:42:34.973 16010 16021 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c7 added to 0.0.3.c2 with 1(u)-0(m) locators
+12-12 19:42:34.973 16010 16021 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-12 19:42:34.974 16010 16021 I RTPS_READER: Writer Proxy created in reader: 0.0.4.c7
+12-12 19:42:34.975 16010 16021 I RTPS_READER: Writer Proxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.4.c2 added to 0.0.4.c7
+12-12 19:42:34.975 16010 16021 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-12 19:42:34.976 16010 16021 I RTPS_WRITER: Reader Proxy started
+12-12 19:42:34.977 16010 16021 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-12 19:42:34.977 16010 16021 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.2:485771148,
+12-12 19:42:34.978 16010 16021 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.4.c7 added to 0.0.4.c2 with 1(u)-0(m) locators
+12-12 19:42:34.978 16010 16021 I RTPS_LIVELINESS: Adding remote writer to my local Builtin Reader
+12-12 19:42:34.979 16010 16021 I RTPS_READER: Writer Proxy created in reader: 0.2.0.c7
+12-12 19:42:34.979 16010 16021 I RTPS_READER: Writer Proxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.2.0.c2 added to 0.2.0.c7
+12-12 19:42:34.980 16010 16021 I RTPS_LIVELINESS: Adding remote reader to my local Builtin Writer
+12-12 19:42:34.980 16010 16021 I RTPS_WRITER: Reader Proxy started
+12-12 19:42:34.981 16010 16021 I RTPS_WRITER: 0.2.0.c2 Sending Heartbeat (1 - 0)
+12-12 19:42:34.981 16010 16021 I RTPS_WRITER: endpoint: 0.2.0.c2, destinations: 192.168.1.2:485771148,
+12-12 19:42:34.982 16010 16021 I RTPS_WRITER: Reader Proxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.2.0.c7 added to 0.2.0.c2 with 1(u)-0(m) locators
+12-12 19:42:34.982 16010 16021 I RTPS_PARTICIPANT: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:34.982 16010 16021 I RTPS_HISTORY: Removing change 1
+12-12 19:42:34.983 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Sub Message DATA processed
+12-12 19:42:34.983 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:34.983 16010 16021 I RTCP_MSG: Receive [KEEP_ALIVE_RESPONSE]
+12-12 19:42:34.984 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:34.984 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:34.984 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:34.985 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:34.985 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:34.985 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:34.986 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:34.986 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_RESPONSE]
+12-12 19:42:34.987 16010 16021 I RTCP_MSG: Send [CHECK_LOGICAL_PORT_REQUEST]
+12-12 19:42:35.027 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:35.027 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:35.042 16010 16013 I RTPS_READER: Sending ACKNACK: 0:
+12-12 19:42:35.043 16010 16013 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.046 16010 16013 I RTPS_READER: Sending ACKNACK: 0:
+12-12 19:42:35.046 16010 16013 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.051 16010 16013 I RTPS_READER: Sending ACKNACK: 0:
+12-12 19:42:35.051 16010 16013 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.227  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:35.410 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:35.411 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:35.411 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:35.412 16010 16021 I RTCP_MSG: Receive [CHECK_LOGICAL_PORT_RESPONSE]
+12-12 19:42:35.412 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.412 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 64 bytes.
+12-12 19:42:35.413 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:35.413 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:35.413 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:35.413 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:35.414 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.414 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 64 bytes.
+12-12 19:42:35.415 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:35.415 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:35.415 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:35.415 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:35.416 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.416 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:35.417 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:35.417 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:35.417 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:35.417 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:35.418 16010 16021 I RTPS_WRITER: Requested Changes: 1:1-
+12-12 19:42:35.445 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.446 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:35.446 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:35.446 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:35.446 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:35.447 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:35.447 16010 16021 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-12 19:42:35.447 16010 16021 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 1 missing.
+12-12 19:42:35.448 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.448 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:35.448 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:35.449 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:35.449 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:35.449 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:35.449 16010 16021 I RTPS_READER: 0.0.4.c2: up to seqNum: 1
+12-12 19:42:35.450 16010 16021 I RTPS_READER: 0.0.4.c2: changes up to seqNum: 0 missing.
+12-12 19:42:35.450 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.450 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:35.451 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:35.451 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:35.451 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:35.451 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:35.452 16010 16021 I RTPS_READER: 0.2.0.c2: up to seqNum: 1
+12-12 19:42:35.452 16010 16021 I RTPS_READER: 0.2.0.c2: changes up to seqNum: 0 missing.
+12-12 19:42:35.458 16010 16013 I RTPS_READER: 
+12-12 19:42:35.458 16010 16013 I RTPS_READER: Sending ACKNACK: 1:
+12-12 19:42:35.459 16010 16013 I RTPS_WRITER: endpoint: 0.2.0.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.459 16010 16013 I RTPS_READER: 
+12-12 19:42:35.460 16010 16013 I RTPS_READER: Sending ACKNACK: 1:1-
+12-12 19:42:35.460 16010 16013 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.462 16010 16013 I RTPS_READER: 
+12-12 19:42:35.462 16010 16013 I RTPS_READER: Sending ACKNACK: 1:
+12-12 19:42:35.462 16010 16013 I RTPS_WRITER: endpoint: 0.0.4.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.511 16010 16013 I RTPS_WRITER: Responding to Acknack messages
+12-12 19:42:35.512 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:35.512 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:35.513 16010 16014 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.513 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:35.525 16010 16013 I RTPS_WRITER: Changing underway to unacked for Reader: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.4.c7
+12-12 19:42:35.749 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:35.932  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:35.932  4254  4254 D wpa_supplicant: nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+12-12 19:42:35.932  4254  4254 D wpa_supplicant: wlan0: nl80211: New scan results available
+12-12 19:42:35.932  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:35.933  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID '\xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba'
+12-12 19:42:35.933  4254  4254 D wpa_supplicant: nl80211: Scan probed for SSID ''
+12-12 19:42:35.933  4254  4254 D wpa_supplicant: nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5745 5765 5785 5805 5825
+12-12 19:42:35.933  4254  4254 D wpa_supplicant: wlan0: Event SCAN_RESULTS (3) received
+12-12 19:42:35.933  4254  4254 D wpa_supplicant: wlan0: Scan completed in 2.511300 seconds
+12-12 19:42:35.934  4254  4254 D wpa_supplicant: nl80211: Associated on 5745 MHz
+12-12 19:42:35.934  4254  4254 D wpa_supplicant: nl80211: Associated with a4:2b:8c:16:15:a4
+12-12 19:42:35.935  4254  4254 D wpa_supplicant: nl80211: Received scan results (67 BSSes)
+12-12 19:42:35.936  4254  4254 D wpa_supplicant: nl80211: Scan results indicate BSS status with a4:2b:8c:16:15:a4 as associated
+12-12 19:42:35.936  4254  4254 D wpa_supplicant: wlan0: BSS: Start scan result update 1078
+12-12 19:42:35.937  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4944 BSSID 50:d2:f5:03:d2:0b SSID 'Xiaomi_ssssssssssssssssssss_5G' freq 5745
+12-12 19:42:35.938  4254  4254 D wpa_supplicant: wlan0: BSS: Add new id 4945 BSSID 50:64:2b:b5:87:7e SSID 'MiMesh_877B_7884' freq 5745
+12-12 19:42:35.939  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4932 BSSID 50:d2:f5:03:d2:0a SSID 'Xiaomi_ssssssssssssssssssss' due to no match in scan
+12-12 19:42:35.940  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4922 BSSID 0c:2c:54:b2:e1:94 SSID 'Xiaomi-test-MIot' due to no match in scan
+12-12 19:42:35.941  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4859 BSSID 48:4a:e9:9e:22:c0 SSID 'MIOffice-2.4G' due to no match in scan
+12-12 19:42:35.942  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4933 BSSID 48:4a:e9:9f:ee:e0 SSID 'MIOffice-2.4G' due to no match in scan
+12-12 19:42:35.942  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4934 BSSID 48:4a:e9:9f:ee:e1 SSID 'MIOT' due to no match in scan
+12-12 19:42:35.943  4254  4254 D wpa_supplicant: wlan0: BSS: Remove id 4926 BSSID 50:64:2b:67:6c:b6 SSID '00_Curry_5G' due to no match in scan
+12-12 19:42:35.944  4254  4254 D wpa_supplicant: BSS: last_scan_res_used=67/128
+12-12 19:42:35.944  4254  4254 D wpa_supplicant: wlan0: Scan-only results received
+12-12 19:42:35.946  4254  4254 D wpa_supplicant: wlan0: Radio work 'scan'@0x7f7b02e360 done in 2.528336 seconds
+12-12 19:42:35.947  4254  4254 D wpa_supplicant: wlan0: radio_work_free('scan'@0x7f7b02e360: num_active_works --> 0
+12-12 19:42:35.947  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:35.952  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN_RESULTS'
+12-12 19:42:35.978 16010 16013 I RTPS_WRITER: 0.0.4.c2 Sending Heartbeat (1 - 1)
+12-12 19:42:35.978   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:35.978 16010 16013 I RTPS_WRITER: endpoint: 0.0.4.c2, destinations: 192.168.1.2:485771148,
+12-12 19:42:35.978   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:35.978   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:36.025  1678  1892 I AppScanObserverService: Start to match app observer
+12-12 19:42:36.030  3312  3526 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:36.031  3312  3526 W WifiMonitor: getScanResults has none
+12-12 19:42:36.031  3350  3539 W WifiMonitor: no need getAvailableWifis
+12-12 19:42:36.031  3350  3539 W WifiMonitor: getScanResults has none
+12-12 19:42:36.086  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:36.088  9274  9274 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+12-12 19:42:36.179 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 68 bytes.
+12-12 19:42:36.180 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:36.180 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:36.180 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:36.180 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Heartbeat Submsg received, processing...
+12-12 19:42:36.180 16010 16021 I RTPS_READER: 0.0.3.c2: up to seqNum: 1
+12-12 19:42:36.180 16010 16021 I RTPS_READER: 0.0.3.c2: changes up to seqNum: 1 missing.
+12-12 19:42:36.192 16010 16013 I RTPS_READER: 
+12-12 19:42:36.192 16010 16013 I RTPS_READER: Sending ACKNACK: 1:1-
+12-12 19:42:36.192 16010 16013 I RTPS_WRITER: endpoint: 0.0.3.c7, destinations: 192.168.1.2:485771148,
+12-12 19:42:36.238 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:36.240 16010 16021 I RTCP_MSG: Receive [OPEN_LOGICAL_PORT_REQUEST] LogicalPort: 7413
+12-12 19:42:36.241 16010 16021 I RTCP_MSG: Send [OPEN_LOGICAL_PORT_RESPONSE] Found: 7413
+12-12 19:42:36.256 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:36.295 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 64 bytes.
+12-12 19:42:36.295 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:36.295 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:36.296 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:36.296 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Acknack Submsg received, processing...
+12-12 19:42:36.320 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:36.324 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 344 bytes.
+12-12 19:42:36.324 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:36.325 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:36.325 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:36.325 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoTS Submsg received, processing...
+12-12 19:42:36.325 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Data Submsg received, processing. locator: 192.168.1.2:485771148
+12-12 19:42:36.326 16010 16021 I RTPS_MSG_IN: (ID:548406305872) from Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c2; possible RTPSReaders: 5
+12-12 19:42:36.326 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Trying to add change 1 TO reader: 0.0.3.c7
+12-12 19:42:36.326 16010 16021 I RTPS_HISTORY: Change 1 added with 272 bytes
+12-12 19:42:36.326 16010 16021 I RTPS_READER: 0.0.3.c2: seqNum: 1
+12-12 19:42:36.327 16010 16021 I RTPS_EDP: 
+12-12 19:42:36.327 16010 16021 I RTPS_PDP: Adding writer proxy data 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3
+12-12 19:42:36.328 16010 16021 I RTPS_EDP: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3 in topic: "Test"
+12-12 19:42:36.329 16010 16021 I RTPS_READER: Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3 added to 0.0.1.4
+12-12 19:42:36.330 16010 16021 I RTPS_EDP: Valid Matching to local reader: 0.0.1.4
+12-12 19:42:36.330 16010 16021 I dps_manager_impl: Reader(0x7faf6bfc00): Matched with a Writer
+12-12 19:42:36.331 16010 16021 I RTPS_PROXY_DATA: ReaderProxyData destructor: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.4
+12-12 19:42:36.331 16010 16021 I RTPS_PARTICIPANT: 1.f.c0.1e.8a.3e.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.332 16010 16021 I RTPS_PARTICIPANT: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.332 16010 16021 I RTPS_PROXY_DATA: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3
+12-12 19:42:36.332 16010 16021 I RTPS_HISTORY: Removing change 1
+12-12 19:42:36.333 16010 16021 I RTPS_READER: 0.0.3.c7 FINDS writerProxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c2 from 1
+12-12 19:42:36.333 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Sub Message DATA processed
+12-12 19:42:36.339 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7413
+12-12 19:42:36.343 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485836684 - 84 bytes.
+12-12 19:42:36.343 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485836684
+12-12 19:42:36.343 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:36.344 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:36.344 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoTS Submsg received, processing...
+12-12 19:42:36.344 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Data Submsg received, processing. locator: 192.168.1.2:485836684
+12-12 19:42:36.344 16010 16021 I RTPS_MSG_IN: (ID:548406305872) from Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3; possible RTPSReaders: 5
+12-12 19:42:36.344 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Trying to add change 1 TO reader: 0.0.1.4
+12-12 19:42:36.345 16010 16021 I RTPS_HISTORY: Change 1 added with 12 bytes
+12-12 19:42:36.345 16010 16021 I dps_manager_impl: Reader: new cache message: Hello World
+12-12 19:42:36.345 16010 16021 I RTPS_HISTORY: Removing change 1
+12-12 19:42:36.345 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Sub Message DATA processed
+12-12 19:42:36.345 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:36.346 16010 16021 I RTCP_MSG: Receive [LOGICAL_PORT_IS_CLOSED_REQUEST] LogicalPort: 7412
+12-12 19:42:36.346 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:36.346 16010 16021 I RTCP_MSG: Receive [LOGICAL_PORT_IS_CLOSED_REQUEST] LogicalPort: 7413
+12-12 19:42:36.349 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:36.350 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 104 bytes.
+12-12 19:42:36.350 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:36.351 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoDST message received, processing...
+12-12 19:42:36.351 16010 16021 I RTPS_MSG_IN: (ID:548406305872) DST RTPSParticipant is now: 1.f.c0.1e.8a.3e.0.0.1.0.0.0
+12-12 19:42:36.351 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoTS Submsg received, processing...
+12-12 19:42:36.351 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Data Submsg received, processing. locator: 192.168.1.2:485771148
+12-12 19:42:36.351 16010 16021 I RTPS_MSG_IN: (ID:548406305872) from Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c2; possible RTPSReaders: 5
+12-12 19:42:36.352 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Trying to add change 2 TO reader: 0.0.3.c7
+12-12 19:42:36.352 16010 16021 I RTPS_HISTORY: Change 2 added with 0 bytes
+12-12 19:42:36.352 16010 16021 I RTPS_READER: 0.0.3.c2: seqNum: 2
+12-12 19:42:36.352 16010 16021 I RTPS_EDP: 
+12-12 19:42:36.352 16010 16021 I RTPS_EDP: Disposed Remote Writer, removing...
+12-12 19:42:36.352 16010 16021 I RTPS_PDP: Removing writer proxy data 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3
+12-12 19:42:36.366 16010 16021 I RTPS_EDP: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3
+12-12 19:42:36.366 16010 16021 I RTPS_READER: Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3 removed from 0.0.1.4
+12-12 19:42:36.366 16010 16021 I dps_manager_impl: Reader(0x7faf6bfc00): Matched with a Writer
+12-12 19:42:36.366 16010 16021 I RTPS_PROXY_DATA: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.3
+12-12 19:42:36.366 16010 16021 I RTPS_HISTORY: Removing change 2
+12-12 19:42:36.366 16010 16021 I RTPS_READER: 0.0.3.c7 FINDS writerProxy 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c2 from 1
+12-12 19:42:36.367 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Sub Message DATA processed
+12-12 19:42:36.367 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 7412
+12-12 19:42:36.367 16010 16021 I RTCP_MSG_IN: [RECEIVE] From: 192.168.1.2:485771148 - 88 bytes.
+12-12 19:42:36.367 16010 16021 I RTPS_RECV: local locator: 192.168.1.2:18316,remote locator: 192.168.1.2:485771148
+12-12 19:42:36.367 16010 16021 I RTPS_MSG_IN: (ID:548406305872) InfoTS Submsg received, processing...
+12-12 19:42:36.367 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Data Submsg received, processing. locator: 192.168.1.2:485771148
+12-12 19:42:36.367 16010 16021 I RTPS_MSG_IN: (ID:548406305872) from Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.1.0.c2; possible RTPSReaders: 5
+12-12 19:42:36.368 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Trying to add change 2 TO reader: 0.1.0.c7
+12-12 19:42:36.368 16010 16021 I RTPS_HISTORY: Change 2 added with 0 bytes
+12-12 19:42:36.368 16010 16021 I RTPS_PDP: SPDP Message received
+12-12 19:42:36.368 16010 16021 I RTPS_PDP: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.368 16010 16021 I RTPS_PDP: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.368 16010 16021 I RTPS_LIVELINESS: for RTPSParticipant: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.368 16010 16021 I RTPS_LIVELINESS: Removing remote writer from my local Builtin Reader
+12-12 19:42:36.369 16010 16021 I RTPS_READER: Writer Proxy removed: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.2.0.c2
+12-12 19:42:36.369 16010 16021 I RTPS_WRITER: Destroying InitialAckNack
+12-12 19:42:36.369 16010 16021 I RTPS_LIVELINESS: Removing remote reader from my local Builtin Writer
+12-12 19:42:36.369 16010 16021 I RTPS_WRITER: Reader Proxy removed: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.2.0.c7
+12-12 19:42:36.369 16010 16021 I RTPS_EDP: For RTPSParticipant: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.369 16010 16021 I RTPS_READER: Writer Proxy removed: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c2
+12-12 19:42:36.370 16010 16021 I RTPS_WRITER: Destroying InitialAckNack
+12-12 19:42:36.370 16010 16021 I RTPS_WRITER: Reader Proxy removed: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.3.c7
+12-12 19:42:36.370 16010 16021 I RTPS_EDP: Adding SEDP Sub Writer to my Sub Reader
+12-12 19:42:36.370 16010 16021 I RTPS_READER: Writer Proxy removed: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.4.c2
+12-12 19:42:36.370 16010 16021 I RTPS_WRITER: Destroying InitialAckNack
+12-12 19:42:36.370 16010 16021 I RTPS_EDP: Adding SEDP Sub Reader to my Sub Writer
+12-12 19:42:36.371 16010 16021 I RTPS_WRITER: Reader Proxy removed: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.4.c7
+12-12 19:42:36.371 16010 16021 I RTPS_WRITER: Aborted
+12-12 19:42:36.371 16010 16021 I RTPS_PDP: For RTPSParticipant: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.371 16010 16021 I RTPS_READER: Writer 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.1.0.c2 removed from 0.1.0.c7
+12-12 19:42:36.372 16010 16021 I RTPS_HISTORY: Removing change 2
+12-12 19:42:36.372 16010 16021 I RTPS_PARTICIPANT: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.372 16010 16021 I RTPS_PARTICIPANT: 1.f.6a.d1.5e.12.0.0.1.0.0.0|0.0.1.c1
+12-12 19:42:36.372 16010 16021 I RTPS_MSG_IN: (ID:548406305872) Sub Message DATA processed
+12-12 19:42:36.373 16010 16021 I RTCP_MSG_IN: Received RTCP MSG. Logical Port 0
+12-12 19:42:36.373 16010 16021 I RTCP_MSG: Receive [UNBIND_CONNECTION_REQUEST]
+12-12 19:42:37.418  1678  3120 D PerfShielderService: com.android.settings|com.android.settings-com-118431799|180|395626878200641|117|3|2
+12-12 19:42:37.420  2901  2921 W MiuiPerfServiceClient: interceptAndQueuing:9274|com.android.settings|180|117|unknown|null|com.android.settings-com-118431799|395626878200641|Slow handle traversal|2
+12-12 19:42:38.239  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:38.510   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:38.511   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:38.512   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:38.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:38.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:38.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:38.515   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:38.516   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:39.733 16010 16012 I RTCP_MSG: Send [KEEP_ALIVE_REQUEST]
+12-12 19:42:39.734 16010 16012 I RTCP    : Bad sent size...0 bytes of 64 bytes: Success
+12-12 19:42:39.741 16010 16013 I RTPS_PDP: ResendDiscoveryData Period
+12-12 19:42:39.741 16010 16013 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-12 19:42:39.743 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:39.743 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:39.743 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:39.744 16010 16014 I RTPS_WRITER: Finish sending unsent changes
+12-12 19:42:41.251  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:43.425  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SCAN TYPE=ONLY scan_id=2,3'
+12-12 19:42:43.425  4254  4254 D wpa_supplicant: wlan0: Setting scan request: 0.000000 sec
+12-12 19:42:43.425  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe7\xba\xa2\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:43.425  4254  4254 D wpa_supplicant: Scan SSID (manual request): \xe5\xb0\x8f\xe7\xb1\xb3\xe6\x89\x8b\xe6\x9c\xba
+12-12 19:42:43.426  4254  4254 D wpa_supplicant: wlan0: Starting AP scan for wildcard SSID
+12-12 19:42:43.426  4254  4254 D wpa_supplicant: wlan0: Add radio work 'scan'@0x7f7b02e360
+12-12 19:42:43.426  4254  4254 D wpa_supplicant: wlan0: First radio work item in the queue - schedule start immediately
+12-12 19:42:43.426  4254  4254 D wpa_supplicant: wlan0: Starting radio work 'scan'@0x7f7b02e360 after 0.000217 second wait
+12-12 19:42:43.426  4254  4254 D wpa_supplicant: wlan0: nl80211: scan request
+12-12 19:42:43.427  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e7 ba a2 e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:43.427  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=12): e5 b0 8f e7 b1 b3 e6 89 8b e6 9c ba
+12-12 19:42:43.427  4254  4254 D wpa_supplicant: nl80211: Scan SSID - hexdump(len=0): [NULL]
+12-12 19:42:43.427  4254  4254 D wpa_supplicant: nl80211: Scan extra IEs - hexdump(len=7): 7f 05 00 00 0a 02 01
+12-12 19:42:43.429  4254  4254 D wpa_supplicant: Scan requested (ret=0) - scan timeout 30 seconds
+12-12 19:42:43.429  4254  4254 D wpa_supplicant: nl80211: Event message available
+12-12 19:42:43.430  4254  4254 D wpa_supplicant: nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+12-12 19:42:43.430  4254  4254 D wpa_supplicant: wlan0: nl80211: Scan trigger
+12-12 19:42:43.430  4254  4254 D wpa_supplicant: wlan0: Event SCAN_STARTED (47) received
+12-12 19:42:43.430  4254  4254 D wpa_supplicant: wlan0: Own scan request started a scan in 0.001030 seconds
+12-12 19:42:43.511   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU0 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:43.513   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU0 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:43.514   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU2 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:43.514   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU2 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:43.515   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU1 [P:0] to CPU5 [P:1] (banned)
+12-12 19:42:43.516   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU1 [P:0] to CPU7 [P:1] (banned)
+12-12 19:42:43.517   912   912 I MSM-irqbalance: Decided to move IRQ5 from CPU3 [P:0] to CPU6 [P:1] (banned)
+12-12 19:42:43.519   912   912 I MSM-irqbalance: Decided to move IRQ3 from CPU3 [P:0] to CPU4 [P:1] (banned)
+12-12 19:42:44.263  4254  4254 D wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+12-12 19:42:44.514   750   750 E pttSocketApp:          aniAsfIpc.c:971 Error(105):Recv failed, ipcPtr [0x82e31000], sd 5
+12-12 19:42:44.514   750   750 E pttSocketApp:       pttSocketApp.c:759 IPC Recv failed
+12-12 19:42:44.515   750   750 E WLAN_PSA: NL MSG RCV err -1 105
+12-12 19:42:44.743 16010 16012 I RTCP_MSG: Send [KEEP_ALIVE_REQUEST]
+12-12 19:42:44.743 16010 16012 I RTCP    : Bad sent size...0 bytes of 64 bytes: Success
+12-12 19:42:44.745 16010 16013 I RTPS_PDP: ResendDiscoveryData Period
+12-12 19:42:44.745 16010 16013 I RTPS_PDP: Announcing RTPSParticipant State (new change: 0)
+12-12 19:42:44.746 16010 16014 I RTPS_WRITER: Sending relevant changes as DATA/DATA_FRAG messages
+12-12 19:42:44.746 16010 16014 I RTPS_WRITER: Sending INFO_TS message
+12-12 19:42:44.747 16010 16014 I RTPS_WRITER: endpoint: 0.1.0.c2, destinations: 192.168.1.2:485640076,192.168.1.2:485771148,192.168.1.2:485902220,192.168.1.2:486033292,
+12-12 19:42:44.747 16010 16014 I RTPS_WRITER: Finish sending unsent changes

@@ -7,6 +7,7 @@
 12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
 12-07 11:11:47.312  6927  6954 I RTPS_MSG_IN: Created with CDRMessage of size: 65500
 12-07 11:11:47.313  6927  6954 I RTPS_PARTICIPANT: RTPSParticipant Created with NO default Unicast Locator List, adding Locators:192.168.1.69:7413,
+
 12-07 11:11:47.313  6927  6954 I RTPS_PDP: Beginning
 12-07 11:11:47.313  6927  6954 I RTPS_PDP: Beginning
 12-07 11:11:47.313  6927  6954 I RTPS_UTILS: Creating CacheChangePool of size: 26 with payload of size: 5000
